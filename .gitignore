@@ -1,0 +1,14 @@
+
+# audio files are not ignored because of samples that we may need
+# *.wav
+# *.mp3
+# *.flac
+
+# ignore all output, those will go in releases
+out/
+out/*
+
+# backups from lmms
+*.bak
+
+
