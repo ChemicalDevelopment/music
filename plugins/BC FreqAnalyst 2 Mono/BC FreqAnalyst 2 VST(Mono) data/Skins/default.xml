@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<SKIN author="Blue Cat Audio" name="Default" font_face="Arial" font_size="14" text_color="#ccccdd" font_quality="cleartype" layout_type="column">
+   <!-- includes -->
+   <INCLUDE_ONCE file="DarkBlue-Theme/theme.inc"/>
+   <INCLUDE_ONCE file="language_extensions/language_extensions.inc"/>
+   <INCLUDE_ONCE file="text_value.inc"/> 
+   <INCLUDE_ONCE file="arrow_slider.inc"/> 
+   <INCLUDE_ONCE file="black_box.inc"/>
+   <INCLUDE_ONCE file="mapping.inc"/>
+   <INCLUDE_ONCE file="colors.inc"/>
+ 
+   <!-- Defines -->
+   <DEFINE>
+      <CUS_INVISIBLE_BUTTON base_type="INVISIBLE_PARAM_BUTTON" width="100%" height="100%" cursor="system::hand"/>
+   	  <CUS_SHOW_CURVE_TOOLTIP base_type="TOOLTIP" delay_ms="600" text="Show/Hide Curve" tip_style="balloon"/>
+      <CUS_BOX2 base_type="THEME_BOX" spacing="1" layout_type="column" h_margin="3" v_margin="4"/>
+      <CUS_BOX_ROW base_type="ROW" spacing="2" h_margin="2" v_margin="1"/>
+      <CUS_KNOB base_type="THEME_SMALL_KNOB"/>
+      <CUS_SEP base_type="IMAGE_GROUP_BOX" image="$THEME_PATH$/group_boxes/pad-bluelight_h_separator.png" stretch="true" width="100%" height="1"/>
+      <CUS_FREEZE_BUTTON base_type="IMAGE_PARAM_BUTTON" image="freeze_button.png" image_focus="freeze_button_hover.png" cursor="system::hand"/>
+   </DEFINE>
+   
+   <!-- Layout -->
+   <THEME_DECORATIONS spacing="3">
+    <THEME_TITLE_BAR text="Blue Cat's FreqAnalyst">
+      <THEME_SHOW_CONTROLS_BUTTON param_id="show_controls">
+        <TOOLTIP text="Show Controls"/>
+      </THEME_SHOW_CONTROLS_BUTTON>
+      <CELL width="10"/>
+      <IMAGE_PARAM_BUTTON image="small_window.png" image_focus="small_window_hover.png" param_id="small_link.enabled" loop="false" cursor="system::hand">
+        <TOOLTIP text="Small Size"/>
+      </IMAGE_PARAM_BUTTON>
+      <IMAGE_PARAM_BUTTON image="medium_window.png" image_focus="medium_window_hover.png" param_id="medium_link.enabled" loop="false" cursor="system::hand">
+        <TOOLTIP text="Medium Size"/>
+      </IMAGE_PARAM_BUTTON>
+      <IMAGE_PARAM_BUTTON image="large_window.png" image_focus="large_window_hover.png" param_id="large_link.enabled" loop="false" cursor="system::hand">
+        <TOOLTIP text="Large Size"/>
+      </IMAGE_PARAM_BUTTON>
+      <CELL width="4"/>
+      <CUS_FREEZE_BUTTON param_id="freeze">
+        <TOOLTIP text="Freeze"/>        
+      </CUS_FREEZE_BUTTON>
+
+      <!-- show/hide animation for controls bar -->
+      <TPL_SHOW_HIDE_ANIMATOR id="show_controls" object_id="controls_box" animated_param="v_offset" show_value="0" hide_value="500" default="1" persistent="true"/>
+      <PERSISTENT_OBJECTS object_ids="small_link.enabled;medium_link.enabled;large_link.enabled"/>
+      
+      <!-- Standard Widths/ Heights -->
+      <CONST_PARAM id="small_width" value="390"/>
+      <CONST_PARAM id="medium_width" value="650"/>
+      <CONST_PARAM id="large_width" value="1000"/>
+      <CONST_PARAM id="small_height" value="310"/>
+      <CONST_PARAM id="medium_height" value="350"/>
+      <CONST_PARAM id="large_height" value="600"/>
+      
+      <PARAM_LINK from="small_width" to="graph_stack.width" id="small_link" enabled="false"/>
+      <PARAM_LINK from="small_height" to="graph_stack.height" id="small_hlink" enabled="false"/>
+      <PARAM_LINK from="medium_width" to="graph_stack.width" id="medium_link" enabled="true"/>
+      <PARAM_LINK from="medium_height" to="graph_stack.height" id="medium_hlink" enabled="true"/>
+      <PARAM_LINK from="large_width" to="graph_stack.width" id="large_link" enabled="false"/>
+      <PARAM_LINK from="large_height" to="graph_stack.height" id="large_hlink" enabled="false"/>
+      
+      <PARAM_LINK from="small_link.enabled" to="small_hlink.enabled"/>
+      <PARAM_LINK from="large_link.enabled" to="large_hlink.enabled"/>
+      <PARAM_LINK from="medium_link.enabled" to="medium_hlink.enabled"/>
+      <PARAM_MULTI_LINK from="medium_link.enabled;large_link.enabled;small_link.enabled" to="medium_link.enabled;large_link.enabled;small_link.enabled" mux_function="max" reverse="true" trigger_min="1"/>
+      <PARAM_LINK from="graph_stack.width" to="x_scale.width"/>
+    </THEME_TITLE_BAR>
+    <!-- Minimum allowed width -->
+    <CELL width="460" height="-2"/>
+    <ROW spacing="3">
+    <!-- graphes row -->
+    <ROW>
+    <THEME_GRAPH_BOX font_face="Arial" font_quality="cleartype" font_size="14" font_weight="normal" text_color="#888888">   
+   <!-- Show the curves on a common graph -->     
+   <TABLE font_size="10">
+         <TABLE_ROW>
+            <!-- Y scale -->
+            <CURVE_YSCALE text_h_align="right" font_size="11" text_v_align="center" h_align="right" v_margin="7"
+               height="100%" width="30" curve_id="dsp.output_curve0" color="#888888" value_format=".0" content="{value} {unit}" y_positions_count="13" id="y_scale">
+              <XYZ_PARAM_SCRATCH_PAD height="100%" width="100%" y_param_id="graph_y_actual_offset" y_reverse="true" id="graph_yruler_pad" cursor="system::open_hand"/>   
+            </CURVE_YSCALE>
+            <!-- Graphs -->
+            <LAYER_STACK height="315" width="628" v_margin="7" h_margin="14" id="graph_stack">
+              <CURVE_GRAPH id="graph0" width="100%" height="100%" color="$instant_fill_color_left$" curve_id="dsp.output_curve0" graph_style="bargraph" opacity="15%" x_scale="log"/>
+              <IF_STEREO>
+                <CURVE_GRAPH id="graph2" width="100%" height="100%" color="$instant_fill_color_right$" curve_id="dsp.output_curve2" graph_style="bargraph" opacity="15%" x_scale="log"/>  
+                <CURVE_GRAPH id="graph4" width="100%" height="100%" color="$instant_fill_color_avg$" curve_id="dsp.output_curve4" graph_style="bargraph" opacity="15%" x_scale="log"/> 
+                <CURVE_GRAPH id="graph6" width="100%" height="100%" color="#$instant_fill_color_max$" curve_id="dsp.output_curve6"  graph_style="bargraph" opacity="15%" x_scale="log"/>    
+				      </IF_STEREO>     
+				<CURVE_GRID x_subdiv_count="1" y_subdiv_count="1" width="100%" height="100%" subdiv_color="#444444"
+                  color="#888888" origin_color="#999999" curve_id="dsp.output_curve0" x_positions_count="11"
+                  y_positions_count="13" id="grid"/>
+				<CURVE_GRAPH id="graph0.1" width="100%" height="100%" color="$instant_color_left$" curve_id="dsp.output_curve0" x_scale="log"/>    
+				<CURVE_GRAPH id="graph1.1" width="100%" height="100%" color="$peak_color_left$" curve_id="dsp.output_curve1" x_scale="log"/>
+				<IF_STEREO>
+          <CURVE_GRAPH id="graph2.1" width="100%" height="100%" color="$instant_color_right$" curve_id="dsp.output_curve2" x_scale="log"/>    
+          <CURVE_GRAPH id="graph3.1" width="100%" height="100%" color="$peak_color_right$" curve_id="dsp.output_curve3" x_scale="log"/>
+          <CURVE_GRAPH id="graph4.1" width="100%" height="100%" color="$instant_color_avg$" curve_id="dsp.output_curve4" x_scale="log"/>
+          <CURVE_GRAPH id="graph5.1" width="100%" height="100%" color="$peak_color_avg$" curve_id="dsp.output_curve5" x_scale="log"/>
+          <CURVE_GRAPH id="graph6.1" width="100%" height="100%" color="$instant_color_max$" curve_id="dsp.output_curve6" x_scale="log"/>
+          <CURVE_GRAPH id="graph7.1" width="100%" height="100%" color="$peak_color_max$" curve_id="dsp.output_curve7" x_scale="log"/>
+      </IF_STEREO>
+
+        <!-- The controller that let you zoom by selection -->
+        <XY_ZOOM_SELECT_PAD id="coords" height="100%" width="100%" x_zoom_param_id="graph_x_zoom" y_zoom_param_id="graph_y_zoom" x_offset_param_id="graph_x_offset" y_offset_param_id="graph_y_offset" cursor="system::cross" x_scale="log" />
+				
+				<!-- zoom sliders -->
+				<ROW h_position="9" v_position="2">
+					<COLUMN v_align="top">
+						<IMAGE image="plus.bmp"/>
+						<THEME_MINI_V_SLIDER param_id="graph_y_actual_zoom" reverse="true">
+              <PARAM_TOOLTIP param_id="graph_y_actual_zoom" content="{name}: {value}"/>
+						</THEME_MINI_V_SLIDER>
+						</COLUMN>
+					<THEME_MINI_H_SLIDER param_id="graph_x_actual_zoom" v_align="top">
+						<PARAM_TOOLTIP param_id="graph_x_actual_zoom" content="{name}: {value}"/>
+					</THEME_MINI_H_SLIDER>
+				</ROW>
+			</LAYER_STACK>
+			<!-- slider -->
+			<LAYER_STACK height="100%" v_margin="1">
+          <CELL v_margin="6" width="100%" height="100%">
+            <CUS_BLACK_BOX width="100%" height="100%"/>
+          </CELL>
+          <CUS_ARROW_SLIDER param_id="dsp.input6" id="threshold_slider" height="100%"/>
+			</LAYER_STACK>	
+         </TABLE_ROW>
+         <TABLE_ROW>
+            <CELL />
+            <CURVE_XSCALE text_h_align="center" h_align="right" h_margin="14" height="20" width="628" x_scale="log"  curve_id="dsp.output_curve0" value_format=".0" content="{value} {unit}" x_positions_count="11" id="x_scale" significant_digits="2" value_suffix="true">
+            <XYZ_PARAM_SCRATCH_PAD height="100%" width="100%" x_param_id="graph_x_actual_offset" x_reverse="true" id="graph_xruler_pad" cursor="system::open_hand"/>
+        </CURVE_XSCALE>
+         </TABLE_ROW>
+     </TABLE>
+     
+     <!-- Show/Hide buttons -->
+     <ROW spacing="10">
+     <PARAM id="show_filled_curves" type="boolean" persistent="true" default="1"/>
+     <PARAM id="show_normal" type="boolean" default="1"/>
+     <PARAM id="show_max" type="boolean" default="1"/>
+     
+     <IF_MONO>
+       <PARAM_LINK from="show_normal" to="graph0.1.visible"/>
+       <PARAM_LINK from="show_max" to="graph1.1.visible"/>
+       <PARAM_MULTI_LINK from="show_normal;show_filled_curves" to="graph0.visible" mux_function="min"/>
+     </IF_MONO>
+     <IF_STEREO>
+       <PARAM id="show_left_channel" type="boolean" default="0"/>
+       <PARAM id="show_right_channel" type="boolean" default="0"/>
+       <PARAM id="show_max_channel" type="boolean" default="0"/>
+       <PARAM id="show_avg_channel" type="boolean" default="1"/>     
+       <PARAM_MULTI_LINK from="show_left_channel;show_normal" to="graph0.1.visible" mux_function="min"/>
+       <PARAM_MULTI_LINK from="show_left_channel;show_max" to="graph1.1.visible" mux_function="min"/>
+       <PARAM_MULTI_LINK from="show_left_channel;show_normal;show_filled_curves" to="graph0.visible" mux_function="min"/>
+     
+       <PARAM_MULTI_LINK from="show_right_channel;show_normal" to="graph2.1.visible" mux_function="min"/>
+       <PARAM_MULTI_LINK from="show_right_channel;show_max" to="graph3.1.visible" mux_function="min"/>
+       <PARAM_MULTI_LINK from="show_right_channel;show_normal;show_filled_curves" to="graph2.visible" mux_function="min"/>
+
+       <PARAM_MULTI_LINK from="show_max_channel;show_normal" to="graph6.1.visible" mux_function="min"/>
+       <PARAM_MULTI_LINK from="show_max_channel;show_max" to="graph7.1.visible" mux_function="min"/>
+       <PARAM_MULTI_LINK from="show_max_channel;show_normal;show_filled_curves" to="graph6.visible" mux_function="min"/>
+
+       <PARAM_MULTI_LINK from="show_avg_channel;show_normal" to="graph4.1.visible" mux_function="min"/>
+       <PARAM_MULTI_LINK from="show_avg_channel;show_max" to="graph5.1.visible" mux_function="min"/>
+       <PARAM_MULTI_LINK from="show_avg_channel;show_normal;show_filled_curves" to="graph4.visible" mux_function="min"/>
+        <CUS_BLACK_BOX>
+        <TEXT value="Channel:"/>
+        <ROW spacing="3"><THEME_CHECK_BOX param_id="show_left_channel"><CUS_SHOW_CURVE_TOOLTIP/></THEME_CHECK_BOX><TEXT text_color="$instant_color_left$" value="Left"><CUS_INVISIBLE_BUTTON param_id="show_left_channel"/></TEXT></ROW>
+      <ROW spacing="3"><THEME_CHECK_BOX param_id="show_right_channel"><CUS_SHOW_CURVE_TOOLTIP/></THEME_CHECK_BOX><TEXT text_color="$instant_color_right$" value="Right"><CUS_INVISIBLE_BUTTON param_id="show_right_channel"/></TEXT></ROW>
+      <ROW spacing="3"><THEME_CHECK_BOX param_id="show_max_channel"><CUS_SHOW_CURVE_TOOLTIP/></THEME_CHECK_BOX><TEXT text_color="$instant_color_max$" value="Max"><CUS_INVISIBLE_BUTTON param_id="show_max_channel"/></TEXT></ROW>
+      <ROW spacing="3"><THEME_CHECK_BOX param_id="show_avg_channel"><CUS_SHOW_CURVE_TOOLTIP/></THEME_CHECK_BOX><TEXT text_color="$instant_color_avg$" value="Average"><CUS_INVISIBLE_BUTTON param_id="show_avg_channel"/></TEXT></ROW>
+     </CUS_BLACK_BOX>
+    </IF_STEREO>
+
+      <CUS_BLACK_BOX>
+     <TEXT value="Mode:"/>
+     <ROW spacing="3"><THEME_CHECK_BOX param_id="show_normal"><CUS_SHOW_CURVE_TOOLTIP/></THEME_CHECK_BOX><TEXT text_color="#cccccc" value="Instant"><CUS_INVISIBLE_BUTTON param_id="show_normal"/></TEXT></ROW>
+     <ROW spacing="3"><THEME_CHECK_BOX param_id="show_max"><CUS_SHOW_CURVE_TOOLTIP/></THEME_CHECK_BOX><TEXT text_color="#cccccc" value="Peak"><CUS_INVISIBLE_BUTTON param_id="show_max"/></TEXT></ROW>
+      </CUS_BLACK_BOX>
+     <CUS_BLACK_BOX>
+       <ROW spacing="5"><THEME_CHECK_BOX param_id="show_filled_curves"/><TEXT value="Filled"><CUS_INVISIBLE_BUTTON param_id="show_filled_curves"/></TEXT></ROW>
+     </CUS_BLACK_BOX>
+     </ROW>
+     </THEME_GRAPH_BOX>      
+     
+     <!-- Zoom parameters and links -->
+		<PARAM_LINK from="grid.x_extra_pixels" to="graph_xruler_pad.x_pixel_range"/>
+		<PARAM_LINK from="grid.y_extra_pixels" to="graph_yruler_pad.y_pixel_range"/>
+					
+		<!-- X zoom -->
+    <TPL_PARAM_ANIMATOR id="graph_x_zoom" param_id="graph_x_actual_zoom" persistent="true" />
+    <PARAM id="graph_x_actual_zoom" min="1" max="5" default="1" name="X zoom"/>
+    <PARAM_MULTI_LINK from="graph_x_actual_zoom" to="graph0.x_zoom;graph0.1.x_zoom;graph1.1.x_zoom;x_scale.x_zoom;grid.x_zoom;coords.x_zoom"/>
+    <IF_STEREO>
+      <PARAM_MULTI_LINK from="graph_x_actual_zoom" to="graph2.x_zoom;graph4.x_zoom;graph6.x_zoom;graph2.1.x_zoom;graph3.1.x_zoom;graph4.1.x_zoom;graph5.1.x_zoom;graph6.1.x_zoom;graph7.1.x_zoom"/>
+    </IF_STEREO>
+    
+    <!-- X offset -->
+    <TPL_PARAM_ANIMATOR id="graph_x_offset" param_id="graph_x_actual_offset" persistent="true" />
+    <PARAM id="graph_x_actual_offset" min="0" max="1" default="0.5" name="X offset"/>
+    <PARAM_MULTI_LINK from="graph_x_actual_offset" to="graph0.x_offset;graph0.1.x_offset;graph1.1.x_offset;x_scale.x_offset;grid.x_offset;coords.x_offset"/>
+    <IF_STEREO>
+      <PARAM_MULTI_LINK from="graph_x_actual_offset" to="graph2.x_offset;graph4.x_offset;graph6.x_offset;graph2.1.x_offset;graph3.1.x_offset;graph4.1.x_offset;graph5.1.x_offset;graph6.1.x_offset;graph7.1.x_offset"/>
+    </IF_STEREO>
+        
+    <!-- Y Zoom -->
+    <TPL_PARAM_ANIMATOR id="graph_y_zoom" param_id="graph_y_actual_zoom" persistent="true" />
+    <PARAM id="graph_y_actual_zoom" min="1" max="3" default="1" name="Y zoom"/>
+    <PARAM_MULTI_LINK from="graph_y_actual_zoom" to="graph0.y_zoom;graph0.1.y_zoom;graph1.1.y_zoom;y_scale.y_zoom;grid.y_zoom;threshold_slider.zoom;coords.y_zoom"/>
+    <IF_STEREO>
+      <PARAM_MULTI_LINK from="graph_y_actual_zoom" to="graph2.y_zoom;graph4.y_zoom;graph6.y_zoom;graph2.1.y_zoom;graph3.1.y_zoom;graph4.1.y_zoom;graph5.1.y_zoom;graph6.1.y_zoom;graph7.1.y_zoom"/>
+    </IF_STEREO>
+        
+    <!-- Y Offset -->
+    <TPL_PARAM_ANIMATOR id="graph_y_offset" param_id="graph_y_actual_offset" persistent="true" />
+    <PARAM id="graph_y_actual_offset" min="0" max="1" default="1" name="Y offset"/>
+    <PARAM_MULTI_LINK from="graph_y_actual_offset" to="graph0.y_offset;graph0.1.y_offset;graph1.1.y_offset;y_scale.y_offset;grid.y_offset;threshold_slider.offset;coords.y_offset"/>
+    <IF_STEREO>
+      <PARAM_MULTI_LINK from="graph_y_actual_offset" to="graph2.y_offset;graph4.y_offset;graph6.y_offset;graph2.1.y_offset;graph3.1.y_offset;graph4.1.y_offset;graph5.1.y_offset;graph6.1.y_offset;graph7.1.y_offset"/>
+    </IF_STEREO>
+</ROW>
+<IMAGE_GROUP_BOX spacing="3" id="controls_box">	
+    <CUS_BOX2>
+	   <TEXT value="TRANSFORM" font_weight="bold"/>
+      <CUS_SEP/>
+       <CUS_BOX_ROW> 
+       <COLUMN v_align="top" spacing="2">
+            <PARAM_TEXT param_id="dsp.input1" content="{name}" />
+            <CUS_TEXT_VALUE param_id="dsp.input1" />
+             <COLUMN spacing="-6">
+             <CUS_KNOB param_id="dsp.input1"/>
+              <THEME_DSP_PARAM_SMALL_ROUND_SETTINGS_BUTTON param_id="dsp.input1"/>
+            </COLUMN>
+       </COLUMN>
+        <COLUMN v_align="top" spacing="2">
+            <PARAM_TEXT param_id="dsp.input2" content="{name}" />
+           <CUS_TEXT_VALUE param_id="dsp.input2" />
+            <COLUMN spacing="-6">
+            <CUS_KNOB param_id="dsp.input2"  positions_count="201"/>
+              <THEME_DSP_PARAM_SMALL_ROUND_SETTINGS_BUTTON param_id="dsp.input2"/>
+            </COLUMN>
+       </COLUMN>
+       </CUS_BOX_ROW>
+       </CUS_BOX2>
+     <CUS_BOX2>
+		<TEXT value="ENVELOPE" font_weight="bold"/>
+      <CUS_SEP/>
+        <CUS_BOX_ROW >
+        <COLUMN v_align="top" spacing="2">
+            <PARAM_TEXT param_id="dsp.input3" content="{name}" />
+            <CUS_TEXT_VALUE param_id="dsp.input3" />
+            <COLUMN spacing="-6">
+               <CUS_KNOB param_id="dsp.input3" positions_count="127" response_curve="exp1"/>
+               <THEME_DSP_PARAM_SMALL_ROUND_SETTINGS_BUTTON param_id="dsp.input3"/>
+            </COLUMN>
+       </COLUMN>
+          <COLUMN v_align="top" spacing="2">
+            <PARAM_TEXT param_id="dsp.input4" content="{name}" />
+            <CUS_TEXT_VALUE param_id="dsp.input4" />
+            <COLUMN spacing="-6">
+              <CUS_KNOB param_id="dsp.input4" positions_count="127" response_curve="exp1"/>
+              <THEME_DSP_PARAM_SMALL_ROUND_SETTINGS_BUTTON param_id="dsp.input4"/>
+            </COLUMN>
+       </COLUMN>
+       </CUS_BOX_ROW>
+       <CELL height="-17"/>
+       <CUS_BOX_ROW>
+        <COLUMN v_align="top" spacing="2">
+            <COLUMN spacing="-6">
+              <CUS_KNOB param_id="dsp.input5" positions_count="61"/>
+              <THEME_DSP_PARAM_SMALL_ROUND_SETTINGS_BUTTON param_id="dsp.input5"/>
+            </COLUMN>
+            <CELL height="-6"/>
+            <PARAM_TEXT param_id="dsp.input5" content="Peak Reset" />
+            <CUS_TEXT_VALUE param_id="dsp.input5" />
+       </COLUMN>
+        </CUS_BOX_ROW>
+
+       </CUS_BOX2> 
+       <CUS_BOX2>
+		<TEXT value="THRESHOLD" font_weight="bold"/>
+      <CUS_SEP/>
+        <CUS_BOX_ROW> 
+       <COLUMN v_align="top" spacing="2">
+            <PARAM_TEXT param_id="dsp.input6" content="Absolute" />
+            <CUS_TEXT_VALUE param_id="dsp.input6" />
+            <COLUMN spacing="-6">
+              <CUS_KNOB param_id="dsp.input6" positions_count="121"/>
+              <THEME_DSP_PARAM_SMALL_ROUND_SETTINGS_BUTTON param_id="dsp.input6"/>
+            </COLUMN>
+       </COLUMN>
+       <COLUMN v_align="top" spacing="2">
+            <PARAM_TEXT param_id="dsp.input7" content="Relative" />
+            <CUS_TEXT_VALUE param_id="dsp.input7" />
+            <COLUMN spacing="-6">
+              <CUS_KNOB param_id="dsp.input7" positions_count="101"/>
+              <THEME_DSP_PARAM_SMALL_ROUND_SETTINGS_BUTTON param_id="dsp.input7"/>
+            </COLUMN>
+       </COLUMN>
+       </CUS_BOX_ROW>
+      </CUS_BOX2>  
+   </IMAGE_GROUP_BOX>
+   </ROW>
+   <CELL height="4"/>
+   <!-- parameters & persistency -->
+   <PARAM id="freeze" type="boolean" persistent="true" name="freeze"/>
+   <PARAM_MULTI_LINK from="freeze" to="dsp.input0;dsp.output_curve0.paused;dsp.output_curve1.paused"/>
+   <IF_STEREO>
+    <PARAM_MULTI_LINK from="freeze" to="dsp.output_curve2.paused;dsp.output_curve3.paused;dsp.output_curve4.paused;dsp.output_curve5.paused;dsp.output_curve6.paused;dsp.output_curve7.paused"/>
+   </IF_STEREO>
+   <PERSISTENT_OBJECTS object_ids="controls_box.display;show_normal;show_max"/>
+   <IF_STEREO>
+   <PERSISTENT_OBJECTS object_ids="show_left_channel;show_right_channel;show_max_channel;show_avg_channel"/>
+   </IF_STEREO>
+   </THEME_DECORATIONS>
+</SKIN>

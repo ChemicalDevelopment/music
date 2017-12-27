@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<SKIN author="Blue Cat Audio" name="About Box" background_image="bg.png" repeat="true"  font_size="16" font_name="Arial" font_quality="cleartype" spacing="10" text_color="#bbbbbb" margin="10">
+    <IMAGE_GROUP_BOX image="pad-blue.png" stretch="true" margin="15" spacing="15">
+      <IMAGE image="fulllogo.png">
+        <INVISIBLE_ACTION_BUTTON action_id="OpenSite" width="100%" height="100%" cursor="system::hand"/>
+        <FUNCTION_INVOKE_ACTION id="OpenSite" function="OpenUrl"  arg_url="'http://www.bluecataudio.com?plugin-about'"/>
+      </IMAGE>
+      <COLUMN spacing="6">
+        <TEXT value="$SOFTWARE_NAME$ - v$SOFTWARE_VERSION$" font_weight="bold" font_face="Verdana" font_size="+1"/>
+        <TEXT value="$SOFTWARE_COMMENT$"/>
+        <TEXT value="Skin: &quot;$SKIN_NAME$&quot;, by $SKIN_AUTHOR$"/>
+        <TEXT value="Skin Engine v$SKIN_ENGINE_VERSION$"/>
+        <TEXT value="Copyright $SOFTWARE_COPYRIGHT$"/>
+      </COLUMN>
+    </IMAGE_GROUP_BOX>
+    <LAYER_STACK>
+      <IMAGE_GROUP_BOX image="pad-blue.png" stretch="true" width="100%" height="100%" id="button_background"/>
+      <IMAGE_GROUP_BOX image="pad.png" stretch="true"  width="100%" height="100%" id="button_hover" opacity="0" />
+      <IMAGE_GROUP_BOX image="pad.png" stretch="true"  width="100%" height="100%" id="button_pushed" visible="false" opacity="70%"/>
+      <PARAM_ANIMATOR id="hover_animate" param_id="button_hover.opacity" duration_ms="300"/>
+      <PARAM_LINK from="button.mouse_over" to="hover_animate"/>
+      <PARAM_MULTI_LINK from="button.pushed" to="button_hover.visible;button_background.visible" reverse="true"/>
+      <PARAM_LINK from="button.pushed" to="button_pushed.visible"/>
+      <CELL  margin="5" width="80">
+        <TEXT value="Close"/>
+      </CELL>
+      <INVISIBLE_ACTION_BUTTON action_id="CloseWindow" cursor="system::hand" width="100%" height="100%" id="button"/>
+    </LAYER_STACK>
+</SKIN>

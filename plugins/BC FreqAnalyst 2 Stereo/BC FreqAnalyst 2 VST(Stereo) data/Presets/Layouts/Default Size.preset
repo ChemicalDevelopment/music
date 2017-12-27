@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Preset version="3" progName="Default Size" MIDIInputDefault="1" MIDIOutputDefault="1">
+    <inputParams count="8" p0="0" p1="7" p2="100" p3="0" p4="199.99999552965164" p5="0" p6="-120" p7="0" />
+    <inputStrings />
+    <inputCurves />
+    <inputSurfaces />
+    <inputCustomProperties />
+    <model />
+    <GUI version="1" useDefault="1" changedSincePresetLoaded="0">
+        <skin version="2">
+            <state version="2">
+                <params pCount="19">
+                    <p0 name="show_controls" value="1" />
+                    <p1 name="graph_y_zoom" value="1" />
+                    <p2 name="freeze" value="0" />
+                    <p3 name="show_right_channel" value="0" />
+                    <p4 name="graph_x_zoom" value="1" />
+                    <p5 name="show_left_channel" value="0" />
+                    <p6 name="controls_box.display" value="1" />
+                    <p7 name="theme.show_settings" value="0" />
+                    <p8 name="small_link.enabled" value="0" />
+                    <p9 name="show_avg_channel" value="1" />
+                    <p10 name="show_filled_curves" value="1" />
+                    <p11 name="medium_link.enabled" value="1" />
+                    <p12 name="show_max" value="1" />
+                    <p13 name="graph_y_offset" value="1" />
+                    <p14 name="theme.opacity" value="100" />
+                    <p15 name="graph_x_offset" value="0.5" />
+                    <p16 name="show_normal" value="1" />
+                    <p17 name="show_max_channel" value="0" />
+                    <p18 name="large_link.enabled" value="0" />
+                </params>
+                <curves cCount="0" />
+                <surfaces sCount="0" />
+                <strings sCount="0" />
+                <collectionCounts cCount="0" />
+            </state>
+        </skin>
+    </GUI>
+</Preset>
