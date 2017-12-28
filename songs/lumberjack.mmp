@@ -8,7 +8,7 @@
         <bbtrack>
           <trackcontainer width="1250" x="270" y="192" maximized="0" height="639" visible="1" type="bbtrackcontainer" minimized="0">
             <track muted="0" type="0" name="kick_hard01.ogg" solo="0">
-              <instrumenttrack pan="-17.6" fxch="0" usemasterpitch="1" pitchrange="1" pitch="0" basenote="57" vol="162">
+              <instrumenttrack pan="-17.6" fxch="0" usemasterpitch="1" pitchrange="1" pitch="0" basenote="57" vol="180.1">
                 <instrument name="audiofileprocessor">
                   <audiofileprocessor reversed="0" looped="0" lframe="0" interp="1" eframe="1" stutter="0" sframe="0" src="drums/kick_hard01.ogg" amp="100"/>
                 </instrument>
@@ -39,7 +39,7 @@
               </pattern>
             </track>
             <track muted="0" type="0" name="smooth_bass.ds" solo="0">
-              <instrumenttrack pan="45.1" fxch="0" usemasterpitch="1" pitchrange="1" pitch="0" basenote="57" vol="119.4">
+              <instrumenttrack pan="45.1" fxch="0" usemasterpitch="1" pitchrange="1" pitch="0" basenote="57" vol="134.7">
                 <instrument name="audiofileprocessor">
                   <audiofileprocessor reversed="0" looped="0" lframe="0" interp="1" eframe="1" stutter="0" sframe="0" src="drumsynth/misc_bass/smooth_bass.ds" amp="100"/>
                 </instrument>
@@ -68,7 +68,7 @@
               </pattern>
             </track>
             <track muted="0" type="0" name="Trap kick" solo="0">
-              <instrumenttrack pan="-41.5" fxch="0" usemasterpitch="1" pitchrange="1" pitch="0" basenote="93" vol="192.2">
+              <instrumenttrack pan="-41.5" fxch="0" usemasterpitch="1" pitchrange="1" pitch="0" basenote="93" vol="192.4">
                 <instrument name="kicker">
                   <kicker decay_numerator="4" decay_denominator="4" distend="3.3" click="0.1" endnote="1" version="1" decay_syncmode="0" decay="1714" noise="0.11" slope="0.484" dist="2.5" env="0.3" startnote="1" startfreq="5" endfreq="5" gain="1.45"/>
                 </instrument>
@@ -97,7 +97,7 @@
               </pattern>
             </track>
             <track muted="0" type="0" name="the_funk.ds" solo="0">
-              <instrumenttrack pan="64.8" fxch="0" usemasterpitch="1" pitchrange="1" pitch="0" basenote="57" vol="77.9">
+              <instrumenttrack pan="64.8" fxch="0" usemasterpitch="1" pitchrange="1" pitch="0" basenote="57" vol="91.3">
                 <instrument name="audiofileprocessor">
                   <audiofileprocessor reversed="0" looped="0" lframe="0" interp="1" eframe="1" stutter="0" sframe="0" src="drumsynth/misc_bass/the_funk.ds" amp="100"/>
                 </instrument>

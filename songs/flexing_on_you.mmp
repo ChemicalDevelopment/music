@@ -8,7 +8,7 @@
         <bbtrack>
           <trackcontainer width="1173" x="390" y="459" maximized="0" height="389" visible="1" type="bbtrackcontainer" minimized="0">
             <track muted="0" type="0" name="Deep-O Bass" solo="0">
-              <instrumenttrack pan="-17" fxch="1" usemasterpitch="1" pitchrange="48" basenote="57" vol="103.3">
+              <instrumenttrack pan="-17" fxch="1" usemasterpitch="1" pitchrange="48" basenote="57" vol="122.1">
                 <pitch scale_type="linear" value="0" id="5957086"/>
                 <instrument name="audiofileprocessor">
                   <audiofileprocessor reversed="0" looped="0" lframe="0" interp="1" eframe="1" stutter="0" sframe="0" src="TriTrap_v1/808 Bass/808 Bass C Deep-O.wav" amp="125"/>
@@ -68,7 +68,7 @@
               </pattern>
             </track>
             <track muted="0" type="0" name="Higher Bass" solo="0">
-              <instrumenttrack pan="26.5" fxch="1" usemasterpitch="1" pitchrange="48" pitch="0" basenote="57" vol="146.5">
+              <instrumenttrack pan="17.5" fxch="1" usemasterpitch="1" pitchrange="48" pitch="0" basenote="57" vol="146.5">
                 <instrument name="audiofileprocessor">
                   <audiofileprocessor reversed="0" looped="0" lframe="0" interp="1" eframe="1" stutter="0" sframe="0" src="TriTrap_v1/808 Bass/808 Bass F# Raw.wav" amp="247"/>
                 </instrument>
@@ -369,7 +369,7 @@
               </pattern>
               <pattern steps="16" muted="0" type="0" name="Closed Hat" pos="960"/>
             </track>
-            <track width="262" x="938" y="382" maximized="0" muted="0" height="466" visible="1" type="0" minimized="0" name="Open Hat" tab="3" solo="0">
+            <track muted="0" type="0" name="Open Hat" solo="0">
               <instrumenttrack pan="-40.3" fxch="6" usemasterpitch="1" pitchrange="1" pitch="0" basenote="57" vol="125.9">
                 <instrument name="audiofileprocessor">
                   <audiofileprocessor reversed="0" looped="0" lframe="0" interp="1" eframe="1" stutter="0" sframe="0" src="drums/hihat_opened01.ogg" amp="100"/>
@@ -670,7 +670,7 @@
               </pattern>
               <pattern steps="16" muted="0" type="0" name="Snare" pos="960"/>
             </track>
-            <track width="262" x="1387" y="466" maximized="0" muted="0" height="466" visible="1" type="0" minimized="0" name="Clap Snare" tab="0" solo="0">
+            <track muted="0" type="0" name="Clap Snare" solo="0">
               <instrumenttrack pan="-32.5" fxch="8" usemasterpitch="1" pitchrange="1" pitch="0" basenote="57" vol="121.5">
                 <instrument name="audiofileprocessor">
                   <audiofileprocessor reversed="0" looped="0" lframe="0" interp="1" eframe="1" stutter="0" sframe="0" src="TriTrap_v1/Snares &amp; Claps/Clap 009.wav" amp="100"/>
@@ -1306,7 +1306,7 @@
       </track>
       <track muted="0" type="0" name="Deep-O Bass (song editor)" solo="0">
         <instrumenttrack pan="1.3" fxch="5" usemasterpitch="1" pitchrange="48" basenote="57" vol="150.3">
-          <pitch scale_type="linear" value="-1524.32" id="3573399"/>
+          <pitch scale_type="linear" value="-870" id="3573399"/>
           <instrument name="audiofileprocessor">
             <audiofileprocessor reversed="0" looped="1" lframe="0.161001" interp="1" eframe="0.238167" stutter="1" sframe="0" src="TriTrap_v1/808 Bass/808 Bass C Deep-O.wav" amp="285"/>
           </instrument>
@@ -1379,19 +1379,19 @@
       </automationpattern>
       <automationpattern tens="0" mute="0" prog="1" name="Deep-O Bass (song editor)>Pitch" pos="0" len="14784">
         <time value="0" pos="0"/>
-        <time value="2612" pos="1320"/>
-        <time value="-1729" pos="1560"/>
-        <time value="3388" pos="5160"/>
-        <time value="-2047" pos="5400"/>
-        <time value="3494" pos="5928"/>
-        <time value="-71" pos="6168"/>
-        <time value="2965" pos="9000"/>
-        <time value="212" pos="9240"/>
-        <time value="2894" pos="11304"/>
-        <time value="35" pos="11544"/>
+        <time value="2400" pos="1344"/>
+        <time value="-882" pos="1536"/>
+        <time value="2400" pos="5184"/>
+        <time value="-847" pos="5376"/>
+        <time value="2400" pos="5952"/>
+        <time value="-882" pos="6144"/>
+        <time value="2400" pos="9024"/>
+        <time value="-870" pos="9216"/>
+        <time value="2400" pos="11328"/>
+        <time value="-835" pos="11520"/>
         <time value="0" pos="12432"/>
-        <time value="2753" pos="14376"/>
-        <time value="-847" pos="14616"/>
+        <time value="2400" pos="14400"/>
+        <time value="-870" pos="14592"/>
         <object id="3573399"/>
       </automationpattern>
       <automationpattern tens="1" mute="0" prog="1" name="Drag a control while pressing &lt;Ctrl>" pos="0" len="5568">
@@ -1402,50 +1402,55 @@
       </automationpattern>
     </track>
     <fxmixer width="974" x="171" y="585" maximized="0" height="335" visible="1" minimized="0">
-      <fxchannel num="0" muted="0" volume="0.255" name="Master" soloed="0">
+      <fxchannel num="0" muted="0" volume="0.115" name="Master" soloed="0">
         <fxchain numofeffects="1" enabled="1">
           <effect autoquit_syncmode="0" autoquit_numerator="4" autoquit_denominator="4" autoquit="1" gate="0" name="spectrumanalyzer" wet="1" on="1">
             <spectrumanaylzercontrols/>
             <key/>
           </effect>
         </fxchain>
+        <connection>
+          <muted>
+            <Midicontroller inputcontroller="37" inports="" fixedoutputvelocity="-1" inputchannel="1" outputcontroller="0" writable="0" outputchannel="1" fixedinputvelocity="-1" fixedoutputnote="-1" type="2" outputprogram="1" name="MIDI ch1 ctrl37" basevelocity="127" readable="1"/>
+          </muted>
+        </connection>
       </fxchannel>
-      <fxchannel num="1" muted="0" volume="1.489" name="Hold Bass" soloed="0">
+      <fxchannel num="1" muted="0" volume="1.303" name="Hold Bass" soloed="0">
         <fxchain numofeffects="0" enabled="0"/>
         <send channel="0" amount="1"/>
       </fxchannel>
-      <fxchannel num="2" muted="0" volume="1.209" name="Thump Basses" soloed="0">
+      <fxchannel num="2" muted="0" volume="1.255" name="Thump Basses" soloed="0">
         <fxchain numofeffects="0" enabled="0"/>
         <send channel="0" amount="1"/>
       </fxchannel>
-      <fxchannel num="3" muted="0" volume="1.28" name="Synth Bass" soloed="0">
+      <fxchannel num="3" muted="0" volume="0.954" name="Synth Bass" soloed="0">
         <fxchain numofeffects="0" enabled="0"/>
         <send channel="0" amount="1"/>
       </fxchannel>
-      <fxchannel num="4" muted="0" volume="1" name="Synth Melody" soloed="0">
+      <fxchannel num="4" muted="0" volume="0.907" name="Synth Melody" soloed="0">
         <fxchain numofeffects="0" enabled="0"/>
         <send channel="0" amount="1"/>
       </fxchannel>
-      <fxchannel num="5" muted="0" volume="1" name="Drop Bass" soloed="0">
+      <fxchannel num="5" muted="0" volume="1.371" name="Drop Bass" soloed="0">
         <fxchain numofeffects="0" enabled="0"/>
         <send channel="0" amount="1"/>
       </fxchannel>
-      <fxchannel num="6" muted="0" volume="1.348" name="Hats" soloed="0">
+      <fxchannel num="6" muted="0" volume="0.883" name="Hats" soloed="0">
         <fxchain numofeffects="0" enabled="0"/>
         <send channel="0" amount="1"/>
       </fxchannel>
-      <fxchannel num="7" muted="0" volume="0.953" name="Snares" soloed="0">
+      <fxchannel num="7" muted="0" volume="0.745" name="Snares" soloed="0">
         <fxchain numofeffects="0" enabled="0"/>
         <send channel="0" amount="1"/>
       </fxchannel>
-      <fxchannel num="8" muted="0" volume="1.047" name="Claps" soloed="0">
+      <fxchannel num="8" muted="0" volume="0.977" name="Claps" soloed="0">
         <fxchain numofeffects="0" enabled="0"/>
         <send channel="0" amount="1"/>
       </fxchannel>
     </fxmixer>
     <ControllerRackView width="350" x="680" y="310" maximized="0" height="200" visible="0" minimized="0"/>
     <pianoroll width="860" x="721" y="90" maximized="0" height="483" visible="1" minimized="0"/>
-    <automationeditor width="860" x="949" y="566" maximized="0" height="398" visible="0" minimized="0"/>
+    <automationeditor width="860" x="882" y="461" maximized="0" height="402" visible="1" minimized="0"/>
     <projectnotes width="797" x="700" y="10" maximized="0" height="400" visible="0" minimized="0"><![CDATA[<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd">
 <html><head><meta name="qrichtext" content="1" /><style type="text/css">
 p, li { white-space: pre-wrap; }
