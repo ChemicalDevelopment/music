@@ -3,9 +3,9 @@
 <lmms-project creator="LMMS" creatorversion="1.2.0-rc5" type="song" version="1.0">
   <head masterpitch="0" bpm="136" timesig_numerator="4" timesig_denominator="4" mastervol="100"/>
   <song>
-    <trackcontainer x="394" y="200" maximized="0" minimized="0" height="465" visible="1" type="song" width="1162">
-      <track name="Cade on the Beat" solo="0" x="0" y="195" maximized="0" minimized="0" height="464" visible="1" type="0" tab="0" width="262" muted="0">
-        <instrumenttrack pitchrange="1" pan="0" basenote="57" usemasterpitch="1" fxch="0" vol="87.7" pitch="0">
+    <trackcontainer x="44" y="28" maximized="0" minimized="0" height="249" visible="1" type="song" width="1207">
+      <track name="Cade on the Beat" solo="0" type="0" muted="0">
+        <instrumenttrack pitchrange="1" pan="0" basenote="57" usemasterpitch="1" fxch="0" vol="105.3" pitch="0">
           <instrument name="audiofileprocessor">
             <audiofileprocessor src="cadebrownonthebeat_0.wav" amp="100" stutter="0" interp="1" looped="0" sframe="0.231668" reversed="0" lframe="0.231668" eframe="1"/>
           </instrument>
@@ -26,7 +26,7 @@
       </track>
       <track name="main beat" solo="0" type="1" muted="0">
         <bbtrack>
-          <trackcontainer x="483" y="43" maximized="0" minimized="0" height="400" visible="1" type="bbtrackcontainer" width="700">
+          <trackcontainer x="567" y="242" maximized="0" minimized="0" height="400" visible="0" type="bbtrackcontainer" width="700">
             <track name="808 Bass Key .wav" solo="0" type="0" muted="0">
               <instrumenttrack pitchrange="1" pan="0" basenote="57" usemasterpitch="1" fxch="0" vol="122.7" pitch="0">
                 <instrument name="audiofileprocessor">
@@ -172,7 +172,7 @@
               </pattern>
             </track>
             <track name="HiHat Closed 009 Low Classic.wav" solo="0" type="0" muted="0">
-              <instrumenttrack pitchrange="1" pan="-6.6" basenote="57" usemasterpitch="1" fxch="0" vol="104.2" pitch="0">
+              <instrumenttrack pitchrange="1" pan="-6.6" basenote="57" usemasterpitch="1" fxch="0" vol="106.8" pitch="0">
                 <instrument name="audiofileprocessor">
                   <audiofileprocessor src="TriTrap_v1/Hats &amp; Cymbals/HiHat Closed 009 Low Classic.wav" amp="100" stutter="0" interp="1" looped="0" sframe="0" reversed="0" lframe="0" eframe="1"/>
                 </instrument>
@@ -189,14 +189,14 @@
               <pattern name="HiHat Closed 009 Low Classic.wav" pos="0" steps="48" type="0" muted="0"/>
               <pattern name="HiHat Closed 009 Low Classic.wav" pos="192" steps="32" type="1" muted="0">
                 <note pos="0" pan="0" len="24" key="57" vol="74"/>
-                <note pos="24" pan="0" len="24" key="57" vol="74"/>
-                <note pos="48" pan="0" len="24" key="57" vol="74"/>
+                <note pos="24" pan="0" len="24" key="57" vol="91"/>
+                <note pos="48" pan="0" len="24" key="57" vol="95"/>
                 <note pos="120" pan="0" len="24" key="57" vol="74"/>
-                <note pos="144" pan="0" len="12" key="57" vol="108"/>
-                <note pos="156" pan="0" len="12" key="57" vol="108"/>
-                <note pos="168" pan="0" len="24" key="57" vol="114"/>
-                <note pos="192" pan="0" len="24" key="57" vol="114"/>
-                <note pos="216" pan="0" len="24" key="57" vol="114"/>
+                <note pos="144" pan="0" len="12" key="57" vol="91"/>
+                <note pos="156" pan="0" len="12" key="57" vol="93"/>
+                <note pos="168" pan="0" len="24" key="57" vol="97"/>
+                <note pos="192" pan="0" len="24" key="57" vol="91"/>
+                <note pos="216" pan="0" len="24" key="57" vol="104"/>
                 <note pos="312" pan="0" len="24" key="57" vol="100"/>
                 <note pos="336" pan="0" len="12" key="57" vol="87"/>
                 <note pos="348" pan="0" len="12" key="57" vol="89"/>
@@ -205,26 +205,26 @@
                 <note pos="408" pan="0" len="24" key="57" vol="159"/>
                 <note pos="552" pan="0" len="8" key="57" vol="93"/>
                 <note pos="560" pan="0" len="4" key="57" vol="82"/>
-                <note pos="564" pan="0" len="4" key="57" vol="82"/>
-                <note pos="568" pan="0" len="4" key="57" vol="82"/>
-                <note pos="572" pan="0" len="4" key="57" vol="82"/>
-                <note pos="576" pan="0" len="16" key="57" vol="123"/>
+                <note pos="564" pan="0" len="4" key="57" vol="95"/>
+                <note pos="568" pan="0" len="4" key="57" vol="97"/>
+                <note pos="572" pan="0" len="4" key="57" vol="106"/>
+                <note pos="576" pan="0" len="16" key="57" vol="125"/>
                 <note pos="592" pan="0" len="16" key="57" vol="104"/>
                 <note pos="608" pan="0" len="16" key="57" vol="117"/>
                 <note pos="624" pan="0" len="16" key="57" vol="123"/>
-                <note pos="696" pan="0" len="8" key="57" vol="87"/>
-                <note pos="704" pan="0" len="4" key="57" vol="87"/>
-                <note pos="708" pan="0" len="4" key="57" vol="87"/>
-                <note pos="712" pan="0" len="4" key="57" vol="87"/>
-                <note pos="716" pan="0" len="4" key="57" vol="89"/>
-                <note pos="720" pan="0" len="16" key="57" vol="91"/>
+                <note pos="696" pan="0" len="8" key="57" vol="97"/>
+                <note pos="704" pan="0" len="4" key="57" vol="97"/>
+                <note pos="708" pan="0" len="4" key="57" vol="97"/>
+                <note pos="712" pan="0" len="4" key="57" vol="100"/>
+                <note pos="716" pan="0" len="4" key="57" vol="106"/>
+                <note pos="720" pan="0" len="16" key="57" vol="106"/>
                 <note pos="736" pan="0" len="16" key="57" vol="119"/>
                 <note pos="752" pan="0" len="16" key="57" vol="119"/>
               </pattern>
               <pattern name="HiHat Closed 009 Low Classic.wav" pos="384" steps="16" type="0" muted="0"/>
             </track>
             <track name="Snare Drum 088 Super Hero Music.wav" solo="0" type="0" muted="0">
-              <instrumenttrack pitchrange="1" pan="9.3" basenote="57" usemasterpitch="1" fxch="0" vol="85.1" pitch="0">
+              <instrumenttrack pitchrange="1" pan="9.3" basenote="57" usemasterpitch="1" fxch="0" vol="73.2" pitch="0">
                 <instrument name="audiofileprocessor">
                   <audiofileprocessor src="TriTrap_v2/Snare Drums/Snare Drum 088 Super Hero Music.wav" amp="100" stutter="0" interp="1" looped="0" sframe="0" reversed="0" lframe="0" eframe="1"/>
                 </instrument>
@@ -240,15 +240,15 @@
               </instrumenttrack>
               <pattern name="Snare Drum 088 Super Hero Music.wav" pos="0" steps="48" type="0" muted="0"/>
               <pattern name="HiHat Closed 009 Low Classic.wav" pos="192" steps="32" type="1" muted="0">
-                <note pos="48" pan="0" len="24" key="57" vol="142"/>
-                <note pos="240" pan="0" len="24" key="57" vol="100"/>
+                <note pos="48" pan="0" len="24" key="57" vol="91"/>
+                <note pos="240" pan="0" len="24" key="57" vol="108"/>
                 <note pos="432" pan="0" len="24" key="57" vol="100"/>
-                <note pos="528" pan="0" len="24" key="57" vol="100"/>
-                <note pos="576" pan="0" len="48" key="57" vol="142"/>
-                <note pos="672" pan="0" len="24" key="57" vol="100"/>
-                <note pos="720" pan="0" len="16" key="57" vol="93"/>
-                <note pos="736" pan="0" len="16" key="57" vol="136"/>
-                <note pos="752" pan="0" len="16" key="57" vol="174"/>
+                <note pos="528" pan="0" len="24" key="57" vol="91"/>
+                <note pos="576" pan="0" len="48" key="57" vol="110"/>
+                <note pos="672" pan="0" len="24" key="57" vol="93"/>
+                <note pos="720" pan="0" len="16" key="57" vol="76"/>
+                <note pos="736" pan="0" len="16" key="57" vol="76"/>
+                <note pos="752" pan="0" len="16" key="57" vol="95"/>
               </pattern>
               <pattern name="Snare Drum 088 Super Hero Music.wav" pos="384" steps="16" type="0" muted="0"/>
             </track>
@@ -324,7 +324,7 @@
         </pattern>
       </track>
       <track name="Machine gun" solo="0" type="0" muted="0">
-        <instrumenttrack pitchrange="1" pan="-1.5" basenote="57" usemasterpitch="1" fxch="0" vol="96.1" pitch="0">
+        <instrumenttrack pitchrange="1" pan="-1.5" basenote="57" usemasterpitch="1" fxch="0" vol="105.9" pitch="0">
           <instrument name="audiofileprocessor">
             <audiofileprocessor src="TriTrap_v2/FX/War FX Machine Gun 002.wav" amp="100" stutter="0" interp="1" looped="0" sframe="0" reversed="0" lframe="0" eframe="1"/>
           </instrument>
@@ -344,7 +344,7 @@
         <pattern name="Machine gun" pos="1728" steps="16" type="0" muted="0"/>
       </track>
       <track name="Machine gun load" solo="0" type="0" muted="0">
-        <instrumenttrack pitchrange="1" pan="0" basenote="57" usemasterpitch="1" fxch="0" vol="90.1" pitch="0">
+        <instrumenttrack pitchrange="1" pan="-1.5" basenote="57" usemasterpitch="1" fxch="0" vol="109.9" pitch="0">
           <instrument name="audiofileprocessor">
             <audiofileprocessor src="TriTrap_v2/FX/War FX Gun Reload 001.wav" amp="100" stutter="0" interp="1" looped="0" sframe="0" reversed="0" lframe="0" eframe="1"/>
           </instrument>
@@ -359,7 +359,7 @@
           <fxchain enabled="0" numofeffects="0"/>
         </instrumenttrack>
         <pattern name="Machine gun load" pos="0" steps="16" type="1" muted="0">
-          <note pos="72" pan="0" len="120" key="57" vol="82"/>
+          <note pos="96" pan="0" len="216" key="57" vol="82"/>
         </pattern>
       </track>
       <track name="Pistol Shot" solo="0" type="0" muted="0">
@@ -1513,11 +1513,11 @@ GPL V 2 or later</string>
             <effect autoquit_denominator="4" name="ladspaeffect" on="1" autoquit_numerator="4" autoquit="1" wet="1" autoquit_syncmode="0" gate="0">
               <ladspacontrols link="1" ports="4">
                 <port00 link="1">
-                  <data scale_type="log" value="2743.56" id="3826091"/>
+                  <data scale_type="log" value="4.41" id="3826091"/>
                 </port00>
                 <port01 data="1.41" link="1"/>
                 <port10>
-                  <data scale_type="log" value="2743.56" id="5399513"/>
+                  <data scale_type="log" value="4.41" id="5399513"/>
                 </port10>
                 <port11 data="1.41"/>
               </ladspacontrols>
@@ -1933,8 +1933,7 @@ GPL V 2 or later</string>
           <time pos="2616" value="9744.21"/>
           <time pos="2784" value="5560.33"/>
           <time pos="2976" value="9238.27"/>
-          <time pos="3120" value="5632.25"/>
-          <time pos="3192" value="8156.96"/>
+          <time pos="3144" value="3107.53"/>
           <time pos="3264" value="4.41"/>
           <time pos="13872" value="4.41"/>
           <time pos="14016" value="15790.6"/>
@@ -1949,6 +1948,32 @@ GPL V 2 or later</string>
           <object id="3826091"/>
         </automationpattern>
       </track>
+      <track name="Sample track" solo="0" type="2" muted="0">
+        <sampletrack pan="3">
+          <fxchain enabled="1" numofeffects="3">
+            <effect autoquit_denominator="4" name="amplifier" on="1" autoquit_numerator="4" autoquit="1" wet="1" autoquit_syncmode="0" gate="0">
+              <AmplifierControls pan="0" right="100" left="100" volume="200"/>
+              <key/>
+            </effect>
+            <effect autoquit_denominator="4" name="ladspaeffect" on="1" autoquit_numerator="4" autoquit="1" wet="1" autoquit_syncmode="0" gate="0">
+              <ladspacontrols link="1" ports="2">
+                <port00 data="3.2" link="1"/>
+                <port10 data="3.2"/>
+              </ladspacontrols>
+              <key>
+                <attribute name="file" value="amp_1181"/>
+                <attribute name="plugin" value="amp"/>
+              </key>
+            </effect>
+            <effect autoquit_denominator="4" name="spectrumanalyzer" on="1" autoquit_numerator="4" autoquit="1" wet="1" autoquit_syncmode="0" gate="0">
+              <spectrumanaylzercontrols/>
+              <key/>
+            </effect>
+          </fxchain>
+          <vol scale_type="linear" value="83.788" id="7400580"/>
+        </sampletrack>
+        <sampletco pos="0" src="vocals/lilchexmix_hivementality.wav" len="15157" muted="0"/>
+      </track>
     </trackcontainer>
     <track name="Automation track" solo="0" type="6" muted="0">
       <automationtrack/>
@@ -1957,10 +1982,36 @@ GPL V 2 or later</string>
       <automationpattern name="Tempo" pos="0" tens="1" len="192" prog="0" mute="0"/>
       <automationpattern name="Master volume" pos="0" tens="1" len="192" prog="0" mute="0"/>
       <automationpattern name="Master pitch" pos="0" tens="1" len="192" prog="0" mute="0"/>
+      <automationpattern name="Sample track>Volume" pos="0" tens="0.4" len="13248" prog="2" mute="0">
+        <time pos="0" value="100.6"/>
+        <time pos="24" value="102.9"/>
+        <time pos="1416" value="98.6"/>
+        <time pos="2040" value="95.9"/>
+        <time pos="2472" value="82.9"/>
+        <time pos="2520" value="128.1"/>
+        <time pos="3264" value="148.4"/>
+        <time pos="3288" value="123.6"/>
+        <time pos="3648" value="109.8"/>
+        <time pos="5448" value="108"/>
+        <time pos="5808" value="103.2"/>
+        <time pos="6600" value="103.2"/>
+        <time pos="7656" value="100.5"/>
+        <time pos="8064" value="105.1"/>
+        <time pos="8184" value="0"/>
+        <time pos="8448" value="0"/>
+        <time pos="8592" value="49.8"/>
+        <time pos="8880" value="80.2"/>
+        <time pos="9720" value="64.5"/>
+        <time pos="11424" value="75.6"/>
+        <time pos="12120" value="77.4"/>
+        <time pos="12816" value="77.4"/>
+        <time pos="13152" value="66.4"/>
+        <object id="7400580"/>
+      </automationpattern>
     </track>
-    <fxmixer x="449" y="72" maximized="0" minimized="0" height="333" visible="1" width="543">
+    <fxmixer x="646" y="300" maximized="0" minimized="0" height="333" visible="1" width="543">
       <fxchannel soloed="0" name="Master" num="0" volume="0.185" muted="0">
-        <fxchain enabled="1" numofeffects="2">
+        <fxchain enabled="1" numofeffects="4">
           <effect autoquit_denominator="4" name="ladspaeffect" on="1" autoquit_numerator="4" autoquit="1" wet="1" autoquit_syncmode="0" gate="0">
             <ladspacontrols ports="10">
               <port04 data="0"/>
@@ -1983,6 +2034,26 @@ GPL V 2 or later</string>
               <attribute name="plugin" value="Compressor"/>
             </key>
           </effect>
+          <effect autoquit_denominator="4" name="ladspaeffect" on="0" autoquit_numerator="4" autoquit="1" wet="1" autoquit_syncmode="0" gate="0">
+            <ladspacontrols link="1" ports="2">
+              <port01 data="31.86" link="1"/>
+              <port11 data="31.86"/>
+            </ladspacontrols>
+            <key>
+              <attribute name="file" value="caps"/>
+              <attribute name="plugin" value="Clip"/>
+            </key>
+          </effect>
+          <effect autoquit_denominator="4" name="ladspaeffect" on="1" autoquit_numerator="4" autoquit="1" wet="1" autoquit_syncmode="0" gate="0">
+            <ladspacontrols link="0" ports="2">
+              <port00 data="7.7" link="1"/>
+              <port10 data="7.7"/>
+            </ladspacontrols>
+            <key>
+              <attribute name="file" value="amp_1181"/>
+              <attribute name="plugin" value="amp"/>
+            </key>
+          </effect>
           <effect autoquit_denominator="4" name="spectrumanalyzer" on="1" autoquit_numerator="4" autoquit="1" wet="1" autoquit_syncmode="0" gate="0">
             <spectrumanaylzercontrols/>
             <key/>
@@ -1996,8 +2067,8 @@ GPL V 2 or later</string>
       </fxchannel>
     </fxmixer>
     <ControllerRackView x="1069" y="350" maximized="0" minimized="0" height="200" visible="0" width="350"/>
-    <pianoroll x="146" y="349" maximized="0" minimized="0" height="496" visible="0" width="860"/>
-    <automationeditor x="230" y="204" maximized="0" minimized="0" height="401" visible="1" width="860"/>
+    <pianoroll x="273" y="79" maximized="0" minimized="0" height="496" visible="1" width="860"/>
+    <automationeditor x="414" y="409" maximized="0" minimized="0" height="343" visible="1" width="1118"/>
     <projectnotes x="700" y="10" maximized="0" minimized="0" height="400" visible="0" width="797"><![CDATA[<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd">
 <html><head><meta name="qrichtext" content="1" /><style type="text/css">
 p, li { white-space: pre-wrap; }
