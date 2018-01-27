@@ -1,746 +1,746 @@
 <?xml version="1.0"?>
 <!DOCTYPE lmms-project>
-<lmms-project version="1.0" creator="LMMS" creatorversion="1.2.0-rc5.14" type="song">
-  <head timesig_numerator="6" mastervol="100" timesig_denominator="4" bpm="140" masterpitch="0"/>
+<lmms-project creator="LMMS" creatorversion="1.2.0-rc5" type="song" version="1.0">
+  <head masterpitch="0" bpm="140" timesig_numerator="6" timesig_denominator="4" mastervol="100"/>
   <song>
-    <trackcontainer width="931" x="371" y="44" maximized="0" height="630" visible="1" type="song" minimized="0">
-      <track muted="0" type="0" name="bell_pad" solo="0">
-        <instrumenttrack pan="0" fxch="0" usemasterpitch="1" pitchrange="1" pitch="0.00610352" basenote="57" vol="176.7">
+    <trackcontainer x="151" y="2" maximized="0" minimized="0" height="630" visible="1" type="song" width="931">
+      <track name="bell_pad" solo="0" type="0" muted="0">
+        <instrumenttrack pitchrange="1" pan="0" basenote="57" usemasterpitch="1" fxch="0" vol="176.7" pitch="0.00610352">
           <instrument name="zynaddsubfx">
-            <zynaddsubfx resbandwidth="64" fmgain="127" portamento="0" modifiedcontrollers="" filterfreq="64" bandwidth="64" forwardmidicc="1" filterq="64" rescenterfreq="64">
-              <ZynAddSubFX-data version-revision="1" version-minor="4" version-major="2" ZynAddSubFX-author="Nasca Octavian Paul">
+            <zynaddsubfx modifiedcontrollers="" filterq="64" resbandwidth="64" rescenterfreq="64" forwardmidicc="1" filterfreq="64" portamento="0" fmgain="127" bandwidth="64">
+              <ZynAddSubFX-data version-revision="1" version-major="2" ZynAddSubFX-author="Nasca Octavian Paul" version-minor="4">
                 <INFORMATION/>
                 <BASE_PARAMETERS>
-                  <par value="16" name="max_midi_parts"/>
-                  <par value="16" name="max_kit_items_per_instrument"/>
-                  <par value="4" name="max_system_effects"/>
-                  <par value="8" name="max_insertion_effects"/>
-                  <par value="3" name="max_instrument_effects"/>
-                  <par value="8" name="max_addsynth_voices"/>
+                  <par name="max_midi_parts" value="16"/>
+                  <par name="max_kit_items_per_instrument" value="16"/>
+                  <par name="max_system_effects" value="4"/>
+                  <par name="max_insertion_effects" value="8"/>
+                  <par name="max_instrument_effects" value="3"/>
+                  <par name="max_addsynth_voices" value="8"/>
                 </BASE_PARAMETERS>
                 <MASTER>
-                  <par value="80" name="volume"/>
-                  <par value="64" name="key_shift"/>
-                  <par_bool value="yes" name="nrpn_receive"/>
+                  <par name="volume" value="80"/>
+                  <par name="key_shift" value="64"/>
+                  <par_bool name="nrpn_receive" value="yes"/>
                   <MICROTONAL>
                     <string name="name">12tET</string>
                     <string name="comment">Equal Temperament 12 notes per octave</string>
-                    <par_bool value="no" name="invert_up_down"/>
-                    <par value="60" name="invert_up_down_center"/>
-                    <par_bool value="no" name="enabled"/>
-                    <par value="64" name="global_fine_detune"/>
-                    <par value="69" name="a_note"/>
-                    <par_real value="440" name="a_freq"/>
+                    <par_bool name="invert_up_down" value="no"/>
+                    <par name="invert_up_down_center" value="60"/>
+                    <par_bool name="enabled" value="no"/>
+                    <par name="global_fine_detune" value="64"/>
+                    <par name="a_note" value="69"/>
+                    <par_real name="a_freq" value="440"/>
                   </MICROTONAL>
                   <PART id="0">
-                    <par_bool value="yes" name="enabled"/>
-                    <par value="96" name="volume"/>
-                    <par value="64" name="panning"/>
-                    <par value="0" name="min_key"/>
-                    <par value="127" name="max_key"/>
-                    <par value="64" name="key_shift"/>
-                    <par value="0" name="rcv_chn"/>
-                    <par value="64" name="velocity_sensing"/>
-                    <par value="64" name="velocity_offset"/>
-                    <par_bool value="yes" name="note_on"/>
-                    <par_bool value="yes" name="poly_mode"/>
-                    <par value="0" name="legato_mode"/>
-                    <par value="15" name="key_limit"/>
+                    <par_bool name="enabled" value="yes"/>
+                    <par name="volume" value="96"/>
+                    <par name="panning" value="64"/>
+                    <par name="min_key" value="0"/>
+                    <par name="max_key" value="127"/>
+                    <par name="key_shift" value="64"/>
+                    <par name="rcv_chn" value="0"/>
+                    <par name="velocity_sensing" value="64"/>
+                    <par name="velocity_offset" value="64"/>
+                    <par_bool name="note_on" value="yes"/>
+                    <par_bool name="poly_mode" value="yes"/>
+                    <par name="legato_mode" value="0"/>
+                    <par name="key_limit" value="15"/>
                     <INSTRUMENT>
                       <INFO>
                         <string name="name">bell_pad</string>
                         <string name="author"/>
                         <string name="comments"/>
-                        <par value="0" name="type"/>
+                        <par name="type" value="0"/>
                       </INFO>
                       <INSTRUMENT_KIT>
-                        <par value="0" name="kit_mode"/>
-                        <par_bool value="no" name="drum_mode"/>
+                        <par name="kit_mode" value="0"/>
+                        <par_bool name="drum_mode" value="no"/>
                         <INSTRUMENT_KIT_ITEM id="0">
-                          <par_bool value="yes" name="enabled"/>
+                          <par_bool name="enabled" value="yes"/>
                           <string name="name"/>
-                          <par_bool value="no" name="muted"/>
-                          <par value="0" name="min_key"/>
-                          <par value="127" name="max_key"/>
-                          <par value="0" name="send_to_instrument_effect"/>
-                          <par_bool value="yes" name="add_enabled"/>
+                          <par_bool name="muted" value="no"/>
+                          <par name="min_key" value="0"/>
+                          <par name="max_key" value="127"/>
+                          <par name="send_to_instrument_effect" value="0"/>
+                          <par_bool name="add_enabled" value="yes"/>
                           <ADD_SYNTH_PARAMETERS>
-                            <par_bool value="yes" name="stereo"/>
+                            <par_bool name="stereo" value="yes"/>
                             <AMPLITUDE_PARAMETERS>
-                              <par value="90" name="volume"/>
-                              <par value="64" name="panning"/>
-                              <par value="64" name="velocity_sensing"/>
-                              <par value="0" name="punch_strength"/>
-                              <par value="60" name="punch_time"/>
-                              <par value="64" name="punch_stretch"/>
-                              <par value="72" name="punch_velocity_sensing"/>
-                              <par value="0" name="harmonic_randomness_grouping"/>
+                              <par name="volume" value="90"/>
+                              <par name="panning" value="64"/>
+                              <par name="velocity_sensing" value="64"/>
+                              <par name="punch_strength" value="0"/>
+                              <par name="punch_time" value="60"/>
+                              <par name="punch_stretch" value="64"/>
+                              <par name="punch_velocity_sensing" value="72"/>
+                              <par name="harmonic_randomness_grouping" value="0"/>
                               <AMPLITUDE_ENVELOPE>
-                                <par_bool value="no" name="free_mode"/>
-                                <par value="4" name="env_points"/>
-                                <par value="2" name="env_sustain"/>
-                                <par value="64" name="env_stretch"/>
-                                <par_bool value="yes" name="forced_release"/>
-                                <par_bool value="no" name="linear_envelope"/>
-                                <par value="0" name="A_dt"/>
-                                <par value="80" name="D_dt"/>
-                                <par value="87" name="R_dt"/>
-                                <par value="64" name="A_val"/>
-                                <par value="64" name="D_val"/>
-                                <par value="0" name="S_val"/>
-                                <par value="64" name="R_val"/>
+                                <par_bool name="free_mode" value="no"/>
+                                <par name="env_points" value="4"/>
+                                <par name="env_sustain" value="2"/>
+                                <par name="env_stretch" value="64"/>
+                                <par_bool name="forced_release" value="yes"/>
+                                <par_bool name="linear_envelope" value="no"/>
+                                <par name="A_dt" value="0"/>
+                                <par name="D_dt" value="80"/>
+                                <par name="R_dt" value="87"/>
+                                <par name="A_val" value="64"/>
+                                <par name="D_val" value="64"/>
+                                <par name="S_val" value="0"/>
+                                <par name="R_val" value="64"/>
                               </AMPLITUDE_ENVELOPE>
                               <AMPLITUDE_LFO>
-                                <par_real value="0.629921" name="freq"/>
-                                <par value="0" name="intensity"/>
-                                <par value="64" name="start_phase"/>
-                                <par value="0" name="lfo_type"/>
-                                <par value="0" name="randomness_amplitude"/>
-                                <par value="0" name="randomness_frequency"/>
-                                <par value="0" name="delay"/>
-                                <par value="64" name="stretch"/>
-                                <par_bool value="no" name="continous"/>
+                                <par_real name="freq" value="0.629921"/>
+                                <par name="intensity" value="0"/>
+                                <par name="start_phase" value="64"/>
+                                <par name="lfo_type" value="0"/>
+                                <par name="randomness_amplitude" value="0"/>
+                                <par name="randomness_frequency" value="0"/>
+                                <par name="delay" value="0"/>
+                                <par name="stretch" value="64"/>
+                                <par_bool name="continous" value="no"/>
                               </AMPLITUDE_LFO>
                             </AMPLITUDE_PARAMETERS>
                             <FREQUENCY_PARAMETERS>
-                              <par value="8192" name="detune"/>
-                              <par value="0" name="coarse_detune"/>
-                              <par value="1" name="detune_type"/>
-                              <par value="64" name="bandwidth"/>
+                              <par name="detune" value="8192"/>
+                              <par name="coarse_detune" value="0"/>
+                              <par name="detune_type" value="1"/>
+                              <par name="bandwidth" value="64"/>
                               <FREQUENCY_ENVELOPE>
-                                <par_bool value="no" name="free_mode"/>
-                                <par value="3" name="env_points"/>
-                                <par value="1" name="env_sustain"/>
-                                <par value="0" name="env_stretch"/>
-                                <par_bool value="no" name="forced_release"/>
-                                <par_bool value="no" name="linear_envelope"/>
-                                <par value="50" name="A_dt"/>
-                                <par value="10" name="D_dt"/>
-                                <par value="60" name="R_dt"/>
-                                <par value="64" name="A_val"/>
-                                <par value="64" name="D_val"/>
-                                <par value="64" name="S_val"/>
-                                <par value="64" name="R_val"/>
+                                <par_bool name="free_mode" value="no"/>
+                                <par name="env_points" value="3"/>
+                                <par name="env_sustain" value="1"/>
+                                <par name="env_stretch" value="0"/>
+                                <par_bool name="forced_release" value="no"/>
+                                <par_bool name="linear_envelope" value="no"/>
+                                <par name="A_dt" value="50"/>
+                                <par name="D_dt" value="10"/>
+                                <par name="R_dt" value="60"/>
+                                <par name="A_val" value="64"/>
+                                <par name="D_val" value="64"/>
+                                <par name="S_val" value="64"/>
+                                <par name="R_val" value="64"/>
                               </FREQUENCY_ENVELOPE>
                               <FREQUENCY_LFO>
-                                <par_real value="0.551181" name="freq"/>
-                                <par value="0" name="intensity"/>
-                                <par value="64" name="start_phase"/>
-                                <par value="0" name="lfo_type"/>
-                                <par value="0" name="randomness_amplitude"/>
-                                <par value="0" name="randomness_frequency"/>
-                                <par value="0" name="delay"/>
-                                <par value="64" name="stretch"/>
-                                <par_bool value="no" name="continous"/>
+                                <par_real name="freq" value="0.551181"/>
+                                <par name="intensity" value="0"/>
+                                <par name="start_phase" value="64"/>
+                                <par name="lfo_type" value="0"/>
+                                <par name="randomness_amplitude" value="0"/>
+                                <par name="randomness_frequency" value="0"/>
+                                <par name="delay" value="0"/>
+                                <par name="stretch" value="64"/>
+                                <par_bool name="continous" value="no"/>
                               </FREQUENCY_LFO>
                             </FREQUENCY_PARAMETERS>
                             <FILTER_PARAMETERS>
-                              <par value="64" name="velocity_sensing_amplitude"/>
-                              <par value="64" name="velocity_sensing"/>
+                              <par name="velocity_sensing_amplitude" value="64"/>
+                              <par name="velocity_sensing" value="64"/>
                               <FILTER>
-                                <par value="0" name="category"/>
-                                <par value="2" name="type"/>
-                                <par value="94" name="freq"/>
-                                <par value="40" name="q"/>
-                                <par value="0" name="stages"/>
-                                <par value="64" name="freq_track"/>
-                                <par value="64" name="gain"/>
+                                <par name="category" value="0"/>
+                                <par name="type" value="2"/>
+                                <par name="freq" value="94"/>
+                                <par name="q" value="40"/>
+                                <par name="stages" value="0"/>
+                                <par name="freq_track" value="64"/>
+                                <par name="gain" value="64"/>
                               </FILTER>
                               <FILTER_ENVELOPE>
-                                <par_bool value="no" name="free_mode"/>
-                                <par value="4" name="env_points"/>
-                                <par value="2" name="env_sustain"/>
-                                <par value="0" name="env_stretch"/>
-                                <par_bool value="yes" name="forced_release"/>
-                                <par_bool value="no" name="linear_envelope"/>
-                                <par value="40" name="A_dt"/>
-                                <par value="70" name="D_dt"/>
-                                <par value="61" name="R_dt"/>
-                                <par value="64" name="A_val"/>
-                                <par value="64" name="D_val"/>
-                                <par value="64" name="S_val"/>
-                                <par value="64" name="R_val"/>
+                                <par_bool name="free_mode" value="no"/>
+                                <par name="env_points" value="4"/>
+                                <par name="env_sustain" value="2"/>
+                                <par name="env_stretch" value="0"/>
+                                <par_bool name="forced_release" value="yes"/>
+                                <par_bool name="linear_envelope" value="no"/>
+                                <par name="A_dt" value="40"/>
+                                <par name="D_dt" value="70"/>
+                                <par name="R_dt" value="61"/>
+                                <par name="A_val" value="64"/>
+                                <par name="D_val" value="64"/>
+                                <par name="S_val" value="64"/>
+                                <par name="R_val" value="64"/>
                               </FILTER_ENVELOPE>
                               <FILTER_LFO>
-                                <par_real value="0.629921" name="freq"/>
-                                <par value="0" name="intensity"/>
-                                <par value="64" name="start_phase"/>
-                                <par value="0" name="lfo_type"/>
-                                <par value="0" name="randomness_amplitude"/>
-                                <par value="0" name="randomness_frequency"/>
-                                <par value="0" name="delay"/>
-                                <par value="64" name="stretch"/>
-                                <par_bool value="no" name="continous"/>
+                                <par_real name="freq" value="0.629921"/>
+                                <par name="intensity" value="0"/>
+                                <par name="start_phase" value="64"/>
+                                <par name="lfo_type" value="0"/>
+                                <par name="randomness_amplitude" value="0"/>
+                                <par name="randomness_frequency" value="0"/>
+                                <par name="delay" value="0"/>
+                                <par name="stretch" value="64"/>
+                                <par_bool name="continous" value="no"/>
                               </FILTER_LFO>
                             </FILTER_PARAMETERS>
                             <RESONANCE>
-                              <par_bool value="no" name="enabled"/>
+                              <par_bool name="enabled" value="no"/>
                             </RESONANCE>
                             <VOICE id="0">
-                              <par_bool value="yes" name="enabled"/>
-                              <par value="0" name="type"/>
-                              <par value="10" name="unison_size"/>
-                              <par value="60" name="unison_frequency_spread"/>
-                              <par value="64" name="unison_stereo_spread"/>
-                              <par value="64" name="unison_vibratto"/>
-                              <par value="64" name="unison_vibratto_speed"/>
-                              <par value="0" name="unison_invert_phase"/>
-                              <par value="127" name="unison_phase_randomness"/>
-                              <par value="0" name="delay"/>
-                              <par_bool value="yes" name="resonance"/>
-                              <par value="-1" name="ext_oscil"/>
-                              <par value="-1" name="ext_fm_oscil"/>
-                              <par value="64" name="oscil_phase"/>
-                              <par value="64" name="oscil_fm_phase"/>
-                              <par_bool value="no" name="filter_enabled"/>
-                              <par_bool value="no" name="filter_bypass"/>
-                              <par value="0" name="fm_enabled"/>
+                              <par_bool name="enabled" value="yes"/>
+                              <par name="type" value="0"/>
+                              <par name="unison_size" value="10"/>
+                              <par name="unison_frequency_spread" value="60"/>
+                              <par name="unison_stereo_spread" value="64"/>
+                              <par name="unison_vibratto" value="64"/>
+                              <par name="unison_vibratto_speed" value="64"/>
+                              <par name="unison_invert_phase" value="0"/>
+                              <par name="unison_phase_randomness" value="127"/>
+                              <par name="delay" value="0"/>
+                              <par_bool name="resonance" value="yes"/>
+                              <par name="ext_oscil" value="-1"/>
+                              <par name="ext_fm_oscil" value="-1"/>
+                              <par name="oscil_phase" value="64"/>
+                              <par name="oscil_fm_phase" value="64"/>
+                              <par_bool name="filter_enabled" value="no"/>
+                              <par_bool name="filter_bypass" value="no"/>
+                              <par name="fm_enabled" value="0"/>
                               <OSCIL>
-                                <par value="0" name="harmonic_mag_type"/>
-                                <par value="0" name="base_function"/>
-                                <par value="64" name="base_function_par"/>
-                                <par value="0" name="base_function_modulation"/>
-                                <par value="64" name="base_function_modulation_par1"/>
-                                <par value="64" name="base_function_modulation_par2"/>
-                                <par value="32" name="base_function_modulation_par3"/>
-                                <par value="0" name="modulation"/>
-                                <par value="64" name="modulation_par1"/>
-                                <par value="64" name="modulation_par2"/>
-                                <par value="32" name="modulation_par3"/>
-                                <par value="64" name="wave_shaping"/>
-                                <par value="0" name="wave_shaping_function"/>
-                                <par value="0" name="filter_type"/>
-                                <par value="64" name="filter_par1"/>
-                                <par value="64" name="filter_par2"/>
-                                <par value="0" name="filter_before_wave_shaping"/>
-                                <par value="0" name="spectrum_adjust_type"/>
-                                <par value="64" name="spectrum_adjust_par"/>
-                                <par value="64" name="rand"/>
-                                <par value="0" name="amp_rand_type"/>
-                                <par value="64" name="amp_rand_power"/>
-                                <par value="0" name="harmonic_shift"/>
-                                <par_bool value="no" name="harmonic_shift_first"/>
-                                <par value="0" name="adaptive_harmonics"/>
-                                <par value="128" name="adaptive_harmonics_base_frequency"/>
-                                <par value="100" name="adaptive_harmonics_power"/>
+                                <par name="harmonic_mag_type" value="0"/>
+                                <par name="base_function" value="0"/>
+                                <par name="base_function_par" value="64"/>
+                                <par name="base_function_modulation" value="0"/>
+                                <par name="base_function_modulation_par1" value="64"/>
+                                <par name="base_function_modulation_par2" value="64"/>
+                                <par name="base_function_modulation_par3" value="32"/>
+                                <par name="modulation" value="0"/>
+                                <par name="modulation_par1" value="64"/>
+                                <par name="modulation_par2" value="64"/>
+                                <par name="modulation_par3" value="32"/>
+                                <par name="wave_shaping" value="64"/>
+                                <par name="wave_shaping_function" value="0"/>
+                                <par name="filter_type" value="0"/>
+                                <par name="filter_par1" value="64"/>
+                                <par name="filter_par2" value="64"/>
+                                <par name="filter_before_wave_shaping" value="0"/>
+                                <par name="spectrum_adjust_type" value="0"/>
+                                <par name="spectrum_adjust_par" value="64"/>
+                                <par name="rand" value="64"/>
+                                <par name="amp_rand_type" value="0"/>
+                                <par name="amp_rand_power" value="64"/>
+                                <par name="harmonic_shift" value="0"/>
+                                <par_bool name="harmonic_shift_first" value="no"/>
+                                <par name="adaptive_harmonics" value="0"/>
+                                <par name="adaptive_harmonics_base_frequency" value="128"/>
+                                <par name="adaptive_harmonics_power" value="100"/>
                                 <HARMONICS>
                                   <HARMONIC id="1">
-                                    <par value="127" name="mag"/>
-                                    <par value="64" name="phase"/>
+                                    <par name="mag" value="127"/>
+                                    <par name="phase" value="64"/>
                                   </HARMONIC>
                                   <HARMONIC id="2">
-                                    <par value="127" name="mag"/>
-                                    <par value="64" name="phase"/>
+                                    <par name="mag" value="127"/>
+                                    <par name="phase" value="64"/>
                                   </HARMONIC>
                                   <HARMONIC id="3">
-                                    <par value="127" name="mag"/>
-                                    <par value="64" name="phase"/>
+                                    <par name="mag" value="127"/>
+                                    <par name="phase" value="64"/>
                                   </HARMONIC>
                                   <HARMONIC id="9">
-                                    <par value="97" name="mag"/>
-                                    <par value="64" name="phase"/>
+                                    <par name="mag" value="97"/>
+                                    <par name="phase" value="64"/>
                                   </HARMONIC>
                                   <HARMONIC id="15">
-                                    <par value="88" name="mag"/>
-                                    <par value="64" name="phase"/>
+                                    <par name="mag" value="88"/>
+                                    <par name="phase" value="64"/>
                                   </HARMONIC>
                                 </HARMONICS>
                               </OSCIL>
                               <AMPLITUDE_PARAMETERS>
-                                <par value="64" name="panning"/>
-                                <par value="100" name="volume"/>
-                                <par_bool value="no" name="volume_minus"/>
-                                <par value="127" name="velocity_sensing"/>
-                                <par_bool value="no" name="amp_envelope_enabled"/>
-                                <par_bool value="no" name="amp_lfo_enabled"/>
+                                <par name="panning" value="64"/>
+                                <par name="volume" value="100"/>
+                                <par_bool name="volume_minus" value="no"/>
+                                <par name="velocity_sensing" value="127"/>
+                                <par_bool name="amp_envelope_enabled" value="no"/>
+                                <par_bool name="amp_lfo_enabled" value="no"/>
                               </AMPLITUDE_PARAMETERS>
                               <FREQUENCY_PARAMETERS>
-                                <par_bool value="no" name="fixed_freq"/>
-                                <par value="0" name="fixed_freq_et"/>
-                                <par value="8192" name="detune"/>
-                                <par value="0" name="coarse_detune"/>
-                                <par value="0" name="detune_type"/>
-                                <par_bool value="no" name="freq_envelope_enabled"/>
-                                <par_bool value="no" name="freq_lfo_enabled"/>
+                                <par_bool name="fixed_freq" value="no"/>
+                                <par name="fixed_freq_et" value="0"/>
+                                <par name="detune" value="8192"/>
+                                <par name="coarse_detune" value="0"/>
+                                <par name="detune_type" value="0"/>
+                                <par_bool name="freq_envelope_enabled" value="no"/>
+                                <par_bool name="freq_lfo_enabled" value="no"/>
                               </FREQUENCY_PARAMETERS>
                             </VOICE>
                             <VOICE id="1">
-                              <par_bool value="no" name="enabled"/>
+                              <par_bool name="enabled" value="no"/>
                             </VOICE>
                             <VOICE id="2">
-                              <par_bool value="no" name="enabled"/>
+                              <par_bool name="enabled" value="no"/>
                             </VOICE>
                             <VOICE id="3">
-                              <par_bool value="no" name="enabled"/>
+                              <par_bool name="enabled" value="no"/>
                             </VOICE>
                             <VOICE id="4">
-                              <par_bool value="no" name="enabled"/>
+                              <par_bool name="enabled" value="no"/>
                             </VOICE>
                             <VOICE id="5">
-                              <par_bool value="no" name="enabled"/>
+                              <par_bool name="enabled" value="no"/>
                             </VOICE>
                             <VOICE id="6">
-                              <par_bool value="no" name="enabled"/>
+                              <par_bool name="enabled" value="no"/>
                             </VOICE>
                             <VOICE id="7">
-                              <par_bool value="no" name="enabled"/>
+                              <par_bool name="enabled" value="no"/>
                             </VOICE>
                           </ADD_SYNTH_PARAMETERS>
-                          <par_bool value="no" name="sub_enabled"/>
-                          <par_bool value="no" name="pad_enabled"/>
+                          <par_bool name="sub_enabled" value="no"/>
+                          <par_bool name="pad_enabled" value="no"/>
                         </INSTRUMENT_KIT_ITEM>
                         <INSTRUMENT_KIT_ITEM id="1">
-                          <par_bool value="no" name="enabled"/>
+                          <par_bool name="enabled" value="no"/>
                         </INSTRUMENT_KIT_ITEM>
                         <INSTRUMENT_KIT_ITEM id="2">
-                          <par_bool value="no" name="enabled"/>
+                          <par_bool name="enabled" value="no"/>
                         </INSTRUMENT_KIT_ITEM>
                         <INSTRUMENT_KIT_ITEM id="3">
-                          <par_bool value="no" name="enabled"/>
+                          <par_bool name="enabled" value="no"/>
                         </INSTRUMENT_KIT_ITEM>
                         <INSTRUMENT_KIT_ITEM id="4">
-                          <par_bool value="no" name="enabled"/>
+                          <par_bool name="enabled" value="no"/>
                         </INSTRUMENT_KIT_ITEM>
                         <INSTRUMENT_KIT_ITEM id="5">
-                          <par_bool value="no" name="enabled"/>
+                          <par_bool name="enabled" value="no"/>
                         </INSTRUMENT_KIT_ITEM>
                         <INSTRUMENT_KIT_ITEM id="6">
-                          <par_bool value="no" name="enabled"/>
+                          <par_bool name="enabled" value="no"/>
                         </INSTRUMENT_KIT_ITEM>
                         <INSTRUMENT_KIT_ITEM id="7">
-                          <par_bool value="no" name="enabled"/>
+                          <par_bool name="enabled" value="no"/>
                         </INSTRUMENT_KIT_ITEM>
                         <INSTRUMENT_KIT_ITEM id="8">
-                          <par_bool value="no" name="enabled"/>
+                          <par_bool name="enabled" value="no"/>
                         </INSTRUMENT_KIT_ITEM>
                         <INSTRUMENT_KIT_ITEM id="9">
-                          <par_bool value="no" name="enabled"/>
+                          <par_bool name="enabled" value="no"/>
                         </INSTRUMENT_KIT_ITEM>
                         <INSTRUMENT_KIT_ITEM id="10">
-                          <par_bool value="no" name="enabled"/>
+                          <par_bool name="enabled" value="no"/>
                         </INSTRUMENT_KIT_ITEM>
                         <INSTRUMENT_KIT_ITEM id="11">
-                          <par_bool value="no" name="enabled"/>
+                          <par_bool name="enabled" value="no"/>
                         </INSTRUMENT_KIT_ITEM>
                         <INSTRUMENT_KIT_ITEM id="12">
-                          <par_bool value="no" name="enabled"/>
+                          <par_bool name="enabled" value="no"/>
                         </INSTRUMENT_KIT_ITEM>
                         <INSTRUMENT_KIT_ITEM id="13">
-                          <par_bool value="no" name="enabled"/>
+                          <par_bool name="enabled" value="no"/>
                         </INSTRUMENT_KIT_ITEM>
                         <INSTRUMENT_KIT_ITEM id="14">
-                          <par_bool value="no" name="enabled"/>
+                          <par_bool name="enabled" value="no"/>
                         </INSTRUMENT_KIT_ITEM>
                         <INSTRUMENT_KIT_ITEM id="15">
-                          <par_bool value="no" name="enabled"/>
+                          <par_bool name="enabled" value="no"/>
                         </INSTRUMENT_KIT_ITEM>
                       </INSTRUMENT_KIT>
                       <INSTRUMENT_EFFECTS>
                         <INSTRUMENT_EFFECT id="0">
                           <EFFECT>
-                            <par value="1" name="type"/>
-                            <par value="0" name="preset"/>
+                            <par name="type" value="1"/>
+                            <par name="preset" value="0"/>
                             <EFFECT_PARAMETERS>
                               <par_no id="0">
-                                <par value="40" name="par"/>
+                                <par name="par" value="40"/>
                               </par_no>
                               <par_no id="1">
-                                <par value="64" name="par"/>
+                                <par name="par" value="64"/>
                               </par_no>
                               <par_no id="2">
-                                <par value="63" name="par"/>
+                                <par name="par" value="63"/>
                               </par_no>
                               <par_no id="3">
-                                <par value="24" name="par"/>
+                                <par name="par" value="24"/>
                               </par_no>
                               <par_no id="7">
-                                <par value="85" name="par"/>
+                                <par name="par" value="85"/>
                               </par_no>
                               <par_no id="8">
-                                <par value="5" name="par"/>
+                                <par name="par" value="5"/>
                               </par_no>
                               <par_no id="9">
-                                <par value="83" name="par"/>
+                                <par name="par" value="83"/>
                               </par_no>
                               <par_no id="10">
-                                <par value="1" name="par"/>
+                                <par name="par" value="1"/>
                               </par_no>
                               <par_no id="11">
-                                <par value="64" name="par"/>
+                                <par name="par" value="64"/>
                               </par_no>
                               <par_no id="12">
-                                <par value="20" name="par"/>
+                                <par name="par" value="20"/>
                               </par_no>
                             </EFFECT_PARAMETERS>
                           </EFFECT>
-                          <par value="0" name="route"/>
-                          <par_bool value="no" name="bypass"/>
+                          <par name="route" value="0"/>
+                          <par_bool name="bypass" value="no"/>
                         </INSTRUMENT_EFFECT>
                         <INSTRUMENT_EFFECT id="1">
                           <EFFECT>
-                            <par value="0" name="type"/>
+                            <par name="type" value="0"/>
                           </EFFECT>
-                          <par value="0" name="route"/>
-                          <par_bool value="no" name="bypass"/>
+                          <par name="route" value="0"/>
+                          <par_bool name="bypass" value="no"/>
                         </INSTRUMENT_EFFECT>
                         <INSTRUMENT_EFFECT id="2">
                           <EFFECT>
-                            <par value="0" name="type"/>
+                            <par name="type" value="0"/>
                           </EFFECT>
-                          <par value="0" name="route"/>
-                          <par_bool value="no" name="bypass"/>
+                          <par name="route" value="0"/>
+                          <par_bool name="bypass" value="no"/>
                         </INSTRUMENT_EFFECT>
                       </INSTRUMENT_EFFECTS>
                     </INSTRUMENT>
                     <CONTROLLER>
-                      <par value="100" name="pitchwheel_bendrange"/>
-                      <par_bool value="yes" name="expression_receive"/>
-                      <par value="64" name="panning_depth"/>
-                      <par value="64" name="filter_cutoff_depth"/>
-                      <par value="64" name="filter_q_depth"/>
-                      <par value="64" name="bandwidth_depth"/>
-                      <par value="80" name="mod_wheel_depth"/>
-                      <par_bool value="no" name="mod_wheel_exponential"/>
-                      <par_bool value="yes" name="fm_amp_receive"/>
-                      <par_bool value="yes" name="volume_receive"/>
-                      <par_bool value="yes" name="sustain_receive"/>
-                      <par_bool value="yes" name="portamento_receive"/>
-                      <par value="64" name="portamento_time"/>
-                      <par value="3" name="portamento_pitchthresh"/>
-                      <par value="1" name="portamento_pitchthreshtype"/>
-                      <par value="0" name="portamento_portamento"/>
-                      <par value="64" name="portamento_updowntimestretch"/>
-                      <par value="0" name="portamento_proportional"/>
-                      <par value="80" name="portamento_proprate"/>
-                      <par value="90" name="portamento_propdepth"/>
-                      <par value="64" name="resonance_center_depth"/>
-                      <par value="64" name="resonance_bandwidth_depth"/>
+                      <par name="pitchwheel_bendrange" value="100"/>
+                      <par_bool name="expression_receive" value="yes"/>
+                      <par name="panning_depth" value="64"/>
+                      <par name="filter_cutoff_depth" value="64"/>
+                      <par name="filter_q_depth" value="64"/>
+                      <par name="bandwidth_depth" value="64"/>
+                      <par name="mod_wheel_depth" value="80"/>
+                      <par_bool name="mod_wheel_exponential" value="no"/>
+                      <par_bool name="fm_amp_receive" value="yes"/>
+                      <par_bool name="volume_receive" value="yes"/>
+                      <par_bool name="sustain_receive" value="yes"/>
+                      <par_bool name="portamento_receive" value="yes"/>
+                      <par name="portamento_time" value="64"/>
+                      <par name="portamento_pitchthresh" value="3"/>
+                      <par name="portamento_pitchthreshtype" value="1"/>
+                      <par name="portamento_portamento" value="0"/>
+                      <par name="portamento_updowntimestretch" value="64"/>
+                      <par name="portamento_proportional" value="0"/>
+                      <par name="portamento_proprate" value="80"/>
+                      <par name="portamento_propdepth" value="90"/>
+                      <par name="resonance_center_depth" value="64"/>
+                      <par name="resonance_bandwidth_depth" value="64"/>
                     </CONTROLLER>
                   </PART>
                   <PART id="1">
-                    <par_bool value="no" name="enabled"/>
+                    <par_bool name="enabled" value="no"/>
                   </PART>
                   <PART id="2">
-                    <par_bool value="no" name="enabled"/>
+                    <par_bool name="enabled" value="no"/>
                   </PART>
                   <PART id="3">
-                    <par_bool value="no" name="enabled"/>
+                    <par_bool name="enabled" value="no"/>
                   </PART>
                   <PART id="4">
-                    <par_bool value="no" name="enabled"/>
+                    <par_bool name="enabled" value="no"/>
                   </PART>
                   <PART id="5">
-                    <par_bool value="no" name="enabled"/>
+                    <par_bool name="enabled" value="no"/>
                   </PART>
                   <PART id="6">
-                    <par_bool value="no" name="enabled"/>
+                    <par_bool name="enabled" value="no"/>
                   </PART>
                   <PART id="7">
-                    <par_bool value="no" name="enabled"/>
+                    <par_bool name="enabled" value="no"/>
                   </PART>
                   <PART id="8">
-                    <par_bool value="no" name="enabled"/>
+                    <par_bool name="enabled" value="no"/>
                   </PART>
                   <PART id="9">
-                    <par_bool value="no" name="enabled"/>
+                    <par_bool name="enabled" value="no"/>
                   </PART>
                   <PART id="10">
-                    <par_bool value="no" name="enabled"/>
+                    <par_bool name="enabled" value="no"/>
                   </PART>
                   <PART id="11">
-                    <par_bool value="no" name="enabled"/>
+                    <par_bool name="enabled" value="no"/>
                   </PART>
                   <PART id="12">
-                    <par_bool value="no" name="enabled"/>
+                    <par_bool name="enabled" value="no"/>
                   </PART>
                   <PART id="13">
-                    <par_bool value="no" name="enabled"/>
+                    <par_bool name="enabled" value="no"/>
                   </PART>
                   <PART id="14">
-                    <par_bool value="no" name="enabled"/>
+                    <par_bool name="enabled" value="no"/>
                   </PART>
                   <PART id="15">
-                    <par_bool value="no" name="enabled"/>
+                    <par_bool name="enabled" value="no"/>
                   </PART>
                   <SYSTEM_EFFECTS>
                     <SYSTEM_EFFECT id="0">
                       <EFFECT>
-                        <par value="0" name="type"/>
+                        <par name="type" value="0"/>
                       </EFFECT>
                       <VOLUME id="0">
-                        <par value="0" name="vol"/>
+                        <par name="vol" value="0"/>
                       </VOLUME>
                       <VOLUME id="1">
-                        <par value="0" name="vol"/>
+                        <par name="vol" value="0"/>
                       </VOLUME>
                       <VOLUME id="2">
-                        <par value="0" name="vol"/>
+                        <par name="vol" value="0"/>
                       </VOLUME>
                       <VOLUME id="3">
-                        <par value="0" name="vol"/>
+                        <par name="vol" value="0"/>
                       </VOLUME>
                       <VOLUME id="4">
-                        <par value="0" name="vol"/>
+                        <par name="vol" value="0"/>
                       </VOLUME>
                       <VOLUME id="5">
-                        <par value="0" name="vol"/>
+                        <par name="vol" value="0"/>
                       </VOLUME>
                       <VOLUME id="6">
-                        <par value="0" name="vol"/>
+                        <par name="vol" value="0"/>
                       </VOLUME>
                       <VOLUME id="7">
-                        <par value="0" name="vol"/>
+                        <par name="vol" value="0"/>
                       </VOLUME>
                       <VOLUME id="8">
-                        <par value="0" name="vol"/>
+                        <par name="vol" value="0"/>
                       </VOLUME>
                       <VOLUME id="9">
-                        <par value="0" name="vol"/>
+                        <par name="vol" value="0"/>
                       </VOLUME>
                       <VOLUME id="10">
-                        <par value="0" name="vol"/>
+                        <par name="vol" value="0"/>
                       </VOLUME>
                       <VOLUME id="11">
-                        <par value="0" name="vol"/>
+                        <par name="vol" value="0"/>
                       </VOLUME>
                       <VOLUME id="12">
-                        <par value="0" name="vol"/>
+                        <par name="vol" value="0"/>
                       </VOLUME>
                       <VOLUME id="13">
-                        <par value="0" name="vol"/>
+                        <par name="vol" value="0"/>
                       </VOLUME>
                       <VOLUME id="14">
-                        <par value="0" name="vol"/>
+                        <par name="vol" value="0"/>
                       </VOLUME>
                       <VOLUME id="15">
-                        <par value="0" name="vol"/>
+                        <par name="vol" value="0"/>
                       </VOLUME>
                       <SENDTO id="1">
-                        <par value="0" name="send_vol"/>
+                        <par name="send_vol" value="0"/>
                       </SENDTO>
                       <SENDTO id="2">
-                        <par value="0" name="send_vol"/>
+                        <par name="send_vol" value="0"/>
                       </SENDTO>
                       <SENDTO id="3">
-                        <par value="0" name="send_vol"/>
+                        <par name="send_vol" value="0"/>
                       </SENDTO>
                     </SYSTEM_EFFECT>
                     <SYSTEM_EFFECT id="1">
                       <EFFECT>
-                        <par value="0" name="type"/>
+                        <par name="type" value="0"/>
                       </EFFECT>
                       <VOLUME id="0">
-                        <par value="0" name="vol"/>
+                        <par name="vol" value="0"/>
                       </VOLUME>
                       <VOLUME id="1">
-                        <par value="0" name="vol"/>
+                        <par name="vol" value="0"/>
                       </VOLUME>
                       <VOLUME id="2">
-                        <par value="0" name="vol"/>
+                        <par name="vol" value="0"/>
                       </VOLUME>
                       <VOLUME id="3">
-                        <par value="0" name="vol"/>
+                        <par name="vol" value="0"/>
                       </VOLUME>
                       <VOLUME id="4">
-                        <par value="0" name="vol"/>
+                        <par name="vol" value="0"/>
                       </VOLUME>
                       <VOLUME id="5">
-                        <par value="0" name="vol"/>
+                        <par name="vol" value="0"/>
                       </VOLUME>
                       <VOLUME id="6">
-                        <par value="0" name="vol"/>
+                        <par name="vol" value="0"/>
                       </VOLUME>
                       <VOLUME id="7">
-                        <par value="0" name="vol"/>
+                        <par name="vol" value="0"/>
                       </VOLUME>
                       <VOLUME id="8">
-                        <par value="0" name="vol"/>
+                        <par name="vol" value="0"/>
                       </VOLUME>
                       <VOLUME id="9">
-                        <par value="0" name="vol"/>
+                        <par name="vol" value="0"/>
                       </VOLUME>
                       <VOLUME id="10">
-                        <par value="0" name="vol"/>
+                        <par name="vol" value="0"/>
                       </VOLUME>
                       <VOLUME id="11">
-                        <par value="0" name="vol"/>
+                        <par name="vol" value="0"/>
                       </VOLUME>
                       <VOLUME id="12">
-                        <par value="0" name="vol"/>
+                        <par name="vol" value="0"/>
                       </VOLUME>
                       <VOLUME id="13">
-                        <par value="0" name="vol"/>
+                        <par name="vol" value="0"/>
                       </VOLUME>
                       <VOLUME id="14">
-                        <par value="0" name="vol"/>
+                        <par name="vol" value="0"/>
                       </VOLUME>
                       <VOLUME id="15">
-                        <par value="0" name="vol"/>
+                        <par name="vol" value="0"/>
                       </VOLUME>
                       <SENDTO id="2">
-                        <par value="0" name="send_vol"/>
+                        <par name="send_vol" value="0"/>
                       </SENDTO>
                       <SENDTO id="3">
-                        <par value="0" name="send_vol"/>
+                        <par name="send_vol" value="0"/>
                       </SENDTO>
                     </SYSTEM_EFFECT>
                     <SYSTEM_EFFECT id="2">
                       <EFFECT>
-                        <par value="0" name="type"/>
+                        <par name="type" value="0"/>
                       </EFFECT>
                       <VOLUME id="0">
-                        <par value="0" name="vol"/>
+                        <par name="vol" value="0"/>
                       </VOLUME>
                       <VOLUME id="1">
-                        <par value="0" name="vol"/>
+                        <par name="vol" value="0"/>
                       </VOLUME>
                       <VOLUME id="2">
-                        <par value="0" name="vol"/>
+                        <par name="vol" value="0"/>
                       </VOLUME>
                       <VOLUME id="3">
-                        <par value="0" name="vol"/>
+                        <par name="vol" value="0"/>
                       </VOLUME>
                       <VOLUME id="4">
-                        <par value="0" name="vol"/>
+                        <par name="vol" value="0"/>
                       </VOLUME>
                       <VOLUME id="5">
-                        <par value="0" name="vol"/>
+                        <par name="vol" value="0"/>
                       </VOLUME>
                       <VOLUME id="6">
-                        <par value="0" name="vol"/>
+                        <par name="vol" value="0"/>
                       </VOLUME>
                       <VOLUME id="7">
-                        <par value="0" name="vol"/>
+                        <par name="vol" value="0"/>
                       </VOLUME>
                       <VOLUME id="8">
-                        <par value="0" name="vol"/>
+                        <par name="vol" value="0"/>
                       </VOLUME>
                       <VOLUME id="9">
-                        <par value="0" name="vol"/>
+                        <par name="vol" value="0"/>
                       </VOLUME>
                       <VOLUME id="10">
-                        <par value="0" name="vol"/>
+                        <par name="vol" value="0"/>
                       </VOLUME>
                       <VOLUME id="11">
-                        <par value="0" name="vol"/>
+                        <par name="vol" value="0"/>
                       </VOLUME>
                       <VOLUME id="12">
-                        <par value="0" name="vol"/>
+                        <par name="vol" value="0"/>
                       </VOLUME>
                       <VOLUME id="13">
-                        <par value="0" name="vol"/>
+                        <par name="vol" value="0"/>
                       </VOLUME>
                       <VOLUME id="14">
-                        <par value="0" name="vol"/>
+                        <par name="vol" value="0"/>
                       </VOLUME>
                       <VOLUME id="15">
-                        <par value="0" name="vol"/>
+                        <par name="vol" value="0"/>
                       </VOLUME>
                       <SENDTO id="3">
-                        <par value="0" name="send_vol"/>
+                        <par name="send_vol" value="0"/>
                       </SENDTO>
                     </SYSTEM_EFFECT>
                     <SYSTEM_EFFECT id="3">
                       <EFFECT>
-                        <par value="0" name="type"/>
+                        <par name="type" value="0"/>
                       </EFFECT>
                       <VOLUME id="0">
-                        <par value="0" name="vol"/>
+                        <par name="vol" value="0"/>
                       </VOLUME>
                       <VOLUME id="1">
-                        <par value="0" name="vol"/>
+                        <par name="vol" value="0"/>
                       </VOLUME>
                       <VOLUME id="2">
-                        <par value="0" name="vol"/>
+                        <par name="vol" value="0"/>
                       </VOLUME>
                       <VOLUME id="3">
-                        <par value="0" name="vol"/>
+                        <par name="vol" value="0"/>
                       </VOLUME>
                       <VOLUME id="4">
-                        <par value="0" name="vol"/>
+                        <par name="vol" value="0"/>
                       </VOLUME>
                       <VOLUME id="5">
-                        <par value="0" name="vol"/>
+                        <par name="vol" value="0"/>
                       </VOLUME>
                       <VOLUME id="6">
-                        <par value="0" name="vol"/>
+                        <par name="vol" value="0"/>
                       </VOLUME>
                       <VOLUME id="7">
-                        <par value="0" name="vol"/>
+                        <par name="vol" value="0"/>
                       </VOLUME>
                       <VOLUME id="8">
-                        <par value="0" name="vol"/>
+                        <par name="vol" value="0"/>
                       </VOLUME>
                       <VOLUME id="9">
-                        <par value="0" name="vol"/>
+                        <par name="vol" value="0"/>
                       </VOLUME>
                       <VOLUME id="10">
-                        <par value="0" name="vol"/>
+                        <par name="vol" value="0"/>
                       </VOLUME>
                       <VOLUME id="11">
-                        <par value="0" name="vol"/>
+                        <par name="vol" value="0"/>
                       </VOLUME>
                       <VOLUME id="12">
-                        <par value="0" name="vol"/>
+                        <par name="vol" value="0"/>
                       </VOLUME>
                       <VOLUME id="13">
-                        <par value="0" name="vol"/>
+                        <par name="vol" value="0"/>
                       </VOLUME>
                       <VOLUME id="14">
-                        <par value="0" name="vol"/>
+                        <par name="vol" value="0"/>
                       </VOLUME>
                       <VOLUME id="15">
-                        <par value="0" name="vol"/>
+                        <par name="vol" value="0"/>
                       </VOLUME>
                     </SYSTEM_EFFECT>
                   </SYSTEM_EFFECTS>
                   <INSERTION_EFFECTS>
                     <INSERTION_EFFECT id="0">
-                      <par value="-1" name="part"/>
+                      <par name="part" value="-1"/>
                       <EFFECT>
-                        <par value="0" name="type"/>
+                        <par name="type" value="0"/>
                       </EFFECT>
                     </INSERTION_EFFECT>
                     <INSERTION_EFFECT id="1">
-                      <par value="-1" name="part"/>
+                      <par name="part" value="-1"/>
                       <EFFECT>
-                        <par value="0" name="type"/>
+                        <par name="type" value="0"/>
                       </EFFECT>
                     </INSERTION_EFFECT>
                     <INSERTION_EFFECT id="2">
-                      <par value="-1" name="part"/>
+                      <par name="part" value="-1"/>
                       <EFFECT>
-                        <par value="0" name="type"/>
+                        <par name="type" value="0"/>
                       </EFFECT>
                     </INSERTION_EFFECT>
                     <INSERTION_EFFECT id="3">
-                      <par value="-1" name="part"/>
+                      <par name="part" value="-1"/>
                       <EFFECT>
-                        <par value="0" name="type"/>
+                        <par name="type" value="0"/>
                       </EFFECT>
                     </INSERTION_EFFECT>
                     <INSERTION_EFFECT id="4">
-                      <par value="-1" name="part"/>
+                      <par name="part" value="-1"/>
                       <EFFECT>
-                        <par value="0" name="type"/>
+                        <par name="type" value="0"/>
                       </EFFECT>
                     </INSERTION_EFFECT>
                     <INSERTION_EFFECT id="5">
-                      <par value="-1" name="part"/>
+                      <par name="part" value="-1"/>
                       <EFFECT>
-                        <par value="0" name="type"/>
+                        <par name="type" value="0"/>
                       </EFFECT>
                     </INSERTION_EFFECT>
                     <INSERTION_EFFECT id="6">
-                      <par value="-1" name="part"/>
+                      <par name="part" value="-1"/>
                       <EFFECT>
-                        <par value="0" name="type"/>
+                        <par name="type" value="0"/>
                       </EFFECT>
                     </INSERTION_EFFECT>
                     <INSERTION_EFFECT id="7">
-                      <par value="-1" name="part"/>
+                      <par name="part" value="-1"/>
                       <EFFECT>
-                        <par value="0" name="type"/>
+                        <par name="type" value="0"/>
                       </EFFECT>
                     </INSERTION_EFFECT>
                   </INSERTION_EFFECTS>
@@ -748,153 +748,153 @@
               </ZynAddSubFX-data>
             </zynaddsubfx>
           </instrument>
-          <eldata fres="0.5" ftype="0" fcut="14000" fwet="0">
-            <elvol lspd_denominator="4" sustain="0.5" pdel="0" userwavefile="" dec="0.5" lamt="0" latt="0" rel="0.1" amt="0" x100="0" att="0" lpdel="0" hold="0.5" lspd_syncmode="0" lshp="0" lspd="0.1" ctlenvamt="0" lspd_numerator="4"/>
-            <elcut lspd_denominator="4" sustain="0.5" pdel="0" userwavefile="" dec="0.5" lamt="0" latt="0" rel="0.1" amt="0" x100="0" att="0" lpdel="0" hold="0.5" lspd_syncmode="0" lshp="0" lspd="0.1" ctlenvamt="0" lspd_numerator="4"/>
-            <elres lspd_denominator="4" sustain="0.5" pdel="0" userwavefile="" dec="0.5" lamt="0" latt="0" rel="0.1" amt="0" x100="0" att="0" lpdel="0" hold="0.5" lspd_syncmode="0" lshp="0" lspd="0.1" ctlenvamt="0" lspd_numerator="4"/>
+          <eldata fcut="14000" fwet="0" ftype="0" fres="0.5">
+            <elvol latt="0" lamt="0" lspd_numerator="4" rel="0.1" lshp="0" dec="0.5" lspd_denominator="4" lpdel="0" x100="0" ctlenvamt="0" att="0" lspd_syncmode="0" userwavefile="" amt="0" lspd="0.1" pdel="0" hold="0.5" sustain="0.5"/>
+            <elcut latt="0" lamt="0" lspd_numerator="4" rel="0.1" lshp="0" dec="0.5" lspd_denominator="4" lpdel="0" x100="0" ctlenvamt="0" att="0" lspd_syncmode="0" userwavefile="" amt="0" lspd="0.1" pdel="0" hold="0.5" sustain="0.5"/>
+            <elres latt="0" lamt="0" lspd_numerator="4" rel="0.1" lshp="0" dec="0.5" lspd_denominator="4" lpdel="0" x100="0" ctlenvamt="0" att="0" lspd_syncmode="0" userwavefile="" amt="0" lspd="0.1" pdel="0" hold="0.5" sustain="0.5"/>
           </eldata>
-          <chordcreator chord="0" chordrange="1" chord-enabled="0"/>
-          <arpeggiator arptime="200" arprange="1" arpskip="0" arptime_denominator="4" arptime_syncmode="0" arpmode="0" arpcycle="0" arp-enabled="0" arp="0" arptime_numerator="4" arpdir="0" arpmiss="0" arpgate="100"/>
-          <midiport inputcontroller="0" inports="" fixedoutputvelocity="-1" inputchannel="0" outputcontroller="0" writable="0" outputchannel="1" fixedinputvelocity="-1" fixedoutputnote="-1" outputprogram="1" basevelocity="63" readable="1"/>
-          <fxchain numofeffects="0" enabled="0"/>
+          <chordcreator chord="0" chord-enabled="0" chordrange="1"/>
+          <arpeggiator arp-enabled="0" arpcycle="0" arptime_denominator="4" arpmiss="0" arptime_syncmode="0" arpmode="0" arprange="1" arp="0" arpskip="0" arptime="200" arpdir="0" arpgate="100" arptime_numerator="4"/>
+          <midiport fixedinputvelocity="-1" readable="1" writable="0" inputchannel="0" outputchannel="1" fixedoutputvelocity="-1" fixedoutputnote="-1" outputprogram="1" outputcontroller="0" inputcontroller="0" basevelocity="63" inports=""/>
+          <fxchain enabled="0" numofeffects="0"/>
         </instrumenttrack>
-        <pattern steps="24" muted="0" type="1" name="bell_pad" pos="0">
-          <note pan="-2" key="67" vol="144" pos="0" len="96"/>
-          <note pan="-2" key="64" vol="141" pos="0" len="96"/>
-          <note pan="-2" key="60" vol="133" pos="0" len="96"/>
-          <note pan="-2" key="72" vol="160" pos="96" len="96"/>
-          <note pan="-2" key="69" vol="144" pos="192" len="96"/>
-          <note pan="-2" key="65" vol="134" pos="192" len="96"/>
-          <note pan="-2" key="62" vol="133" pos="192" len="96"/>
-          <note pan="-2" key="72" vol="160" pos="288" len="96"/>
-          <note pan="-2" key="67" vol="144" pos="384" len="96"/>
-          <note pan="-2" key="64" vol="141" pos="384" len="96"/>
-          <note pan="-2" key="60" vol="133" pos="384" len="96"/>
-          <note pan="-2" key="72" vol="160" pos="480" len="96"/>
-          <note pan="-2" key="69" vol="144" pos="576" len="96"/>
-          <note pan="-2" key="65" vol="134" pos="576" len="96"/>
-          <note pan="-2" key="62" vol="133" pos="576" len="96"/>
-          <note pan="-2" key="72" vol="160" pos="672" len="96"/>
-          <note pan="-2" key="67" vol="144" pos="768" len="96"/>
-          <note pan="-2" key="64" vol="141" pos="768" len="96"/>
-          <note pan="-2" key="60" vol="133" pos="768" len="96"/>
-          <note pan="-2" key="72" vol="160" pos="864" len="24"/>
-          <note pan="-2" key="72" vol="160" pos="912" len="24"/>
-          <note pan="-2" key="69" vol="144" pos="960" len="96"/>
-          <note pan="-2" key="65" vol="134" pos="960" len="96"/>
-          <note pan="-2" key="62" vol="133" pos="960" len="96"/>
-          <note pan="-2" key="72" vol="160" pos="1056" len="96"/>
-          <note pan="-2" key="67" vol="144" pos="1152" len="96"/>
-          <note pan="-2" key="64" vol="141" pos="1152" len="96"/>
-          <note pan="-2" key="60" vol="133" pos="1152" len="96"/>
-          <note pan="-2" key="72" vol="160" pos="1248" len="24"/>
-          <note pan="-2" key="72" vol="160" pos="1296" len="24"/>
-          <note pan="-2" key="69" vol="144" pos="1344" len="96"/>
-          <note pan="-2" key="65" vol="134" pos="1344" len="96"/>
-          <note pan="-2" key="62" vol="133" pos="1344" len="96"/>
-          <note pan="-2" key="72" vol="160" pos="1440" len="24"/>
-          <note pan="-2" key="72" vol="160" pos="1488" len="24"/>
-          <note pan="-2" key="62" vol="133" pos="1536" len="96"/>
-          <note pan="-2" key="59" vol="133" pos="1536" len="96"/>
-          <note pan="-2" key="55" vol="133" pos="1536" len="96"/>
-          <note pan="-2" key="72" vol="133" pos="1632" len="24"/>
-          <note pan="-2" key="72" vol="133" pos="1680" len="24"/>
-          <note pan="-2" key="66" vol="133" pos="1728" len="96"/>
-          <note pan="-2" key="62" vol="133" pos="1728" len="96"/>
-          <note pan="-2" key="59" vol="133" pos="1728" len="96"/>
-          <note pan="-2" key="72" vol="133" pos="1824" len="24"/>
-          <note pan="-2" key="72" vol="133" pos="1872" len="24"/>
-          <note pan="-2" key="67" vol="144" pos="1920" len="96"/>
-          <note pan="-2" key="64" vol="141" pos="1920" len="96"/>
-          <note pan="-2" key="60" vol="133" pos="1920" len="96"/>
-          <note pan="-2" key="72" vol="160" pos="2016" len="24"/>
-          <note pan="-2" key="72" vol="160" pos="2064" len="24"/>
-          <note pan="-2" key="69" vol="144" pos="2112" len="96"/>
-          <note pan="-2" key="65" vol="134" pos="2112" len="96"/>
-          <note pan="-2" key="62" vol="133" pos="2112" len="96"/>
-          <note pan="-2" key="72" vol="160" pos="2208" len="24"/>
-          <note pan="-2" key="72" vol="160" pos="2256" len="24"/>
-          <note pan="-2" key="60" vol="133" pos="2304" len="480"/>
-          <note pan="-2" key="64" vol="133" pos="2400" len="384"/>
-          <note pan="-2" key="67" vol="133" pos="2496" len="288"/>
-          <note pan="-2" key="72" vol="133" pos="2592" len="24"/>
-          <note pan="-2" key="72" vol="133" pos="2640" len="144"/>
+        <pattern name="bell_pad" pos="0" steps="24" type="1" muted="0">
+          <note pos="0" pan="-2" len="96" key="67" vol="144"/>
+          <note pos="0" pan="-2" len="96" key="64" vol="141"/>
+          <note pos="0" pan="-2" len="96" key="60" vol="133"/>
+          <note pos="96" pan="-2" len="96" key="72" vol="160"/>
+          <note pos="192" pan="-2" len="96" key="69" vol="144"/>
+          <note pos="192" pan="-2" len="96" key="65" vol="134"/>
+          <note pos="192" pan="-2" len="96" key="62" vol="133"/>
+          <note pos="288" pan="-2" len="96" key="72" vol="160"/>
+          <note pos="384" pan="-2" len="96" key="67" vol="144"/>
+          <note pos="384" pan="-2" len="96" key="64" vol="141"/>
+          <note pos="384" pan="-2" len="96" key="60" vol="133"/>
+          <note pos="480" pan="-2" len="96" key="72" vol="160"/>
+          <note pos="576" pan="-2" len="96" key="69" vol="144"/>
+          <note pos="576" pan="-2" len="96" key="65" vol="134"/>
+          <note pos="576" pan="-2" len="96" key="62" vol="133"/>
+          <note pos="672" pan="-2" len="96" key="72" vol="160"/>
+          <note pos="768" pan="-2" len="96" key="67" vol="144"/>
+          <note pos="768" pan="-2" len="96" key="64" vol="141"/>
+          <note pos="768" pan="-2" len="96" key="60" vol="133"/>
+          <note pos="864" pan="-2" len="24" key="72" vol="160"/>
+          <note pos="912" pan="-2" len="24" key="72" vol="160"/>
+          <note pos="960" pan="-2" len="96" key="69" vol="144"/>
+          <note pos="960" pan="-2" len="96" key="65" vol="134"/>
+          <note pos="960" pan="-2" len="96" key="62" vol="133"/>
+          <note pos="1056" pan="-2" len="96" key="72" vol="160"/>
+          <note pos="1152" pan="-2" len="96" key="67" vol="144"/>
+          <note pos="1152" pan="-2" len="96" key="64" vol="141"/>
+          <note pos="1152" pan="-2" len="96" key="60" vol="133"/>
+          <note pos="1248" pan="-2" len="24" key="72" vol="160"/>
+          <note pos="1296" pan="-2" len="24" key="72" vol="160"/>
+          <note pos="1344" pan="-2" len="96" key="69" vol="144"/>
+          <note pos="1344" pan="-2" len="96" key="65" vol="134"/>
+          <note pos="1344" pan="-2" len="96" key="62" vol="133"/>
+          <note pos="1440" pan="-2" len="24" key="72" vol="160"/>
+          <note pos="1488" pan="-2" len="24" key="72" vol="160"/>
+          <note pos="1536" pan="-2" len="96" key="62" vol="133"/>
+          <note pos="1536" pan="-2" len="96" key="59" vol="133"/>
+          <note pos="1536" pan="-2" len="96" key="55" vol="133"/>
+          <note pos="1632" pan="-2" len="24" key="72" vol="133"/>
+          <note pos="1680" pan="-2" len="24" key="72" vol="133"/>
+          <note pos="1728" pan="-2" len="96" key="66" vol="133"/>
+          <note pos="1728" pan="-2" len="96" key="62" vol="133"/>
+          <note pos="1728" pan="-2" len="96" key="59" vol="133"/>
+          <note pos="1824" pan="-2" len="24" key="72" vol="133"/>
+          <note pos="1872" pan="-2" len="24" key="72" vol="133"/>
+          <note pos="1920" pan="-2" len="96" key="67" vol="144"/>
+          <note pos="1920" pan="-2" len="96" key="64" vol="141"/>
+          <note pos="1920" pan="-2" len="96" key="60" vol="133"/>
+          <note pos="2016" pan="-2" len="24" key="72" vol="160"/>
+          <note pos="2064" pan="-2" len="24" key="72" vol="160"/>
+          <note pos="2112" pan="-2" len="96" key="69" vol="144"/>
+          <note pos="2112" pan="-2" len="96" key="65" vol="134"/>
+          <note pos="2112" pan="-2" len="96" key="62" vol="133"/>
+          <note pos="2208" pan="-2" len="24" key="72" vol="160"/>
+          <note pos="2256" pan="-2" len="24" key="72" vol="160"/>
+          <note pos="2304" pan="-2" len="480" key="60" vol="133"/>
+          <note pos="2400" pan="-2" len="384" key="64" vol="133"/>
+          <note pos="2496" pan="-2" len="288" key="67" vol="133"/>
+          <note pos="2592" pan="-2" len="24" key="72" vol="133"/>
+          <note pos="2640" pan="-2" len="144" key="72" vol="133"/>
         </pattern>
       </track>
-      <track muted="0" type="0" name="cadebrownonthebeat_0.wav" solo="0">
-        <instrumenttrack pan="0" fxch="0" usemasterpitch="1" pitchrange="1" pitch="0" basenote="57" vol="100">
+      <track name="cadebrownonthebeat_0.wav" solo="0" type="0" muted="0">
+        <instrumenttrack pitchrange="1" pan="0" basenote="57" usemasterpitch="1" fxch="0" vol="100" pitch="0">
           <instrument name="audiofileprocessor">
-            <audiofileprocessor reversed="0" looped="0" lframe="0.228336" interp="1" eframe="1" stutter="0" sframe="0.228336" src="cadebrownonthebeat_0.wav" amp="100"/>
+            <audiofileprocessor src="cadebrownonthebeat_0.wav" amp="100" stutter="0" interp="1" looped="0" sframe="0.228336" reversed="0" lframe="0.228336" eframe="1"/>
           </instrument>
-          <eldata fres="0.5" ftype="0" fcut="14000" fwet="0">
-            <elvol lspd_denominator="4" sustain="0.5" pdel="0" userwavefile="" dec="0.5" lamt="0" latt="0" rel="0.1" amt="0" x100="0" att="0" lpdel="0" hold="0.5" lspd_syncmode="0" lshp="0" lspd="0.1" ctlenvamt="0" lspd_numerator="4"/>
-            <elcut lspd_denominator="4" sustain="0.5" pdel="0" userwavefile="" dec="0.5" lamt="0" latt="0" rel="0.1" amt="0" x100="0" att="0" lpdel="0" hold="0.5" lspd_syncmode="0" lshp="0" lspd="0.1" ctlenvamt="0" lspd_numerator="4"/>
-            <elres lspd_denominator="4" sustain="0.5" pdel="0" userwavefile="" dec="0.5" lamt="0" latt="0" rel="0.1" amt="0" x100="0" att="0" lpdel="0" hold="0.5" lspd_syncmode="0" lshp="0" lspd="0.1" ctlenvamt="0" lspd_numerator="4"/>
+          <eldata fcut="14000" fwet="0" ftype="0" fres="0.5">
+            <elvol latt="0" lamt="0" lspd_numerator="4" rel="0.1" lshp="0" dec="0.5" lspd_denominator="4" lpdel="0" x100="0" ctlenvamt="0" att="0" lspd_syncmode="0" userwavefile="" amt="0" lspd="0.1" pdel="0" hold="0.5" sustain="0.5"/>
+            <elcut latt="0" lamt="0" lspd_numerator="4" rel="0.1" lshp="0" dec="0.5" lspd_denominator="4" lpdel="0" x100="0" ctlenvamt="0" att="0" lspd_syncmode="0" userwavefile="" amt="0" lspd="0.1" pdel="0" hold="0.5" sustain="0.5"/>
+            <elres latt="0" lamt="0" lspd_numerator="4" rel="0.1" lshp="0" dec="0.5" lspd_denominator="4" lpdel="0" x100="0" ctlenvamt="0" att="0" lspd_syncmode="0" userwavefile="" amt="0" lspd="0.1" pdel="0" hold="0.5" sustain="0.5"/>
           </eldata>
-          <chordcreator chord="0" chordrange="1" chord-enabled="0"/>
-          <arpeggiator arptime="200" arprange="1" arpskip="0" arptime_denominator="4" arptime_syncmode="0" arpmode="0" arpcycle="0" arp-enabled="0" arp="0" arptime_numerator="4" arpdir="0" arpmiss="0" arpgate="100"/>
-          <midiport inputcontroller="0" fixedoutputvelocity="-1" inputchannel="0" outputcontroller="0" writable="0" outputchannel="1" fixedinputvelocity="-1" fixedoutputnote="-1" outputprogram="1" basevelocity="63" readable="0"/>
-          <fxchain numofeffects="0" enabled="0"/>
+          <chordcreator chord="0" chord-enabled="0" chordrange="1"/>
+          <arpeggiator arp-enabled="0" arpcycle="0" arptime_denominator="4" arpmiss="0" arptime_syncmode="0" arpmode="0" arprange="1" arp="0" arpskip="0" arptime="200" arpdir="0" arpgate="100" arptime_numerator="4"/>
+          <midiport fixedinputvelocity="-1" readable="0" writable="0" inputchannel="0" outputchannel="1" fixedoutputvelocity="-1" fixedoutputnote="-1" outputprogram="1" outputcontroller="0" inputcontroller="0" basevelocity="63"/>
+          <fxchain enabled="0" numofeffects="0"/>
         </instrumenttrack>
-        <pattern steps="24" muted="0" type="1" name="cadebrownonthebeat_0.wav" pos="864">
-          <note pan="0" key="57" vol="100" pos="0" len="16"/>
-          <note pan="0" key="57" vol="100" pos="16" len="16"/>
-          <note pan="0" key="57" vol="100" pos="32" len="208"/>
+        <pattern name="cadebrownonthebeat_0.wav" pos="864" steps="24" type="1" muted="0">
+          <note pos="0" pan="0" len="16" key="57" vol="100"/>
+          <note pos="16" pan="0" len="16" key="57" vol="100"/>
+          <note pos="32" pan="0" len="208" key="57" vol="100"/>
         </pattern>
-        <pattern steps="24" muted="0" type="1" name="cadebrownonthebeat_0.wav" pos="2592">
-          <note pan="0" key="57" vol="100" pos="144" len="208"/>
+        <pattern name="cadebrownonthebeat_0.wav" pos="2592" steps="24" type="1" muted="0">
+          <note pos="144" pan="0" len="208" key="57" vol="100"/>
         </pattern>
       </track>
-      <track muted="0" type="1" name="Main Hat" solo="0">
+      <track name="Main Hat" solo="0" type="1" muted="0">
         <bbtrack>
-          <trackcontainer width="934" x="44" y="537" maximized="0" height="384" visible="1" type="bbtrackcontainer" minimized="0">
-            <track muted="0" type="0" name="808 Bass C Deep-O.wav" solo="0">
-              <instrumenttrack pan="0" fxch="0" usemasterpitch="1" pitchrange="1" pitch="0" basenote="57" vol="43.1">
+          <trackcontainer x="51" y="306" maximized="0" minimized="0" height="384" visible="1" type="bbtrackcontainer" width="934">
+            <track name="808 Bass C Deep-O.wav" solo="0" x="624" y="523" maximized="0" minimized="0" height="464" visible="1" type="0" tab="0" width="262" muted="0">
+              <instrumenttrack pitchrange="1" pan="0" basenote="57" usemasterpitch="1" fxch="0" vol="47.3" pitch="0">
                 <instrument name="audiofileprocessor">
-                  <audiofileprocessor reversed="0" looped="0" lframe="0" interp="1" eframe="1" stutter="0" sframe="0" src="TriTrap_v1/808 Bass/808 Bass C Deep-O.wav" amp="100"/>
+                  <audiofileprocessor src="TriTrap_v1/808 Bass/808 Bass C Deep-O.wav" amp="124" stutter="0" interp="1" looped="0" sframe="0" reversed="0" lframe="0" eframe="1"/>
                 </instrument>
-                <eldata fres="0.5" ftype="0" fcut="14000" fwet="0">
-                  <elvol lspd_denominator="4" sustain="0.5" pdel="0" userwavefile="" dec="0.5" lamt="0" latt="0" rel="0.1" amt="1" x100="0" att="0" lpdel="0" hold="0.5" lspd_syncmode="0" lshp="0" lspd="0.1" ctlenvamt="0" lspd_numerator="4"/>
-                  <elcut lspd_denominator="4" sustain="0.5" pdel="0" userwavefile="" dec="0.5" lamt="0" latt="0" rel="0.1" amt="0" x100="0" att="0" lpdel="0" hold="0.5" lspd_syncmode="0" lshp="0" lspd="0.1" ctlenvamt="0" lspd_numerator="4"/>
-                  <elres lspd_denominator="4" sustain="0.5" pdel="0" userwavefile="" dec="0.5" lamt="0" latt="0" rel="0.1" amt="0" x100="0" att="0" lpdel="0" hold="0.5" lspd_syncmode="0" lshp="0" lspd="0.1" ctlenvamt="0" lspd_numerator="4"/>
+                <eldata fcut="14000" fwet="0" ftype="0" fres="0.5">
+                  <elvol latt="0" lamt="0" lspd_numerator="4" rel="0.1" lshp="0" dec="0.5" lspd_denominator="4" lpdel="0" x100="0" ctlenvamt="0" att="0" lspd_syncmode="0" userwavefile="" amt="1" lspd="0.1" pdel="0" hold="0.5" sustain="0.5"/>
+                  <elcut latt="0" lamt="0" lspd_numerator="4" rel="0.1" lshp="0" dec="0.5" lspd_denominator="4" lpdel="0" x100="0" ctlenvamt="0" att="0" lspd_syncmode="0" userwavefile="" amt="0" lspd="0.1" pdel="0" hold="0.5" sustain="0.5"/>
+                  <elres latt="0" lamt="0" lspd_numerator="4" rel="0.1" lshp="0" dec="0.5" lspd_denominator="4" lpdel="0" x100="0" ctlenvamt="0" att="0" lspd_syncmode="0" userwavefile="" amt="0" lspd="0.1" pdel="0" hold="0.5" sustain="0.5"/>
                 </eldata>
-                <chordcreator chord="0" chordrange="1" chord-enabled="0"/>
-                <arpeggiator arptime="200" arprange="1" arpskip="0" arptime_denominator="4" arptime_syncmode="0" arpmode="0" arpcycle="0" arp-enabled="0" arp="0" arptime_numerator="4" arpdir="0" arpmiss="0" arpgate="100"/>
-                <midiport inputcontroller="0" fixedoutputvelocity="-1" inputchannel="0" outputcontroller="0" writable="0" outputchannel="1" fixedinputvelocity="-1" fixedoutputnote="-1" outputprogram="1" basevelocity="63" readable="0"/>
-                <fxchain numofeffects="4" enabled="1">
-                  <effect autoquit_syncmode="0" autoquit_numerator="4" autoquit_denominator="4" autoquit="1" gate="0" name="ladspaeffect" wet="1" on="0">
+                <chordcreator chord="0" chord-enabled="0" chordrange="1"/>
+                <arpeggiator arp-enabled="0" arpcycle="0" arptime_denominator="4" arpmiss="0" arptime_syncmode="0" arpmode="0" arprange="1" arp="0" arpskip="0" arptime="200" arpdir="0" arpgate="100" arptime_numerator="4"/>
+                <midiport fixedinputvelocity="-1" readable="0" writable="0" inputchannel="0" outputchannel="1" fixedoutputvelocity="-1" fixedoutputnote="-1" outputprogram="1" outputcontroller="0" inputcontroller="0" basevelocity="63"/>
+                <fxchain enabled="1" numofeffects="4">
+                  <effect autoquit_denominator="4" name="ladspaeffect" on="0" autoquit_numerator="4" autoquit="1" wet="1" autoquit_syncmode="0" gate="0.46">
                     <ladspacontrols link="1" ports="2">
-                      <port01 link="1" data="1.26"/>
+                      <port01 data="1.26" link="1"/>
                       <port11 data="1.26"/>
                     </ladspacontrols>
                     <key>
-                      <attribute value="caps" name="file"/>
-                      <attribute value="Clip" name="plugin"/>
+                      <attribute name="file" value="caps"/>
+                      <attribute name="plugin" value="Clip"/>
                     </key>
                   </effect>
-                  <effect autoquit_syncmode="0" autoquit_numerator="4" autoquit_denominator="4" autoquit="1" gate="0" name="ladspaeffect" wet="1" on="0">
+                  <effect autoquit_denominator="4" name="ladspaeffect" on="1" autoquit_numerator="4" autoquit="1" wet="1" autoquit_syncmode="0" gate="0">
                     <ladspacontrols link="1" ports="12">
-                      <port01 data_syncmode="0" data_numerator="4" data_denominator="4" link="1">
+                      <port01 data_denominator="4" link="1" data_syncmode="0" data_numerator="4">
                         <data scale_type="log" value="2.5" id="8103325"/>
                       </port01>
-                      <port02 data_syncmode="0" data_numerator="4" data_denominator="4" link="1" data="0.5"/>
-                      <port03 link="1" data="1.25"/>
-                      <port04 link="1" data="1"/>
-                      <port05 link="1" data="0.25"/>
-                      <port06 link="1" data="0"/>
-                      <port11 data_syncmode="0" data_numerator="4" data_denominator="4" data="2.5"/>
-                      <port12 data_syncmode="0" data_numerator="4" data_denominator="4" data="0.5"/>
+                      <port02 data_denominator="4" data="0.5" link="1" data_syncmode="0" data_numerator="4"/>
+                      <port03 data="1.25" link="1"/>
+                      <port04 data="1" link="1"/>
+                      <port05 data="0.25" link="1"/>
+                      <port06 data="0" link="1"/>
+                      <port11 data_denominator="4" data="2.5" data_syncmode="0" data_numerator="4"/>
+                      <port12 data_denominator="4" data="0.5" data_syncmode="0" data_numerator="4"/>
                       <port13 data="1.25"/>
                       <port14 data="1"/>
                       <port15 data="0.25"/>
                       <port16 data="0"/>
                     </ladspacontrols>
                     <key>
-                      <attribute value="caps" name="file"/>
-                      <attribute value="ChorusI" name="plugin"/>
+                      <attribute name="file" value="caps"/>
+                      <attribute name="plugin" value="ChorusI"/>
                     </key>
                   </effect>
-                  <effect autoquit_syncmode="0" autoquit_numerator="4" autoquit_denominator="4" autoquit="1" gate="0" name="ladspaeffect" wet="1" on="1">
+                  <effect autoquit_denominator="4" name="ladspaeffect" on="1" autoquit_numerator="4" autoquit="1" wet="0.39" autoquit_syncmode="0" gate="0">
                     <ladspacontrols ports="10">
                       <port04 data="0"/>
                       <port05 data="2.32"/>
@@ -912,25 +912,25 @@
                       </port018>
                     </ladspacontrols>
                     <key>
-                      <attribute value="calf" name="file"/>
-                      <attribute value="Exciter" name="plugin"/>
+                      <attribute name="file" value="calf"/>
+                      <attribute name="plugin" value="Exciter"/>
                     </key>
                   </effect>
-                  <effect autoquit_syncmode="0" autoquit_numerator="4" autoquit_denominator="4" autoquit="1" gate="0" name="ladspaeffect" wet="1" on="0">
+                  <effect autoquit_denominator="4" name="ladspaeffect" on="1" autoquit_numerator="4" autoquit="1" wet="1" autoquit_syncmode="0" gate="0">
                     <ladspacontrols link="1" ports="20">
-                      <port01 link="1" data="1.44"/>
-                      <port02 link="1" data="0.27"/>
-                      <port03 link="1" data="3.51"/>
-                      <port04 link="1" data="2.34"/>
-                      <port05 link="1" data="0.99"/>
-                      <port06 link="1" data="0"/>
-                      <port07 link="1" data="0"/>
-                      <port08 link="1" data="4.32"/>
-                      <port09 link="1" data="-10.98"/>
-                      <port010 link="1" data="-20.07"/>
-                      <port11 data="1.44"/>
+                      <port01 data="2.88" link="1"/>
+                      <port02 data="0.27" link="1"/>
+                      <port03 data="4.59" link="1"/>
+                      <port04 data="2.34" link="1"/>
+                      <port05 data="0.99" link="1"/>
+                      <port06 data="0" link="1"/>
+                      <port07 data="0" link="1"/>
+                      <port08 data="4.32" link="1"/>
+                      <port09 data="-10.98" link="1"/>
+                      <port010 data="-20.07" link="1"/>
+                      <port11 data="2.88"/>
                       <port12 data="0.27"/>
-                      <port13 data="3.51"/>
+                      <port13 data="4.59"/>
                       <port14 data="2.34"/>
                       <port15 data="0.99"/>
                       <port16 data="0"/>
@@ -940,284 +940,328 @@
                       <port110 data="-20.07"/>
                     </ladspacontrols>
                     <key>
-                      <attribute value="caps" name="file"/>
-                      <attribute value="Eq" name="plugin"/>
+                      <attribute name="file" value="caps"/>
+                      <attribute name="plugin" value="Eq"/>
                     </key>
                   </effect>
                 </fxchain>
               </instrumenttrack>
-              <pattern steps="48" muted="0" type="0" name="808 Bass C Deep-O.wav" pos="0"/>
-              <pattern steps="48" muted="0" type="1" name="808 Bass C Deep-O.wav" pos="288">
-                <note pan="-10" key="60" vol="106" pos="0" len="144"/>
-                <note pan="0" key="64" vol="131" pos="144" len="96"/>
-                <note pan="0" key="62" vol="100" pos="240" len="48"/>
-                <note pan="0" key="56" vol="85" pos="288" len="48"/>
-                <note pan="0" key="60" vol="89" pos="336" len="48"/>
-                <note pan="0" key="60" vol="159" pos="384" len="96"/>
+              <pattern name="808 Bass C Deep-O.wav" pos="0" steps="48" type="0" muted="0"/>
+              <pattern name="808 Bass C Deep-O.wav" pos="288" steps="48" type="1" muted="0">
+                <note pos="0" pan="-10" len="144" key="60" vol="106"/>
+                <note pos="144" pan="0" len="96" key="64" vol="131"/>
+                <note pos="240" pan="0" len="48" key="62" vol="100"/>
+                <note pos="288" pan="0" len="48" key="56" vol="85"/>
+                <note pos="336" pan="0" len="48" key="60" vol="89"/>
+                <note pos="384" pan="0" len="96" key="60" vol="159"/>
               </pattern>
-              <pattern steps="48" muted="0" type="1" name="808 Bass C Deep-O.wav" pos="576">
-                <note pan="0" key="60" vol="159" pos="384" len="96"/>
-                <note pan="0" key="67" vol="159" pos="480" len="48"/>
-                <note pan="0" key="64" vol="159" pos="528" len="48"/>
+              <pattern name="808 Bass C Deep-O.wav" pos="576" steps="48" type="1" muted="0">
+                <note pos="384" pan="0" len="96" key="60" vol="159"/>
+                <note pos="480" pan="0" len="48" key="67" vol="159"/>
+                <note pos="528" pan="0" len="48" key="64" vol="159"/>
               </pattern>
-              <pattern steps="48" muted="0" type="1" name="808 Bass C Deep-O.wav" pos="864">
-                <note pan="-10" key="60" vol="106" pos="0" len="144"/>
-                <note pan="0" key="64" vol="131" pos="144" len="96"/>
-                <note pan="0" key="62" vol="100" pos="240" len="48"/>
-                <note pan="0" key="56" vol="85" pos="288" len="48"/>
-                <note pan="0" key="60" vol="89" pos="336" len="48"/>
-                <note pan="0" key="60" vol="159" pos="384" len="96"/>
-                <note pan="0" key="62" vol="100" pos="480" len="48"/>
-                <note pan="0" key="60" vol="100" pos="528" len="48"/>
+              <pattern name="808 Bass C Deep-O.wav" pos="864" steps="48" type="1" muted="0">
+                <note pos="0" pan="-10" len="144" key="60" vol="106"/>
+                <note pos="144" pan="0" len="96" key="64" vol="131"/>
+                <note pos="240" pan="0" len="48" key="62" vol="100"/>
+                <note pos="288" pan="0" len="48" key="56" vol="85"/>
+                <note pos="336" pan="0" len="48" key="60" vol="89"/>
+                <note pos="384" pan="0" len="96" key="60" vol="159"/>
+                <note pos="480" pan="0" len="48" key="62" vol="100"/>
+                <note pos="528" pan="0" len="48" key="60" vol="100"/>
               </pattern>
-              <pattern steps="24" muted="0" type="0" name="808 Bass C Deep-O.wav" pos="1152"/>
+              <pattern name="808 Bass C Deep-O.wav" pos="1152" steps="24" type="0" muted="0"/>
             </track>
-            <track muted="0" type="0" name="Kick Infinite Soft 27.wav" solo="0">
-              <instrumenttrack pan="0" fxch="0" usemasterpitch="1" pitchrange="1" pitch="0" basenote="57" vol="78.3">
+            <track name="Kick Drum 025.wav" solo="0" type="0" muted="0">
+              <instrumenttrack pitchrange="1" pan="0" basenote="57" usemasterpitch="1" fxch="0" vol="137.4" pitch="0">
                 <instrument name="audiofileprocessor">
-                  <audiofileprocessor reversed="0" looped="0" lframe="0" interp="1" eframe="1" stutter="0" sframe="0" src="TrapKicks7/Kick Infinite Soft 27.wav" amp="100"/>
+                  <audiofileprocessor src="TriTrap_v2/Kick Drums/Kick Drum 025.wav" amp="100" stutter="0" interp="1" looped="0" sframe="0" reversed="0" lframe="0" eframe="1"/>
                 </instrument>
-                <eldata fres="0.5" ftype="0" fcut="14000" fwet="0">
-                  <elvol lspd_denominator="4" sustain="0.5" pdel="0" userwavefile="" dec="0.5" lamt="0" latt="0" rel="0.1" amt="1" x100="0" att="0" lpdel="0" hold="0.5" lspd_syncmode="0" lshp="0" lspd="0.1" ctlenvamt="0" lspd_numerator="4"/>
-                  <elcut lspd_denominator="4" sustain="0.5" pdel="0" userwavefile="" dec="0.5" lamt="0" latt="0" rel="0.1" amt="0" x100="0" att="0" lpdel="0" hold="0.5" lspd_syncmode="0" lshp="0" lspd="0.1" ctlenvamt="0" lspd_numerator="4"/>
-                  <elres lspd_denominator="4" sustain="0.5" pdel="0" userwavefile="" dec="0.5" lamt="0" latt="0" rel="0.1" amt="0" x100="0" att="0" lpdel="0" hold="0.5" lspd_syncmode="0" lshp="0" lspd="0.1" ctlenvamt="0" lspd_numerator="4"/>
+                <eldata fcut="14000" fwet="0" ftype="0" fres="0.5">
+                  <elvol latt="0" lamt="0" lspd_numerator="4" rel="0.1" lshp="0" dec="0.5" lspd_denominator="4" lpdel="0" x100="0" ctlenvamt="0" att="0" lspd_syncmode="0" userwavefile="" amt="0" lspd="0.1" pdel="0" hold="0.5" sustain="0.5"/>
+                  <elcut latt="0" lamt="0" lspd_numerator="4" rel="0.1" lshp="0" dec="0.5" lspd_denominator="4" lpdel="0" x100="0" ctlenvamt="0" att="0" lspd_syncmode="0" userwavefile="" amt="0" lspd="0.1" pdel="0" hold="0.5" sustain="0.5"/>
+                  <elres latt="0" lamt="0" lspd_numerator="4" rel="0.1" lshp="0" dec="0.5" lspd_denominator="4" lpdel="0" x100="0" ctlenvamt="0" att="0" lspd_syncmode="0" userwavefile="" amt="0" lspd="0.1" pdel="0" hold="0.5" sustain="0.5"/>
                 </eldata>
-                <chordcreator chord="0" chordrange="1" chord-enabled="0"/>
-                <arpeggiator arptime="200" arprange="1" arpskip="0" arptime_denominator="4" arptime_syncmode="0" arpmode="0" arpcycle="0" arp-enabled="0" arp="0" arptime_numerator="4" arpdir="0" arpmiss="0" arpgate="100"/>
-                <midiport inputcontroller="0" fixedoutputvelocity="-1" inputchannel="0" outputcontroller="0" writable="0" outputchannel="1" fixedinputvelocity="-1" fixedoutputnote="-1" outputprogram="1" basevelocity="63" readable="0"/>
-                <fxchain numofeffects="0" enabled="0"/>
+                <chordcreator chord="0" chord-enabled="0" chordrange="1"/>
+                <arpeggiator arp-enabled="0" arpcycle="0" arptime_denominator="4" arpmiss="0" arptime_syncmode="0" arpmode="0" arprange="1" arp="0" arpskip="0" arptime="200" arpdir="0" arpgate="100" arptime_numerator="4"/>
+                <midiport fixedinputvelocity="-1" readable="0" writable="0" inputchannel="0" outputchannel="1" fixedoutputvelocity="-1" fixedoutputnote="-1" outputprogram="1" outputcontroller="0" inputcontroller="0" basevelocity="63"/>
+                <fxchain enabled="0" numofeffects="0"/>
               </instrumenttrack>
-              <pattern steps="48" muted="0" type="0" name="Kick Infinite Soft 27.wav" pos="0"/>
-              <pattern steps="48" muted="0" type="1" name="808 Bass C Deep-O.wav" pos="288">
-                <note pan="-10" key="60" vol="142" pos="0" len="16"/>
-                <note pan="-10" key="60" vol="155" pos="16" len="16"/>
-                <note pan="-10" key="60" vol="182" pos="32" len="16"/>
-                <note pan="-10" key="64" vol="106" pos="144" len="16"/>
-                <note pan="-10" key="64" vol="106" pos="160" len="16"/>
-                <note pan="-10" key="64" vol="106" pos="176" len="16"/>
-                <note pan="-10" key="56" vol="106" pos="288" len="44"/>
-                <note pan="-10" key="60" vol="106" pos="336" len="16"/>
-                <note pan="-10" key="60" vol="106" pos="352" len="16"/>
-                <note pan="-10" key="60" vol="106" pos="368" len="16"/>
-                <note pan="-10" key="67" vol="106" pos="528" len="16"/>
-                <note pan="-10" key="65" vol="106" pos="544" len="16"/>
-                <note pan="-10" key="57" vol="106" pos="560" len="16"/>
+              <pattern name="Kick Drum 025.wav" pos="0" steps="48" type="0" muted="0"/>
+              <pattern name="808 Bass C Deep-O.wav" pos="288" steps="48" type="1" muted="0">
+                <note pos="0" pan="-10" len="144" key="60" vol="106"/>
+                <note pos="144" pan="0" len="96" key="64" vol="131"/>
+                <note pos="240" pan="0" len="48" key="62" vol="100"/>
+                <note pos="288" pan="0" len="48" key="56" vol="85"/>
+                <note pos="336" pan="0" len="48" key="60" vol="89"/>
+                <note pos="384" pan="0" len="96" key="60" vol="159"/>
               </pattern>
-              <pattern steps="48" muted="0" type="1" name="808 Bass C Deep-O.wav" pos="576">
-                <note pan="-10" key="67" vol="106" pos="528" len="16"/>
-                <note pan="-10" key="65" vol="106" pos="544" len="16"/>
-                <note pan="-10" key="57" vol="106" pos="560" len="16"/>
+              <pattern name="808 Bass C Deep-O.wav" pos="576" steps="48" type="1" muted="0">
+                <note pos="384" pan="0" len="96" key="60" vol="159"/>
+                <note pos="480" pan="0" len="48" key="67" vol="159"/>
+                <note pos="528" pan="0" len="48" key="64" vol="159"/>
               </pattern>
-              <pattern steps="48" muted="0" type="1" name="808 Bass C Deep-O.wav" pos="864">
-                <note pan="-10" key="60" vol="106" pos="0" len="120"/>
-                <note pan="-10" key="64" vol="106" pos="120" len="24"/>
-                <note pan="0" key="64" vol="131" pos="144" len="96"/>
-                <note pan="-10" key="62" vol="106" pos="240" len="16"/>
-                <note pan="-10" key="62" vol="106" pos="256" len="16"/>
-                <note pan="-10" key="62" vol="106" pos="272" len="16"/>
-                <note pan="0" key="56" vol="85" pos="288" len="48"/>
-                <note pan="0" key="60" vol="89" pos="336" len="48"/>
-                <note pan="0" key="60" vol="159" pos="384" len="96"/>
-                <note pan="-10" key="62" vol="106" pos="480" len="16"/>
-                <note pan="-10" key="62" vol="106" pos="496" len="16"/>
-                <note pan="-10" key="62" vol="106" pos="512" len="16"/>
-                <note pan="0" key="60" vol="100" pos="528" len="48"/>
+              <pattern name="808 Bass C Deep-O.wav" pos="864" steps="48" type="1" muted="0">
+                <note pos="0" pan="-10" len="144" key="60" vol="106"/>
+                <note pos="144" pan="0" len="96" key="64" vol="131"/>
+                <note pos="240" pan="0" len="48" key="62" vol="100"/>
+                <note pos="288" pan="0" len="48" key="56" vol="85"/>
+                <note pos="336" pan="0" len="48" key="60" vol="89"/>
+                <note pos="384" pan="0" len="96" key="60" vol="159"/>
+                <note pos="480" pan="0" len="48" key="62" vol="100"/>
+                <note pos="528" pan="0" len="48" key="60" vol="100"/>
               </pattern>
-              <pattern steps="24" muted="0" type="0" name="Kick Infinite Soft 27.wav" pos="1152">
-                <note pan="0" key="57" vol="121" pos="240" len="-192"/>
-                <note pan="0" key="57" vol="97" pos="252" len="-192"/>
-                <note pan="0" key="57" vol="97" pos="264" len="-192"/>
-                <note pan="0" key="57" vol="159" pos="276" len="-192"/>
+              <pattern name="Kick Drum 025.wav" pos="1152" steps="24" type="0" muted="0">
+                <note pos="240" pan="0" len="-192" key="57" vol="100"/>
+                <note pos="264" pan="0" len="-192" key="57" vol="100"/>
               </pattern>
             </track>
-            <track muted="0" type="0" name="Snare 008.wav" solo="0">
-              <instrumenttrack pan="19.9" fxch="0" usemasterpitch="1" pitchrange="1" pitch="0" basenote="57" vol="105.7">
+            <track name="Kick Infinite Soft 27.wav" solo="0" type="0" muted="0">
+              <instrumenttrack pitchrange="1" pan="0" basenote="57" usemasterpitch="1" fxch="0" vol="81.5" pitch="0">
                 <instrument name="audiofileprocessor">
-                  <audiofileprocessor reversed="0" looped="0" lframe="0" interp="1" eframe="1" stutter="0" sframe="0" src="TriTrap_v1/Snares &amp; Claps/Snare 008.wav" amp="100"/>
+                  <audiofileprocessor src="TrapKicks7/Kick Infinite Soft 27.wav" amp="100" stutter="0" interp="1" looped="0" sframe="0" reversed="0" lframe="0" eframe="1"/>
                 </instrument>
-                <eldata fres="0.5" ftype="0" fcut="14000" fwet="0">
-                  <elvol lspd_denominator="4" sustain="0.5" pdel="0" userwavefile="" dec="0.5" lamt="0" latt="0" rel="0.1" amt="0" x100="0" att="0" lpdel="0" hold="0.5" lspd_syncmode="0" lshp="0" lspd="0.1" ctlenvamt="0" lspd_numerator="4"/>
-                  <elcut lspd_denominator="4" sustain="0.5" pdel="0" userwavefile="" dec="0.5" lamt="0" latt="0" rel="0.1" amt="0" x100="0" att="0" lpdel="0" hold="0.5" lspd_syncmode="0" lshp="0" lspd="0.1" ctlenvamt="0" lspd_numerator="4"/>
-                  <elres lspd_denominator="4" sustain="0.5" pdel="0" userwavefile="" dec="0.5" lamt="0" latt="0" rel="0.1" amt="0" x100="0" att="0" lpdel="0" hold="0.5" lspd_syncmode="0" lshp="0" lspd="0.1" ctlenvamt="0" lspd_numerator="4"/>
+                <eldata fcut="14000" fwet="0" ftype="0" fres="0.5">
+                  <elvol latt="0" lamt="0" lspd_numerator="4" rel="0.1" lshp="0" dec="0.5" lspd_denominator="4" lpdel="0" x100="0" ctlenvamt="0" att="0" lspd_syncmode="0" userwavefile="" amt="1" lspd="0.1" pdel="0" hold="0.5" sustain="0.5"/>
+                  <elcut latt="0" lamt="0" lspd_numerator="4" rel="0.1" lshp="0" dec="0.5" lspd_denominator="4" lpdel="0" x100="0" ctlenvamt="0" att="0" lspd_syncmode="0" userwavefile="" amt="0" lspd="0.1" pdel="0" hold="0.5" sustain="0.5"/>
+                  <elres latt="0" lamt="0" lspd_numerator="4" rel="0.1" lshp="0" dec="0.5" lspd_denominator="4" lpdel="0" x100="0" ctlenvamt="0" att="0" lspd_syncmode="0" userwavefile="" amt="0" lspd="0.1" pdel="0" hold="0.5" sustain="0.5"/>
                 </eldata>
-                <chordcreator chord="0" chordrange="1" chord-enabled="0"/>
-                <arpeggiator arptime="200" arprange="1" arpskip="0" arptime_denominator="4" arptime_syncmode="0" arpmode="0" arpcycle="0" arp-enabled="0" arp="0" arptime_numerator="4" arpdir="0" arpmiss="0" arpgate="100"/>
-                <midiport inputcontroller="0" fixedoutputvelocity="-1" inputchannel="0" outputcontroller="0" writable="0" outputchannel="1" fixedinputvelocity="-1" fixedoutputnote="-1" outputprogram="1" basevelocity="63" readable="0"/>
-                <fxchain numofeffects="0" enabled="0"/>
+                <chordcreator chord="0" chord-enabled="0" chordrange="1"/>
+                <arpeggiator arp-enabled="0" arpcycle="0" arptime_denominator="4" arpmiss="0" arptime_syncmode="0" arpmode="0" arprange="1" arp="0" arpskip="0" arptime="200" arpdir="0" arpgate="100" arptime_numerator="4"/>
+                <midiport fixedinputvelocity="-1" readable="0" writable="0" inputchannel="0" outputchannel="1" fixedoutputvelocity="-1" fixedoutputnote="-1" outputprogram="1" outputcontroller="0" inputcontroller="0" basevelocity="63"/>
+                <fxchain enabled="0" numofeffects="0"/>
               </instrumenttrack>
-              <pattern steps="48" muted="0" type="0" name="Snare 008.wav" pos="0">
-                <note pan="0" key="57" vol="127" pos="96" len="-192"/>
-                <note pan="0" key="57" vol="97" pos="216" len="-192"/>
-                <note pan="0" key="57" vol="100" pos="312" len="-192"/>
-                <note pan="0" key="57" vol="100" pos="336" len="-192"/>
-                <note pan="0" key="57" vol="127" pos="360" len="-192"/>
-                <note pan="0" key="57" vol="100" pos="372" len="-192"/>
-                <note pan="0" key="57" vol="100" pos="480" len="-192"/>
+              <pattern name="Kick Infinite Soft 27.wav" pos="0" steps="48" type="0" muted="0"/>
+              <pattern name="808 Bass C Deep-O.wav" pos="288" steps="48" type="1" muted="0">
+                <note pos="0" pan="-10" len="16" key="60" vol="142"/>
+                <note pos="16" pan="-10" len="16" key="60" vol="155"/>
+                <note pos="32" pan="-10" len="16" key="60" vol="182"/>
+                <note pos="144" pan="-10" len="16" key="64" vol="106"/>
+                <note pos="160" pan="-10" len="16" key="64" vol="106"/>
+                <note pos="176" pan="-10" len="16" key="64" vol="106"/>
+                <note pos="288" pan="-10" len="44" key="56" vol="106"/>
+                <note pos="336" pan="-10" len="16" key="60" vol="106"/>
+                <note pos="352" pan="-10" len="16" key="60" vol="106"/>
+                <note pos="368" pan="-10" len="16" key="60" vol="106"/>
+                <note pos="528" pan="-10" len="16" key="67" vol="106"/>
+                <note pos="544" pan="-10" len="16" key="65" vol="106"/>
+                <note pos="560" pan="-10" len="16" key="57" vol="106"/>
               </pattern>
-              <pattern steps="48" muted="0" type="0" name="Snare 008.wav" pos="288"/>
-              <pattern steps="48" muted="0" type="0" name="Snare 008.wav" pos="576"/>
-              <pattern steps="48" muted="0" type="0" name="Snare 008.wav" pos="864"/>
-              <pattern steps="24" muted="0" type="0" name="Snare 008.wav" pos="1152">
-                <note pan="0" key="57" vol="100" pos="192" len="-192"/>
+              <pattern name="808 Bass C Deep-O.wav" pos="576" steps="48" type="1" muted="0">
+                <note pos="528" pan="-10" len="16" key="67" vol="106"/>
+                <note pos="544" pan="-10" len="16" key="65" vol="106"/>
+                <note pos="560" pan="-10" len="16" key="57" vol="106"/>
+              </pattern>
+              <pattern name="808 Bass C Deep-O.wav" pos="864" steps="48" type="1" muted="0">
+                <note pos="0" pan="-10" len="120" key="60" vol="106"/>
+                <note pos="120" pan="-10" len="24" key="64" vol="106"/>
+                <note pos="144" pan="0" len="96" key="64" vol="131"/>
+                <note pos="240" pan="-10" len="16" key="62" vol="106"/>
+                <note pos="256" pan="-10" len="16" key="62" vol="106"/>
+                <note pos="272" pan="-10" len="16" key="62" vol="106"/>
+                <note pos="288" pan="0" len="48" key="56" vol="85"/>
+                <note pos="336" pan="0" len="48" key="60" vol="89"/>
+                <note pos="384" pan="0" len="96" key="60" vol="159"/>
+                <note pos="480" pan="-10" len="16" key="62" vol="106"/>
+                <note pos="496" pan="-10" len="16" key="62" vol="106"/>
+                <note pos="512" pan="-10" len="16" key="62" vol="106"/>
+                <note pos="528" pan="0" len="48" key="60" vol="100"/>
+              </pattern>
+              <pattern name="Kick Infinite Soft 27.wav" pos="1152" steps="24" type="0" muted="0">
+                <note pos="240" pan="0" len="-192" key="57" vol="121"/>
+                <note pos="252" pan="0" len="-192" key="57" vol="97"/>
+                <note pos="264" pan="0" len="-192" key="57" vol="97"/>
+                <note pos="276" pan="0" len="-192" key="57" vol="159"/>
               </pattern>
             </track>
-            <track muted="0" type="0" name="HiHat Closed 009 Low Classic.wav" solo="0">
-              <instrumenttrack pan="-42.5" fxch="0" usemasterpitch="1" pitchrange="1" pitch="0" basenote="57" vol="62.9">
+            <track name="Snare 008.wav" solo="0" type="0" muted="0">
+              <instrumenttrack pitchrange="1" pan="19.9" basenote="57" usemasterpitch="1" fxch="0" vol="105.7" pitch="0">
                 <instrument name="audiofileprocessor">
-                  <audiofileprocessor reversed="0" looped="0" lframe="0" interp="1" eframe="1" stutter="0" sframe="0" src="TriTrap_v1/Hats &amp; Cymbals/HiHat Closed 009 Low Classic.wav" amp="100"/>
+                  <audiofileprocessor src="TriTrap_v1/Snares &amp; Claps/Snare 008.wav" amp="100" stutter="0" interp="1" looped="0" sframe="0" reversed="0" lframe="0" eframe="1"/>
                 </instrument>
-                <eldata fres="0.5" ftype="0" fcut="14000" fwet="0">
-                  <elvol lspd_denominator="4" sustain="0.5" pdel="0" userwavefile="" dec="0.5" lamt="0" latt="0" rel="0.1" amt="0" x100="0" att="0" lpdel="0" hold="0.5" lspd_syncmode="0" lshp="0" lspd="0.1" ctlenvamt="0" lspd_numerator="4"/>
-                  <elcut lspd_denominator="4" sustain="0.5" pdel="0" userwavefile="" dec="0.5" lamt="0" latt="0" rel="0.1" amt="0" x100="0" att="0" lpdel="0" hold="0.5" lspd_syncmode="0" lshp="0" lspd="0.1" ctlenvamt="0" lspd_numerator="4"/>
-                  <elres lspd_denominator="4" sustain="0.5" pdel="0" userwavefile="" dec="0.5" lamt="0" latt="0" rel="0.1" amt="0" x100="0" att="0" lpdel="0" hold="0.5" lspd_syncmode="0" lshp="0" lspd="0.1" ctlenvamt="0" lspd_numerator="4"/>
+                <eldata fcut="14000" fwet="0" ftype="0" fres="0.5">
+                  <elvol latt="0" lamt="0" lspd_numerator="4" rel="0.1" lshp="0" dec="0.5" lspd_denominator="4" lpdel="0" x100="0" ctlenvamt="0" att="0" lspd_syncmode="0" userwavefile="" amt="0" lspd="0.1" pdel="0" hold="0.5" sustain="0.5"/>
+                  <elcut latt="0" lamt="0" lspd_numerator="4" rel="0.1" lshp="0" dec="0.5" lspd_denominator="4" lpdel="0" x100="0" ctlenvamt="0" att="0" lspd_syncmode="0" userwavefile="" amt="0" lspd="0.1" pdel="0" hold="0.5" sustain="0.5"/>
+                  <elres latt="0" lamt="0" lspd_numerator="4" rel="0.1" lshp="0" dec="0.5" lspd_denominator="4" lpdel="0" x100="0" ctlenvamt="0" att="0" lspd_syncmode="0" userwavefile="" amt="0" lspd="0.1" pdel="0" hold="0.5" sustain="0.5"/>
                 </eldata>
-                <chordcreator chord="0" chordrange="1" chord-enabled="0"/>
-                <arpeggiator arptime="200" arprange="1" arpskip="0" arptime_denominator="4" arptime_syncmode="0" arpmode="0" arpcycle="0" arp-enabled="0" arp="0" arptime_numerator="4" arpdir="0" arpmiss="0" arpgate="100"/>
-                <midiport inputcontroller="0" fixedoutputvelocity="-1" inputchannel="0" outputcontroller="0" writable="0" outputchannel="1" fixedinputvelocity="-1" fixedoutputnote="-1" outputprogram="1" basevelocity="63" readable="0"/>
-                <fxchain numofeffects="0" enabled="0"/>
+                <chordcreator chord="0" chord-enabled="0" chordrange="1"/>
+                <arpeggiator arp-enabled="0" arpcycle="0" arptime_denominator="4" arpmiss="0" arptime_syncmode="0" arpmode="0" arprange="1" arp="0" arpskip="0" arptime="200" arpdir="0" arpgate="100" arptime_numerator="4"/>
+                <midiport fixedinputvelocity="-1" readable="0" writable="0" inputchannel="0" outputchannel="1" fixedoutputvelocity="-1" fixedoutputnote="-1" outputprogram="1" outputcontroller="0" inputcontroller="0" basevelocity="63"/>
+                <fxchain enabled="0" numofeffects="0"/>
               </instrumenttrack>
-              <pattern steps="48" muted="0" type="0" name="HiHat Closed 009 Low Classic.wav" pos="0">
-                <note pan="0" key="57" vol="114" pos="0" len="-192"/>
-                <note pan="0" key="57" vol="78" pos="24" len="-192"/>
-                <note pan="0" key="57" vol="72" pos="48" len="-192"/>
-                <note pan="0" key="57" vol="72" pos="72" len="-192"/>
-                <note pan="0" key="57" vol="119" pos="84" len="-192"/>
-                <note pan="0" key="57" vol="127" pos="120" len="-192"/>
-                <note pan="0" key="57" vol="82" pos="144" len="-192"/>
-                <note pan="0" key="57" vol="63" pos="168" len="-192"/>
-                <note pan="0" key="57" vol="65" pos="192" len="-192"/>
-                <note pan="0" key="57" vol="114" pos="204" len="-192"/>
-                <note pan="0" key="57" vol="74" pos="240" len="-192"/>
-                <note pan="0" key="57" vol="106" pos="252" len="-192"/>
-                <note pan="0" key="57" vol="70" pos="276" len="-192"/>
-                <note pan="0" key="57" vol="53" pos="288" len="-192"/>
-                <note pan="0" key="57" vol="138" pos="300" len="-192"/>
-                <note pan="0" key="57" vol="70" pos="324" len="-192"/>
-                <note pan="0" key="57" vol="123" pos="336" len="-192"/>
-                <note pan="0" key="57" vol="74" pos="372" len="-192"/>
-                <note pan="0" key="57" vol="110" pos="384" len="-192"/>
-                <note pan="0" key="57" vol="100" pos="408" len="-192"/>
-                <note pan="0" key="57" vol="100" pos="420" len="-192"/>
-                <note pan="0" key="57" vol="100" pos="432" len="-192"/>
-                <note pan="0" key="57" vol="100" pos="456" len="-192"/>
-                <note pan="0" key="57" vol="78" pos="504" len="-192"/>
-                <note pan="0" key="57" vol="82" pos="516" len="-192"/>
-                <note pan="0" key="57" vol="140" pos="528" len="-192"/>
-                <note pan="0" key="57" vol="151" pos="552" len="-192"/>
+              <pattern name="Snare 008.wav" pos="0" steps="48" type="0" muted="0">
+                <note pos="96" pan="0" len="-192" key="57" vol="127"/>
+                <note pos="216" pan="0" len="-192" key="57" vol="97"/>
+                <note pos="312" pan="0" len="-192" key="57" vol="100"/>
+                <note pos="336" pan="0" len="-192" key="57" vol="100"/>
+                <note pos="360" pan="0" len="-192" key="57" vol="127"/>
+                <note pos="372" pan="0" len="-192" key="57" vol="100"/>
+                <note pos="480" pan="0" len="-192" key="57" vol="100"/>
               </pattern>
-              <pattern steps="48" muted="0" type="0" name="HiHat Closed 009 Low Classic.wav" pos="288"/>
-              <pattern steps="48" muted="0" type="0" name="HiHat Closed 009 Low Classic.wav" pos="576"/>
-              <pattern steps="48" muted="0" type="0" name="HiHat Closed 009 Low Classic.wav" pos="864"/>
-              <pattern steps="24" muted="0" type="0" name="HiHat Closed 009 Low Classic.wav" pos="1152">
-                <note pan="0" key="57" vol="87" pos="144" len="-192"/>
-                <note pan="0" key="57" vol="119" pos="156" len="-192"/>
-                <note pan="0" key="57" vol="85" pos="168" len="-192"/>
-                <note pan="0" key="57" vol="125" pos="180" len="-192"/>
+              <pattern name="Snare 008.wav" pos="288" steps="48" type="0" muted="0"/>
+              <pattern name="Snare 008.wav" pos="576" steps="48" type="0" muted="0"/>
+              <pattern name="Snare 008.wav" pos="864" steps="48" type="0" muted="0"/>
+              <pattern name="Snare 008.wav" pos="1152" steps="24" type="0" muted="0">
+                <note pos="192" pan="0" len="-192" key="57" vol="100"/>
               </pattern>
             </track>
-            <track muted="0" type="0" name="Clap 009.wav" solo="0">
-              <instrumenttrack pan="-40.9" fxch="0" usemasterpitch="1" pitchrange="1" pitch="0" basenote="57" vol="71.5">
+            <track name="HiHat Closed 009 Low Classic.wav" solo="0" type="0" muted="0">
+              <instrumenttrack pitchrange="1" pan="-42.5" basenote="57" usemasterpitch="1" fxch="0" vol="62.9" pitch="0">
                 <instrument name="audiofileprocessor">
-                  <audiofileprocessor reversed="0" looped="0" lframe="0" interp="1" eframe="1" stutter="0" sframe="0" src="TriTrap_v1/Snares &amp; Claps/Clap 009.wav" amp="100"/>
+                  <audiofileprocessor src="TriTrap_v1/Hats &amp; Cymbals/HiHat Closed 009 Low Classic.wav" amp="100" stutter="0" interp="1" looped="0" sframe="0" reversed="0" lframe="0" eframe="1"/>
                 </instrument>
-                <eldata fres="0.5" ftype="0" fcut="14000" fwet="0">
-                  <elvol lspd_denominator="4" sustain="0.5" pdel="0" userwavefile="" dec="0.5" lamt="0" latt="0" rel="0.1" amt="0" x100="0" att="0" lpdel="0" hold="0.5" lspd_syncmode="0" lshp="0" lspd="0.1" ctlenvamt="0" lspd_numerator="4"/>
-                  <elcut lspd_denominator="4" sustain="0.5" pdel="0" userwavefile="" dec="0.5" lamt="0" latt="0" rel="0.1" amt="0" x100="0" att="0" lpdel="0" hold="0.5" lspd_syncmode="0" lshp="0" lspd="0.1" ctlenvamt="0" lspd_numerator="4"/>
-                  <elres lspd_denominator="4" sustain="0.5" pdel="0" userwavefile="" dec="0.5" lamt="0" latt="0" rel="0.1" amt="0" x100="0" att="0" lpdel="0" hold="0.5" lspd_syncmode="0" lshp="0" lspd="0.1" ctlenvamt="0" lspd_numerator="4"/>
+                <eldata fcut="14000" fwet="0" ftype="0" fres="0.5">
+                  <elvol latt="0" lamt="0" lspd_numerator="4" rel="0.1" lshp="0" dec="0.5" lspd_denominator="4" lpdel="0" x100="0" ctlenvamt="0" att="0" lspd_syncmode="0" userwavefile="" amt="0" lspd="0.1" pdel="0" hold="0.5" sustain="0.5"/>
+                  <elcut latt="0" lamt="0" lspd_numerator="4" rel="0.1" lshp="0" dec="0.5" lspd_denominator="4" lpdel="0" x100="0" ctlenvamt="0" att="0" lspd_syncmode="0" userwavefile="" amt="0" lspd="0.1" pdel="0" hold="0.5" sustain="0.5"/>
+                  <elres latt="0" lamt="0" lspd_numerator="4" rel="0.1" lshp="0" dec="0.5" lspd_denominator="4" lpdel="0" x100="0" ctlenvamt="0" att="0" lspd_syncmode="0" userwavefile="" amt="0" lspd="0.1" pdel="0" hold="0.5" sustain="0.5"/>
                 </eldata>
-                <chordcreator chord="0" chordrange="1" chord-enabled="0"/>
-                <arpeggiator arptime="200" arprange="1" arpskip="0" arptime_denominator="4" arptime_syncmode="0" arpmode="0" arpcycle="0" arp-enabled="0" arp="0" arptime_numerator="4" arpdir="0" arpmiss="0" arpgate="100"/>
-                <midiport inputcontroller="0" fixedoutputvelocity="-1" inputchannel="0" outputcontroller="0" writable="0" outputchannel="1" fixedinputvelocity="-1" fixedoutputnote="-1" outputprogram="1" basevelocity="63" readable="0"/>
-                <fxchain numofeffects="0" enabled="0"/>
+                <chordcreator chord="0" chord-enabled="0" chordrange="1"/>
+                <arpeggiator arp-enabled="0" arpcycle="0" arptime_denominator="4" arpmiss="0" arptime_syncmode="0" arpmode="0" arprange="1" arp="0" arpskip="0" arptime="200" arpdir="0" arpgate="100" arptime_numerator="4"/>
+                <midiport fixedinputvelocity="-1" readable="0" writable="0" inputchannel="0" outputchannel="1" fixedoutputvelocity="-1" fixedoutputnote="-1" outputprogram="1" outputcontroller="0" inputcontroller="0" basevelocity="63"/>
+                <fxchain enabled="0" numofeffects="0"/>
               </instrumenttrack>
-              <pattern steps="48" muted="0" type="0" name="Clap 009.wav" pos="0">
-                <note pan="0" key="57" vol="102" pos="48" len="-192"/>
-                <note pan="0" key="57" vol="80" pos="120" len="-192"/>
-                <note pan="0" key="57" vol="85" pos="216" len="-192"/>
-                <note pan="0" key="57" vol="138" pos="312" len="-192"/>
-                <note pan="0" key="57" vol="70" pos="360" len="-192"/>
-                <note pan="0" key="57" vol="75" pos="372" len="-192"/>
+              <pattern name="HiHat Closed 009 Low Classic.wav" pos="0" steps="48" type="0" muted="0">
+                <note pos="0" pan="0" len="-192" key="57" vol="114"/>
+                <note pos="24" pan="0" len="-192" key="57" vol="78"/>
+                <note pos="48" pan="0" len="-192" key="57" vol="72"/>
+                <note pos="72" pan="0" len="-192" key="57" vol="72"/>
+                <note pos="84" pan="0" len="-192" key="57" vol="119"/>
+                <note pos="120" pan="0" len="-192" key="57" vol="127"/>
+                <note pos="144" pan="0" len="-192" key="57" vol="82"/>
+                <note pos="168" pan="0" len="-192" key="57" vol="63"/>
+                <note pos="192" pan="0" len="-192" key="57" vol="65"/>
+                <note pos="204" pan="0" len="-192" key="57" vol="114"/>
+                <note pos="240" pan="0" len="-192" key="57" vol="74"/>
+                <note pos="252" pan="0" len="-192" key="57" vol="106"/>
+                <note pos="276" pan="0" len="-192" key="57" vol="70"/>
+                <note pos="288" pan="0" len="-192" key="57" vol="53"/>
+                <note pos="300" pan="0" len="-192" key="57" vol="138"/>
+                <note pos="324" pan="0" len="-192" key="57" vol="70"/>
+                <note pos="336" pan="0" len="-192" key="57" vol="123"/>
+                <note pos="372" pan="0" len="-192" key="57" vol="74"/>
+                <note pos="384" pan="0" len="-192" key="57" vol="110"/>
+                <note pos="408" pan="0" len="-192" key="57" vol="100"/>
+                <note pos="420" pan="0" len="-192" key="57" vol="100"/>
+                <note pos="432" pan="0" len="-192" key="57" vol="100"/>
+                <note pos="456" pan="0" len="-192" key="57" vol="100"/>
+                <note pos="504" pan="0" len="-192" key="57" vol="78"/>
+                <note pos="516" pan="0" len="-192" key="57" vol="82"/>
+                <note pos="528" pan="0" len="-192" key="57" vol="140"/>
+                <note pos="552" pan="0" len="-192" key="57" vol="151"/>
               </pattern>
-              <pattern steps="48" muted="0" type="0" name="Clap 009.wav" pos="288"/>
-              <pattern steps="48" muted="0" type="0" name="Clap 009.wav" pos="576"/>
-              <pattern steps="48" muted="0" type="0" name="Clap 009.wav" pos="864"/>
-              <pattern steps="24" muted="0" type="0" name="Clap 009.wav" pos="1152">
-                <note pan="0" key="57" vol="100" pos="192" len="-192"/>
+              <pattern name="HiHat Closed 009 Low Classic.wav" pos="288" steps="48" type="0" muted="0"/>
+              <pattern name="HiHat Closed 009 Low Classic.wav" pos="576" steps="48" type="0" muted="0"/>
+              <pattern name="HiHat Closed 009 Low Classic.wav" pos="864" steps="48" type="0" muted="0"/>
+              <pattern name="HiHat Closed 009 Low Classic.wav" pos="1152" steps="24" type="0" muted="0">
+                <note pos="144" pan="0" len="-192" key="57" vol="87"/>
+                <note pos="156" pan="0" len="-192" key="57" vol="119"/>
+                <note pos="168" pan="0" len="-192" key="57" vol="85"/>
+                <note pos="180" pan="0" len="-192" key="57" vol="125"/>
+              </pattern>
+            </track>
+            <track name="Clap 009.wav" solo="0" type="0" muted="0">
+              <instrumenttrack pitchrange="1" pan="-40.9" basenote="57" usemasterpitch="1" fxch="0" vol="71.5" pitch="0">
+                <instrument name="audiofileprocessor">
+                  <audiofileprocessor src="TriTrap_v1/Snares &amp; Claps/Clap 009.wav" amp="100" stutter="0" interp="1" looped="0" sframe="0" reversed="0" lframe="0" eframe="1"/>
+                </instrument>
+                <eldata fcut="14000" fwet="0" ftype="0" fres="0.5">
+                  <elvol latt="0" lamt="0" lspd_numerator="4" rel="0.1" lshp="0" dec="0.5" lspd_denominator="4" lpdel="0" x100="0" ctlenvamt="0" att="0" lspd_syncmode="0" userwavefile="" amt="0" lspd="0.1" pdel="0" hold="0.5" sustain="0.5"/>
+                  <elcut latt="0" lamt="0" lspd_numerator="4" rel="0.1" lshp="0" dec="0.5" lspd_denominator="4" lpdel="0" x100="0" ctlenvamt="0" att="0" lspd_syncmode="0" userwavefile="" amt="0" lspd="0.1" pdel="0" hold="0.5" sustain="0.5"/>
+                  <elres latt="0" lamt="0" lspd_numerator="4" rel="0.1" lshp="0" dec="0.5" lspd_denominator="4" lpdel="0" x100="0" ctlenvamt="0" att="0" lspd_syncmode="0" userwavefile="" amt="0" lspd="0.1" pdel="0" hold="0.5" sustain="0.5"/>
+                </eldata>
+                <chordcreator chord="0" chord-enabled="0" chordrange="1"/>
+                <arpeggiator arp-enabled="0" arpcycle="0" arptime_denominator="4" arpmiss="0" arptime_syncmode="0" arpmode="0" arprange="1" arp="0" arpskip="0" arptime="200" arpdir="0" arpgate="100" arptime_numerator="4"/>
+                <midiport fixedinputvelocity="-1" readable="0" writable="0" inputchannel="0" outputchannel="1" fixedoutputvelocity="-1" fixedoutputnote="-1" outputprogram="1" outputcontroller="0" inputcontroller="0" basevelocity="63"/>
+                <fxchain enabled="0" numofeffects="0"/>
+              </instrumenttrack>
+              <pattern name="Clap 009.wav" pos="0" steps="48" type="0" muted="0">
+                <note pos="48" pan="0" len="-192" key="57" vol="102"/>
+                <note pos="120" pan="0" len="-192" key="57" vol="80"/>
+                <note pos="216" pan="0" len="-192" key="57" vol="85"/>
+                <note pos="312" pan="0" len="-192" key="57" vol="138"/>
+                <note pos="360" pan="0" len="-192" key="57" vol="70"/>
+                <note pos="372" pan="0" len="-192" key="57" vol="75"/>
+              </pattern>
+              <pattern name="Clap 009.wav" pos="288" steps="48" type="0" muted="0"/>
+              <pattern name="Clap 009.wav" pos="576" steps="48" type="0" muted="0"/>
+              <pattern name="Clap 009.wav" pos="864" steps="48" type="0" muted="0"/>
+              <pattern name="Clap 009.wav" pos="1152" steps="24" type="0" muted="0">
+                <note pos="192" pan="0" len="-192" key="57" vol="100"/>
               </pattern>
             </track>
           </trackcontainer>
         </bbtrack>
-        <bbtco muted="0" usestyle="1" name="" pos="2880" color="4286611584" len="576"/>
-        <bbtco muted="0" usestyle="1" name="" pos="3456" color="4286611584" len="576"/>
-        <bbtco muted="0" usestyle="1" name="" pos="4032" color="4286611584" len="576"/>
-        <bbtco muted="0" usestyle="1" name="" pos="4608" color="4286611584" len="576"/>
-        <bbtco muted="0" usestyle="1" name="" pos="5184" color="4286611584" len="576"/>
-        <bbtco muted="0" usestyle="1" name="" pos="5760" color="4286611584" len="576"/>
-        <bbtco muted="0" usestyle="1" name="" pos="6336" color="4286611584" len="576"/>
-        <bbtco muted="0" usestyle="1" name="" pos="6912" color="4286611584" len="576"/>
-        <bbtco muted="0" usestyle="1" name="" pos="7488" color="4286611584" len="576"/>
-        <bbtco muted="0" usestyle="1" name="" pos="8064" color="4286611584" len="576"/>
-        <bbtco muted="0" usestyle="1" name="" pos="8640" color="4286611584" len="576"/>
-        <bbtco muted="0" usestyle="1" name="" pos="9216" color="4286611584" len="576"/>
-        <bbtco muted="0" usestyle="1" name="" pos="10368" color="4286611584" len="576"/>
-        <bbtco muted="0" usestyle="1" name="" pos="9792" color="4286611584" len="576"/>
-        <bbtco muted="0" usestyle="1" name="" pos="10944" color="4286611584" len="576"/>
-        <bbtco muted="0" usestyle="1" name="" pos="11520" color="4286611584" len="576"/>
-        <bbtco muted="0" usestyle="1" name="" pos="13824" color="4286611584" len="576"/>
-        <bbtco muted="0" usestyle="1" name="" pos="14400" color="4286611584" len="576"/>
-        <bbtco muted="0" usestyle="1" name="" pos="14976" color="4286611584" len="576"/>
-        <bbtco muted="0" usestyle="1" name="" pos="15552" color="4286611584" len="576"/>
-        <bbtco muted="0" usestyle="1" name="" pos="12096" color="4286611584" len="576"/>
-        <bbtco muted="0" usestyle="1" name="" pos="12672" color="4286611584" len="576"/>
-        <bbtco muted="0" usestyle="1" name="" pos="13248" color="4286611584" len="576"/>
+        <bbtco name="" pos="2880" len="576" usestyle="1" color="4286611584" muted="0"/>
+        <bbtco name="" pos="3456" len="576" usestyle="1" color="4286611584" muted="0"/>
+        <bbtco name="" pos="4032" len="576" usestyle="1" color="4286611584" muted="0"/>
+        <bbtco name="" pos="4608" len="576" usestyle="1" color="4286611584" muted="0"/>
+        <bbtco name="" pos="5184" len="576" usestyle="1" color="4286611584" muted="0"/>
+        <bbtco name="" pos="5760" len="576" usestyle="1" color="4286611584" muted="0"/>
+        <bbtco name="" pos="6336" len="576" usestyle="1" color="4286611584" muted="0"/>
+        <bbtco name="" pos="6912" len="576" usestyle="1" color="4286611584" muted="0"/>
+        <bbtco name="" pos="7488" len="576" usestyle="1" color="4286611584" muted="0"/>
+        <bbtco name="" pos="8064" len="576" usestyle="1" color="4286611584" muted="0"/>
+        <bbtco name="" pos="8640" len="576" usestyle="1" color="4286611584" muted="0"/>
+        <bbtco name="" pos="9216" len="576" usestyle="1" color="4286611584" muted="0"/>
+        <bbtco name="" pos="10368" len="576" usestyle="1" color="4286611584" muted="0"/>
+        <bbtco name="" pos="9792" len="576" usestyle="1" color="4286611584" muted="0"/>
+        <bbtco name="" pos="10944" len="576" usestyle="1" color="4286611584" muted="0"/>
+        <bbtco name="" pos="11520" len="576" usestyle="1" color="4286611584" muted="0"/>
+        <bbtco name="" pos="13824" len="576" usestyle="1" color="4286611584" muted="0"/>
+        <bbtco name="" pos="14400" len="576" usestyle="1" color="4286611584" muted="0"/>
+        <bbtco name="" pos="14976" len="576" usestyle="1" color="4286611584" muted="0"/>
+        <bbtco name="" pos="15552" len="576" usestyle="1" color="4286611584" muted="0"/>
+        <bbtco name="" pos="12096" len="576" usestyle="1" color="4286611584" muted="0"/>
+        <bbtco name="" pos="12672" len="576" usestyle="1" color="4286611584" muted="0"/>
+        <bbtco name="" pos="13248" len="576" usestyle="1" color="4286611584" muted="0"/>
       </track>
-      <track muted="0" type="1" name="Main Bass" solo="0">
+      <track name="Main Bass" solo="0" type="1" muted="0">
         <bbtrack/>
-        <bbtco muted="0" usestyle="1" name="" pos="5184" color="4286611584" len="576"/>
-        <bbtco muted="0" usestyle="1" name="" pos="5760" color="4286611584" len="576"/>
-        <bbtco muted="0" usestyle="1" name="" pos="6336" color="4286611584" len="576"/>
-        <bbtco muted="0" usestyle="1" name="" pos="6912" color="4286611584" len="576"/>
-        <bbtco muted="0" usestyle="1" name="" pos="9792" color="4286611584" len="576"/>
-        <bbtco muted="0" usestyle="1" name="" pos="10368" color="4286611584" len="576"/>
-        <bbtco muted="0" usestyle="1" name="" pos="9216" color="4286611584" len="576"/>
-        <bbtco muted="0" usestyle="1" name="" pos="10944" color="4286611584" len="576"/>
+        <bbtco name="" pos="5184" len="576" usestyle="1" color="4286611584" muted="0"/>
+        <bbtco name="" pos="5760" len="576" usestyle="1" color="4286611584" muted="0"/>
+        <bbtco name="" pos="6336" len="576" usestyle="1" color="4286611584" muted="0"/>
+        <bbtco name="" pos="6912" len="576" usestyle="1" color="4286611584" muted="0"/>
+        <bbtco name="" pos="9792" len="576" usestyle="1" color="4286611584" muted="0"/>
+        <bbtco name="" pos="10368" len="576" usestyle="1" color="4286611584" muted="0"/>
+        <bbtco name="" pos="9216" len="576" usestyle="1" color="4286611584" muted="0"/>
+        <bbtco name="" pos="10944" len="576" usestyle="1" color="4286611584" muted="0"/>
       </track>
-      <track muted="0" type="1" name="Main Bass Leadin" solo="0">
+      <track name="Main Bass Leadin" solo="0" type="1" muted="0">
         <bbtrack/>
-        <bbtco muted="0" usestyle="1" name="" pos="8640" color="4286611584" len="576"/>
-        <bbtco muted="0" usestyle="1" name="" pos="13248" color="4286611584" len="576"/>
-        <bbtco muted="0" usestyle="1" name="" pos="12096" color="4286611584" len="576"/>
-        <bbtco muted="0" usestyle="1" name="" pos="14976" color="4286611584" len="576"/>
+        <bbtco name="" pos="8640" len="576" usestyle="1" color="4286611584" muted="0"/>
+        <bbtco name="" pos="13248" len="576" usestyle="1" color="4286611584" muted="0"/>
+        <bbtco name="" pos="12096" len="576" usestyle="1" color="4286611584" muted="0"/>
+        <bbtco name="" pos="14976" len="576" usestyle="1" color="4286611584" muted="0"/>
       </track>
-      <track muted="0" type="1" name="Bass Cont" solo="0">
+      <track name="Bass Cont" solo="0" type="1" muted="0">
         <bbtrack/>
-        <bbtco muted="0" usestyle="1" name="" pos="2880" color="4286611584" len="576"/>
-        <bbtco muted="0" usestyle="1" name="" pos="3456" color="4286611584" len="576"/>
-        <bbtco muted="0" usestyle="1" name="" pos="4032" color="4286611584" len="576"/>
-        <bbtco muted="0" usestyle="1" name="" pos="4608" color="4286611584" len="576"/>
-        <bbtco muted="0" usestyle="1" name="" pos="13824" color="4286611584" len="576"/>
-        <bbtco muted="0" usestyle="1" name="" pos="14400" color="4286611584" len="576"/>
-        <bbtco muted="0" usestyle="1" name="" pos="15552" color="4286611584" len="576"/>
+        <bbtco name="" pos="2880" len="576" usestyle="1" color="4286611584" muted="0"/>
+        <bbtco name="" pos="3456" len="576" usestyle="1" color="4286611584" muted="0"/>
+        <bbtco name="" pos="4032" len="576" usestyle="1" color="4286611584" muted="0"/>
+        <bbtco name="" pos="4608" len="576" usestyle="1" color="4286611584" muted="0"/>
+        <bbtco name="" pos="13824" len="576" usestyle="1" color="4286611584" muted="0"/>
+        <bbtco name="" pos="14400" len="576" usestyle="1" color="4286611584" muted="0"/>
+        <bbtco name="" pos="15552" len="576" usestyle="1" color="4286611584" muted="0"/>
       </track>
-      <track muted="0" type="1" name="Leadup" solo="0">
+      <track name="Leadup" solo="0" type="1" muted="0">
         <bbtrack/>
-        <bbtco muted="0" usestyle="1" name="" pos="2592" color="4286611584" len="288"/>
+        <bbtco name="" pos="2592" len="288" usestyle="1" color="4286611584" muted="0"/>
       </track>
-      <track muted="0" type="0" name="Dirty Reece" solo="0">
-        <instrumenttrack pan="47.5" fxch="0" usemasterpitch="1" pitchrange="1" pitch="0.00610352" basenote="57" vol="14.7">
+      <track name="Dirty Reece" solo="0" type="0" muted="0">
+        <instrumenttrack pitchrange="1" pan="36.1" basenote="57" usemasterpitch="1" fxch="0" vol="14.7" pitch="0.00610352">
           <instrument name="tripleoscillator">
-            <tripleoscillator phoffset2="0" userwavefile0="" finer0="14" userwavefile1="" finer1="-15" userwavefile2="" finer2="20" coarse0="-24" coarse1="-24" coarse2="-12" finel0="15" finel1="-14" modalgo1="2" modalgo2="2" finel2="20" pan0="0" modalgo3="2" pan1="0" stphdetun0="0" pan2="0" stphdetun1="0" wavetype0="2" stphdetun2="0" wavetype1="2" wavetype2="2" vol0="33" vol1="33" phoffset0="0" phoffset1="0" vol2="33"/>
+            <tripleoscillator phoffset2="0" stphdetun0="0" stphdetun1="0" stphdetun2="0" finel0="15" finer0="14" finel1="-14" finer1="-15" finel2="20" finer2="20" userwavefile0="" userwavefile1="" userwavefile2="" coarse0="-24" modalgo1="2" wavetype0="2" coarse1="-24" modalgo2="2" wavetype1="2" coarse2="-12" modalgo3="2" wavetype2="2" vol0="33" vol1="33" vol2="33" pan0="0" pan1="0" pan2="0" phoffset0="0" phoffset1="0"/>
           </instrument>
-          <eldata fres="2" ftype="0" fcut="13720" fwet="1">
-            <elvol lspd_denominator="4" sustain="0.5" pdel="0" userwavefile="" dec="0.5" lamt="0" latt="0" rel="0.1" amt="0" x100="0" att="0" lpdel="0" hold="0.5" lspd_syncmode="0" lshp="0" lspd="0.1" ctlenvamt="0" lspd_numerator="4"/>
-            <elcut lspd_denominator="4" sustain="0.5" pdel="0" userwavefile="" dec="0.5" lamt="0" latt="0" rel="0.1" amt="0" x100="0" att="0" lpdel="0" hold="0.5" lspd_syncmode="0" lshp="0" lspd="0.1" ctlenvamt="0" lspd_numerator="4"/>
-            <elres lspd_denominator="4" sustain="0.5" pdel="0" userwavefile="" dec="0.5" lamt="0" latt="0" rel="0.1" amt="1" x100="0" att="0" lpdel="0" hold="0.5" lspd_syncmode="0" lshp="0" lspd="0.1" ctlenvamt="0" lspd_numerator="4"/>
+          <eldata fcut="13720" fwet="1" ftype="0" fres="2">
+            <elvol latt="0" lamt="0" lspd_numerator="4" rel="0.1" lshp="0" dec="0.5" lspd_denominator="4" lpdel="0" x100="0" ctlenvamt="0" att="0" lspd_syncmode="0" userwavefile="" amt="0" lspd="0.1" pdel="0" hold="0.5" sustain="0.5"/>
+            <elcut latt="0" lamt="0" lspd_numerator="4" rel="0.1" lshp="0" dec="0.5" lspd_denominator="4" lpdel="0" x100="0" ctlenvamt="0" att="0" lspd_syncmode="0" userwavefile="" amt="0" lspd="0.1" pdel="0" hold="0.5" sustain="0.5"/>
+            <elres latt="0" lamt="0" lspd_numerator="4" rel="0.1" lshp="0" dec="0.5" lspd_denominator="4" lpdel="0" x100="0" ctlenvamt="0" att="0" lspd_syncmode="0" userwavefile="" amt="1" lspd="0.1" pdel="0" hold="0.5" sustain="0.5"/>
           </eldata>
-          <chordcreator chord="0" chordrange="1" chord-enabled="0"/>
-          <arpeggiator arptime="100" arprange="1" arpskip="0" arptime_denominator="4" arptime_syncmode="0" arpmode="0" arpcycle="0" arp-enabled="0" arp="0" arptime_numerator="4" arpdir="0" arpmiss="0" arpgate="100"/>
-          <midiport inputcontroller="0" inports="24:0 Keystation 49:Keystation 49 MIDI 1" fixedoutputvelocity="-1" inputchannel="0" outputcontroller="0" writable="0" outputchannel="1" fixedinputvelocity="-1" fixedoutputnote="-1" outputprogram="1" basevelocity="127" readable="1"/>
-          <fxchain numofeffects="4" enabled="1">
-            <effect autoquit_syncmode="0" autoquit_numerator="4" autoquit_denominator="4" autoquit="8000" gate="0" name="ladspaeffect" wet="1" on="1">
+          <chordcreator chord="0" chord-enabled="0" chordrange="1"/>
+          <arpeggiator arp-enabled="0" arpcycle="0" arptime_denominator="4" arpmiss="0" arptime_syncmode="0" arpmode="0" arprange="1" arp="0" arpskip="0" arptime="100" arpdir="0" arpgate="100" arptime_numerator="4"/>
+          <midiport fixedinputvelocity="-1" readable="1" writable="0" inputchannel="0" outputchannel="1" fixedoutputvelocity="-1" fixedoutputnote="-1" outputprogram="1" outputcontroller="0" inputcontroller="0" basevelocity="127" inports=""/>
+          <fxchain enabled="1" numofeffects="4">
+            <effect autoquit_denominator="4" name="ladspaeffect" on="1" autoquit_numerator="4" autoquit="8000" wet="1" autoquit_syncmode="0" gate="0">
               <ladspacontrols ports="12">
                 <port04 data="3.168"/>
                 <port05 data="9.999"/>
@@ -1233,11 +1277,11 @@
                 <port015 data="0.38"/>
               </ladspacontrols>
               <key>
-                <attribute value="calf" name="file"/>
-                <attribute value="MultiChorus" name="plugin"/>
+                <attribute name="file" value="calf"/>
+                <attribute name="plugin" value="MultiChorus"/>
               </key>
             </effect>
-            <effect autoquit_syncmode="0" autoquit_numerator="4" autoquit_denominator="4" autoquit="8000" gate="0" name="ladspaeffect" wet="1" on="0">
+            <effect autoquit_denominator="4" name="ladspaeffect" on="0" autoquit_numerator="4" autoquit="8000" wet="1" autoquit_syncmode="0" gate="0">
               <ladspacontrols ports="7">
                 <port00 data="2.8"/>
                 <port01 data="90"/>
@@ -1248,11 +1292,11 @@
                 <port06 data="0"/>
               </ladspacontrols>
               <key>
-                <attribute value="tap_chorusflanger" name="file"/>
-                <attribute value="tap_chorusflanger" name="plugin"/>
+                <attribute name="file" value="tap_chorusflanger"/>
+                <attribute name="plugin" value="tap_chorusflanger"/>
               </key>
             </effect>
-            <effect autoquit_syncmode="0" autoquit_numerator="4" autoquit_denominator="4" autoquit="8000" gate="0" name="ladspaeffect" wet="1" on="0">
+            <effect autoquit_denominator="4" name="ladspaeffect" on="0" autoquit_numerator="4" autoquit="8000" wet="1" autoquit_syncmode="0" gate="0">
               <ladspacontrols ports="4">
                 <port02 data="0.50197"/>
                 <port03 data="0.3745"/>
@@ -1260,271 +1304,271 @@
                 <port05 data="0.25"/>
               </ladspacontrols>
               <key>
-                <attribute value="caps" name="file"/>
-                <attribute value="Plate2x2" name="plugin"/>
+                <attribute name="file" value="caps"/>
+                <attribute name="plugin" value="Plate2x2"/>
               </key>
             </effect>
-            <effect autoquit_syncmode="0" autoquit_numerator="4" autoquit_denominator="4" autoquit="8000" gate="0" name="ladspaeffect" wet="1" on="1">
+            <effect autoquit_denominator="4" name="ladspaeffect" on="1" autoquit_numerator="4" autoquit="8000" wet="1" autoquit_syncmode="0" gate="0">
               <ladspacontrols link="1" ports="6">
-                <port00 link="1" data="-3"/>
-                <port01 link="1" data="1"/>
-                <port02 link="1" data="0"/>
+                <port00 data="-3" link="1"/>
+                <port01 data="1" link="1"/>
+                <port02 data="0" link="1"/>
                 <port10 data="-3"/>
                 <port11 data="1"/>
                 <port12 data="0"/>
               </ladspacontrols>
               <key>
-                <attribute value="hard_limiter_1413" name="file"/>
-                <attribute value="hardLimiter" name="plugin"/>
+                <attribute name="file" value="hard_limiter_1413"/>
+                <attribute name="plugin" value="hardLimiter"/>
               </key>
             </effect>
           </fxchain>
         </instrumenttrack>
-        <pattern steps="24" muted="0" type="1" name="Dirty Reece" pos="2880">
-          <note pan="-2" key="52" vol="133" pos="0" len="24"/>
-          <note pan="-2" key="52" vol="133" pos="48" len="24"/>
-          <note pan="-2" key="57" vol="133" pos="72" len="24"/>
-          <note pan="-2" key="56" vol="133" pos="96" len="24"/>
-          <note pan="-2" key="55" vol="133" pos="120" len="24"/>
-          <note pan="-2" key="52" vol="133" pos="240" len="24"/>
-          <note pan="-2" key="52" vol="133" pos="288" len="24"/>
-          <note pan="-2" key="52" vol="133" pos="336" len="24"/>
-          <note pan="-2" key="57" vol="133" pos="360" len="24"/>
-          <note pan="-2" key="56" vol="133" pos="384" len="24"/>
-          <note pan="-2" key="55" vol="133" pos="408" len="24"/>
-          <note pan="-2" key="52" vol="133" pos="528" len="24"/>
-          <note pan="-2" key="52" vol="133" pos="576" len="24"/>
-          <note pan="-2" key="52" vol="133" pos="624" len="24"/>
-          <note pan="-2" key="57" vol="133" pos="648" len="24"/>
-          <note pan="-2" key="56" vol="133" pos="672" len="24"/>
-          <note pan="-2" key="55" vol="133" pos="696" len="24"/>
-          <note pan="-2" key="52" vol="133" pos="816" len="24"/>
-          <note pan="-2" key="52" vol="133" pos="864" len="24"/>
-          <note pan="-2" key="52" vol="133" pos="912" len="24"/>
-          <note pan="-2" key="57" vol="133" pos="936" len="24"/>
-          <note pan="-2" key="56" vol="133" pos="960" len="24"/>
-          <note pan="-2" key="55" vol="133" pos="984" len="24"/>
-          <note pan="-2" key="52" vol="133" pos="1104" len="24"/>
-          <note pan="-2" key="52" vol="133" pos="1152" len="24"/>
-          <note pan="-2" key="52" vol="133" pos="1200" len="24"/>
-          <note pan="-2" key="57" vol="133" pos="1224" len="24"/>
-          <note pan="-2" key="56" vol="133" pos="1248" len="24"/>
-          <note pan="-2" key="55" vol="133" pos="1272" len="24"/>
-          <note pan="-2" key="52" vol="133" pos="1392" len="24"/>
-          <note pan="-2" key="52" vol="133" pos="1440" len="24"/>
-          <note pan="-2" key="52" vol="133" pos="1488" len="24"/>
-          <note pan="-2" key="57" vol="133" pos="1512" len="24"/>
-          <note pan="-2" key="56" vol="133" pos="1536" len="24"/>
-          <note pan="-2" key="55" vol="133" pos="1560" len="24"/>
-          <note pan="-2" key="52" vol="133" pos="1680" len="24"/>
-          <note pan="-2" key="52" vol="133" pos="1728" len="24"/>
-          <note pan="-2" key="52" vol="133" pos="1776" len="24"/>
-          <note pan="-2" key="57" vol="133" pos="1800" len="24"/>
-          <note pan="-2" key="56" vol="133" pos="1824" len="24"/>
-          <note pan="-2" key="55" vol="133" pos="1848" len="24"/>
-          <note pan="-2" key="52" vol="133" pos="1968" len="24"/>
-          <note pan="-2" key="52" vol="133" pos="2016" len="24"/>
-          <note pan="-2" key="52" vol="133" pos="2064" len="24"/>
-          <note pan="-2" key="57" vol="133" pos="2088" len="24"/>
-          <note pan="-2" key="56" vol="133" pos="2112" len="24"/>
-          <note pan="-2" key="55" vol="133" pos="2136" len="24"/>
+        <pattern name="Dirty Reece" pos="2880" steps="24" type="1" muted="0">
+          <note pos="0" pan="-2" len="24" key="52" vol="133"/>
+          <note pos="48" pan="-2" len="24" key="52" vol="133"/>
+          <note pos="72" pan="-2" len="24" key="57" vol="133"/>
+          <note pos="96" pan="-2" len="24" key="56" vol="133"/>
+          <note pos="120" pan="-2" len="24" key="55" vol="133"/>
+          <note pos="240" pan="-2" len="24" key="52" vol="133"/>
+          <note pos="288" pan="-2" len="24" key="52" vol="133"/>
+          <note pos="336" pan="-2" len="24" key="52" vol="133"/>
+          <note pos="360" pan="-2" len="24" key="57" vol="133"/>
+          <note pos="384" pan="-2" len="24" key="56" vol="133"/>
+          <note pos="408" pan="-2" len="24" key="55" vol="133"/>
+          <note pos="528" pan="-2" len="24" key="52" vol="133"/>
+          <note pos="576" pan="-2" len="24" key="52" vol="133"/>
+          <note pos="624" pan="-2" len="24" key="52" vol="133"/>
+          <note pos="648" pan="-2" len="24" key="57" vol="133"/>
+          <note pos="672" pan="-2" len="24" key="56" vol="133"/>
+          <note pos="696" pan="-2" len="24" key="55" vol="133"/>
+          <note pos="816" pan="-2" len="24" key="52" vol="133"/>
+          <note pos="864" pan="-2" len="24" key="52" vol="133"/>
+          <note pos="912" pan="-2" len="24" key="52" vol="133"/>
+          <note pos="936" pan="-2" len="24" key="57" vol="133"/>
+          <note pos="960" pan="-2" len="24" key="56" vol="133"/>
+          <note pos="984" pan="-2" len="24" key="55" vol="133"/>
+          <note pos="1104" pan="-2" len="24" key="52" vol="133"/>
+          <note pos="1152" pan="-2" len="24" key="52" vol="133"/>
+          <note pos="1200" pan="-2" len="24" key="52" vol="133"/>
+          <note pos="1224" pan="-2" len="24" key="57" vol="133"/>
+          <note pos="1248" pan="-2" len="24" key="56" vol="133"/>
+          <note pos="1272" pan="-2" len="24" key="55" vol="133"/>
+          <note pos="1392" pan="-2" len="24" key="52" vol="133"/>
+          <note pos="1440" pan="-2" len="24" key="52" vol="133"/>
+          <note pos="1488" pan="-2" len="24" key="52" vol="133"/>
+          <note pos="1512" pan="-2" len="24" key="57" vol="133"/>
+          <note pos="1536" pan="-2" len="24" key="56" vol="133"/>
+          <note pos="1560" pan="-2" len="24" key="55" vol="133"/>
+          <note pos="1680" pan="-2" len="24" key="52" vol="133"/>
+          <note pos="1728" pan="-2" len="24" key="52" vol="133"/>
+          <note pos="1776" pan="-2" len="24" key="52" vol="133"/>
+          <note pos="1800" pan="-2" len="24" key="57" vol="133"/>
+          <note pos="1824" pan="-2" len="24" key="56" vol="133"/>
+          <note pos="1848" pan="-2" len="24" key="55" vol="133"/>
+          <note pos="1968" pan="-2" len="24" key="52" vol="133"/>
+          <note pos="2016" pan="-2" len="24" key="52" vol="133"/>
+          <note pos="2064" pan="-2" len="24" key="52" vol="133"/>
+          <note pos="2088" pan="-2" len="24" key="57" vol="133"/>
+          <note pos="2112" pan="-2" len="24" key="56" vol="133"/>
+          <note pos="2136" pan="-2" len="24" key="55" vol="133"/>
         </pattern>
-        <pattern steps="24" muted="0" type="1" name="Dirty Reece" pos="7488">
-          <note pan="-2" key="52" vol="133" pos="0" len="24"/>
-          <note pan="-2" key="52" vol="133" pos="48" len="24"/>
-          <note pan="-2" key="57" vol="133" pos="72" len="24"/>
-          <note pan="-2" key="56" vol="133" pos="96" len="24"/>
-          <note pan="-2" key="55" vol="133" pos="120" len="24"/>
-          <note pan="-2" key="52" vol="133" pos="240" len="24"/>
-          <note pan="-2" key="52" vol="133" pos="288" len="24"/>
-          <note pan="-2" key="52" vol="133" pos="336" len="24"/>
-          <note pan="-2" key="57" vol="133" pos="360" len="24"/>
-          <note pan="-2" key="56" vol="133" pos="384" len="24"/>
-          <note pan="-2" key="55" vol="133" pos="408" len="24"/>
-          <note pan="-2" key="52" vol="133" pos="528" len="24"/>
-          <note pan="-2" key="52" vol="133" pos="576" len="24"/>
-          <note pan="-2" key="52" vol="133" pos="624" len="24"/>
-          <note pan="-2" key="57" vol="133" pos="648" len="24"/>
-          <note pan="-2" key="56" vol="133" pos="672" len="24"/>
-          <note pan="-2" key="55" vol="133" pos="696" len="24"/>
-          <note pan="-2" key="52" vol="133" pos="816" len="24"/>
-          <note pan="-2" key="52" vol="133" pos="864" len="24"/>
-          <note pan="-2" key="52" vol="133" pos="912" len="24"/>
-          <note pan="-2" key="57" vol="133" pos="936" len="24"/>
-          <note pan="-2" key="56" vol="133" pos="960" len="24"/>
-          <note pan="-2" key="55" vol="133" pos="984" len="24"/>
-          <note pan="-2" key="52" vol="133" pos="1104" len="24"/>
-          <note pan="-2" key="52" vol="133" pos="1152" len="24"/>
-          <note pan="-2" key="52" vol="133" pos="1200" len="24"/>
-          <note pan="-2" key="57" vol="133" pos="1224" len="24"/>
-          <note pan="-2" key="56" vol="133" pos="1248" len="24"/>
-          <note pan="-2" key="55" vol="133" pos="1272" len="24"/>
-          <note pan="-2" key="52" vol="133" pos="1392" len="24"/>
-          <note pan="-2" key="52" vol="133" pos="1440" len="24"/>
-          <note pan="-2" key="52" vol="133" pos="1488" len="24"/>
-          <note pan="-2" key="57" vol="133" pos="1512" len="24"/>
-          <note pan="-2" key="56" vol="133" pos="1536" len="24"/>
-          <note pan="-2" key="55" vol="133" pos="1560" len="24"/>
-          <note pan="-2" key="52" vol="133" pos="1680" len="24"/>
-          <note pan="-2" key="52" vol="133" pos="1728" len="24"/>
-          <note pan="-2" key="52" vol="133" pos="1776" len="24"/>
-          <note pan="-2" key="57" vol="133" pos="1800" len="24"/>
-          <note pan="-2" key="56" vol="133" pos="1824" len="24"/>
-          <note pan="-2" key="55" vol="133" pos="1848" len="24"/>
-          <note pan="-2" key="52" vol="133" pos="1968" len="24"/>
-          <note pan="-2" key="52" vol="133" pos="2016" len="24"/>
-          <note pan="-2" key="52" vol="133" pos="2064" len="24"/>
-          <note pan="-2" key="57" vol="133" pos="2088" len="24"/>
-          <note pan="-2" key="56" vol="133" pos="2112" len="24"/>
-          <note pan="-2" key="55" vol="133" pos="2136" len="24"/>
+        <pattern name="Dirty Reece" pos="7488" steps="24" type="1" muted="0">
+          <note pos="0" pan="-2" len="24" key="52" vol="133"/>
+          <note pos="48" pan="-2" len="24" key="52" vol="133"/>
+          <note pos="72" pan="-2" len="24" key="57" vol="133"/>
+          <note pos="96" pan="-2" len="24" key="56" vol="133"/>
+          <note pos="120" pan="-2" len="24" key="55" vol="133"/>
+          <note pos="240" pan="-2" len="24" key="52" vol="133"/>
+          <note pos="288" pan="-2" len="24" key="52" vol="133"/>
+          <note pos="336" pan="-2" len="24" key="52" vol="133"/>
+          <note pos="360" pan="-2" len="24" key="57" vol="133"/>
+          <note pos="384" pan="-2" len="24" key="56" vol="133"/>
+          <note pos="408" pan="-2" len="24" key="55" vol="133"/>
+          <note pos="528" pan="-2" len="24" key="52" vol="133"/>
+          <note pos="576" pan="-2" len="24" key="52" vol="133"/>
+          <note pos="624" pan="-2" len="24" key="52" vol="133"/>
+          <note pos="648" pan="-2" len="24" key="57" vol="133"/>
+          <note pos="672" pan="-2" len="24" key="56" vol="133"/>
+          <note pos="696" pan="-2" len="24" key="55" vol="133"/>
+          <note pos="816" pan="-2" len="24" key="52" vol="133"/>
+          <note pos="864" pan="-2" len="24" key="52" vol="133"/>
+          <note pos="912" pan="-2" len="24" key="52" vol="133"/>
+          <note pos="936" pan="-2" len="24" key="57" vol="133"/>
+          <note pos="960" pan="-2" len="24" key="56" vol="133"/>
+          <note pos="984" pan="-2" len="24" key="55" vol="133"/>
+          <note pos="1104" pan="-2" len="24" key="52" vol="133"/>
+          <note pos="1152" pan="-2" len="24" key="52" vol="133"/>
+          <note pos="1200" pan="-2" len="24" key="52" vol="133"/>
+          <note pos="1224" pan="-2" len="24" key="57" vol="133"/>
+          <note pos="1248" pan="-2" len="24" key="56" vol="133"/>
+          <note pos="1272" pan="-2" len="24" key="55" vol="133"/>
+          <note pos="1392" pan="-2" len="24" key="52" vol="133"/>
+          <note pos="1440" pan="-2" len="24" key="52" vol="133"/>
+          <note pos="1488" pan="-2" len="24" key="52" vol="133"/>
+          <note pos="1512" pan="-2" len="24" key="57" vol="133"/>
+          <note pos="1536" pan="-2" len="24" key="56" vol="133"/>
+          <note pos="1560" pan="-2" len="24" key="55" vol="133"/>
+          <note pos="1680" pan="-2" len="24" key="52" vol="133"/>
+          <note pos="1728" pan="-2" len="24" key="52" vol="133"/>
+          <note pos="1776" pan="-2" len="24" key="52" vol="133"/>
+          <note pos="1800" pan="-2" len="24" key="57" vol="133"/>
+          <note pos="1824" pan="-2" len="24" key="56" vol="133"/>
+          <note pos="1848" pan="-2" len="24" key="55" vol="133"/>
+          <note pos="1968" pan="-2" len="24" key="52" vol="133"/>
+          <note pos="2016" pan="-2" len="24" key="52" vol="133"/>
+          <note pos="2064" pan="-2" len="24" key="52" vol="133"/>
+          <note pos="2088" pan="-2" len="24" key="57" vol="133"/>
+          <note pos="2112" pan="-2" len="24" key="56" vol="133"/>
+          <note pos="2136" pan="-2" len="24" key="55" vol="133"/>
         </pattern>
-        <pattern steps="24" muted="0" type="1" name="Dirty Reece" pos="9792">
-          <note pan="-2" key="52" vol="133" pos="0" len="24"/>
-          <note pan="-2" key="52" vol="133" pos="48" len="24"/>
-          <note pan="-2" key="57" vol="133" pos="72" len="24"/>
-          <note pan="-2" key="56" vol="133" pos="96" len="24"/>
-          <note pan="-2" key="55" vol="133" pos="120" len="24"/>
-          <note pan="-2" key="52" vol="133" pos="240" len="24"/>
-          <note pan="-2" key="52" vol="133" pos="288" len="24"/>
-          <note pan="-2" key="52" vol="133" pos="336" len="24"/>
-          <note pan="-2" key="57" vol="133" pos="360" len="24"/>
-          <note pan="-2" key="56" vol="133" pos="384" len="24"/>
-          <note pan="-2" key="55" vol="133" pos="408" len="24"/>
-          <note pan="-2" key="52" vol="133" pos="528" len="24"/>
-          <note pan="-2" key="52" vol="133" pos="576" len="24"/>
-          <note pan="-2" key="52" vol="133" pos="624" len="24"/>
-          <note pan="-2" key="57" vol="133" pos="648" len="24"/>
-          <note pan="-2" key="56" vol="133" pos="672" len="24"/>
-          <note pan="-2" key="55" vol="133" pos="696" len="24"/>
-          <note pan="-2" key="52" vol="133" pos="816" len="24"/>
-          <note pan="-2" key="52" vol="133" pos="864" len="24"/>
-          <note pan="-2" key="52" vol="133" pos="912" len="24"/>
-          <note pan="-2" key="57" vol="133" pos="936" len="24"/>
-          <note pan="-2" key="56" vol="133" pos="960" len="24"/>
-          <note pan="-2" key="55" vol="133" pos="984" len="24"/>
-          <note pan="-2" key="52" vol="133" pos="1104" len="24"/>
-          <note pan="-2" key="52" vol="133" pos="1152" len="24"/>
-          <note pan="-2" key="52" vol="133" pos="1200" len="24"/>
-          <note pan="-2" key="57" vol="133" pos="1224" len="24"/>
-          <note pan="-2" key="56" vol="133" pos="1248" len="24"/>
-          <note pan="-2" key="55" vol="133" pos="1272" len="24"/>
-          <note pan="-2" key="52" vol="133" pos="1392" len="24"/>
-          <note pan="-2" key="52" vol="133" pos="1440" len="24"/>
-          <note pan="-2" key="52" vol="133" pos="1488" len="24"/>
-          <note pan="-2" key="57" vol="133" pos="1512" len="24"/>
-          <note pan="-2" key="56" vol="133" pos="1536" len="24"/>
-          <note pan="-2" key="55" vol="133" pos="1560" len="24"/>
+        <pattern name="Dirty Reece" pos="9792" steps="24" type="1" muted="0">
+          <note pos="0" pan="-2" len="24" key="52" vol="133"/>
+          <note pos="48" pan="-2" len="24" key="52" vol="133"/>
+          <note pos="72" pan="-2" len="24" key="57" vol="133"/>
+          <note pos="96" pan="-2" len="24" key="56" vol="133"/>
+          <note pos="120" pan="-2" len="24" key="55" vol="133"/>
+          <note pos="240" pan="-2" len="24" key="52" vol="133"/>
+          <note pos="288" pan="-2" len="24" key="52" vol="133"/>
+          <note pos="336" pan="-2" len="24" key="52" vol="133"/>
+          <note pos="360" pan="-2" len="24" key="57" vol="133"/>
+          <note pos="384" pan="-2" len="24" key="56" vol="133"/>
+          <note pos="408" pan="-2" len="24" key="55" vol="133"/>
+          <note pos="528" pan="-2" len="24" key="52" vol="133"/>
+          <note pos="576" pan="-2" len="24" key="52" vol="133"/>
+          <note pos="624" pan="-2" len="24" key="52" vol="133"/>
+          <note pos="648" pan="-2" len="24" key="57" vol="133"/>
+          <note pos="672" pan="-2" len="24" key="56" vol="133"/>
+          <note pos="696" pan="-2" len="24" key="55" vol="133"/>
+          <note pos="816" pan="-2" len="24" key="52" vol="133"/>
+          <note pos="864" pan="-2" len="24" key="52" vol="133"/>
+          <note pos="912" pan="-2" len="24" key="52" vol="133"/>
+          <note pos="936" pan="-2" len="24" key="57" vol="133"/>
+          <note pos="960" pan="-2" len="24" key="56" vol="133"/>
+          <note pos="984" pan="-2" len="24" key="55" vol="133"/>
+          <note pos="1104" pan="-2" len="24" key="52" vol="133"/>
+          <note pos="1152" pan="-2" len="24" key="52" vol="133"/>
+          <note pos="1200" pan="-2" len="24" key="52" vol="133"/>
+          <note pos="1224" pan="-2" len="24" key="57" vol="133"/>
+          <note pos="1248" pan="-2" len="24" key="56" vol="133"/>
+          <note pos="1272" pan="-2" len="24" key="55" vol="133"/>
+          <note pos="1392" pan="-2" len="24" key="52" vol="133"/>
+          <note pos="1440" pan="-2" len="24" key="52" vol="133"/>
+          <note pos="1488" pan="-2" len="24" key="52" vol="133"/>
+          <note pos="1512" pan="-2" len="24" key="57" vol="133"/>
+          <note pos="1536" pan="-2" len="24" key="56" vol="133"/>
+          <note pos="1560" pan="-2" len="24" key="55" vol="133"/>
         </pattern>
-        <pattern steps="24" muted="0" type="1" name="Dirty Reece" pos="13248">
-          <note pan="-2" key="52" vol="133" pos="528" len="24"/>
-          <note pan="-2" key="52" vol="133" pos="576" len="24"/>
-          <note pan="-2" key="52" vol="133" pos="624" len="24"/>
-          <note pan="-2" key="57" vol="133" pos="648" len="24"/>
-          <note pan="-2" key="56" vol="133" pos="672" len="24"/>
-          <note pan="-2" key="55" vol="133" pos="696" len="24"/>
-          <note pan="-2" key="52" vol="133" pos="816" len="24"/>
-          <note pan="-2" key="52" vol="133" pos="864" len="24"/>
-          <note pan="-2" key="52" vol="133" pos="912" len="24"/>
-          <note pan="-2" key="57" vol="133" pos="936" len="24"/>
-          <note pan="-2" key="56" vol="133" pos="960" len="24"/>
-          <note pan="-2" key="55" vol="133" pos="984" len="24"/>
-          <note pan="-2" key="52" vol="133" pos="1104" len="24"/>
-          <note pan="-2" key="52" vol="133" pos="1152" len="24"/>
-          <note pan="-2" key="52" vol="133" pos="1200" len="24"/>
-          <note pan="-2" key="57" vol="133" pos="1224" len="24"/>
-          <note pan="-2" key="56" vol="133" pos="1248" len="24"/>
-          <note pan="-2" key="55" vol="133" pos="1272" len="24"/>
-          <note pan="-2" key="52" vol="133" pos="1392" len="24"/>
-          <note pan="-2" key="52" vol="133" pos="1440" len="24"/>
-          <note pan="-2" key="52" vol="133" pos="1488" len="24"/>
-          <note pan="-2" key="57" vol="133" pos="1512" len="24"/>
-          <note pan="-2" key="56" vol="133" pos="1536" len="24"/>
-          <note pan="-2" key="55" vol="133" pos="1560" len="24"/>
+        <pattern name="Dirty Reece" pos="13248" steps="24" type="1" muted="0">
+          <note pos="528" pan="-2" len="24" key="52" vol="133"/>
+          <note pos="576" pan="-2" len="24" key="52" vol="133"/>
+          <note pos="624" pan="-2" len="24" key="52" vol="133"/>
+          <note pos="648" pan="-2" len="24" key="57" vol="133"/>
+          <note pos="672" pan="-2" len="24" key="56" vol="133"/>
+          <note pos="696" pan="-2" len="24" key="55" vol="133"/>
+          <note pos="816" pan="-2" len="24" key="52" vol="133"/>
+          <note pos="864" pan="-2" len="24" key="52" vol="133"/>
+          <note pos="912" pan="-2" len="24" key="52" vol="133"/>
+          <note pos="936" pan="-2" len="24" key="57" vol="133"/>
+          <note pos="960" pan="-2" len="24" key="56" vol="133"/>
+          <note pos="984" pan="-2" len="24" key="55" vol="133"/>
+          <note pos="1104" pan="-2" len="24" key="52" vol="133"/>
+          <note pos="1152" pan="-2" len="24" key="52" vol="133"/>
+          <note pos="1200" pan="-2" len="24" key="52" vol="133"/>
+          <note pos="1224" pan="-2" len="24" key="57" vol="133"/>
+          <note pos="1248" pan="-2" len="24" key="56" vol="133"/>
+          <note pos="1272" pan="-2" len="24" key="55" vol="133"/>
+          <note pos="1392" pan="-2" len="24" key="52" vol="133"/>
+          <note pos="1440" pan="-2" len="24" key="52" vol="133"/>
+          <note pos="1488" pan="-2" len="24" key="52" vol="133"/>
+          <note pos="1512" pan="-2" len="24" key="57" vol="133"/>
+          <note pos="1536" pan="-2" len="24" key="56" vol="133"/>
+          <note pos="1560" pan="-2" len="24" key="55" vol="133"/>
         </pattern>
-        <pattern steps="24" muted="0" type="1" name="Dirty Reece" pos="14976">
-          <note pan="-2" key="52" vol="133" pos="0" len="24"/>
-          <note pan="-2" key="52" vol="133" pos="48" len="24"/>
-          <note pan="-2" key="57" vol="133" pos="72" len="24"/>
-          <note pan="-2" key="56" vol="133" pos="96" len="24"/>
-          <note pan="-2" key="55" vol="133" pos="120" len="24"/>
-          <note pan="-2" key="52" vol="133" pos="240" len="24"/>
-          <note pan="-2" key="52" vol="133" pos="288" len="24"/>
-          <note pan="-2" key="52" vol="133" pos="336" len="24"/>
-          <note pan="-2" key="57" vol="133" pos="360" len="24"/>
-          <note pan="-2" key="56" vol="133" pos="384" len="24"/>
-          <note pan="-2" key="55" vol="133" pos="408" len="24"/>
-          <note pan="-2" key="52" vol="133" pos="528" len="24"/>
-          <note pan="-2" key="52" vol="133" pos="576" len="24"/>
-          <note pan="-2" key="52" vol="133" pos="624" len="24"/>
-          <note pan="-2" key="57" vol="133" pos="648" len="24"/>
-          <note pan="-2" key="56" vol="133" pos="672" len="24"/>
-          <note pan="-2" key="55" vol="133" pos="696" len="24"/>
-          <note pan="-2" key="52" vol="133" pos="816" len="24"/>
-          <note pan="-2" key="52" vol="133" pos="864" len="24"/>
-          <note pan="-2" key="52" vol="133" pos="912" len="24"/>
-          <note pan="-2" key="57" vol="133" pos="936" len="24"/>
-          <note pan="-2" key="56" vol="133" pos="960" len="24"/>
-          <note pan="-2" key="55" vol="133" pos="984" len="24"/>
+        <pattern name="Dirty Reece" pos="14976" steps="24" type="1" muted="0">
+          <note pos="0" pan="-2" len="24" key="52" vol="133"/>
+          <note pos="48" pan="-2" len="24" key="52" vol="133"/>
+          <note pos="72" pan="-2" len="24" key="57" vol="133"/>
+          <note pos="96" pan="-2" len="24" key="56" vol="133"/>
+          <note pos="120" pan="-2" len="24" key="55" vol="133"/>
+          <note pos="240" pan="-2" len="24" key="52" vol="133"/>
+          <note pos="288" pan="-2" len="24" key="52" vol="133"/>
+          <note pos="336" pan="-2" len="24" key="52" vol="133"/>
+          <note pos="360" pan="-2" len="24" key="57" vol="133"/>
+          <note pos="384" pan="-2" len="24" key="56" vol="133"/>
+          <note pos="408" pan="-2" len="24" key="55" vol="133"/>
+          <note pos="528" pan="-2" len="24" key="52" vol="133"/>
+          <note pos="576" pan="-2" len="24" key="52" vol="133"/>
+          <note pos="624" pan="-2" len="24" key="52" vol="133"/>
+          <note pos="648" pan="-2" len="24" key="57" vol="133"/>
+          <note pos="672" pan="-2" len="24" key="56" vol="133"/>
+          <note pos="696" pan="-2" len="24" key="55" vol="133"/>
+          <note pos="816" pan="-2" len="24" key="52" vol="133"/>
+          <note pos="864" pan="-2" len="24" key="52" vol="133"/>
+          <note pos="912" pan="-2" len="24" key="52" vol="133"/>
+          <note pos="936" pan="-2" len="24" key="57" vol="133"/>
+          <note pos="960" pan="-2" len="24" key="56" vol="133"/>
+          <note pos="984" pan="-2" len="24" key="55" vol="133"/>
         </pattern>
       </track>
-      <track muted="0" type="0" name="Supernova" solo="0">
-        <instrumenttrack pan="-32.5" fxch="0" usemasterpitch="1" pitchrange="1" pitch="0" basenote="69" vol="132.9">
+      <track name="Supernova" solo="0" type="0" muted="0">
+        <instrumenttrack pitchrange="1" pan="-32.5" basenote="69" usemasterpitch="1" fxch="0" vol="132.9" pitch="0">
           <instrument name="tripleoscillator">
-            <tripleoscillator phoffset2="0" userwavefile0="" finer0="0" userwavefile1="" finer1="-4" userwavefile2="" finer2="2" coarse0="0" coarse1="0" coarse2="0" finel0="0" finel1="4" modalgo1="0" modalgo2="0" finel2="-2" pan0="0" modalgo3="2" pan1="0" stphdetun0="0" pan2="0" stphdetun1="0" wavetype0="3" stphdetun2="0" wavetype1="5" wavetype2="5" vol0="33" vol1="33" phoffset0="0" phoffset1="0" vol2="33"/>
+            <tripleoscillator phoffset2="0" stphdetun0="0" stphdetun1="0" stphdetun2="0" finel0="0" finer0="0" finel1="4" finer1="-4" finel2="-2" finer2="2" userwavefile0="" userwavefile1="" userwavefile2="" coarse0="0" modalgo1="0" wavetype0="3" coarse1="0" modalgo2="0" wavetype1="5" coarse2="0" modalgo3="2" wavetype2="5" vol0="33" vol1="33" vol2="33" pan0="0" pan1="0" pan2="0" phoffset0="0" phoffset1="0"/>
           </instrument>
-          <eldata fres="0.5" ftype="7" fcut="3221" fwet="1">
-            <elvol lspd_denominator="4" sustain="0.5" pdel="0" userwavefile="" dec="0.13" lamt="0" latt="0" rel="0.15" amt="1" x100="0" att="0" lpdel="0" hold="0" lspd_syncmode="0" lshp="0" lspd="0.1" ctlenvamt="0" lspd_numerator="4"/>
-            <elcut lspd_denominator="4" sustain="0.5" pdel="0" userwavefile="" dec="0.25" lamt="0" latt="0.24" rel="0.1" amt="0.665" x100="0" att="0" lpdel="0" hold="0" lspd_syncmode="8" lshp="1" lspd="0.0160714" ctlenvamt="0" lspd_numerator="3"/>
-            <elres lspd_denominator="4" sustain="0.5" pdel="0" userwavefile="" dec="0.5" lamt="0" latt="0" rel="0.1" amt="0" x100="0" att="0" lpdel="0" hold="0.5" lspd_syncmode="3" lshp="3" lspd="0.0428571" ctlenvamt="0" lspd_numerator="4"/>
+          <eldata fcut="3221" fwet="1" ftype="7" fres="0.5">
+            <elvol latt="0" lamt="0" lspd_numerator="4" rel="0.15" lshp="0" dec="0.13" lspd_denominator="4" lpdel="0" x100="0" ctlenvamt="0" att="0" lspd_syncmode="0" userwavefile="" amt="1" lspd="0.1" pdel="0" hold="0" sustain="0.5"/>
+            <elcut latt="0.24" lamt="0" lspd_numerator="3" rel="0.1" lshp="1" dec="0.25" lspd_denominator="4" lpdel="0" x100="0" ctlenvamt="0" att="0" lspd_syncmode="8" userwavefile="" amt="0.665" lspd="0.0160714" pdel="0" hold="0" sustain="0.5"/>
+            <elres latt="0" lamt="0" lspd_numerator="4" rel="0.1" lshp="3" dec="0.5" lspd_denominator="4" lpdel="0" x100="0" ctlenvamt="0" att="0" lspd_syncmode="3" userwavefile="" amt="0" lspd="0.0428571" pdel="0" hold="0.5" sustain="0.5"/>
           </eldata>
-          <chordcreator chord="0" chordrange="4" chord-enabled="1"/>
-          <arpeggiator arptime="214.286" arprange="3" arpskip="0" arptime_denominator="4" arptime_syncmode="5" arpmode="0" arpcycle="0" arp-enabled="0" arp="0" arptime_numerator="4" arpdir="1" arpmiss="0" arpgate="100"/>
-          <midiport inputcontroller="0" fixedoutputvelocity="-1" inputchannel="0" outputcontroller="0" writable="0" outputchannel="1" fixedinputvelocity="-1" fixedoutputnote="-1" outputprogram="1" basevelocity="127" readable="0"/>
-          <fxchain numofeffects="7" enabled="1">
-            <effect autoquit_syncmode="0" autoquit_numerator="1" autoquit_denominator="1" autoquit="1" gate="0" name="stereomatrix" wet="0.38" on="1">
-              <stereomatrixcontrols l-l="-0.5" l-r="-0.5" r-l="-0.5" r-r="-0.5"/>
+          <chordcreator chord="0" chord-enabled="1" chordrange="4"/>
+          <arpeggiator arp-enabled="0" arpcycle="0" arptime_denominator="4" arpmiss="0" arptime_syncmode="5" arpmode="0" arprange="3" arp="0" arpskip="0" arptime="214.286" arpdir="1" arpgate="100" arptime_numerator="4"/>
+          <midiport fixedinputvelocity="-1" readable="0" writable="0" inputchannel="0" outputchannel="1" fixedoutputvelocity="-1" fixedoutputnote="-1" outputprogram="1" outputcontroller="0" inputcontroller="0" basevelocity="127"/>
+          <fxchain enabled="1" numofeffects="7">
+            <effect autoquit_denominator="1" name="stereomatrix" on="1" autoquit_numerator="1" autoquit="1" wet="0.38" autoquit_syncmode="0" gate="0">
+              <stereomatrixcontrols l-l="-0.5" r-l="-0.5" l-r="-0.5" r-r="-0.5"/>
               <key/>
             </effect>
-            <effect autoquit_syncmode="0" autoquit_numerator="1" autoquit_denominator="1" autoquit="1" gate="0" name="ladspaeffect" wet="1" on="1">
+            <effect autoquit_denominator="1" name="ladspaeffect" on="1" autoquit_numerator="1" autoquit="1" wet="1" autoquit_syncmode="0" gate="0">
               <ladspacontrols link="0" ports="8">
-                <port01 link="0" data="0.16"/>
-                <port02 link="1" data="1"/>
-                <port03 link="1" data="1.5708"/>
-                <port04 link="1" data="0"/>
+                <port01 data="0.16" link="0"/>
+                <port02 data="1" link="1"/>
+                <port03 data="1.5708" link="1"/>
+                <port04 data="0" link="1"/>
                 <port11 data="0.15"/>
                 <port12 data="1"/>
                 <port13 data="1.5708"/>
                 <port14 data="0"/>
               </ladspacontrols>
               <key>
-                <attribute value="caps" name="file"/>
-                <attribute value="PhaserII" name="plugin"/>
+                <attribute name="file" value="caps"/>
+                <attribute name="plugin" value="PhaserII"/>
               </key>
             </effect>
-            <effect autoquit_syncmode="0" autoquit_numerator="1" autoquit_denominator="1" autoquit="1" gate="0" name="ladspaeffect" wet="0.75" on="1">
+            <effect autoquit_denominator="1" name="ladspaeffect" on="1" autoquit_numerator="1" autoquit="1" wet="0.75" autoquit_syncmode="0" gate="0">
               <ladspacontrols link="1" ports="8">
-                <port01 link="1" data="0"/>
-                <port02 link="1" data="0.5"/>
-                <port03 link="1" data="0.5"/>
-                <port04 link="1" data="0.5"/>
+                <port01 data="0" link="1"/>
+                <port02 data="0.5" link="1"/>
+                <port03 data="0.5" link="1"/>
+                <port04 data="0.5" link="1"/>
                 <port11 data="0"/>
                 <port12 data="0.5"/>
                 <port13 data="0.5"/>
                 <port14 data="0.5"/>
               </ladspacontrols>
               <key>
-                <attribute value="caps" name="file"/>
-                <attribute value="ToneStack" name="plugin"/>
+                <attribute name="file" value="caps"/>
+                <attribute name="plugin" value="ToneStack"/>
               </key>
             </effect>
-            <effect autoquit_syncmode="0" autoquit_numerator="1" autoquit_denominator="1" autoquit="1" gate="0" name="ladspaeffect" wet="1" on="0">
+            <effect autoquit_denominator="1" name="ladspaeffect" on="0" autoquit_numerator="1" autoquit="1" wet="1" autoquit_syncmode="0" gate="0">
               <ladspacontrols link="1" ports="0"/>
               <key>
-                <attribute value="dc_remove_1207" name="file"/>
-                <attribute value="dcRemove" name="plugin"/>
+                <attribute name="file" value="dc_remove_1207"/>
+                <attribute name="plugin" value="dcRemove"/>
               </key>
             </effect>
-            <effect autoquit_syncmode="0" autoquit_numerator="4" autoquit_denominator="4" autoquit="8000" gate="0" name="ladspaeffect" wet="0.25" on="1">
+            <effect autoquit_denominator="4" name="ladspaeffect" on="1" autoquit_numerator="4" autoquit="8000" wet="0.25" autoquit_syncmode="0" gate="0">
               <ladspacontrols ports="10">
                 <port00 data="365"/>
                 <port01 data="50"/>
@@ -1538,20 +1582,20 @@
                 <port09 data="1"/>
               </ladspacontrols>
               <key>
-                <attribute value="tap_echo" name="file"/>
-                <attribute value="tap_stereo_echo" name="plugin"/>
+                <attribute name="file" value="tap_echo"/>
+                <attribute name="plugin" value="tap_stereo_echo"/>
               </key>
             </effect>
-            <effect autoquit_syncmode="0" autoquit_numerator="4" autoquit_denominator="4" autoquit="1" gate="0" name="ladspaeffect" wet="1" on="1">
+            <effect autoquit_denominator="4" name="ladspaeffect" on="1" autoquit_numerator="4" autoquit="1" wet="1" autoquit_syncmode="0" gate="0">
               <ladspacontrols ports="1">
                 <port00 data="1.5"/>
               </ladspacontrols>
               <key>
-                <attribute value="cmt" name="file"/>
-                <attribute value="amp_stereo" name="plugin"/>
+                <attribute name="file" value="cmt"/>
+                <attribute name="plugin" value="amp_stereo"/>
               </key>
             </effect>
-            <effect autoquit_syncmode="0" autoquit_numerator="4" autoquit_denominator="4" autoquit="1" gate="0" name="ladspaeffect" wet="1" on="1">
+            <effect autoquit_denominator="4" name="ladspaeffect" on="1" autoquit_numerator="4" autoquit="1" wet="1" autoquit_syncmode="0" gate="0">
               <ladspacontrols ports="10">
                 <port02 data="-48"/>
                 <port03 data="-48"/>
@@ -1565,118 +1609,146 @@
                 <port011 data="0"/>
               </ladspacontrols>
               <key>
-                <attribute value="caps" name="file"/>
-                <attribute value="Eq2x2" name="plugin"/>
+                <attribute name="file" value="caps"/>
+                <attribute name="plugin" value="Eq2x2"/>
               </key>
             </effect>
           </fxchain>
         </instrumenttrack>
-        <pattern steps="24" muted="0" type="1" name="Supernova" pos="2880">
-          <note pan="-2" key="66" vol="133" pos="144" len="24"/>
-          <note pan="-2" key="66" vol="133" pos="240" len="24"/>
-          <note pan="-2" key="66" vol="133" pos="432" len="24"/>
-          <note pan="-2" key="66" vol="133" pos="528" len="24"/>
-          <note pan="-2" key="66" vol="133" pos="720" len="24"/>
-          <note pan="-2" key="66" vol="133" pos="816" len="24"/>
-          <note pan="-2" key="66" vol="133" pos="1008" len="24"/>
-          <note pan="-2" key="66" vol="133" pos="1104" len="24"/>
-          <note pan="-2" key="66" vol="133" pos="1296" len="24"/>
-          <note pan="-2" key="66" vol="133" pos="1392" len="24"/>
-          <note pan="-2" key="66" vol="133" pos="1584" len="24"/>
-          <note pan="-2" key="66" vol="133" pos="1680" len="24"/>
-          <note pan="-2" key="66" vol="133" pos="1872" len="24"/>
-          <note pan="-2" key="66" vol="133" pos="1968" len="24"/>
-          <note pan="-2" key="66" vol="133" pos="2160" len="24"/>
-          <note pan="-2" key="66" vol="133" pos="2256" len="24"/>
-          <note pan="-2" key="66" vol="133" pos="2448" len="24"/>
-          <note pan="-2" key="66" vol="133" pos="2544" len="24"/>
-          <note pan="-2" key="66" vol="133" pos="2736" len="24"/>
-          <note pan="-2" key="66" vol="133" pos="2832" len="24"/>
-          <note pan="-2" key="66" vol="133" pos="3024" len="24"/>
-          <note pan="-2" key="66" vol="133" pos="3120" len="24"/>
-          <note pan="-2" key="66" vol="133" pos="3312" len="24"/>
-          <note pan="-2" key="66" vol="133" pos="3408" len="24"/>
-          <note pan="-2" key="66" vol="133" pos="3600" len="24"/>
-          <note pan="-2" key="66" vol="133" pos="3696" len="24"/>
-          <note pan="-2" key="66" vol="133" pos="3888" len="24"/>
-          <note pan="-2" key="66" vol="133" pos="3984" len="24"/>
-          <note pan="-2" key="66" vol="133" pos="4176" len="24"/>
-          <note pan="-2" key="66" vol="133" pos="4272" len="24"/>
-          <note pan="-2" key="66" vol="133" pos="4464" len="24"/>
-          <note pan="-2" key="66" vol="133" pos="4560" len="24"/>
+        <pattern name="Supernova" pos="2880" steps="24" type="1" muted="0">
+          <note pos="144" pan="-2" len="24" key="66" vol="133"/>
+          <note pos="240" pan="-2" len="24" key="66" vol="133"/>
+          <note pos="432" pan="-2" len="24" key="66" vol="133"/>
+          <note pos="528" pan="-2" len="24" key="66" vol="133"/>
+          <note pos="720" pan="-2" len="24" key="66" vol="133"/>
+          <note pos="816" pan="-2" len="24" key="66" vol="133"/>
+          <note pos="1008" pan="-2" len="24" key="66" vol="133"/>
+          <note pos="1104" pan="-2" len="24" key="66" vol="133"/>
+          <note pos="1296" pan="-2" len="24" key="66" vol="133"/>
+          <note pos="1392" pan="-2" len="24" key="66" vol="133"/>
+          <note pos="1584" pan="-2" len="24" key="66" vol="133"/>
+          <note pos="1680" pan="-2" len="24" key="66" vol="133"/>
+          <note pos="1872" pan="-2" len="24" key="66" vol="133"/>
+          <note pos="1968" pan="-2" len="24" key="66" vol="133"/>
+          <note pos="2160" pan="-2" len="24" key="66" vol="133"/>
+          <note pos="2256" pan="-2" len="24" key="66" vol="133"/>
+          <note pos="2448" pan="-2" len="24" key="66" vol="133"/>
+          <note pos="2544" pan="-2" len="24" key="66" vol="133"/>
+          <note pos="2736" pan="-2" len="24" key="66" vol="133"/>
+          <note pos="2832" pan="-2" len="24" key="66" vol="133"/>
+          <note pos="3024" pan="-2" len="24" key="66" vol="133"/>
+          <note pos="3120" pan="-2" len="24" key="66" vol="133"/>
+          <note pos="3312" pan="-2" len="24" key="66" vol="133"/>
+          <note pos="3408" pan="-2" len="24" key="66" vol="133"/>
+          <note pos="3600" pan="-2" len="24" key="66" vol="133"/>
+          <note pos="3696" pan="-2" len="24" key="66" vol="133"/>
+          <note pos="3888" pan="-2" len="24" key="66" vol="133"/>
+          <note pos="3984" pan="-2" len="24" key="66" vol="133"/>
+          <note pos="4176" pan="-2" len="24" key="66" vol="133"/>
+          <note pos="4272" pan="-2" len="24" key="66" vol="133"/>
+          <note pos="4464" pan="-2" len="24" key="66" vol="133"/>
+          <note pos="4560" pan="-2" len="24" key="66" vol="133"/>
         </pattern>
-        <pattern steps="24" muted="0" type="1" name="Supernova" pos="7488">
-          <note pan="-2" key="66" vol="133" pos="144" len="24"/>
-          <note pan="-2" key="66" vol="133" pos="240" len="24"/>
-          <note pan="-2" key="66" vol="133" pos="432" len="24"/>
-          <note pan="-2" key="66" vol="133" pos="528" len="24"/>
-          <note pan="-2" key="66" vol="133" pos="720" len="24"/>
-          <note pan="-2" key="66" vol="133" pos="816" len="24"/>
-          <note pan="-2" key="66" vol="133" pos="1008" len="24"/>
-          <note pan="-2" key="66" vol="133" pos="1104" len="24"/>
-          <note pan="-2" key="66" vol="133" pos="1296" len="24"/>
-          <note pan="-2" key="66" vol="133" pos="1392" len="24"/>
-          <note pan="-2" key="66" vol="133" pos="1584" len="24"/>
-          <note pan="-2" key="66" vol="133" pos="1680" len="24"/>
-          <note pan="-2" key="66" vol="133" pos="1872" len="24"/>
-          <note pan="-2" key="66" vol="133" pos="1968" len="24"/>
-          <note pan="-2" key="66" vol="133" pos="2160" len="24"/>
-          <note pan="-2" key="66" vol="133" pos="2256" len="24"/>
-          <note pan="-2" key="66" vol="133" pos="2448" len="24"/>
-          <note pan="-2" key="66" vol="133" pos="2544" len="24"/>
-          <note pan="-2" key="66" vol="133" pos="2736" len="24"/>
-          <note pan="-2" key="66" vol="133" pos="2832" len="24"/>
-          <note pan="-2" key="66" vol="133" pos="3024" len="24"/>
-          <note pan="-2" key="66" vol="133" pos="3120" len="24"/>
-          <note pan="-2" key="66" vol="133" pos="3312" len="24"/>
-          <note pan="-2" key="66" vol="133" pos="3408" len="24"/>
-          <note pan="-2" key="66" vol="133" pos="3600" len="24"/>
-          <note pan="-2" key="66" vol="133" pos="3696" len="24"/>
-          <note pan="-2" key="66" vol="133" pos="3888" len="24"/>
-          <note pan="-2" key="66" vol="133" pos="3984" len="24"/>
+        <pattern name="Supernova" pos="7488" steps="24" type="1" muted="0">
+          <note pos="144" pan="-2" len="24" key="66" vol="133"/>
+          <note pos="240" pan="-2" len="24" key="66" vol="133"/>
+          <note pos="432" pan="-2" len="24" key="66" vol="133"/>
+          <note pos="528" pan="-2" len="24" key="66" vol="133"/>
+          <note pos="720" pan="-2" len="24" key="66" vol="133"/>
+          <note pos="816" pan="-2" len="24" key="66" vol="133"/>
+          <note pos="1008" pan="-2" len="24" key="66" vol="133"/>
+          <note pos="1104" pan="-2" len="24" key="66" vol="133"/>
+          <note pos="1296" pan="-2" len="24" key="66" vol="133"/>
+          <note pos="1392" pan="-2" len="24" key="66" vol="133"/>
+          <note pos="1584" pan="-2" len="24" key="66" vol="133"/>
+          <note pos="1680" pan="-2" len="24" key="66" vol="133"/>
+          <note pos="1872" pan="-2" len="24" key="66" vol="133"/>
+          <note pos="1968" pan="-2" len="24" key="66" vol="133"/>
+          <note pos="2160" pan="-2" len="24" key="66" vol="133"/>
+          <note pos="2256" pan="-2" len="24" key="66" vol="133"/>
+          <note pos="2448" pan="-2" len="24" key="66" vol="133"/>
+          <note pos="2544" pan="-2" len="24" key="66" vol="133"/>
+          <note pos="2736" pan="-2" len="24" key="66" vol="133"/>
+          <note pos="2832" pan="-2" len="24" key="66" vol="133"/>
+          <note pos="3024" pan="-2" len="24" key="66" vol="133"/>
+          <note pos="3120" pan="-2" len="24" key="66" vol="133"/>
+          <note pos="3312" pan="-2" len="24" key="66" vol="133"/>
+          <note pos="3408" pan="-2" len="24" key="66" vol="133"/>
+          <note pos="3600" pan="-2" len="24" key="66" vol="133"/>
+          <note pos="3696" pan="-2" len="24" key="66" vol="133"/>
+          <note pos="3888" pan="-2" len="24" key="66" vol="133"/>
+          <note pos="3984" pan="-2" len="24" key="66" vol="133"/>
         </pattern>
-        <pattern steps="24" muted="0" type="1" name="Supernova" pos="13824">
-          <note pan="-2" key="66" vol="133" pos="144" len="24"/>
-          <note pan="-2" key="66" vol="133" pos="240" len="24"/>
-          <note pan="-2" key="66" vol="133" pos="432" len="24"/>
-          <note pan="-2" key="66" vol="133" pos="528" len="24"/>
-          <note pan="-2" key="66" vol="133" pos="720" len="24"/>
-          <note pan="-2" key="66" vol="133" pos="816" len="24"/>
-          <note pan="-2" key="66" vol="133" pos="1008" len="24"/>
-          <note pan="-2" key="66" vol="133" pos="1104" len="24"/>
-          <note pan="-2" key="66" vol="133" pos="1296" len="24"/>
-          <note pan="-2" key="66" vol="133" pos="1392" len="24"/>
-          <note pan="-2" key="66" vol="133" pos="1584" len="24"/>
-          <note pan="-2" key="66" vol="133" pos="1680" len="24"/>
-          <note pan="-2" key="66" vol="133" pos="1872" len="24"/>
-          <note pan="-2" key="66" vol="133" pos="1968" len="24"/>
-          <note pan="-2" key="66" vol="133" pos="2160" len="24"/>
-          <note pan="-2" key="66" vol="133" pos="2256" len="24"/>
+        <pattern name="Supernova" pos="13824" steps="24" type="1" muted="0">
+          <note pos="144" pan="-2" len="24" key="66" vol="133"/>
+          <note pos="240" pan="-2" len="24" key="66" vol="133"/>
+          <note pos="432" pan="-2" len="24" key="66" vol="133"/>
+          <note pos="528" pan="-2" len="24" key="66" vol="133"/>
+          <note pos="720" pan="-2" len="24" key="66" vol="133"/>
+          <note pos="816" pan="-2" len="24" key="66" vol="133"/>
+          <note pos="1008" pan="-2" len="24" key="66" vol="133"/>
+          <note pos="1104" pan="-2" len="24" key="66" vol="133"/>
+          <note pos="1296" pan="-2" len="24" key="66" vol="133"/>
+          <note pos="1392" pan="-2" len="24" key="66" vol="133"/>
+          <note pos="1584" pan="-2" len="24" key="66" vol="133"/>
+          <note pos="1680" pan="-2" len="24" key="66" vol="133"/>
+          <note pos="1872" pan="-2" len="24" key="66" vol="133"/>
+          <note pos="1968" pan="-2" len="24" key="66" vol="133"/>
+          <note pos="2160" pan="-2" len="24" key="66" vol="133"/>
+          <note pos="2256" pan="-2" len="24" key="66" vol="133"/>
         </pattern>
       </track>
     </trackcontainer>
-    <track muted="0" type="6" name="Automation track" solo="0">
+    <track name="Automation track" solo="0" type="6" muted="0">
       <automationtrack/>
-      <automationpattern tens="1" mute="0" prog="0" name="Numerator" pos="0" len="192"/>
-      <automationpattern tens="1" mute="0" prog="0" name="Denominator" pos="0" len="192"/>
-      <automationpattern tens="1" mute="0" prog="0" name="Tempo" pos="0" len="192"/>
-      <automationpattern tens="1" mute="0" prog="0" name="Master volume" pos="0" len="192"/>
-      <automationpattern tens="1" mute="0" prog="0" name="Master pitch" pos="0" len="192"/>
+      <automationpattern name="Numerator" pos="0" tens="1" len="192" prog="0" mute="0"/>
+      <automationpattern name="Denominator" pos="0" tens="1" len="192" prog="0" mute="0"/>
+      <automationpattern name="Tempo" pos="0" tens="1" len="192" prog="0" mute="0"/>
+      <automationpattern name="Master volume" pos="0" tens="1" len="192" prog="0" mute="0"/>
+      <automationpattern name="Master pitch" pos="0" tens="1" len="192" prog="0" mute="0"/>
     </track>
-    <fxmixer width="543" x="5" y="310" maximized="0" height="335" visible="1" minimized="0">
-      <fxchannel num="0" muted="0" volume="0.234" name="Master" soloed="0">
-        <fxchain numofeffects="0" enabled="0"/>
+    <fxmixer x="5" y="310" maximized="0" minimized="0" height="333" visible="1" width="543">
+      <fxchannel soloed="0" name="Master" num="0" volume="0.234" muted="0">
+        <fxchain enabled="1" numofeffects="1">
+          <effect autoquit_denominator="4" name="ladspaeffect" on="1" autoquit_numerator="4" autoquit="1" wet="1" autoquit_syncmode="0" gate="0">
+            <ladspacontrols ports="10">
+              <port04 data="0"/>
+              <port05 data="1"/>
+              <port010 data="0.854165"/>
+              <port011 data="1.35"/>
+              <port012>
+                <data scale_type="log" value="53.2497" id="6570006"/>
+              </port012>
+              <port013>
+                <data scale_type="log" value="176.499" id="2559639"/>
+              </port013>
+              <port014 data="1.02375"/>
+              <port015 data="1"/>
+              <port016 data="0"/>
+              <port017 data="0"/>
+            </ladspacontrols>
+            <key>
+              <attribute name="file" value="calf"/>
+              <attribute name="plugin" value="Compressor"/>
+            </key>
+          </effect>
+        </fxchain>
+        <connection>
+          <muted>
+            <Midicontroller name="MIDI ch1 ctrl37" fixedinputvelocity="-1" readable="1" writable="0" inputchannel="1" outputchannel="1" fixedoutputvelocity="-1" fixedoutputnote="-1" outputprogram="1" type="2" outputcontroller="0" inputcontroller="37" basevelocity="127" inports=""/>
+          </muted>
+        </connection>
       </fxchannel>
     </fxmixer>
-    <ControllerRackView width="350" x="735" y="265" maximized="0" height="200" visible="1" minimized="0"/>
-    <pianoroll width="1206" x="387" y="348" maximized="0" height="583" visible="1" minimized="0"/>
-    <automationeditor width="860" x="1" y="1" maximized="0" height="400" visible="0" minimized="0"/>
-    <projectnotes width="797" x="700" y="10" maximized="0" height="400" visible="0" minimized="0"><![CDATA[<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd">
+    <ControllerRackView x="735" y="265" maximized="0" minimized="0" height="200" visible="1" width="350"/>
+    <pianoroll x="387" y="348" maximized="0" minimized="0" height="583" visible="1" width="1206"/>
+    <automationeditor x="1" y="1" maximized="0" minimized="0" height="400" visible="0" width="860"/>
+    <projectnotes x="700" y="10" maximized="0" minimized="0" height="400" visible="0" width="797"><![CDATA[<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd">
 <html><head><meta name="qrichtext" content="1" /><style type="text/css">
 p, li { white-space: pre-wrap; }
-</style></head><body style=" font-family:'Ubuntu'; font-size:11pt; font-weight:400; font-style:normal;">
-<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p></body></html>]]></projectnotes>
-    <timeline lp1pos="192" lp0pos="0" lpstate="0"/>
+</style></head><body style=" font-family:'.SF NS Text'; font-size:13pt; font-weight:400; font-style:normal;">
+<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Ubuntu'; font-size:11pt;"><br /></p></body></html>]]></projectnotes>
+    <timeline lp1pos="192" lpstate="0" lp0pos="0"/>
     <controllers/>
   </song>
 </lmms-project>

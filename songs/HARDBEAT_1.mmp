@@ -172,7 +172,7 @@
               </pattern>
             </track>
             <track name="HiHat Closed 009 Low Classic.wav" solo="0" type="0" muted="0">
-              <instrumenttrack pitchrange="1" pan="-27.2" basenote="57" usemasterpitch="1" fxch="0" vol="104.2" pitch="0">
+              <instrumenttrack pitchrange="1" pan="-6.6" basenote="57" usemasterpitch="1" fxch="0" vol="104.2" pitch="0">
                 <instrument name="audiofileprocessor">
                   <audiofileprocessor src="TriTrap_v1/Hats &amp; Cymbals/HiHat Closed 009 Low Classic.wav" amp="100" stutter="0" interp="1" looped="0" sframe="0" reversed="0" lframe="0" eframe="1"/>
                 </instrument>
@@ -224,7 +224,7 @@
               <pattern name="HiHat Closed 009 Low Classic.wav" pos="384" steps="16" type="0" muted="0"/>
             </track>
             <track name="Snare Drum 088 Super Hero Music.wav" solo="0" type="0" muted="0">
-              <instrumenttrack pitchrange="1" pan="23.5" basenote="57" usemasterpitch="1" fxch="0" vol="88.5" pitch="0">
+              <instrumenttrack pitchrange="1" pan="9.3" basenote="57" usemasterpitch="1" fxch="0" vol="85.1" pitch="0">
                 <instrument name="audiofileprocessor">
                   <audiofileprocessor src="TriTrap_v2/Snare Drums/Snare Drum 088 Super Hero Music.wav" amp="100" stutter="0" interp="1" looped="0" sframe="0" reversed="0" lframe="0" eframe="1"/>
                 </instrument>
@@ -384,7 +384,7 @@
         </pattern>
       </track>
       <track name="Demented Synth" solo="0" type="0" muted="0">
-        <instrumenttrack pitchrange="1" pan="23.3" basenote="57" usemasterpitch="1" fxch="0" pitch="0.00610352">
+        <instrumenttrack pitchrange="1" pan="8.1" basenote="57" usemasterpitch="1" fxch="0" pitch="0.00610352">
           <vol scale_type="linear" value="104.4" id="4363828"/>
           <instrument name="zynaddsubfx">
             <zynaddsubfx modifiedcontrollers="" filterq="64" resbandwidth="64" rescenterfreq="64" forwardmidicc="1" filterfreq="64" portamento="0" fmgain="127" bandwidth="64">
@@ -1513,11 +1513,11 @@ GPL V 2 or later</string>
             <effect autoquit_denominator="4" name="ladspaeffect" on="1" autoquit_numerator="4" autoquit="1" wet="1" autoquit_syncmode="0" gate="0">
               <ladspacontrols link="1" ports="4">
                 <port00 link="1">
-                  <data scale_type="log" value="4.41" id="3826091"/>
+                  <data scale_type="log" value="2743.56" id="3826091"/>
                 </port00>
                 <port01 data="1.41" link="1"/>
                 <port10>
-                  <data scale_type="log" value="4.41" id="5399513"/>
+                  <data scale_type="log" value="2743.56" id="5399513"/>
                 </port10>
                 <port11 data="1.41"/>
               </ladspacontrols>
@@ -1931,11 +1931,10 @@ GPL V 2 or later</string>
           <time pos="2472" value="76.8823"/>
           <time pos="2496" value="10250.1"/>
           <time pos="2616" value="9744.21"/>
-          <time pos="2760" value="5704.17"/>
-          <time pos="2880" value="5776.09"/>
-          <time pos="2976" value="8372.73"/>
-          <time pos="3120" value="5416.48"/>
-          <time pos="3192" value="5054.39"/>
+          <time pos="2784" value="5560.33"/>
+          <time pos="2976" value="9238.27"/>
+          <time pos="3120" value="5632.25"/>
+          <time pos="3192" value="8156.96"/>
           <time pos="3264" value="4.41"/>
           <time pos="13872" value="4.41"/>
           <time pos="14016" value="15790.6"/>
