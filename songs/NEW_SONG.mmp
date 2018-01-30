@@ -1,16 +1,16 @@
 <?xml version="1.0"?>
 <!DOCTYPE lmms-project>
-<lmms-project version="1.0" creator="LMMS" creatorversion="1.2.0-rc5.5" type="song">
+<lmms-project version="1.0" creator="LMMS" creatorversion="1.2.0-rc5.14" type="song">
   <head timesig_numerator="4" mastervol="100" timesig_denominator="4" bpm="140" masterpitch="0"/>
   <song>
     <trackcontainer width="1510" x="15" y="35" maximized="0" height="611" visible="1" type="song" minimized="0">
       <track muted="0" type="1" name="Main Beat" solo="0">
         <bbtrack>
-          <trackcontainer width="700" x="610" y="5" maximized="0" height="400" visible="1" type="bbtrackcontainer" minimized="0">
-            <track muted="0" type="0" name="Tr77_kick.ds" solo="0">
-              <instrumenttrack pan="-44.1" fxch="0" usemasterpitch="1" pitchrange="1" pitch="0" basenote="57" vol="129.3">
+          <trackcontainer width="700" x="610" y="2" maximized="0" height="400" visible="1" type="bbtrackcontainer" minimized="0">
+            <track width="262" x="1423" y="499" maximized="0" muted="0" height="466" visible="1" type="0" minimized="0" name="Tr77_kick.ds" tab="0" solo="0">
+              <instrumenttrack pan="-17.1" fxch="0" usemasterpitch="1" pitchrange="1" pitch="0" basenote="57" vol="136.3">
                 <instrument name="audiofileprocessor">
-                  <audiofileprocessor reversed="0" looped="0" lframe="0" interp="1" eframe="1" stutter="0" sframe="0" src="drumsynth/tr77/Tr77_kick.ds" amp="100"/>
+                  <audiofileprocessor reversed="0" looped="0" lframe="0" interp="1" eframe="1" stutter="0" sframe="0" src="drumsynth/tr77/Tr77_kick.ds" amp="130"/>
                 </instrument>
                 <eldata fres="0.5" ftype="0" fcut="14000" fwet="0">
                   <elvol lspd_denominator="4" sustain="0.5" pdel="0" userwavefile="" dec="0.5" lamt="0" latt="0" rel="0.1" amt="0" x100="0" att="0" lpdel="0" hold="0.5" lspd_syncmode="0" lshp="0" lspd="0.1" ctlenvamt="0" lspd_numerator="4"/>
@@ -33,7 +33,7 @@
               </pattern>
             </track>
             <track muted="0" type="0" name="more_bass.ds" solo="0">
-              <instrumenttrack pan="48.5" fxch="0" usemasterpitch="1" pitchrange="1" pitch="0" basenote="57" vol="64.1">
+              <instrumenttrack pan="16.7" fxch="0" usemasterpitch="1" pitchrange="1" pitch="0" basenote="57" vol="90">
                 <instrument name="audiofileprocessor">
                   <audiofileprocessor reversed="0" looped="0" lframe="0" interp="1" eframe="1" stutter="0" sframe="0" src="drumsynth/misc_bass/more_bass.ds" amp="100"/>
                 </instrument>
@@ -271,7 +271,7 @@
           </instrument>
           <eldata fres="0.5" ftype="0" fcut="14000" fwet="0">
             <elvol userwavefile="" sustain="0.904" lpdel="0" lspd_denominator="4" ctlenvamt="0" rel="0.121" amt="1" lspd_numerator="4" lspd_syncmode="0" latt="0" pdel="0" lspd="0.1" dec="0.5" lamt="0" x100="0" lshp="0" hold="0.242">
-              <att scale_type="linear" value="0.92478" id="6180817"/>
+              <att scale_type="linear" value="0.926624" id="6180817"/>
             </elvol>
             <elcut lspd_denominator="4" sustain="0.5" pdel="0" userwavefile="" dec="0.5" lamt="0" latt="0" rel="0.1" amt="0" x100="0" att="0" lpdel="0" hold="0.5" lspd_syncmode="0" lshp="0" lspd="0.1" ctlenvamt="0" lspd_numerator="4"/>
             <elres lspd_denominator="4" sustain="0.692" pdel="0" userwavefile="" dec="0.5" lamt="0" latt="0" rel="0.263" amt="0" x100="0" att="0" lpdel="0" hold="0.116" lspd_syncmode="0" lshp="0" lspd="0.1" ctlenvamt="0" lspd_numerator="4"/>
