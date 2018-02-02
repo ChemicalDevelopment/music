@@ -1,0 +1,25 @@
+Pianovintage is proud to introduced:
+
+1984 VIRTUAL SYNTHESIZEUR
+
+
+Programation : Alex Sylla   
+Design :        Minika          
+
+
+Installation:
+
+The downloaded package should consist in the following files:
+
+PIANO VINTAGE 1984 v1.00.dll The actual plugin file. 
+
+You should copy this file into your vst plugins directory before
+
+being able to use it in your favourite vst host.
+
+
+
+If you experienced any bugs or problems, 
+please send us an email : contact@pianovintage.fr
+
+Enjoy 
