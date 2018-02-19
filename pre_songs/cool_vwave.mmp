@@ -5123,6 +5123,20 @@ Licensed under LGPL v2 or later license</string>
           <note pan="0" key="72" vol="102" pos="288" len="24"/>
           <note pan="0" key="67" vol="102" pos="336" len="24"/>
         </pattern>
+        <pattern steps="16" muted="0" type="1" name="Saw 2" pos="384">
+          <note pan="0" key="60" vol="102" pos="0" len="24"/>
+          <note pan="0" key="67" vol="102" pos="24" len="24"/>
+          <note pan="0" key="72" vol="102" pos="48" len="24"/>
+          <note pan="0" key="60" vol="102" pos="72" len="24"/>
+          <note pan="0" key="67" vol="102" pos="96" len="24"/>
+          <note pan="0" key="72" vol="102" pos="120" len="24"/>
+          <note pan="0" key="60" vol="102" pos="144" len="24"/>
+          <note pan="0" key="67" vol="102" pos="168" len="24"/>
+          <note pan="0" key="62" vol="102" pos="192" len="24"/>
+          <note pan="0" key="67" vol="102" pos="240" len="24"/>
+          <note pan="0" key="72" vol="102" pos="288" len="24"/>
+          <note pan="0" key="67" vol="102" pos="336" len="24"/>
+        </pattern>
       </track>
     </trackcontainer>
     <track muted="0" type="6" name="Automation track" solo="0">
@@ -5195,7 +5209,7 @@ Licensed under LGPL v2 or later license</string>
       </fxchannel>
     </fxmixer>
     <ControllerRackView width="350" x="680" y="310" maximized="0" height="200" visible="0" minimized="0"/>
-    <pianoroll width="860" x="435" y="236" maximized="0" height="480" visible="1" minimized="0"/>
+    <pianoroll width="860" x="563" y="365" maximized="0" height="480" visible="1" minimized="0"/>
     <automationeditor width="860" x="1" y="1" maximized="0" height="400" visible="0" minimized="0"/>
     <projectnotes width="803" x="700" y="10" maximized="0" height="400" visible="0" minimized="0"><![CDATA[<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd">
 <html><head><meta name="qrichtext" content="1" /><style type="text/css">
