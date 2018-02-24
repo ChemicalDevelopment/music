@@ -1,9 +1,9 @@
 <?xml version="1.0"?>
 <!DOCTYPE lmms-project>
-<lmms-project version="1.0" creator="LMMS" creatorversion="1.2.0-rc5.14" type="song">
+<lmms-project version="1.0" creator="LMMS" creatorversion="1.2.0-rc5.17" type="song">
   <head timesig_numerator="4" mastervol="100" timesig_denominator="4" bpm="124" masterpitch="0"/>
   <song>
-    <trackcontainer width="964" x="254" y="76" maximized="0" height="407" visible="1" type="song" minimized="0">
+    <trackcontainer width="964" x="255" y="77" maximized="0" height="407" visible="1" type="song" minimized="0">
       <track muted="0" type="1" name="main hats" solo="0">
         <bbtrack>
           <trackcontainer width="803" x="143" y="1" maximized="0" height="380" visible="1" type="bbtrackcontainer" minimized="0">
@@ -165,9 +165,9 @@
               </pattern>
             </track>
             <track muted="0" type="0" name="Snare 007.wav" solo="0">
-              <instrumenttrack pan="0" fxch="0" usemasterpitch="1" pitchrange="1" pitch="0" basenote="57" vol="66.5">
+              <instrumenttrack pan="0" fxch="0" usemasterpitch="1" pitchrange="1" pitch="0" basenote="57" vol="93.1">
                 <instrument name="audiofileprocessor">
-                  <audiofileprocessor reversed="0" looped="0" lframe="0" interp="1" eframe="1" stutter="0" sframe="0" src="TriTrap_v1/Snares &amp; Claps/Snare 007.wav" amp="236"/>
+                  <audiofileprocessor reversed="0" looped="0" lframe="0" interp="1" eframe="1" stutter="0" sframe="0" src="TriTrap_v1/Snares &amp; Claps/Snare 007.wav" amp="263"/>
                 </instrument>
                 <eldata fres="0.5" ftype="0" fcut="14000" fwet="0">
                   <elvol lspd_denominator="4" sustain="0.5" pdel="0" userwavefile="" dec="0.5" lamt="0" latt="0" rel="0.1" amt="0" x100="0" att="0" lpdel="0" hold="0.5" lspd_syncmode="0" lshp="0" lspd="0.1" ctlenvamt="0" lspd_numerator="4"/>
@@ -1168,11 +1168,11 @@
             <effect autoquit_syncmode="0" autoquit_numerator="4" autoquit_denominator="4" autoquit="1" gate="0" name="ladspaeffect" wet="1" on="1">
               <ladspacontrols link="1" ports="4">
                 <port00 link="1">
-                  <data scale_type="log" value="12234.6" id="2149582"/>
+                  <data scale_type="log" value="57.5169" id="2149582"/>
                 </port00>
                 <port01 link="1" data="1.41"/>
                 <port10>
-                  <data scale_type="log" value="12234.6" id="133485"/>
+                  <data scale_type="log" value="57.5169" id="133485"/>
                 </port10>
                 <port11 data="1.41"/>
               </ladspacontrols>
@@ -1489,9 +1489,10 @@
           <note pan="0" key="60" vol="161" pos="1464" len="12"/>
           <note pan="0" key="59" vol="161" pos="1488" len="240"/>
         </pattern>
+        <pattern steps="16" muted="0" type="0" name="Saw 2" pos="16704"/>
       </track>
-      <track muted="1" type="0" name="Sad Pad (play with Filter-Reso!!)" solo="0">
-        <instrumenttrack pan="0" fxch="0" usemasterpitch="1" pitchrange="1" pitch="0" basenote="57" vol="51.1">
+      <track muted="0" type="0" name="Sad Pad (play with Filter-Reso!!)" solo="0">
+        <instrumenttrack pan="0" fxch="0" usemasterpitch="1" pitchrange="1" pitch="0" basenote="57" vol="53.3">
           <instrument name="vibedstrings">
             <vibedstrings volume0="100" volume1="100" volume2="100" detune0="0" detune1="0" detune2="0" pick0="0" pick1="0" pick2="0" impulse0="0" impulse1="0" impulse2="0" graph0="Hy7JPF+Xgb3iRCy+6mpAvhAfkrz8dYA+/RjkPlWeuj4+hog9ryWgvoHjCb//SBa/V3DyvuZGmr6hNdO9KAblPXfOmz78kPM+6KkQPxQoGz9epRM/Y83xPhegcT73NgW++6/9vm6QO79Zu0W/Fr8vvyCR976EYEe+5WfePX0IgT7cCUk+DyarPYtPnj2CBB4+rDQpPmv7gT17R6+9QuRovv5L1r7Q/CW/s1FKv9mqLL+UDJi+750VPiNq2z50LtY+2GMmPnQPdb4uyiS/KcttvwAAgL/oWWq/1ARLv4v8Pr/uizS/x2Efv3O6+r6aMMi+S4SevqVzJ74r+qA9rS6xPhVBBj87gB0/C2srP56+Nj9Jjyc/DF/UPhTR3Txq3qO+NgHnvkiYm75p6Fq7AOF4Prlkmj5Zm1Q+4l4dPgndSj6Nr5A+AyFYPpDxmDxtIoS+qjz5vi6sM79uWkm/gTIvvxlfw754rLu9y64Svbpqbb6IZgW/XYYov8ueIr/weOm+6XKFvu/4JjwhR28+aAzWPhg2zT5f4ZE+CDWXPWavmL0bO3K+lhbHvh+5FL/cNy+/NFwwv/uzGL/4sAK/nGncvrn2uL4xbIy+CTk5vu7xyb3dJKe99zRfvuT37745qDq/jjpRvzHaOL9NFui+FPLXvdRQkD5ghwk/Q1X7PrHrnD0=" graph1="AACAvCW0375hkTq/E9pfv8uFa78neWu/AABovwAAZL8AAGC/AABcvwAAWL8AAFS/AABQvwAATL8AAEi/AABEvwAAQL8AADy/AAA4vwAANL8AADC/AAAsvwAAKL8AACS/AAAgvwAAHL8AABi/AAAUvwAAEL8AAAy/AAAIvwAABL8AAAC/AAD4vgAA8L4AAOi+AADgvgAA2L4AANC+rE/IvoQwwr4cxsC+DXLIvleG3L7kXPu+C8cOvyVDHL9IOSK/m6Efv3gsFr/mYwi/z77wvkyOzr59TKu+dGyHvt+iRb7UdPO9jYYlvQX3Lj2cawM+x6dYPiXfkj5tH7M+WUvMPv3V3j7FDew+DHf1Ps2H/D4PLgE/euADPxeaBj8Jjwk/3+YMP1y+ED+BFRU/VNoZP3T1Hj9/WCQ/re8pPw2OLz+06zQ/fcs5PwsfPj+AEUI/nNpFP7ejST9wSk0/QS9QP9O1UD8gpEw/lSxCP8fuMT/jQx8/wQEPPwqJBD/TfwA/5x8BPy8pBD8AAAg/AAAMPwAAED8AABQ/AAAYPwAAHD8AACA/AAAkPwAAKD8AACw/AAAwPwAAND8AADg/AAA8PwAAQD8AAEQ/AABIPwAATD8AAFA/AABUPwAAWD8AAFw/AABgPwAAZD9De2c/tJdnP6sqXD8chzc/VRXcPgAAfDw=" graph2="AACAvwAAfL8AAHi/AAB0vwAAcL8AAGy/AABovwAAZL8AAGC/AABcvwAAWL8AAFS/AABQvwAATL8AAEi/AABEvwAAQL8AADy/AAA4vwAANL8AADC/AAAsvwAAKL8AACS/AAAgvwAAHL8AABi/AAAUvwAAEL8AAAy/AAAIvwAABL8AAAC/AAD4vgAA8L4fheu+PQrXvlyPwr57FK6+uB6Fvq5HYb7sUTi+hetRv4XrUb+F61G/hetRvxSuR79cj0K/7FE4vwrXI79SuB6/cT0Kv7geBb+uR+G+7FG4vnsUrr64HoW+KVwPvo/Cdb2PwnU97FE4PpqZmT49Ctc+cT0KP1K4Hj8zMzM/hetRP2ZmZj9I4Xo/AACgPQAAwD0AAOA9AAAAPgAAED4AACA+AAAwPgAAQD5I4Xo/ZmZmP4XrUT+kcD0/UrgeP3E9Cj8fhes+exSuPrgehT7sUTg+zczMPQrXozwK16O8zczMvSlcD77sUTi+7FE4vgAA8D4AAPg+AAAAPwAABD8AAAg/AAAMPwAAED8AABQ/AAAYPwAAHD8AACA/AAAkPwAAKD8AACw/AAAwPwAAND8AADg/AAA8PwAAQD8AAEQ/AABIPwAATD8AAFA/AABUPwAAWD8AAFw/AABgPwAAZD8AAGg/AABsPwAAcD8AAHQ/AAB4PwAAfD8=" stiffness0="0" stiffness1="0" stiffness2="0" pan0="0" pan1="0" version="0.1" pan2="-1" slap0="0.75" slap1="0" octave0="2" active0="1" pickup0="0.05" slap2="0" octave1="1" octave2="1" active1="1" pickup1="0.05" active2="1" pickup2="0.05" active3="0" active4="0" active5="0" active6="0" active7="0" active8="0" length0="8" length1="3" length2="1"/>
           </instrument>
@@ -1784,7 +1785,7 @@
     <ControllerRackView width="350" x="668" y="303" maximized="0" height="200" visible="0" minimized="0"/>
     <pianoroll width="860" x="495" y="306" maximized="0" height="619" visible="1" minimized="0"/>
     <automationeditor width="860" x="8" y="183" maximized="0" height="400" visible="1" minimized="0"/>
-    <projectnotes width="797" x="688" y="3" maximized="0" height="400" visible="0" minimized="0"><![CDATA[<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd">
+    <projectnotes width="803" x="688" y="3" maximized="0" height="400" visible="0" minimized="0"><![CDATA[<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd">
 <html><head><meta name="qrichtext" content="1" /><style type="text/css">
 p, li { white-space: pre-wrap; }
 </style></head><body style=" font-family:'Ubuntu'; font-size:11pt; font-weight:400; font-style:normal;">
