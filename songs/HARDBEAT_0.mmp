@@ -1,387 +1,387 @@
 <?xml version="1.0"?>
 <!DOCTYPE lmms-project>
-<lmms-project version="1.0" creator="LMMS" creatorversion="1.2.0-rc5.17" type="song">
-  <head timesig_numerator="4" mastervol="100" timesig_denominator="4" bpm="124" masterpitch="0"/>
+<lmms-project version="1.0" type="song" creatorversion="1.2.0-rc5" creator="LMMS">
+  <head timesig_numerator="4" bpm="124" masterpitch="0" mastervol="100" timesig_denominator="4"/>
   <song>
-    <trackcontainer width="964" x="255" y="77" maximized="0" height="407" visible="1" type="song" minimized="0">
-      <track muted="0" type="1" name="main hats" solo="0">
+    <trackcontainer maximized="0" height="407" minimized="0" x="255" visible="1" y="77" type="song" width="964">
+      <track solo="0" type="1" muted="0" name="main hats">
         <bbtrack>
-          <trackcontainer width="803" x="143" y="1" maximized="0" height="380" visible="1" type="bbtrackcontainer" minimized="0">
-            <track muted="0" type="0" name="Kick 001 Basic.wav" solo="0">
-              <instrumenttrack pan="0" fxch="0" usemasterpitch="1" pitchrange="12" pitch="700" basenote="57" vol="76.1">
+          <trackcontainer maximized="0" height="380" minimized="0" x="143" visible="1" y="1" type="bbtrackcontainer" width="803">
+            <track solo="0" type="0" muted="0" name="Kick 001 Basic.wav">
+              <instrumenttrack vol="76.1" pitchrange="12" basenote="57" pan="0" pitch="700" usemasterpitch="1" fxch="0">
                 <instrument name="audiofileprocessor">
-                  <audiofileprocessor reversed="0" looped="0" lframe="0" interp="1" eframe="1" stutter="0" sframe="0" src="TriTrap_v1/Kick/Kick 001 Basic.wav" amp="100"/>
+                  <audiofileprocessor stutter="0" interp="1" src="TriTrap_v1/Kick/Kick 001 Basic.wav" looped="0" amp="100" sframe="0" lframe="0" eframe="1" reversed="0"/>
                 </instrument>
-                <eldata fres="0.5" ftype="0" fcut="14000" fwet="0">
-                  <elvol lspd_denominator="4" sustain="0.5" pdel="0" userwavefile="" dec="0.5" lamt="0" latt="0" rel="0.1" amt="0" x100="0" att="0" lpdel="0" hold="0.5" lspd_syncmode="0" lshp="0" lspd="0.1" ctlenvamt="0" lspd_numerator="4"/>
-                  <elcut lspd_denominator="4" sustain="0.5" pdel="0" userwavefile="" dec="0.5" lamt="0" latt="0" rel="0.1" amt="0" x100="0" att="0" lpdel="0" hold="0.5" lspd_syncmode="0" lshp="0" lspd="0.1" ctlenvamt="0" lspd_numerator="4"/>
-                  <elres lspd_denominator="4" sustain="0.5" pdel="0" userwavefile="" dec="0.5" lamt="0" latt="0" rel="0.1" amt="0" x100="0" att="0" lpdel="0" hold="0.5" lspd_syncmode="0" lshp="0" lspd="0.1" ctlenvamt="0" lspd_numerator="4"/>
+                <eldata fcut="14000" fwet="0" ftype="0" fres="0.5">
+                  <elvol lshp="0" att="0" x100="0" amt="0" userwavefile="" lspd_denominator="4" lspd="0.1" pdel="0" hold="0.5" ctlenvamt="0" latt="0" sustain="0.5" rel="0.1" lamt="0" lpdel="0" lspd_syncmode="0" dec="0.5" lspd_numerator="4"/>
+                  <elcut lshp="0" att="0" x100="0" amt="0" userwavefile="" lspd_denominator="4" lspd="0.1" pdel="0" hold="0.5" ctlenvamt="0" latt="0" sustain="0.5" rel="0.1" lamt="0" lpdel="0" lspd_syncmode="0" dec="0.5" lspd_numerator="4"/>
+                  <elres lshp="0" att="0" x100="0" amt="0" userwavefile="" lspd_denominator="4" lspd="0.1" pdel="0" hold="0.5" ctlenvamt="0" latt="0" sustain="0.5" rel="0.1" lamt="0" lpdel="0" lspd_syncmode="0" dec="0.5" lspd_numerator="4"/>
                 </eldata>
-                <chordcreator chord="0" chordrange="1" chord-enabled="0"/>
-                <arpeggiator arptime="200" arprange="1" arpskip="0" arptime_denominator="4" arptime_syncmode="0" arpmode="0" arpcycle="0" arp-enabled="0" arp="0" arptime_numerator="4" arpdir="0" arpmiss="0" arpgate="100"/>
-                <midiport inputcontroller="0" fixedoutputvelocity="-1" inputchannel="0" outputcontroller="0" writable="0" outputchannel="1" fixedinputvelocity="-1" fixedoutputnote="-1" outputprogram="1" basevelocity="63" readable="0"/>
+                <chordcreator chord-enabled="0" chordrange="1" chord="0"/>
+                <arpeggiator arpmiss="0" arpmode="0" arpskip="0" arptime_denominator="4" arptime="200" arprange="1" arptime_numerator="4" arpdir="0" arpgate="100" arp-enabled="0" arp="0" arptime_syncmode="0" arpcycle="0"/>
+                <midiport outputcontroller="0" writable="0" basevelocity="63" fixedoutputvelocity="-1" fixedoutputnote="-1" outputchannel="1" fixedinputvelocity="-1" inputchannel="0" outputprogram="1" inputcontroller="0" readable="0"/>
                 <fxchain numofeffects="0" enabled="0"/>
               </instrumenttrack>
-              <pattern steps="32" muted="0" type="0" name="Kick 001 Basic.wav" pos="0"/>
-              <pattern steps="32" muted="0" type="1" name="808 Bass Deepish.wav" pos="192">
-                <note pan="10" key="57" vol="125" pos="0" len="192"/>
-                <note pan="0" key="57" vol="123" pos="192" len="24"/>
-                <note pan="0" key="57" vol="129" pos="216" len="24"/>
+              <pattern pos="0" type="0" muted="0" name="Kick 001 Basic.wav" steps="32"/>
+              <pattern pos="192" type="1" muted="0" name="808 Bass Deepish.wav" steps="32">
+                <note vol="125" pos="0" pan="10" len="192" key="57"/>
+                <note vol="123" pos="192" pan="0" len="24" key="57"/>
+                <note vol="129" pos="216" pan="0" len="24" key="57"/>
               </pattern>
-              <pattern steps="16" muted="0" type="1" name="Kick 001 Basic.wav" pos="384">
-                <note pan="0" key="57" vol="183" pos="96" len="24"/>
-                <note pan="0" key="57" vol="161" pos="120" len="48"/>
-                <note pan="0" key="63" vol="150" pos="168" len="24"/>
+              <pattern pos="384" type="1" muted="0" name="Kick 001 Basic.wav" steps="16">
+                <note vol="183" pos="96" pan="0" len="24" key="57"/>
+                <note vol="161" pos="120" pan="0" len="48" key="57"/>
+                <note vol="150" pos="168" pan="0" len="24" key="63"/>
               </pattern>
-              <pattern steps="16" muted="0" type="1" name="Kick 001 Basic.wav" pos="576">
-                <note pan="0" key="57" vol="183" pos="96" len="24"/>
-                <note pan="0" key="57" vol="161" pos="120" len="24"/>
+              <pattern pos="576" type="1" muted="0" name="Kick 001 Basic.wav" steps="16">
+                <note vol="183" pos="96" pan="0" len="24" key="57"/>
+                <note vol="161" pos="120" pan="0" len="24" key="57"/>
               </pattern>
-              <pattern steps="64" muted="0" type="0" name="Kick 001 Basic.wav" pos="768"/>
-              <pattern steps="32" muted="0" type="0" name="Kick 001 Basic.wav" pos="960"/>
+              <pattern pos="768" type="0" muted="0" name="Kick 001 Basic.wav" steps="64"/>
+              <pattern pos="960" type="0" muted="0" name="Kick 001 Basic.wav" steps="32"/>
             </track>
-            <track muted="0" type="0" name="808 Bass Deepish.wav" solo="0">
-              <instrumenttrack pan="0" fxch="0" usemasterpitch="1" pitchrange="1" pitch="0" basenote="57" vol="193.3">
+            <track solo="0" type="0" muted="0" name="808 Bass Deepish.wav">
+              <instrumenttrack vol="193.3" pitchrange="1" basenote="57" pan="0" pitch="0" usemasterpitch="1" fxch="0">
                 <instrument name="audiofileprocessor">
-                  <audiofileprocessor reversed="0" looped="0" lframe="0.727167" interp="1" eframe="1" stutter="0" sframe="0" src="TriTrap_v1/808 Bass/808 Bass Deepish.wav" amp="155"/>
+                  <audiofileprocessor stutter="0" interp="1" src="TriTrap_v1/808 Bass/808 Bass Deepish.wav" looped="0" amp="155" sframe="0" lframe="0.727167" eframe="1" reversed="0"/>
                 </instrument>
-                <eldata fres="0.5" ftype="0" fcut="14000" fwet="0">
-                  <elvol lspd_denominator="4" sustain="0.996" pdel="0" userwavefile="" dec="0" lamt="0" latt="0" rel="0.065" amt="1" x100="0" att="0" lpdel="0" hold="2" lspd_syncmode="0" lshp="0" lspd="0.1" ctlenvamt="0" lspd_numerator="4"/>
-                  <elcut lspd_denominator="4" sustain="0.5" pdel="0" userwavefile="" dec="0.5" lamt="0" latt="0" rel="0.1" amt="0" x100="0" att="0" lpdel="0" hold="0.5" lspd_syncmode="0" lshp="0" lspd="0.1" ctlenvamt="0" lspd_numerator="4"/>
-                  <elres lspd_denominator="4" sustain="0.5" pdel="0" userwavefile="" dec="0.5" lamt="0" latt="0" rel="0.1" amt="0" x100="0" att="0" lpdel="0" hold="0.5" lspd_syncmode="0" lshp="0" lspd="0.1" ctlenvamt="0" lspd_numerator="4"/>
+                <eldata fcut="14000" fwet="0" ftype="0" fres="0.5">
+                  <elvol lshp="0" att="0" x100="0" amt="1" userwavefile="" lspd_denominator="4" lspd="0.1" pdel="0" hold="2" ctlenvamt="0" latt="0" sustain="0.996" rel="0.065" lamt="0" lpdel="0" lspd_syncmode="0" dec="0" lspd_numerator="4"/>
+                  <elcut lshp="0" att="0" x100="0" amt="0" userwavefile="" lspd_denominator="4" lspd="0.1" pdel="0" hold="0.5" ctlenvamt="0" latt="0" sustain="0.5" rel="0.1" lamt="0" lpdel="0" lspd_syncmode="0" dec="0.5" lspd_numerator="4"/>
+                  <elres lshp="0" att="0" x100="0" amt="0" userwavefile="" lspd_denominator="4" lspd="0.1" pdel="0" hold="0.5" ctlenvamt="0" latt="0" sustain="0.5" rel="0.1" lamt="0" lpdel="0" lspd_syncmode="0" dec="0.5" lspd_numerator="4"/>
                 </eldata>
-                <chordcreator chord="0" chordrange="1" chord-enabled="0"/>
-                <arpeggiator arptime="200" arprange="1" arpskip="0" arptime_denominator="4" arptime_syncmode="0" arpmode="0" arpcycle="0" arp-enabled="0" arp="0" arptime_numerator="4" arpdir="0" arpmiss="0" arpgate="100"/>
-                <midiport inputcontroller="0" fixedoutputvelocity="-1" inputchannel="0" outputcontroller="0" writable="0" outputchannel="1" fixedinputvelocity="-1" fixedoutputnote="-1" outputprogram="1" basevelocity="63" readable="0"/>
+                <chordcreator chord-enabled="0" chordrange="1" chord="0"/>
+                <arpeggiator arpmiss="0" arpmode="0" arpskip="0" arptime_denominator="4" arptime="200" arprange="1" arptime_numerator="4" arpdir="0" arpgate="100" arp-enabled="0" arp="0" arptime_syncmode="0" arpcycle="0"/>
+                <midiport outputcontroller="0" writable="0" basevelocity="63" fixedoutputvelocity="-1" fixedoutputnote="-1" outputchannel="1" fixedinputvelocity="-1" inputchannel="0" outputprogram="1" inputcontroller="0" readable="0"/>
                 <fxchain numofeffects="0" enabled="0"/>
               </instrumenttrack>
-              <pattern steps="32" muted="0" type="0" name="808 Bass Deepish.wav" pos="0"/>
-              <pattern steps="32" muted="0" type="1" name="808 Bass Deepish.wav" pos="192">
-                <note pan="0" key="57" vol="100" pos="0" len="192"/>
-                <note pan="0" key="57" vol="129" pos="192" len="24"/>
-                <note pan="0" key="57" vol="129" pos="216" len="24"/>
+              <pattern pos="0" type="0" muted="0" name="808 Bass Deepish.wav" steps="32"/>
+              <pattern pos="192" type="1" muted="0" name="808 Bass Deepish.wav" steps="32">
+                <note vol="100" pos="0" pan="0" len="192" key="57"/>
+                <note vol="129" pos="192" pan="0" len="24" key="57"/>
+                <note vol="129" pos="216" pan="0" len="24" key="57"/>
               </pattern>
-              <pattern steps="16" muted="0" type="1" name="Kick 001 Basic.wav" pos="384">
-                <note pan="0" key="57" vol="183" pos="96" len="24"/>
-                <note pan="0" key="57" vol="161" pos="120" len="48"/>
-                <note pan="0" key="63" vol="150" pos="168" len="24"/>
+              <pattern pos="384" type="1" muted="0" name="Kick 001 Basic.wav" steps="16">
+                <note vol="183" pos="96" pan="0" len="24" key="57"/>
+                <note vol="161" pos="120" pan="0" len="48" key="57"/>
+                <note vol="150" pos="168" pan="0" len="24" key="63"/>
               </pattern>
-              <pattern steps="16" muted="0" type="1" name="Kick 001 Basic.wav" pos="576">
-                <note pan="0" key="57" vol="183" pos="96" len="24"/>
-                <note pan="0" key="57" vol="161" pos="120" len="24"/>
+              <pattern pos="576" type="1" muted="0" name="Kick 001 Basic.wav" steps="16">
+                <note vol="183" pos="96" pan="0" len="24" key="57"/>
+                <note vol="161" pos="120" pan="0" len="24" key="57"/>
               </pattern>
-              <pattern steps="64" muted="0" type="0" name="808 Bass Deepish.wav" pos="768"/>
-              <pattern steps="32" muted="0" type="0" name="808 Bass Deepish.wav" pos="960"/>
+              <pattern pos="768" type="0" muted="0" name="808 Bass Deepish.wav" steps="64"/>
+              <pattern pos="960" type="0" muted="0" name="808 Bass Deepish.wav" steps="32"/>
             </track>
-            <track muted="0" type="0" name="HiHat Closed 001 Widened.wav" solo="0">
-              <instrumenttrack pan="0" fxch="0" usemasterpitch="1" pitchrange="1" pitch="0" basenote="57" vol="138.1">
+            <track solo="0" type="0" muted="0" name="HiHat Closed 001 Widened.wav">
+              <instrumenttrack vol="138.1" pitchrange="1" basenote="57" pan="0" pitch="0" usemasterpitch="1" fxch="0">
                 <instrument name="audiofileprocessor">
-                  <audiofileprocessor reversed="0" looped="0" lframe="0" interp="1" eframe="1" stutter="0" sframe="0" src="TriTrap_v1/Hats &amp; Cymbals/HiHat Closed 001 Widened.wav" amp="434"/>
+                  <audiofileprocessor stutter="0" interp="1" src="TriTrap_v1/Hats &amp; Cymbals/HiHat Closed 001 Widened.wav" looped="0" amp="434" sframe="0" lframe="0" eframe="1" reversed="0"/>
                 </instrument>
-                <eldata fres="0.5" ftype="0" fcut="14000" fwet="0">
-                  <elvol lspd_denominator="4" sustain="0.5" pdel="0" userwavefile="" dec="0.5" lamt="0" latt="0" rel="0.1" amt="0" x100="0" att="0" lpdel="0" hold="0.5" lspd_syncmode="0" lshp="0" lspd="0.1" ctlenvamt="0" lspd_numerator="4"/>
-                  <elcut lspd_denominator="4" sustain="0.5" pdel="0" userwavefile="" dec="0.5" lamt="0" latt="0" rel="0.1" amt="0" x100="0" att="0" lpdel="0" hold="0.5" lspd_syncmode="0" lshp="0" lspd="0.1" ctlenvamt="0" lspd_numerator="4"/>
-                  <elres lspd_denominator="4" sustain="0.5" pdel="0" userwavefile="" dec="0.5" lamt="0" latt="0" rel="0.1" amt="0" x100="0" att="0" lpdel="0" hold="0.5" lspd_syncmode="0" lshp="0" lspd="0.1" ctlenvamt="0" lspd_numerator="4"/>
+                <eldata fcut="14000" fwet="0" ftype="0" fres="0.5">
+                  <elvol lshp="0" att="0" x100="0" amt="0" userwavefile="" lspd_denominator="4" lspd="0.1" pdel="0" hold="0.5" ctlenvamt="0" latt="0" sustain="0.5" rel="0.1" lamt="0" lpdel="0" lspd_syncmode="0" dec="0.5" lspd_numerator="4"/>
+                  <elcut lshp="0" att="0" x100="0" amt="0" userwavefile="" lspd_denominator="4" lspd="0.1" pdel="0" hold="0.5" ctlenvamt="0" latt="0" sustain="0.5" rel="0.1" lamt="0" lpdel="0" lspd_syncmode="0" dec="0.5" lspd_numerator="4"/>
+                  <elres lshp="0" att="0" x100="0" amt="0" userwavefile="" lspd_denominator="4" lspd="0.1" pdel="0" hold="0.5" ctlenvamt="0" latt="0" sustain="0.5" rel="0.1" lamt="0" lpdel="0" lspd_syncmode="0" dec="0.5" lspd_numerator="4"/>
                 </eldata>
-                <chordcreator chord="0" chordrange="1" chord-enabled="0"/>
-                <arpeggiator arptime="200" arprange="1" arpskip="0" arptime_denominator="4" arptime_syncmode="0" arpmode="0" arpcycle="0" arp-enabled="0" arp="0" arptime_numerator="4" arpdir="0" arpmiss="0" arpgate="100"/>
-                <midiport inputcontroller="0" fixedoutputvelocity="-1" inputchannel="0" outputcontroller="0" writable="0" outputchannel="1" fixedinputvelocity="-1" fixedoutputnote="-1" outputprogram="1" basevelocity="63" readable="0"/>
+                <chordcreator chord-enabled="0" chordrange="1" chord="0"/>
+                <arpeggiator arpmiss="0" arpmode="0" arpskip="0" arptime_denominator="4" arptime="200" arprange="1" arptime_numerator="4" arpdir="0" arpgate="100" arp-enabled="0" arp="0" arptime_syncmode="0" arpcycle="0"/>
+                <midiport outputcontroller="0" writable="0" basevelocity="63" fixedoutputvelocity="-1" fixedoutputnote="-1" outputchannel="1" fixedinputvelocity="-1" inputchannel="0" outputprogram="1" inputcontroller="0" readable="0"/>
                 <fxchain numofeffects="0" enabled="0"/>
               </instrumenttrack>
-              <pattern steps="32" muted="0" type="1" name="HiHat Closed 001 Widened.wav" pos="0">
-                <note pan="0" key="57" vol="100" pos="0" len="12"/>
-                <note pan="0" key="57" vol="100" pos="24" len="12"/>
-                <note pan="0" key="57" vol="100" pos="36" len="12"/>
-                <note pan="0" key="57" vol="100" pos="48" len="12"/>
-                <note pan="0" key="57" vol="100" pos="144" len="12"/>
-                <note pan="0" key="57" vol="100" pos="192" len="12"/>
-                <note pan="0" key="57" vol="100" pos="216" len="12"/>
-                <note pan="0" key="57" vol="100" pos="228" len="12"/>
-                <note pan="0" key="57" vol="100" pos="240" len="12"/>
-                <note pan="0" key="59" vol="100" pos="336" len="12"/>
-                <note pan="0" key="59" vol="70" pos="348" len="6"/>
-                <note pan="0" key="58" vol="93" pos="354" len="6"/>
-                <note pan="0" key="56" vol="72" pos="360" len="6"/>
-                <note pan="0" key="56" vol="59" pos="366" len="6"/>
-                <note pan="0" key="56" vol="57" pos="372" len="6"/>
-                <note pan="0" key="59" vol="53" pos="378" len="6"/>
-                <note pan="0" key="56" vol="53" pos="378" len="6"/>
+              <pattern pos="0" type="1" muted="0" name="HiHat Closed 001 Widened.wav" steps="32">
+                <note vol="100" pos="0" pan="0" len="12" key="57"/>
+                <note vol="100" pos="24" pan="0" len="12" key="57"/>
+                <note vol="100" pos="36" pan="0" len="12" key="57"/>
+                <note vol="100" pos="48" pan="0" len="12" key="57"/>
+                <note vol="100" pos="144" pan="0" len="12" key="57"/>
+                <note vol="100" pos="192" pan="0" len="12" key="57"/>
+                <note vol="100" pos="216" pan="0" len="12" key="57"/>
+                <note vol="100" pos="228" pan="0" len="12" key="57"/>
+                <note vol="100" pos="240" pan="0" len="12" key="57"/>
+                <note vol="100" pos="336" pan="0" len="12" key="59"/>
+                <note vol="70" pos="348" pan="0" len="6" key="59"/>
+                <note vol="93" pos="354" pan="0" len="6" key="58"/>
+                <note vol="72" pos="360" pan="0" len="6" key="56"/>
+                <note vol="59" pos="366" pan="0" len="6" key="56"/>
+                <note vol="57" pos="372" pan="0" len="6" key="56"/>
+                <note vol="53" pos="378" pan="0" len="6" key="59"/>
+                <note vol="53" pos="378" pan="0" len="6" key="56"/>
               </pattern>
-              <pattern steps="32" muted="0" type="0" name="HiHat Closed 001 Widened.wav" pos="192"/>
-              <pattern steps="16" muted="0" type="0" name="HiHat Closed 001 Widened.wav" pos="384"/>
-              <pattern steps="16" muted="0" type="0" name="HiHat Closed 001 Widened.wav" pos="576"/>
-              <pattern steps="64" muted="0" type="1" name="HiHat Closed 001 Widened.wav" pos="768">
-                <note pan="0" key="57" vol="74" pos="0" len="48"/>
-                <note pan="0" key="57" vol="74" pos="48" len="48"/>
-                <note pan="0" key="57" vol="74" pos="96" len="48"/>
-                <note pan="0" key="57" vol="74" pos="144" len="16"/>
-                <note pan="0" key="57" vol="95" pos="160" len="16"/>
-                <note pan="0" key="57" vol="93" pos="176" len="16"/>
-                <note pan="0" key="57" vol="100" pos="192" len="48"/>
-                <note pan="0" key="57" vol="74" pos="240" len="48"/>
-                <note pan="0" key="57" vol="74" pos="288" len="48"/>
-                <note pan="0" key="57" vol="74" pos="336" len="16"/>
-                <note pan="0" key="57" vol="91" pos="352" len="16"/>
-                <note pan="0" key="57" vol="91" pos="368" len="16"/>
-                <note pan="0" key="57" vol="93" pos="384" len="48"/>
-                <note pan="0" key="57" vol="74" pos="432" len="48"/>
-                <note pan="0" key="57" vol="74" pos="480" len="48"/>
-                <note pan="0" key="57" vol="74" pos="528" len="24"/>
-                <note pan="0" key="57" vol="95" pos="552" len="24"/>
-                <note pan="0" key="57" vol="97" pos="574" len="48"/>
-                <note pan="0" key="57" vol="74" pos="672" len="16"/>
-                <note pan="0" key="57" vol="82" pos="688" len="16"/>
-                <note pan="0" key="57" vol="100" pos="704" len="16"/>
-                <note pan="0" key="57" vol="63" pos="720" len="6"/>
-                <note pan="0" key="57" vol="65" pos="726" len="6"/>
-                <note pan="0" key="57" vol="72" pos="732" len="6"/>
-                <note pan="0" key="57" vol="78" pos="738" len="6"/>
-                <note pan="0" key="57" vol="87" pos="744" len="6"/>
-                <note pan="0" key="57" vol="95" pos="750" len="6"/>
-                <note pan="0" key="57" vol="108" pos="756" len="6"/>
-                <note pan="0" key="57" vol="121" pos="762" len="6"/>
+              <pattern pos="192" type="0" muted="0" name="HiHat Closed 001 Widened.wav" steps="32"/>
+              <pattern pos="384" type="0" muted="0" name="HiHat Closed 001 Widened.wav" steps="16"/>
+              <pattern pos="576" type="0" muted="0" name="HiHat Closed 001 Widened.wav" steps="16"/>
+              <pattern pos="768" type="1" muted="0" name="HiHat Closed 001 Widened.wav" steps="64">
+                <note vol="74" pos="0" pan="0" len="48" key="57"/>
+                <note vol="74" pos="48" pan="0" len="48" key="57"/>
+                <note vol="74" pos="96" pan="0" len="48" key="57"/>
+                <note vol="74" pos="144" pan="0" len="16" key="57"/>
+                <note vol="95" pos="160" pan="0" len="16" key="57"/>
+                <note vol="93" pos="176" pan="0" len="16" key="57"/>
+                <note vol="100" pos="192" pan="0" len="48" key="57"/>
+                <note vol="74" pos="240" pan="0" len="48" key="57"/>
+                <note vol="74" pos="288" pan="0" len="48" key="57"/>
+                <note vol="74" pos="336" pan="0" len="16" key="57"/>
+                <note vol="91" pos="352" pan="0" len="16" key="57"/>
+                <note vol="91" pos="368" pan="0" len="16" key="57"/>
+                <note vol="93" pos="384" pan="0" len="48" key="57"/>
+                <note vol="74" pos="432" pan="0" len="48" key="57"/>
+                <note vol="74" pos="480" pan="0" len="48" key="57"/>
+                <note vol="74" pos="528" pan="0" len="24" key="57"/>
+                <note vol="95" pos="552" pan="0" len="24" key="57"/>
+                <note vol="97" pos="574" pan="0" len="48" key="57"/>
+                <note vol="74" pos="672" pan="0" len="16" key="57"/>
+                <note vol="82" pos="688" pan="0" len="16" key="57"/>
+                <note vol="100" pos="704" pan="0" len="16" key="57"/>
+                <note vol="63" pos="720" pan="0" len="6" key="57"/>
+                <note vol="65" pos="726" pan="0" len="6" key="57"/>
+                <note vol="72" pos="732" pan="0" len="6" key="57"/>
+                <note vol="78" pos="738" pan="0" len="6" key="57"/>
+                <note vol="87" pos="744" pan="0" len="6" key="57"/>
+                <note vol="95" pos="750" pan="0" len="6" key="57"/>
+                <note vol="108" pos="756" pan="0" len="6" key="57"/>
+                <note vol="121" pos="762" pan="0" len="6" key="57"/>
               </pattern>
-              <pattern steps="32" muted="0" type="1" name="HiHat Closed 001 Widened.wav" pos="960">
-                <note pan="0" key="57" vol="100" pos="0" len="-192"/>
-                <note pan="0" key="57" vol="100" pos="60" len="-192"/>
-                <note pan="0" key="57" vol="100" pos="72" len="-192"/>
-                <note pan="0" key="57" vol="100" pos="96" len="-192"/>
-                <note pan="0" key="57" vol="100" pos="144" len="-192"/>
-                <note pan="0" key="57" vol="100" pos="192" len="-192"/>
-                <note pan="0" key="57" vol="112" pos="240" len="24"/>
-                <note pan="0" key="57" vol="112" pos="264" len="12"/>
-                <note pan="0" key="57" vol="112" pos="276" len="12"/>
-                <note pan="0" key="57" vol="112" pos="288" len="24"/>
-                <note pan="0" key="57" vol="112" pos="312" len="12"/>
-                <note pan="0" key="57" vol="112" pos="324" len="12"/>
-                <note pan="0" key="57" vol="112" pos="336" len="6"/>
-                <note pan="0" key="57" vol="112" pos="342" len="6"/>
-                <note pan="0" key="57" vol="112" pos="348" len="6"/>
-                <note pan="0" key="57" vol="112" pos="354" len="6"/>
-                <note pan="0" key="57" vol="112" pos="360" len="6"/>
-                <note pan="0" key="57" vol="112" pos="366" len="6"/>
-                <note pan="0" key="57" vol="112" pos="372" len="6"/>
-                <note pan="0" key="57" vol="112" pos="378" len="6"/>
-              </pattern>
-            </track>
-            <track muted="0" type="0" name="Snare 007.wav" solo="0">
-              <instrumenttrack pan="0" fxch="0" usemasterpitch="1" pitchrange="1" pitch="0" basenote="57" vol="93.1">
-                <instrument name="audiofileprocessor">
-                  <audiofileprocessor reversed="0" looped="0" lframe="0" interp="1" eframe="1" stutter="0" sframe="0" src="TriTrap_v1/Snares &amp; Claps/Snare 007.wav" amp="263"/>
-                </instrument>
-                <eldata fres="0.5" ftype="0" fcut="14000" fwet="0">
-                  <elvol lspd_denominator="4" sustain="0.5" pdel="0" userwavefile="" dec="0.5" lamt="0" latt="0" rel="0.1" amt="0" x100="0" att="0" lpdel="0" hold="0.5" lspd_syncmode="0" lshp="0" lspd="0.1" ctlenvamt="0" lspd_numerator="4"/>
-                  <elcut lspd_denominator="4" sustain="0.5" pdel="0" userwavefile="" dec="0.5" lamt="0" latt="0" rel="0.1" amt="0" x100="0" att="0" lpdel="0" hold="0.5" lspd_syncmode="0" lshp="0" lspd="0.1" ctlenvamt="0" lspd_numerator="4"/>
-                  <elres lspd_denominator="4" sustain="0.5" pdel="0" userwavefile="" dec="0.5" lamt="0" latt="0" rel="0.1" amt="0" x100="0" att="0" lpdel="0" hold="0.5" lspd_syncmode="0" lshp="0" lspd="0.1" ctlenvamt="0" lspd_numerator="4"/>
-                </eldata>
-                <chordcreator chord="0" chordrange="1" chord-enabled="0"/>
-                <arpeggiator arptime="200" arprange="1" arpskip="0" arptime_denominator="4" arptime_syncmode="0" arpmode="0" arpcycle="0" arp-enabled="0" arp="0" arptime_numerator="4" arpdir="0" arpmiss="0" arpgate="100"/>
-                <midiport inputcontroller="0" fixedoutputvelocity="-1" inputchannel="0" outputcontroller="0" writable="0" outputchannel="1" fixedinputvelocity="-1" fixedoutputnote="-1" outputprogram="1" basevelocity="63" readable="0"/>
-                <fxchain numofeffects="0" enabled="0"/>
-              </instrumenttrack>
-              <pattern steps="32" muted="0" type="1" name="Snare 007.wav" pos="0">
-                <note pan="0" key="57" vol="82" pos="0" len="24"/>
-                <note pan="0" key="57" vol="82" pos="24" len="6"/>
-                <note pan="0" key="57" vol="82" pos="72" len="6"/>
-                <note pan="0" key="57" vol="82" pos="96" len="24"/>
-                <note pan="0" key="57" vol="82" pos="120" len="6"/>
-                <note pan="0" key="57" vol="82" pos="168" len="6"/>
-                <note pan="0" key="57" vol="82" pos="176" len="6"/>
-                <note pan="0" key="57" vol="82" pos="184" len="6"/>
-                <note pan="0" key="62" vol="121" pos="312" len="24"/>
-                <note pan="0" key="58" vol="82" pos="360" len="24"/>
-              </pattern>
-              <pattern steps="32" muted="0" type="0" name="Snare 007.wav" pos="192"/>
-              <pattern steps="16" muted="0" type="0" name="Snare 007.wav" pos="384"/>
-              <pattern steps="16" muted="0" type="0" name="Snare 007.wav" pos="576"/>
-              <pattern steps="64" muted="0" type="0" name="Snare 007.wav" pos="768"/>
-              <pattern steps="32" muted="0" type="1" name="Snare 007.wav" pos="960">
-                <note pan="0" key="57" vol="100" pos="24" len="-192"/>
-                <note pan="0" key="57" vol="100" pos="120" len="-192"/>
-                <note pan="0" key="57" vol="100" pos="216" len="-192"/>
-                <note pan="0" key="57" vol="100" pos="264" len="-192"/>
-                <note pan="0" key="57" vol="112" pos="288" len="6"/>
-                <note pan="0" key="57" vol="82" pos="312" len="6"/>
-                <note pan="0" key="57" vol="119" pos="324" len="6"/>
-                <note pan="0" key="57" vol="78" pos="360" len="6"/>
-                <note pan="0" key="57" vol="95" pos="366" len="6"/>
-                <note pan="0" key="57" vol="106" pos="372" len="6"/>
-                <note pan="0" key="57" vol="112" pos="378" len="6"/>
+              <pattern pos="960" type="1" muted="0" name="HiHat Closed 001 Widened.wav" steps="32">
+                <note vol="100" pos="0" pan="0" len="-192" key="57"/>
+                <note vol="100" pos="60" pan="0" len="-192" key="57"/>
+                <note vol="100" pos="72" pan="0" len="-192" key="57"/>
+                <note vol="100" pos="96" pan="0" len="-192" key="57"/>
+                <note vol="100" pos="144" pan="0" len="-192" key="57"/>
+                <note vol="100" pos="192" pan="0" len="-192" key="57"/>
+                <note vol="112" pos="240" pan="0" len="24" key="57"/>
+                <note vol="112" pos="264" pan="0" len="12" key="57"/>
+                <note vol="112" pos="276" pan="0" len="12" key="57"/>
+                <note vol="112" pos="288" pan="0" len="24" key="57"/>
+                <note vol="112" pos="312" pan="0" len="12" key="57"/>
+                <note vol="112" pos="324" pan="0" len="12" key="57"/>
+                <note vol="112" pos="336" pan="0" len="6" key="57"/>
+                <note vol="112" pos="342" pan="0" len="6" key="57"/>
+                <note vol="112" pos="348" pan="0" len="6" key="57"/>
+                <note vol="112" pos="354" pan="0" len="6" key="57"/>
+                <note vol="112" pos="360" pan="0" len="6" key="57"/>
+                <note vol="112" pos="366" pan="0" len="6" key="57"/>
+                <note vol="112" pos="372" pan="0" len="6" key="57"/>
+                <note vol="112" pos="378" pan="0" len="6" key="57"/>
               </pattern>
             </track>
-            <track muted="0" type="0" name="Cymbal Crash 003 Gong.wav" solo="0">
-              <instrumenttrack pan="-14.6" fxch="0" usemasterpitch="1" pitchrange="1" pitch="0" basenote="54" vol="17.1">
+            <track solo="0" type="0" muted="0" name="Snare 007.wav">
+              <instrumenttrack vol="93.1" pitchrange="1" basenote="57" pan="0" pitch="0" usemasterpitch="1" fxch="0">
                 <instrument name="audiofileprocessor">
-                  <audiofileprocessor reversed="1" looped="0" lframe="0.837619" interp="1" eframe="1" stutter="0" sframe="0.665506" src="TriTrap_v2/Cymbals/Cymbal Crash 003 Gong.wav" amp="68"/>
+                  <audiofileprocessor stutter="0" interp="1" src="TriTrap_v1/Snares &amp; Claps/Snare 007.wav" looped="0" amp="263" sframe="0" lframe="0" eframe="1" reversed="0"/>
                 </instrument>
-                <eldata fres="0.5" ftype="0" fcut="14000" fwet="0">
-                  <elvol lspd_denominator="4" sustain="0.5" pdel="0" userwavefile="" dec="0.5" lamt="0" latt="0" rel="0.1" amt="0" x100="0" att="0" lpdel="0" hold="0.5" lspd_syncmode="0" lshp="0" lspd="0.1" ctlenvamt="0" lspd_numerator="4"/>
-                  <elcut lspd_denominator="4" sustain="0.5" pdel="0" userwavefile="" dec="0.5" lamt="0" latt="0" rel="0.1" amt="0" x100="0" att="0" lpdel="0" hold="0.5" lspd_syncmode="0" lshp="0" lspd="0.1" ctlenvamt="0" lspd_numerator="4"/>
-                  <elres lspd_denominator="4" sustain="0.5" pdel="0" userwavefile="" dec="0.5" lamt="0" latt="0" rel="0.1" amt="0" x100="0" att="0" lpdel="0" hold="0.5" lspd_syncmode="0" lshp="0" lspd="0.1" ctlenvamt="0" lspd_numerator="4"/>
+                <eldata fcut="14000" fwet="0" ftype="0" fres="0.5">
+                  <elvol lshp="0" att="0" x100="0" amt="0" userwavefile="" lspd_denominator="4" lspd="0.1" pdel="0" hold="0.5" ctlenvamt="0" latt="0" sustain="0.5" rel="0.1" lamt="0" lpdel="0" lspd_syncmode="0" dec="0.5" lspd_numerator="4"/>
+                  <elcut lshp="0" att="0" x100="0" amt="0" userwavefile="" lspd_denominator="4" lspd="0.1" pdel="0" hold="0.5" ctlenvamt="0" latt="0" sustain="0.5" rel="0.1" lamt="0" lpdel="0" lspd_syncmode="0" dec="0.5" lspd_numerator="4"/>
+                  <elres lshp="0" att="0" x100="0" amt="0" userwavefile="" lspd_denominator="4" lspd="0.1" pdel="0" hold="0.5" ctlenvamt="0" latt="0" sustain="0.5" rel="0.1" lamt="0" lpdel="0" lspd_syncmode="0" dec="0.5" lspd_numerator="4"/>
                 </eldata>
-                <chordcreator chord="0" chordrange="1" chord-enabled="0"/>
-                <arpeggiator arptime="200" arprange="1" arpskip="0" arptime_denominator="4" arptime_syncmode="0" arpmode="0" arpcycle="0" arp-enabled="0" arp="0" arptime_numerator="4" arpdir="0" arpmiss="0" arpgate="100"/>
-                <midiport inputcontroller="0" fixedoutputvelocity="-1" inputchannel="0" outputcontroller="0" writable="0" outputchannel="1" fixedinputvelocity="-1" fixedoutputnote="-1" outputprogram="1" basevelocity="63" readable="0"/>
+                <chordcreator chord-enabled="0" chordrange="1" chord="0"/>
+                <arpeggiator arpmiss="0" arpmode="0" arpskip="0" arptime_denominator="4" arptime="200" arprange="1" arptime_numerator="4" arpdir="0" arpgate="100" arp-enabled="0" arp="0" arptime_syncmode="0" arpcycle="0"/>
+                <midiport outputcontroller="0" writable="0" basevelocity="63" fixedoutputvelocity="-1" fixedoutputnote="-1" outputchannel="1" fixedinputvelocity="-1" inputchannel="0" outputprogram="1" inputcontroller="0" readable="0"/>
                 <fxchain numofeffects="0" enabled="0"/>
               </instrumenttrack>
-              <pattern steps="32" muted="0" type="1" name="Cymbal Crash 003 Gong.wav" pos="0">
-                <note pan="0" key="57" vol="161" pos="192" len="96"/>
-                <note pan="0" key="57" vol="100" pos="288" len="-192"/>
+              <pattern pos="0" type="1" muted="0" name="Snare 007.wav" steps="32">
+                <note vol="82" pos="0" pan="0" len="24" key="57"/>
+                <note vol="82" pos="24" pan="0" len="6" key="57"/>
+                <note vol="82" pos="72" pan="0" len="6" key="57"/>
+                <note vol="82" pos="96" pan="0" len="24" key="57"/>
+                <note vol="82" pos="120" pan="0" len="6" key="57"/>
+                <note vol="82" pos="168" pan="0" len="6" key="57"/>
+                <note vol="82" pos="176" pan="0" len="6" key="57"/>
+                <note vol="82" pos="184" pan="0" len="6" key="57"/>
+                <note vol="121" pos="312" pan="0" len="24" key="62"/>
+                <note vol="82" pos="360" pan="0" len="24" key="58"/>
               </pattern>
-              <pattern steps="32" muted="0" type="0" name="Cymbal Crash 003 Gong.wav" pos="192"/>
-              <pattern steps="16" muted="0" type="0" name="Cymbal Crash 003 Gong.wav" pos="384"/>
-              <pattern steps="16" muted="0" type="0" name="Cymbal Crash 003 Gong.wav" pos="576"/>
-              <pattern steps="64" muted="0" type="0" name="Cymbal Crash 003 Gong.wav" pos="768"/>
-              <pattern steps="32" muted="0" type="0" name="Cymbal Crash 003 Gong.wav" pos="960"/>
+              <pattern pos="192" type="0" muted="0" name="Snare 007.wav" steps="32"/>
+              <pattern pos="384" type="0" muted="0" name="Snare 007.wav" steps="16"/>
+              <pattern pos="576" type="0" muted="0" name="Snare 007.wav" steps="16"/>
+              <pattern pos="768" type="0" muted="0" name="Snare 007.wav" steps="64"/>
+              <pattern pos="960" type="1" muted="0" name="Snare 007.wav" steps="32">
+                <note vol="100" pos="24" pan="0" len="-192" key="57"/>
+                <note vol="100" pos="120" pan="0" len="-192" key="57"/>
+                <note vol="100" pos="216" pan="0" len="-192" key="57"/>
+                <note vol="100" pos="264" pan="0" len="-192" key="57"/>
+                <note vol="112" pos="288" pan="0" len="6" key="57"/>
+                <note vol="82" pos="312" pan="0" len="6" key="57"/>
+                <note vol="119" pos="324" pan="0" len="6" key="57"/>
+                <note vol="78" pos="360" pan="0" len="6" key="57"/>
+                <note vol="95" pos="366" pan="0" len="6" key="57"/>
+                <note vol="106" pos="372" pan="0" len="6" key="57"/>
+                <note vol="112" pos="378" pan="0" len="6" key="57"/>
+              </pattern>
             </track>
-            <track muted="0" type="0" name="Chant Hey 003.wav" solo="0">
-              <instrumenttrack pan="0" fxch="0" usemasterpitch="1" pitchrange="1" pitch="0" basenote="57" vol="36.1">
+            <track solo="0" type="0" muted="0" name="Cymbal Crash 003 Gong.wav">
+              <instrumenttrack vol="17.1" pitchrange="1" basenote="54" pan="-14.6" pitch="0" usemasterpitch="1" fxch="0">
                 <instrument name="audiofileprocessor">
-                  <audiofileprocessor reversed="0" looped="0" lframe="0" interp="1" eframe="1" stutter="0" sframe="0" src="TriTrap_v1/Chants/Chant Hey 003.wav" amp="100"/>
+                  <audiofileprocessor stutter="0" interp="1" src="TriTrap_v2/Cymbals/Cymbal Crash 003 Gong.wav" looped="0" amp="68" sframe="0.665506" lframe="0.837619" eframe="1" reversed="1"/>
                 </instrument>
-                <eldata fres="0.5" ftype="0" fcut="14000" fwet="0">
-                  <elvol lspd_denominator="4" sustain="0.5" pdel="0" userwavefile="" dec="0.5" lamt="0" latt="0" rel="0.1" amt="0" x100="0" att="0" lpdel="0" hold="0.5" lspd_syncmode="0" lshp="0" lspd="0.1" ctlenvamt="0" lspd_numerator="4"/>
-                  <elcut lspd_denominator="4" sustain="0.5" pdel="0" userwavefile="" dec="0.5" lamt="0" latt="0" rel="0.1" amt="0" x100="0" att="0" lpdel="0" hold="0.5" lspd_syncmode="0" lshp="0" lspd="0.1" ctlenvamt="0" lspd_numerator="4"/>
-                  <elres lspd_denominator="4" sustain="0.5" pdel="0" userwavefile="" dec="0.5" lamt="0" latt="0" rel="0.1" amt="0" x100="0" att="0" lpdel="0" hold="0.5" lspd_syncmode="0" lshp="0" lspd="0.1" ctlenvamt="0" lspd_numerator="4"/>
+                <eldata fcut="14000" fwet="0" ftype="0" fres="0.5">
+                  <elvol lshp="0" att="0" x100="0" amt="0" userwavefile="" lspd_denominator="4" lspd="0.1" pdel="0" hold="0.5" ctlenvamt="0" latt="0" sustain="0.5" rel="0.1" lamt="0" lpdel="0" lspd_syncmode="0" dec="0.5" lspd_numerator="4"/>
+                  <elcut lshp="0" att="0" x100="0" amt="0" userwavefile="" lspd_denominator="4" lspd="0.1" pdel="0" hold="0.5" ctlenvamt="0" latt="0" sustain="0.5" rel="0.1" lamt="0" lpdel="0" lspd_syncmode="0" dec="0.5" lspd_numerator="4"/>
+                  <elres lshp="0" att="0" x100="0" amt="0" userwavefile="" lspd_denominator="4" lspd="0.1" pdel="0" hold="0.5" ctlenvamt="0" latt="0" sustain="0.5" rel="0.1" lamt="0" lpdel="0" lspd_syncmode="0" dec="0.5" lspd_numerator="4"/>
                 </eldata>
-                <chordcreator chord="0" chordrange="1" chord-enabled="0"/>
-                <arpeggiator arptime="200" arprange="1" arpskip="0" arptime_denominator="4" arptime_syncmode="0" arpmode="0" arpcycle="0" arp-enabled="0" arp="0" arptime_numerator="4" arpdir="0" arpmiss="0" arpgate="100"/>
-                <midiport inputcontroller="0" fixedoutputvelocity="-1" inputchannel="0" outputcontroller="0" writable="0" outputchannel="1" fixedinputvelocity="-1" fixedoutputnote="-1" outputprogram="1" basevelocity="63" readable="0"/>
+                <chordcreator chord-enabled="0" chordrange="1" chord="0"/>
+                <arpeggiator arpmiss="0" arpmode="0" arpskip="0" arptime_denominator="4" arptime="200" arprange="1" arptime_numerator="4" arpdir="0" arpgate="100" arp-enabled="0" arp="0" arptime_syncmode="0" arpcycle="0"/>
+                <midiport outputcontroller="0" writable="0" basevelocity="63" fixedoutputvelocity="-1" fixedoutputnote="-1" outputchannel="1" fixedinputvelocity="-1" inputchannel="0" outputprogram="1" inputcontroller="0" readable="0"/>
                 <fxchain numofeffects="0" enabled="0"/>
               </instrumenttrack>
-              <pattern steps="32" muted="0" type="0" name="Chant Hey 003.wav" pos="0">
-                <note pan="0" key="57" vol="100" pos="0" len="-192"/>
+              <pattern pos="0" type="1" muted="0" name="Cymbal Crash 003 Gong.wav" steps="32">
+                <note vol="161" pos="192" pan="0" len="96" key="57"/>
+                <note vol="100" pos="288" pan="0" len="-192" key="57"/>
               </pattern>
-              <pattern steps="32" muted="0" type="0" name="Chant Hey 003.wav" pos="192"/>
-              <pattern steps="16" muted="0" type="0" name="Chant Hey 003.wav" pos="384"/>
-              <pattern steps="16" muted="0" type="0" name="Chant Hey 003.wav" pos="576"/>
-              <pattern steps="64" muted="0" type="0" name="Chant Hey 003.wav" pos="768"/>
-              <pattern steps="32" muted="0" type="0" name="Chant Hey 003.wav" pos="960"/>
+              <pattern pos="192" type="0" muted="0" name="Cymbal Crash 003 Gong.wav" steps="32"/>
+              <pattern pos="384" type="0" muted="0" name="Cymbal Crash 003 Gong.wav" steps="16"/>
+              <pattern pos="576" type="0" muted="0" name="Cymbal Crash 003 Gong.wav" steps="16"/>
+              <pattern pos="768" type="0" muted="0" name="Cymbal Crash 003 Gong.wav" steps="64"/>
+              <pattern pos="960" type="0" muted="0" name="Cymbal Crash 003 Gong.wav" steps="32"/>
+            </track>
+            <track solo="0" type="0" muted="0" name="Chant Hey 003.wav">
+              <instrumenttrack vol="36.1" pitchrange="1" basenote="57" pan="0" pitch="0" usemasterpitch="1" fxch="0">
+                <instrument name="audiofileprocessor">
+                  <audiofileprocessor stutter="0" interp="1" src="TriTrap_v1/Chants/Chant Hey 003.wav" looped="0" amp="100" sframe="0" lframe="0" eframe="1" reversed="0"/>
+                </instrument>
+                <eldata fcut="14000" fwet="0" ftype="0" fres="0.5">
+                  <elvol lshp="0" att="0" x100="0" amt="0" userwavefile="" lspd_denominator="4" lspd="0.1" pdel="0" hold="0.5" ctlenvamt="0" latt="0" sustain="0.5" rel="0.1" lamt="0" lpdel="0" lspd_syncmode="0" dec="0.5" lspd_numerator="4"/>
+                  <elcut lshp="0" att="0" x100="0" amt="0" userwavefile="" lspd_denominator="4" lspd="0.1" pdel="0" hold="0.5" ctlenvamt="0" latt="0" sustain="0.5" rel="0.1" lamt="0" lpdel="0" lspd_syncmode="0" dec="0.5" lspd_numerator="4"/>
+                  <elres lshp="0" att="0" x100="0" amt="0" userwavefile="" lspd_denominator="4" lspd="0.1" pdel="0" hold="0.5" ctlenvamt="0" latt="0" sustain="0.5" rel="0.1" lamt="0" lpdel="0" lspd_syncmode="0" dec="0.5" lspd_numerator="4"/>
+                </eldata>
+                <chordcreator chord-enabled="0" chordrange="1" chord="0"/>
+                <arpeggiator arpmiss="0" arpmode="0" arpskip="0" arptime_denominator="4" arptime="200" arprange="1" arptime_numerator="4" arpdir="0" arpgate="100" arp-enabled="0" arp="0" arptime_syncmode="0" arpcycle="0"/>
+                <midiport outputcontroller="0" writable="0" basevelocity="63" fixedoutputvelocity="-1" fixedoutputnote="-1" outputchannel="1" fixedinputvelocity="-1" inputchannel="0" outputprogram="1" inputcontroller="0" readable="0"/>
+                <fxchain numofeffects="0" enabled="0"/>
+              </instrumenttrack>
+              <pattern pos="0" type="0" muted="0" name="Chant Hey 003.wav" steps="32">
+                <note vol="100" pos="0" pan="0" len="-192" key="57"/>
+              </pattern>
+              <pattern pos="192" type="0" muted="0" name="Chant Hey 003.wav" steps="32"/>
+              <pattern pos="384" type="0" muted="0" name="Chant Hey 003.wav" steps="16"/>
+              <pattern pos="576" type="0" muted="0" name="Chant Hey 003.wav" steps="16"/>
+              <pattern pos="768" type="0" muted="0" name="Chant Hey 003.wav" steps="64"/>
+              <pattern pos="960" type="0" muted="0" name="Chant Hey 003.wav" steps="32"/>
             </track>
           </trackcontainer>
         </bbtrack>
-        <bbtco muted="0" usestyle="1" name="" pos="768" color="4286611584" len="384"/>
-        <bbtco muted="0" usestyle="1" name="" pos="1152" color="4286611584" len="384"/>
-        <bbtco muted="0" usestyle="1" name="" pos="1536" color="4286611584" len="384"/>
-        <bbtco muted="0" usestyle="1" name="" pos="1920" color="4286611584" len="384"/>
-        <bbtco muted="0" usestyle="1" name="" pos="2304" color="4286611584" len="384"/>
-        <bbtco muted="0" usestyle="1" name="" pos="3072" color="4286611584" len="384"/>
-        <bbtco muted="0" usestyle="1" name="" pos="3456" color="4286611584" len="384"/>
-        <bbtco muted="0" usestyle="1" name="" pos="3840" color="4286611584" len="384"/>
-        <bbtco muted="0" usestyle="1" name="" pos="4224" color="4286611584" len="384"/>
-        <bbtco muted="0" usestyle="1" name="" pos="4992" color="4286611584" len="384"/>
-        <bbtco muted="0" usestyle="1" name="" pos="4608" color="4286611584" len="384"/>
-        <bbtco muted="0" usestyle="1" name="" pos="5376" color="4286611584" len="384"/>
-        <bbtco muted="0" usestyle="1" name="" pos="5760" color="4286611584" len="384"/>
-        <bbtco muted="0" usestyle="1" name="" pos="2688" color="4286611584" len="384"/>
-        <bbtco muted="0" usestyle="1" name="" pos="6912" color="4286611584" len="384"/>
-        <bbtco muted="0" usestyle="1" name="" pos="7296" color="4286611584" len="384"/>
-        <bbtco muted="0" usestyle="1" name="" pos="8448" color="4286611584" len="384"/>
-        <bbtco muted="0" usestyle="1" name="" pos="8832" color="4286611584" len="384"/>
-        <bbtco muted="0" usestyle="1" name="" pos="9216" color="4286611584" len="384"/>
-        <bbtco muted="0" usestyle="1" name="" pos="9600" color="4286611584" len="384"/>
-        <bbtco muted="0" usestyle="1" name="" pos="11520" color="4286611584" len="384"/>
-        <bbtco muted="0" usestyle="1" name="" pos="11904" color="4286611584" len="384"/>
+        <bbtco pos="768" usestyle="1" color="4286611584" len="384" muted="0" name=""/>
+        <bbtco pos="1152" usestyle="1" color="4286611584" len="384" muted="0" name=""/>
+        <bbtco pos="1536" usestyle="1" color="4286611584" len="384" muted="0" name=""/>
+        <bbtco pos="1920" usestyle="1" color="4286611584" len="384" muted="0" name=""/>
+        <bbtco pos="2304" usestyle="1" color="4286611584" len="384" muted="0" name=""/>
+        <bbtco pos="3072" usestyle="1" color="4286611584" len="384" muted="0" name=""/>
+        <bbtco pos="3456" usestyle="1" color="4286611584" len="384" muted="0" name=""/>
+        <bbtco pos="3840" usestyle="1" color="4286611584" len="384" muted="0" name=""/>
+        <bbtco pos="4224" usestyle="1" color="4286611584" len="384" muted="0" name=""/>
+        <bbtco pos="4992" usestyle="1" color="4286611584" len="384" muted="0" name=""/>
+        <bbtco pos="4608" usestyle="1" color="4286611584" len="384" muted="0" name=""/>
+        <bbtco pos="5376" usestyle="1" color="4286611584" len="384" muted="0" name=""/>
+        <bbtco pos="5760" usestyle="1" color="4286611584" len="384" muted="0" name=""/>
+        <bbtco pos="2688" usestyle="1" color="4286611584" len="384" muted="0" name=""/>
+        <bbtco pos="6912" usestyle="1" color="4286611584" len="384" muted="0" name=""/>
+        <bbtco pos="7296" usestyle="1" color="4286611584" len="384" muted="0" name=""/>
+        <bbtco pos="8448" usestyle="1" color="4286611584" len="384" muted="0" name=""/>
+        <bbtco pos="8832" usestyle="1" color="4286611584" len="384" muted="0" name=""/>
+        <bbtco pos="9216" usestyle="1" color="4286611584" len="384" muted="0" name=""/>
+        <bbtco pos="9600" usestyle="1" color="4286611584" len="384" muted="0" name=""/>
+        <bbtco pos="11520" usestyle="1" color="4286611584" len="384" muted="0" name=""/>
+        <bbtco pos="11904" usestyle="1" color="4286611584" len="384" muted="0" name=""/>
       </track>
-      <track muted="0" type="1" name="main bass" solo="0">
+      <track solo="0" type="1" muted="0" name="main bass">
         <bbtrack/>
-        <bbtco muted="0" usestyle="1" name="" pos="768" color="4286611584" len="384"/>
-        <bbtco muted="0" usestyle="1" name="" pos="1152" color="4286611584" len="384"/>
-        <bbtco muted="0" usestyle="1" name="" pos="1536" color="4286611584" len="384"/>
-        <bbtco muted="0" usestyle="1" name="" pos="1920" color="4286611584" len="384"/>
-        <bbtco muted="0" usestyle="1" name="" pos="4608" color="4286611584" len="384"/>
-        <bbtco muted="0" usestyle="1" name="" pos="4992" color="4286611584" len="384"/>
-        <bbtco muted="0" usestyle="1" name="" pos="2688" color="4286611584" len="384"/>
-        <bbtco muted="0" usestyle="1" name="" pos="2304" color="4286611584" len="384"/>
-        <bbtco muted="0" usestyle="1" name="" pos="6912" color="4286611584" len="384"/>
-        <bbtco muted="0" usestyle="1" name="" pos="7296" color="4286611584" len="384"/>
-        <bbtco muted="0" usestyle="1" name="" pos="8448" color="4286611584" len="384"/>
-        <bbtco muted="0" usestyle="1" name="" pos="8832" color="4286611584" len="384"/>
-        <bbtco muted="0" usestyle="1" name="" pos="9216" color="4286611584" len="384"/>
-        <bbtco muted="0" usestyle="1" name="" pos="9600" color="4286611584" len="384"/>
-        <bbtco muted="0" usestyle="1" name="" pos="11520" color="4286611584" len="384"/>
-        <bbtco muted="0" usestyle="1" name="" pos="11904" color="4286611584" len="384"/>
-        <bbtco muted="0" usestyle="1" name="" pos="3840" color="4286611584" len="384"/>
-        <bbtco muted="0" usestyle="1" name="" pos="4224" color="4286611584" len="384"/>
+        <bbtco pos="768" usestyle="1" color="4286611584" len="384" muted="0" name=""/>
+        <bbtco pos="1152" usestyle="1" color="4286611584" len="384" muted="0" name=""/>
+        <bbtco pos="1536" usestyle="1" color="4286611584" len="384" muted="0" name=""/>
+        <bbtco pos="1920" usestyle="1" color="4286611584" len="384" muted="0" name=""/>
+        <bbtco pos="4608" usestyle="1" color="4286611584" len="384" muted="0" name=""/>
+        <bbtco pos="4992" usestyle="1" color="4286611584" len="384" muted="0" name=""/>
+        <bbtco pos="2688" usestyle="1" color="4286611584" len="384" muted="0" name=""/>
+        <bbtco pos="2304" usestyle="1" color="4286611584" len="384" muted="0" name=""/>
+        <bbtco pos="6912" usestyle="1" color="4286611584" len="384" muted="0" name=""/>
+        <bbtco pos="7296" usestyle="1" color="4286611584" len="384" muted="0" name=""/>
+        <bbtco pos="8448" usestyle="1" color="4286611584" len="384" muted="0" name=""/>
+        <bbtco pos="8832" usestyle="1" color="4286611584" len="384" muted="0" name=""/>
+        <bbtco pos="9216" usestyle="1" color="4286611584" len="384" muted="0" name=""/>
+        <bbtco pos="9600" usestyle="1" color="4286611584" len="384" muted="0" name=""/>
+        <bbtco pos="11520" usestyle="1" color="4286611584" len="384" muted="0" name=""/>
+        <bbtco pos="11904" usestyle="1" color="4286611584" len="384" muted="0" name=""/>
+        <bbtco pos="3840" usestyle="1" color="4286611584" len="384" muted="0" name=""/>
+        <bbtco pos="4224" usestyle="1" color="4286611584" len="384" muted="0" name=""/>
       </track>
-      <track muted="0" type="1" name="bass end0" solo="0">
+      <track solo="0" type="1" muted="0" name="bass end0">
         <bbtrack/>
-        <bbtco muted="0" usestyle="1" name="" pos="2112" color="4286611584" len="192"/>
-        <bbtco muted="0" usestyle="1" name="" pos="2880" color="4286611584" len="192"/>
-        <bbtco muted="0" usestyle="1" name="" pos="10944" color="4286611584" len="192"/>
-        <bbtco muted="0" usestyle="1" name="" pos="11328" color="4286611584" len="192"/>
-        <bbtco muted="0" usestyle="1" name="" pos="13248" color="4286611584" len="192"/>
-        <bbtco muted="0" usestyle="1" name="" pos="13632" color="4286611584" len="192"/>
-        <bbtco muted="0" usestyle="1" name="" pos="11136" color="4286611584" len="192"/>
-        <bbtco muted="0" usestyle="1" name="" pos="13440" color="4286611584" len="192"/>
-        <bbtco muted="0" usestyle="1" name="" pos="14016" color="4286611584" len="192"/>
-        <bbtco muted="0" usestyle="1" name="" pos="14400" color="4286611584" len="192"/>
-        <bbtco muted="0" usestyle="1" name="" pos="5952" color="4286611584" len="192"/>
-        <bbtco muted="0" usestyle="1" name="" pos="5184" color="4286611584" len="192"/>
-        <bbtco muted="0" usestyle="1" name="" pos="3648" color="4286611584" len="192"/>
+        <bbtco pos="2112" usestyle="1" color="4286611584" len="192" muted="0" name=""/>
+        <bbtco pos="2880" usestyle="1" color="4286611584" len="192" muted="0" name=""/>
+        <bbtco pos="10944" usestyle="1" color="4286611584" len="192" muted="0" name=""/>
+        <bbtco pos="11328" usestyle="1" color="4286611584" len="192" muted="0" name=""/>
+        <bbtco pos="13248" usestyle="1" color="4286611584" len="192" muted="0" name=""/>
+        <bbtco pos="13632" usestyle="1" color="4286611584" len="192" muted="0" name=""/>
+        <bbtco pos="11136" usestyle="1" color="4286611584" len="192" muted="0" name=""/>
+        <bbtco pos="13440" usestyle="1" color="4286611584" len="192" muted="0" name=""/>
+        <bbtco pos="14016" usestyle="1" color="4286611584" len="192" muted="0" name=""/>
+        <bbtco pos="14400" usestyle="1" color="4286611584" len="192" muted="0" name=""/>
+        <bbtco pos="5952" usestyle="1" color="4286611584" len="192" muted="0" name=""/>
+        <bbtco pos="5184" usestyle="1" color="4286611584" len="192" muted="0" name=""/>
+        <bbtco pos="3648" usestyle="1" color="4286611584" len="192" muted="0" name=""/>
+        <bbtco pos="12096" usestyle="1" color="4286611584" len="192" muted="0" name=""/>
+        <bbtco pos="11712" usestyle="1" color="4286611584" len="192" muted="0" name=""/>
       </track>
-      <track muted="0" type="1" name="bass end1" solo="0">
+      <track solo="0" type="1" muted="0" name="bass end1">
         <bbtrack/>
-        <bbtco muted="0" usestyle="1" name="" pos="960" color="4286611584" len="192"/>
-        <bbtco muted="0" usestyle="1" name="" pos="1344" color="4286611584" len="192"/>
-        <bbtco muted="0" usestyle="1" name="" pos="1728" color="4286611584" len="192"/>
-        <bbtco muted="0" usestyle="1" name="" pos="2496" color="4286611584" len="192"/>
-        <bbtco muted="0" usestyle="1" name="" pos="3264" color="4286611584" len="192"/>
-        <bbtco muted="0" usestyle="1" name="" pos="4032" color="4286611584" len="192"/>
-        <bbtco muted="0" usestyle="1" name="" pos="4416" color="4286611584" len="192"/>
-        <bbtco muted="0" usestyle="1" name="" pos="4800" color="4286611584" len="192"/>
-        <bbtco muted="0" usestyle="1" name="" pos="7104" color="4286611584" len="192"/>
-        <bbtco muted="0" usestyle="1" name="" pos="7488" color="4286611584" len="192"/>
-        <bbtco muted="0" usestyle="1" name="" pos="8640" color="4286611584" len="192"/>
-        <bbtco muted="0" usestyle="1" name="" pos="9024" color="4286611584" len="192"/>
-        <bbtco muted="0" usestyle="1" name="" pos="9408" color="4286611584" len="192"/>
-        <bbtco muted="0" usestyle="1" name="" pos="9792" color="4286611584" len="192"/>
-        <bbtco muted="0" usestyle="1" name="" pos="11712" color="4286611584" len="192"/>
-        <bbtco muted="0" usestyle="1" name="" pos="12096" color="4286611584" len="192"/>
-        <bbtco muted="0" usestyle="1" name="" pos="9984" color="4286611584" len="192"/>
-        <bbtco muted="0" usestyle="1" name="" pos="10368" color="4286611584" len="192"/>
-        <bbtco muted="0" usestyle="1" name="" pos="10752" color="4286611584" len="192"/>
-        <bbtco muted="0" usestyle="1" name="" pos="10176" color="4286611584" len="192"/>
-        <bbtco muted="0" usestyle="1" name="" pos="10560" color="4286611584" len="192"/>
-        <bbtco muted="0" usestyle="1" name="" pos="12288" color="4286611584" len="192"/>
-        <bbtco muted="0" usestyle="1" name="" pos="12480" color="4286611584" len="192"/>
-        <bbtco muted="0" usestyle="1" name="" pos="12672" color="4286611584" len="192"/>
-        <bbtco muted="0" usestyle="1" name="" pos="12864" color="4286611584" len="192"/>
-        <bbtco muted="0" usestyle="1" name="" pos="13056" color="4286611584" len="192"/>
-        <bbtco muted="0" usestyle="1" name="" pos="13824" color="4286611584" len="192"/>
-        <bbtco muted="0" usestyle="1" name="" pos="14208" color="4286611584" len="192"/>
-        <bbtco muted="0" usestyle="1" name="" pos="14592" color="4286611584" len="192"/>
-        <bbtco muted="0" usestyle="1" name="" pos="14976" color="4286611584" len="192"/>
-        <bbtco muted="0" usestyle="1" name="" pos="14784" color="4286611584" len="192"/>
-        <bbtco muted="0" usestyle="1" name="" pos="15168" color="4286611584" len="192"/>
-        <bbtco muted="0" usestyle="1" name="" pos="3072" color="4286611584" len="192"/>
-        <bbtco muted="0" usestyle="1" name="" pos="3456" color="4286611584" len="192"/>
-        <bbtco muted="0" usestyle="1" name="" pos="5376" color="4286611584" len="192"/>
-        <bbtco muted="0" usestyle="1" name="" pos="5568" color="4286611584" len="192"/>
-        <bbtco muted="0" usestyle="1" name="" pos="5760" color="4286611584" len="192"/>
-        <bbtco muted="0" usestyle="1" name="" pos="15360" color="4286611584" len="192"/>
-        <bbtco muted="0" usestyle="1" name="" pos="15552" color="4286611584" len="192"/>
-        <bbtco muted="0" usestyle="1" name="" pos="15744" color="4286611584" len="192"/>
-        <bbtco muted="0" usestyle="1" name="" pos="15936" color="4286611584" len="192"/>
+        <bbtco pos="960" usestyle="1" color="4286611584" len="192" muted="0" name=""/>
+        <bbtco pos="1344" usestyle="1" color="4286611584" len="192" muted="0" name=""/>
+        <bbtco pos="1728" usestyle="1" color="4286611584" len="192" muted="0" name=""/>
+        <bbtco pos="2496" usestyle="1" color="4286611584" len="192" muted="0" name=""/>
+        <bbtco pos="3264" usestyle="1" color="4286611584" len="192" muted="0" name=""/>
+        <bbtco pos="4032" usestyle="1" color="4286611584" len="192" muted="0" name=""/>
+        <bbtco pos="4416" usestyle="1" color="4286611584" len="192" muted="0" name=""/>
+        <bbtco pos="4800" usestyle="1" color="4286611584" len="192" muted="0" name=""/>
+        <bbtco pos="7104" usestyle="1" color="4286611584" len="192" muted="0" name=""/>
+        <bbtco pos="7488" usestyle="1" color="4286611584" len="192" muted="0" name=""/>
+        <bbtco pos="8640" usestyle="1" color="4286611584" len="192" muted="0" name=""/>
+        <bbtco pos="9024" usestyle="1" color="4286611584" len="192" muted="0" name=""/>
+        <bbtco pos="9408" usestyle="1" color="4286611584" len="192" muted="0" name=""/>
+        <bbtco pos="9792" usestyle="1" color="4286611584" len="192" muted="0" name=""/>
+        <bbtco pos="9984" usestyle="1" color="4286611584" len="192" muted="0" name=""/>
+        <bbtco pos="10368" usestyle="1" color="4286611584" len="192" muted="0" name=""/>
+        <bbtco pos="10752" usestyle="1" color="4286611584" len="192" muted="0" name=""/>
+        <bbtco pos="10176" usestyle="1" color="4286611584" len="192" muted="0" name=""/>
+        <bbtco pos="10560" usestyle="1" color="4286611584" len="192" muted="0" name=""/>
+        <bbtco pos="12288" usestyle="1" color="4286611584" len="192" muted="0" name=""/>
+        <bbtco pos="12480" usestyle="1" color="4286611584" len="192" muted="0" name=""/>
+        <bbtco pos="12672" usestyle="1" color="4286611584" len="192" muted="0" name=""/>
+        <bbtco pos="12864" usestyle="1" color="4286611584" len="192" muted="0" name=""/>
+        <bbtco pos="13056" usestyle="1" color="4286611584" len="192" muted="0" name=""/>
+        <bbtco pos="13824" usestyle="1" color="4286611584" len="192" muted="0" name=""/>
+        <bbtco pos="14208" usestyle="1" color="4286611584" len="192" muted="0" name=""/>
+        <bbtco pos="14592" usestyle="1" color="4286611584" len="192" muted="0" name=""/>
+        <bbtco pos="14976" usestyle="1" color="4286611584" len="192" muted="0" name=""/>
+        <bbtco pos="14784" usestyle="1" color="4286611584" len="192" muted="0" name=""/>
+        <bbtco pos="15168" usestyle="1" color="4286611584" len="192" muted="0" name=""/>
+        <bbtco pos="3072" usestyle="1" color="4286611584" len="192" muted="0" name=""/>
+        <bbtco pos="3456" usestyle="1" color="4286611584" len="192" muted="0" name=""/>
+        <bbtco pos="5376" usestyle="1" color="4286611584" len="192" muted="0" name=""/>
+        <bbtco pos="5568" usestyle="1" color="4286611584" len="192" muted="0" name=""/>
+        <bbtco pos="5760" usestyle="1" color="4286611584" len="192" muted="0" name=""/>
+        <bbtco pos="15360" usestyle="1" color="4286611584" len="192" muted="0" name=""/>
+        <bbtco pos="15552" usestyle="1" color="4286611584" len="192" muted="0" name=""/>
+        <bbtco pos="15744" usestyle="1" color="4286611584" len="192" muted="0" name=""/>
+        <bbtco pos="15936" usestyle="1" color="4286611584" len="192" muted="0" name=""/>
       </track>
-      <track muted="0" type="1" name="drum interlude" solo="0">
+      <track solo="0" type="1" muted="0" name="drum interlude">
         <bbtrack/>
-        <bbtco muted="0" usestyle="1" name="" pos="6144" color="4286611584" len="768"/>
-        <bbtco muted="0" usestyle="1" name="" pos="7680" color="4286611584" len="768"/>
-        <bbtco muted="0" usestyle="1" name="" pos="0" color="4286611584" len="768"/>
-        <bbtco muted="0" usestyle="1" name="" pos="9984" color="4286611584" len="768"/>
-        <bbtco muted="0" usestyle="1" name="" pos="10752" color="4286611584" len="768"/>
-        <bbtco muted="0" usestyle="1" name="" pos="12288" color="4286611584" len="768"/>
-        <bbtco muted="0" usestyle="1" name="" pos="13056" color="4286611584" len="768"/>
-        <bbtco muted="0" usestyle="1" name="" pos="13824" color="4286611584" len="768"/>
-        <bbtco muted="0" usestyle="1" name="" pos="14592" color="4286611584" len="768"/>
-        <bbtco muted="0" usestyle="1" name="" pos="11520" color="4286611584" len="768"/>
+        <bbtco pos="6144" usestyle="1" color="4286611584" len="768" muted="0" name=""/>
+        <bbtco pos="7680" usestyle="1" color="4286611584" len="768" muted="0" name=""/>
+        <bbtco pos="0" usestyle="1" color="4286611584" len="768" muted="0" name=""/>
+        <bbtco pos="9984" usestyle="1" color="4286611584" len="768" muted="0" name=""/>
+        <bbtco pos="10752" usestyle="1" color="4286611584" len="768" muted="0" name=""/>
+        <bbtco pos="12288" usestyle="1" color="4286611584" len="768" muted="0" name=""/>
+        <bbtco pos="13056" usestyle="1" color="4286611584" len="768" muted="0" name=""/>
+        <bbtco pos="13824" usestyle="1" color="4286611584" len="768" muted="0" name=""/>
+        <bbtco pos="14592" usestyle="1" color="4286611584" len="768" muted="0" name=""/>
+        <bbtco pos="11520" usestyle="1" color="4286611584" len="768" muted="0" name=""/>
       </track>
-      <track muted="0" type="0" name="Saw 2" solo="0">
-        <instrumenttrack pan="0" fxch="0" usemasterpitch="1" pitchrange="1" pitch="0.00610352" basenote="57" vol="73.5">
+      <track solo="0" type="0" muted="0" name="Saw 2">
+        <instrumenttrack vol="73.5" pitchrange="1" basenote="57" pan="0" pitch="0.00610352" usemasterpitch="1" fxch="0">
           <instrument name="zynaddsubfx">
-            <zynaddsubfx resbandwidth="64" fmgain="127" portamento="0" modifiedcontrollers="" filterfreq="64" bandwidth="64" forwardmidicc="1" filterq="64" rescenterfreq="64">
-              <ZynAddSubFX-data version-revision="1" version-minor="4" version-major="2" ZynAddSubFX-author="Nasca Octavian Paul">
+            <zynaddsubfx fmgain="127" resbandwidth="64" filterfreq="64" rescenterfreq="64" forwardmidicc="1" portamento="0" bandwidth="64" filterq="64" modifiedcontrollers="">
+              <ZynAddSubFX-data ZynAddSubFX-author="Nasca Octavian Paul" version-major="2" version-revision="1" version-minor="4">
                 <INFORMATION/>
                 <BASE_PARAMETERS>
                   <par value="16" name="max_midi_parts"/>
@@ -1156,23 +1156,23 @@
               </ZynAddSubFX-data>
             </zynaddsubfx>
           </instrument>
-          <eldata fres="0.5" ftype="0" fcut="14000" fwet="0">
-            <elvol lspd_denominator="4" sustain="0.5" pdel="0" userwavefile="" dec="0.5" lamt="0" latt="0" rel="0.1" amt="0" x100="0" att="0" lpdel="0" hold="0.5" lspd_syncmode="0" lshp="0" lspd="0.1" ctlenvamt="0" lspd_numerator="4"/>
-            <elcut lspd_denominator="4" sustain="0.5" pdel="0" userwavefile="" dec="0.5" lamt="0" latt="0" rel="0.1" amt="0" x100="0" att="0" lpdel="0" hold="0.5" lspd_syncmode="0" lshp="0" lspd="0.1" ctlenvamt="0" lspd_numerator="4"/>
-            <elres lspd_denominator="4" sustain="0.5" pdel="0" userwavefile="" dec="0.5" lamt="0" latt="0" rel="0.1" amt="0" x100="0" att="0" lpdel="0" hold="0.5" lspd_syncmode="0" lshp="0" lspd="0.1" ctlenvamt="0" lspd_numerator="4"/>
+          <eldata fcut="14000" fwet="0" ftype="0" fres="0.5">
+            <elvol lshp="0" att="0" x100="0" amt="0" userwavefile="" lspd_denominator="4" lspd="0.1" pdel="0" hold="0.5" ctlenvamt="0" latt="0" sustain="0.5" rel="0.1" lamt="0" lpdel="0" lspd_syncmode="0" dec="0.5" lspd_numerator="4"/>
+            <elcut lshp="0" att="0" x100="0" amt="0" userwavefile="" lspd_denominator="4" lspd="0.1" pdel="0" hold="0.5" ctlenvamt="0" latt="0" sustain="0.5" rel="0.1" lamt="0" lpdel="0" lspd_syncmode="0" dec="0.5" lspd_numerator="4"/>
+            <elres lshp="0" att="0" x100="0" amt="0" userwavefile="" lspd_denominator="4" lspd="0.1" pdel="0" hold="0.5" ctlenvamt="0" latt="0" sustain="0.5" rel="0.1" lamt="0" lpdel="0" lspd_syncmode="0" dec="0.5" lspd_numerator="4"/>
           </eldata>
-          <chordcreator chord="0" chordrange="1" chord-enabled="0"/>
-          <arpeggiator arptime="200" arprange="1" arpskip="0" arptime_denominator="4" arptime_syncmode="0" arpmode="0" arpcycle="0" arp-enabled="0" arp="0" arptime_numerator="4" arpdir="0" arpmiss="0" arpgate="100"/>
-          <midiport inputcontroller="0" inports="" fixedoutputvelocity="-1" inputchannel="0" outputcontroller="0" writable="0" outputchannel="1" fixedinputvelocity="-1" fixedoutputnote="-1" outputprogram="1" basevelocity="63" readable="1"/>
+          <chordcreator chord-enabled="0" chordrange="1" chord="0"/>
+          <arpeggiator arpmiss="0" arpmode="0" arpskip="0" arptime_denominator="4" arptime="200" arprange="1" arptime_numerator="4" arpdir="0" arpgate="100" arp-enabled="0" arp="0" arptime_syncmode="0" arpcycle="0"/>
+          <midiport outputcontroller="0" writable="0" basevelocity="63" fixedoutputvelocity="-1" fixedoutputnote="-1" outputchannel="1" fixedinputvelocity="-1" inputchannel="0" outputprogram="1" inports="" inputcontroller="0" readable="1"/>
           <fxchain numofeffects="2" enabled="1">
-            <effect autoquit_syncmode="0" autoquit_numerator="4" autoquit_denominator="4" autoquit="1" gate="0" name="ladspaeffect" wet="1" on="1">
+            <effect autoquit_syncmode="0" autoquit="1" on="1" autoquit_numerator="4" wet="1" gate="0" autoquit_denominator="4" name="ladspaeffect">
               <ladspacontrols link="1" ports="4">
                 <port00 link="1">
-                  <data scale_type="log" value="15296.6" id="2149582"/>
+                  <data scale_type="log" value="312.035" id="2149582"/>
                 </port00>
-                <port01 link="1" data="1.41"/>
+                <port01 data="1.41" link="1"/>
                 <port10>
-                  <data scale_type="log" value="15296.6" id="133485"/>
+                  <data scale_type="log" value="312.035" id="133485"/>
                 </port10>
                 <port11 data="1.41"/>
               </ladspacontrols>
@@ -1181,9 +1181,9 @@
                 <attribute value="buttlow_iir" name="plugin"/>
               </key>
             </effect>
-            <effect autoquit_syncmode="0" autoquit_numerator="4" autoquit_denominator="4" autoquit="1" gate="0" name="ladspaeffect" wet="1" on="1">
+            <effect autoquit_syncmode="0" autoquit="1" on="1" autoquit_numerator="4" wet="1" gate="0" autoquit_denominator="4" name="ladspaeffect">
               <ladspacontrols link="1" ports="2">
-                <port00 link="1" data="10.325"/>
+                <port00 data="10.325" link="1"/>
                 <port10 data="10.325"/>
               </ladspacontrols>
               <key>
@@ -1193,330 +1193,330 @@
             </effect>
           </fxchain>
         </instrumenttrack>
-        <pattern steps="16" muted="0" type="1" name="Saw 2" pos="0">
-          <note pan="0" key="53" vol="129" pos="0" len="24"/>
-          <note pan="0" key="59" vol="129" pos="24" len="24"/>
-          <note pan="0" key="53" vol="129" pos="48" len="24"/>
-          <note pan="0" key="54" vol="129" pos="72" len="24"/>
-          <note pan="0" key="53" vol="129" pos="96" len="24"/>
-          <note pan="0" key="60" vol="129" pos="120" len="24"/>
-          <note pan="0" key="53" vol="129" pos="144" len="24"/>
-          <note pan="0" key="59" vol="129" pos="168" len="24"/>
-          <note pan="0" key="53" vol="129" pos="192" len="24"/>
-          <note pan="0" key="59" vol="129" pos="216" len="24"/>
-          <note pan="0" key="53" vol="129" pos="240" len="24"/>
-          <note pan="0" key="54" vol="129" pos="264" len="24"/>
-          <note pan="0" key="53" vol="129" pos="288" len="24"/>
-          <note pan="0" key="60" vol="129" pos="312" len="24"/>
-          <note pan="0" key="53" vol="129" pos="336" len="24"/>
-          <note pan="0" key="59" vol="129" pos="360" len="24"/>
-          <note pan="0" key="53" vol="129" pos="384" len="24"/>
-          <note pan="0" key="59" vol="129" pos="408" len="24"/>
-          <note pan="0" key="53" vol="129" pos="432" len="24"/>
-          <note pan="0" key="54" vol="129" pos="456" len="24"/>
-          <note pan="0" key="53" vol="129" pos="480" len="24"/>
-          <note pan="0" key="60" vol="129" pos="504" len="24"/>
-          <note pan="0" key="53" vol="129" pos="528" len="24"/>
-          <note pan="0" key="59" vol="129" pos="552" len="24"/>
-          <note pan="0" key="53" vol="129" pos="576" len="24"/>
-          <note pan="0" key="59" vol="129" pos="600" len="24"/>
-          <note pan="0" key="53" vol="129" pos="624" len="24"/>
-          <note pan="0" key="54" vol="129" pos="648" len="24"/>
-          <note pan="0" key="53" vol="129" pos="672" len="24"/>
-          <note pan="0" key="60" vol="129" pos="696" len="24"/>
-          <note pan="0" key="53" vol="129" pos="720" len="24"/>
-          <note pan="0" key="59" vol="129" pos="744" len="24"/>
-          <note pan="0" key="59" vol="129" pos="768" len="48"/>
-          <note pan="0" key="54" vol="129" pos="816" len="48"/>
-          <note pan="0" key="60" vol="129" pos="864" len="48"/>
-          <note pan="0" key="59" vol="129" pos="912" len="48"/>
-          <note pan="0" key="59" vol="129" pos="960" len="48"/>
-          <note pan="0" key="54" vol="129" pos="1008" len="8"/>
-          <note pan="0" key="54" vol="129" pos="1024" len="8"/>
-          <note pan="0" key="54" vol="129" pos="1040" len="8"/>
-          <note pan="0" key="60" vol="129" pos="1056" len="48"/>
-          <note pan="0" key="59" vol="129" pos="1104" len="8"/>
-          <note pan="0" key="59" vol="129" pos="1120" len="8"/>
-          <note pan="0" key="59" vol="129" pos="1136" len="8"/>
-          <note pan="0" key="59" vol="161" pos="1152" len="12"/>
-          <note pan="0" key="59" vol="161" pos="1176" len="12"/>
-          <note pan="0" key="53" vol="161" pos="1200" len="48"/>
-          <note pan="0" key="60" vol="161" pos="1248" len="12"/>
-          <note pan="0" key="60" vol="161" pos="1272" len="12"/>
-          <note pan="0" key="59" vol="161" pos="1296" len="48"/>
-          <note pan="0" key="59" vol="161" pos="1344" len="12"/>
-          <note pan="0" key="59" vol="161" pos="1368" len="12"/>
-          <note pan="0" key="53" vol="161" pos="1392" len="12"/>
-          <note pan="0" key="53" vol="161" pos="1416" len="12"/>
-          <note pan="0" key="60" vol="161" pos="1440" len="12"/>
-          <note pan="0" key="60" vol="161" pos="1464" len="12"/>
-          <note pan="0" key="59" vol="161" pos="1488" len="240"/>
+        <pattern pos="0" type="1" muted="0" name="Saw 2" steps="16">
+          <note vol="129" pos="0" pan="0" len="24" key="53"/>
+          <note vol="129" pos="24" pan="0" len="24" key="59"/>
+          <note vol="129" pos="48" pan="0" len="24" key="53"/>
+          <note vol="129" pos="72" pan="0" len="24" key="54"/>
+          <note vol="129" pos="96" pan="0" len="24" key="53"/>
+          <note vol="129" pos="120" pan="0" len="24" key="60"/>
+          <note vol="129" pos="144" pan="0" len="24" key="53"/>
+          <note vol="129" pos="168" pan="0" len="24" key="59"/>
+          <note vol="129" pos="192" pan="0" len="24" key="53"/>
+          <note vol="129" pos="216" pan="0" len="24" key="59"/>
+          <note vol="129" pos="240" pan="0" len="24" key="53"/>
+          <note vol="129" pos="264" pan="0" len="24" key="54"/>
+          <note vol="129" pos="288" pan="0" len="24" key="53"/>
+          <note vol="129" pos="312" pan="0" len="24" key="60"/>
+          <note vol="129" pos="336" pan="0" len="24" key="53"/>
+          <note vol="129" pos="360" pan="0" len="24" key="59"/>
+          <note vol="129" pos="384" pan="0" len="24" key="53"/>
+          <note vol="129" pos="408" pan="0" len="24" key="59"/>
+          <note vol="129" pos="432" pan="0" len="24" key="53"/>
+          <note vol="129" pos="456" pan="0" len="24" key="54"/>
+          <note vol="129" pos="480" pan="0" len="24" key="53"/>
+          <note vol="129" pos="504" pan="0" len="24" key="60"/>
+          <note vol="129" pos="528" pan="0" len="24" key="53"/>
+          <note vol="129" pos="552" pan="0" len="24" key="59"/>
+          <note vol="129" pos="576" pan="0" len="24" key="53"/>
+          <note vol="129" pos="600" pan="0" len="24" key="59"/>
+          <note vol="129" pos="624" pan="0" len="24" key="53"/>
+          <note vol="129" pos="648" pan="0" len="24" key="54"/>
+          <note vol="129" pos="672" pan="0" len="24" key="53"/>
+          <note vol="129" pos="696" pan="0" len="24" key="60"/>
+          <note vol="129" pos="720" pan="0" len="24" key="53"/>
+          <note vol="129" pos="744" pan="0" len="24" key="59"/>
+          <note vol="129" pos="768" pan="0" len="48" key="59"/>
+          <note vol="129" pos="816" pan="0" len="48" key="54"/>
+          <note vol="129" pos="864" pan="0" len="48" key="60"/>
+          <note vol="129" pos="912" pan="0" len="48" key="59"/>
+          <note vol="129" pos="960" pan="0" len="48" key="59"/>
+          <note vol="129" pos="1008" pan="0" len="8" key="54"/>
+          <note vol="129" pos="1024" pan="0" len="8" key="54"/>
+          <note vol="129" pos="1040" pan="0" len="8" key="54"/>
+          <note vol="129" pos="1056" pan="0" len="48" key="60"/>
+          <note vol="129" pos="1104" pan="0" len="8" key="59"/>
+          <note vol="129" pos="1120" pan="0" len="8" key="59"/>
+          <note vol="129" pos="1136" pan="0" len="8" key="59"/>
+          <note vol="161" pos="1152" pan="0" len="12" key="59"/>
+          <note vol="161" pos="1176" pan="0" len="12" key="59"/>
+          <note vol="161" pos="1200" pan="0" len="48" key="53"/>
+          <note vol="161" pos="1248" pan="0" len="12" key="60"/>
+          <note vol="161" pos="1272" pan="0" len="12" key="60"/>
+          <note vol="161" pos="1296" pan="0" len="48" key="59"/>
+          <note vol="161" pos="1344" pan="0" len="12" key="59"/>
+          <note vol="161" pos="1368" pan="0" len="12" key="59"/>
+          <note vol="161" pos="1392" pan="0" len="12" key="53"/>
+          <note vol="161" pos="1416" pan="0" len="12" key="53"/>
+          <note vol="161" pos="1440" pan="0" len="12" key="60"/>
+          <note vol="161" pos="1464" pan="0" len="12" key="60"/>
+          <note vol="161" pos="1488" pan="0" len="240" key="59"/>
         </pattern>
-        <pattern steps="16" muted="0" type="1" name="Saw 2" pos="3072">
-          <note pan="0" key="53" vol="129" pos="0" len="24"/>
-          <note pan="0" key="59" vol="129" pos="24" len="24"/>
-          <note pan="0" key="53" vol="129" pos="48" len="24"/>
-          <note pan="0" key="54" vol="129" pos="72" len="24"/>
-          <note pan="0" key="53" vol="129" pos="96" len="24"/>
-          <note pan="0" key="60" vol="129" pos="120" len="24"/>
-          <note pan="0" key="53" vol="129" pos="144" len="24"/>
-          <note pan="0" key="59" vol="129" pos="168" len="24"/>
-          <note pan="0" key="53" vol="129" pos="192" len="24"/>
-          <note pan="0" key="59" vol="129" pos="216" len="24"/>
-          <note pan="0" key="53" vol="129" pos="240" len="24"/>
-          <note pan="0" key="54" vol="129" pos="264" len="24"/>
-          <note pan="0" key="53" vol="129" pos="288" len="24"/>
-          <note pan="0" key="60" vol="129" pos="312" len="24"/>
-          <note pan="0" key="53" vol="129" pos="336" len="24"/>
-          <note pan="0" key="59" vol="129" pos="360" len="24"/>
-          <note pan="0" key="53" vol="129" pos="384" len="24"/>
-          <note pan="0" key="59" vol="129" pos="408" len="24"/>
-          <note pan="0" key="53" vol="129" pos="432" len="24"/>
-          <note pan="0" key="54" vol="129" pos="456" len="24"/>
-          <note pan="0" key="53" vol="129" pos="480" len="24"/>
-          <note pan="0" key="60" vol="129" pos="504" len="24"/>
-          <note pan="0" key="53" vol="129" pos="528" len="24"/>
-          <note pan="0" key="59" vol="129" pos="552" len="24"/>
-          <note pan="0" key="53" vol="129" pos="576" len="24"/>
-          <note pan="0" key="59" vol="129" pos="600" len="24"/>
-          <note pan="0" key="53" vol="129" pos="624" len="24"/>
-          <note pan="0" key="54" vol="129" pos="648" len="24"/>
-          <note pan="0" key="53" vol="129" pos="672" len="24"/>
-          <note pan="0" key="60" vol="129" pos="696" len="24"/>
-          <note pan="0" key="53" vol="129" pos="720" len="24"/>
-          <note pan="0" key="59" vol="129" pos="744" len="24"/>
-          <note pan="0" key="59" vol="129" pos="768" len="48"/>
-          <note pan="0" key="54" vol="129" pos="816" len="48"/>
-          <note pan="0" key="60" vol="129" pos="864" len="48"/>
-          <note pan="0" key="59" vol="129" pos="912" len="48"/>
-          <note pan="0" key="59" vol="129" pos="960" len="48"/>
-          <note pan="0" key="54" vol="129" pos="1008" len="8"/>
-          <note pan="0" key="54" vol="129" pos="1024" len="8"/>
-          <note pan="0" key="54" vol="129" pos="1040" len="8"/>
-          <note pan="0" key="60" vol="129" pos="1056" len="48"/>
-          <note pan="0" key="59" vol="129" pos="1104" len="8"/>
-          <note pan="0" key="59" vol="129" pos="1120" len="8"/>
-          <note pan="0" key="59" vol="129" pos="1136" len="8"/>
-          <note pan="0" key="59" vol="161" pos="1152" len="12"/>
-          <note pan="0" key="59" vol="161" pos="1176" len="12"/>
-          <note pan="0" key="53" vol="161" pos="1200" len="48"/>
-          <note pan="0" key="60" vol="161" pos="1248" len="12"/>
-          <note pan="0" key="60" vol="161" pos="1272" len="12"/>
-          <note pan="0" key="59" vol="161" pos="1296" len="48"/>
-          <note pan="0" key="59" vol="161" pos="1344" len="12"/>
-          <note pan="0" key="59" vol="161" pos="1368" len="12"/>
-          <note pan="0" key="53" vol="161" pos="1392" len="12"/>
-          <note pan="0" key="53" vol="161" pos="1416" len="12"/>
-          <note pan="0" key="60" vol="161" pos="1440" len="12"/>
-          <note pan="0" key="60" vol="161" pos="1464" len="12"/>
-          <note pan="0" key="59" vol="161" pos="1488" len="240"/>
+        <pattern pos="3072" type="1" muted="0" name="Saw 2" steps="16">
+          <note vol="129" pos="0" pan="0" len="24" key="53"/>
+          <note vol="129" pos="24" pan="0" len="24" key="59"/>
+          <note vol="129" pos="48" pan="0" len="24" key="53"/>
+          <note vol="129" pos="72" pan="0" len="24" key="54"/>
+          <note vol="129" pos="96" pan="0" len="24" key="53"/>
+          <note vol="129" pos="120" pan="0" len="24" key="60"/>
+          <note vol="129" pos="144" pan="0" len="24" key="53"/>
+          <note vol="129" pos="168" pan="0" len="24" key="59"/>
+          <note vol="129" pos="192" pan="0" len="24" key="53"/>
+          <note vol="129" pos="216" pan="0" len="24" key="59"/>
+          <note vol="129" pos="240" pan="0" len="24" key="53"/>
+          <note vol="129" pos="264" pan="0" len="24" key="54"/>
+          <note vol="129" pos="288" pan="0" len="24" key="53"/>
+          <note vol="129" pos="312" pan="0" len="24" key="60"/>
+          <note vol="129" pos="336" pan="0" len="24" key="53"/>
+          <note vol="129" pos="360" pan="0" len="24" key="59"/>
+          <note vol="129" pos="384" pan="0" len="24" key="53"/>
+          <note vol="129" pos="408" pan="0" len="24" key="59"/>
+          <note vol="129" pos="432" pan="0" len="24" key="53"/>
+          <note vol="129" pos="456" pan="0" len="24" key="54"/>
+          <note vol="129" pos="480" pan="0" len="24" key="53"/>
+          <note vol="129" pos="504" pan="0" len="24" key="60"/>
+          <note vol="129" pos="528" pan="0" len="24" key="53"/>
+          <note vol="129" pos="552" pan="0" len="24" key="59"/>
+          <note vol="129" pos="576" pan="0" len="24" key="53"/>
+          <note vol="129" pos="600" pan="0" len="24" key="59"/>
+          <note vol="129" pos="624" pan="0" len="24" key="53"/>
+          <note vol="129" pos="648" pan="0" len="24" key="54"/>
+          <note vol="129" pos="672" pan="0" len="24" key="53"/>
+          <note vol="129" pos="696" pan="0" len="24" key="60"/>
+          <note vol="129" pos="720" pan="0" len="24" key="53"/>
+          <note vol="129" pos="744" pan="0" len="24" key="59"/>
+          <note vol="129" pos="768" pan="0" len="48" key="59"/>
+          <note vol="129" pos="816" pan="0" len="48" key="54"/>
+          <note vol="129" pos="864" pan="0" len="48" key="60"/>
+          <note vol="129" pos="912" pan="0" len="48" key="59"/>
+          <note vol="129" pos="960" pan="0" len="48" key="59"/>
+          <note vol="129" pos="1008" pan="0" len="8" key="54"/>
+          <note vol="129" pos="1024" pan="0" len="8" key="54"/>
+          <note vol="129" pos="1040" pan="0" len="8" key="54"/>
+          <note vol="129" pos="1056" pan="0" len="48" key="60"/>
+          <note vol="129" pos="1104" pan="0" len="8" key="59"/>
+          <note vol="129" pos="1120" pan="0" len="8" key="59"/>
+          <note vol="129" pos="1136" pan="0" len="8" key="59"/>
+          <note vol="161" pos="1152" pan="0" len="12" key="59"/>
+          <note vol="161" pos="1176" pan="0" len="12" key="59"/>
+          <note vol="161" pos="1200" pan="0" len="48" key="53"/>
+          <note vol="161" pos="1248" pan="0" len="12" key="60"/>
+          <note vol="161" pos="1272" pan="0" len="12" key="60"/>
+          <note vol="161" pos="1296" pan="0" len="48" key="59"/>
+          <note vol="161" pos="1344" pan="0" len="12" key="59"/>
+          <note vol="161" pos="1368" pan="0" len="12" key="59"/>
+          <note vol="161" pos="1392" pan="0" len="12" key="53"/>
+          <note vol="161" pos="1416" pan="0" len="12" key="53"/>
+          <note vol="161" pos="1440" pan="0" len="12" key="60"/>
+          <note vol="161" pos="1464" pan="0" len="12" key="60"/>
+          <note vol="161" pos="1488" pan="0" len="240" key="59"/>
         </pattern>
-        <pattern steps="16" muted="0" type="1" name="Saw 2" pos="6144">
-          <note pan="0" key="53" vol="129" pos="0" len="24"/>
-          <note pan="0" key="59" vol="129" pos="24" len="24"/>
-          <note pan="0" key="53" vol="129" pos="48" len="24"/>
-          <note pan="0" key="54" vol="129" pos="72" len="24"/>
-          <note pan="0" key="53" vol="129" pos="96" len="24"/>
-          <note pan="0" key="60" vol="129" pos="120" len="24"/>
-          <note pan="0" key="53" vol="129" pos="144" len="24"/>
-          <note pan="0" key="59" vol="129" pos="168" len="24"/>
-          <note pan="0" key="53" vol="129" pos="192" len="24"/>
-          <note pan="0" key="59" vol="129" pos="216" len="24"/>
-          <note pan="0" key="53" vol="129" pos="240" len="24"/>
-          <note pan="0" key="54" vol="129" pos="264" len="24"/>
-          <note pan="0" key="53" vol="129" pos="288" len="24"/>
-          <note pan="0" key="60" vol="129" pos="312" len="24"/>
-          <note pan="0" key="53" vol="129" pos="336" len="24"/>
-          <note pan="0" key="59" vol="129" pos="360" len="24"/>
-          <note pan="0" key="53" vol="129" pos="384" len="24"/>
-          <note pan="0" key="59" vol="129" pos="408" len="24"/>
-          <note pan="0" key="53" vol="129" pos="432" len="24"/>
-          <note pan="0" key="54" vol="129" pos="456" len="24"/>
-          <note pan="0" key="53" vol="129" pos="480" len="24"/>
-          <note pan="0" key="60" vol="129" pos="504" len="24"/>
-          <note pan="0" key="53" vol="129" pos="528" len="24"/>
-          <note pan="0" key="59" vol="129" pos="552" len="24"/>
-          <note pan="0" key="53" vol="129" pos="576" len="24"/>
-          <note pan="0" key="59" vol="129" pos="600" len="24"/>
-          <note pan="0" key="53" vol="129" pos="624" len="24"/>
-          <note pan="0" key="54" vol="129" pos="648" len="24"/>
-          <note pan="0" key="53" vol="129" pos="672" len="24"/>
-          <note pan="0" key="60" vol="129" pos="696" len="24"/>
-          <note pan="0" key="53" vol="129" pos="720" len="24"/>
-          <note pan="0" key="59" vol="129" pos="744" len="24"/>
-          <note pan="0" key="59" vol="129" pos="768" len="48"/>
-          <note pan="0" key="54" vol="129" pos="816" len="48"/>
-          <note pan="0" key="60" vol="129" pos="864" len="48"/>
-          <note pan="0" key="59" vol="129" pos="912" len="48"/>
-          <note pan="0" key="59" vol="129" pos="960" len="48"/>
-          <note pan="0" key="54" vol="129" pos="1008" len="8"/>
-          <note pan="0" key="54" vol="129" pos="1024" len="8"/>
-          <note pan="0" key="54" vol="129" pos="1040" len="8"/>
-          <note pan="0" key="60" vol="129" pos="1056" len="48"/>
-          <note pan="0" key="59" vol="129" pos="1104" len="8"/>
-          <note pan="0" key="59" vol="129" pos="1120" len="8"/>
-          <note pan="0" key="59" vol="129" pos="1136" len="8"/>
-          <note pan="0" key="59" vol="161" pos="1152" len="12"/>
-          <note pan="0" key="59" vol="161" pos="1176" len="12"/>
-          <note pan="0" key="53" vol="161" pos="1200" len="48"/>
-          <note pan="0" key="60" vol="161" pos="1248" len="12"/>
-          <note pan="0" key="60" vol="161" pos="1272" len="12"/>
-          <note pan="0" key="59" vol="161" pos="1296" len="48"/>
-          <note pan="0" key="59" vol="161" pos="1344" len="12"/>
-          <note pan="0" key="59" vol="161" pos="1368" len="12"/>
-          <note pan="0" key="53" vol="161" pos="1392" len="12"/>
-          <note pan="0" key="53" vol="161" pos="1416" len="12"/>
-          <note pan="0" key="60" vol="161" pos="1440" len="12"/>
-          <note pan="0" key="60" vol="161" pos="1464" len="12"/>
-          <note pan="0" key="59" vol="161" pos="1488" len="48"/>
+        <pattern pos="6144" type="1" muted="0" name="Saw 2" steps="16">
+          <note vol="129" pos="0" pan="0" len="24" key="53"/>
+          <note vol="129" pos="24" pan="0" len="24" key="59"/>
+          <note vol="129" pos="48" pan="0" len="24" key="53"/>
+          <note vol="129" pos="72" pan="0" len="24" key="54"/>
+          <note vol="129" pos="96" pan="0" len="24" key="53"/>
+          <note vol="129" pos="120" pan="0" len="24" key="60"/>
+          <note vol="129" pos="144" pan="0" len="24" key="53"/>
+          <note vol="129" pos="168" pan="0" len="24" key="59"/>
+          <note vol="129" pos="192" pan="0" len="24" key="53"/>
+          <note vol="129" pos="216" pan="0" len="24" key="59"/>
+          <note vol="129" pos="240" pan="0" len="24" key="53"/>
+          <note vol="129" pos="264" pan="0" len="24" key="54"/>
+          <note vol="129" pos="288" pan="0" len="24" key="53"/>
+          <note vol="129" pos="312" pan="0" len="24" key="60"/>
+          <note vol="129" pos="336" pan="0" len="24" key="53"/>
+          <note vol="129" pos="360" pan="0" len="24" key="59"/>
+          <note vol="129" pos="384" pan="0" len="24" key="53"/>
+          <note vol="129" pos="408" pan="0" len="24" key="59"/>
+          <note vol="129" pos="432" pan="0" len="24" key="53"/>
+          <note vol="129" pos="456" pan="0" len="24" key="54"/>
+          <note vol="129" pos="480" pan="0" len="24" key="53"/>
+          <note vol="129" pos="504" pan="0" len="24" key="60"/>
+          <note vol="129" pos="528" pan="0" len="24" key="53"/>
+          <note vol="129" pos="552" pan="0" len="24" key="59"/>
+          <note vol="129" pos="576" pan="0" len="24" key="53"/>
+          <note vol="129" pos="600" pan="0" len="24" key="59"/>
+          <note vol="129" pos="624" pan="0" len="24" key="53"/>
+          <note vol="129" pos="648" pan="0" len="24" key="54"/>
+          <note vol="129" pos="672" pan="0" len="24" key="53"/>
+          <note vol="129" pos="696" pan="0" len="24" key="60"/>
+          <note vol="129" pos="720" pan="0" len="24" key="53"/>
+          <note vol="129" pos="744" pan="0" len="24" key="59"/>
+          <note vol="129" pos="768" pan="0" len="48" key="59"/>
+          <note vol="129" pos="816" pan="0" len="48" key="54"/>
+          <note vol="129" pos="864" pan="0" len="48" key="60"/>
+          <note vol="129" pos="912" pan="0" len="48" key="59"/>
+          <note vol="129" pos="960" pan="0" len="48" key="59"/>
+          <note vol="129" pos="1008" pan="0" len="8" key="54"/>
+          <note vol="129" pos="1024" pan="0" len="8" key="54"/>
+          <note vol="129" pos="1040" pan="0" len="8" key="54"/>
+          <note vol="129" pos="1056" pan="0" len="48" key="60"/>
+          <note vol="129" pos="1104" pan="0" len="8" key="59"/>
+          <note vol="129" pos="1120" pan="0" len="8" key="59"/>
+          <note vol="129" pos="1136" pan="0" len="8" key="59"/>
+          <note vol="161" pos="1152" pan="0" len="12" key="59"/>
+          <note vol="161" pos="1176" pan="0" len="12" key="59"/>
+          <note vol="161" pos="1200" pan="0" len="48" key="53"/>
+          <note vol="161" pos="1248" pan="0" len="12" key="60"/>
+          <note vol="161" pos="1272" pan="0" len="12" key="60"/>
+          <note vol="161" pos="1296" pan="0" len="48" key="59"/>
+          <note vol="161" pos="1344" pan="0" len="12" key="59"/>
+          <note vol="161" pos="1368" pan="0" len="12" key="59"/>
+          <note vol="161" pos="1392" pan="0" len="12" key="53"/>
+          <note vol="161" pos="1416" pan="0" len="12" key="53"/>
+          <note vol="161" pos="1440" pan="0" len="12" key="60"/>
+          <note vol="161" pos="1464" pan="0" len="12" key="60"/>
+          <note vol="161" pos="1488" pan="0" len="48" key="59"/>
         </pattern>
-        <pattern steps="16" muted="0" type="1" name="Saw 2" pos="7680">
-          <note pan="0" key="53" vol="129" pos="0" len="24"/>
-          <note pan="0" key="59" vol="129" pos="24" len="24"/>
-          <note pan="0" key="53" vol="129" pos="48" len="24"/>
-          <note pan="0" key="54" vol="129" pos="72" len="24"/>
-          <note pan="0" key="53" vol="129" pos="96" len="24"/>
-          <note pan="0" key="60" vol="129" pos="120" len="24"/>
-          <note pan="0" key="53" vol="129" pos="144" len="24"/>
-          <note pan="0" key="59" vol="129" pos="168" len="24"/>
-          <note pan="0" key="53" vol="129" pos="192" len="24"/>
-          <note pan="0" key="59" vol="129" pos="216" len="24"/>
-          <note pan="0" key="53" vol="129" pos="240" len="24"/>
-          <note pan="0" key="54" vol="129" pos="264" len="24"/>
-          <note pan="0" key="53" vol="129" pos="288" len="24"/>
-          <note pan="0" key="60" vol="129" pos="312" len="24"/>
-          <note pan="0" key="53" vol="129" pos="336" len="24"/>
-          <note pan="0" key="59" vol="129" pos="360" len="24"/>
-          <note pan="0" key="53" vol="129" pos="384" len="24"/>
-          <note pan="0" key="59" vol="129" pos="408" len="24"/>
-          <note pan="0" key="53" vol="129" pos="432" len="24"/>
-          <note pan="0" key="54" vol="129" pos="456" len="24"/>
-          <note pan="0" key="53" vol="129" pos="480" len="24"/>
-          <note pan="0" key="60" vol="129" pos="504" len="24"/>
-          <note pan="0" key="53" vol="129" pos="528" len="24"/>
-          <note pan="0" key="59" vol="129" pos="552" len="24"/>
-          <note pan="0" key="53" vol="129" pos="576" len="24"/>
-          <note pan="0" key="59" vol="129" pos="600" len="24"/>
-          <note pan="0" key="53" vol="129" pos="624" len="24"/>
-          <note pan="0" key="54" vol="129" pos="648" len="24"/>
-          <note pan="0" key="53" vol="129" pos="672" len="24"/>
-          <note pan="0" key="60" vol="129" pos="696" len="24"/>
-          <note pan="0" key="53" vol="129" pos="720" len="24"/>
-          <note pan="0" key="59" vol="129" pos="744" len="24"/>
-          <note pan="0" key="59" vol="129" pos="768" len="48"/>
-          <note pan="0" key="54" vol="129" pos="816" len="48"/>
-          <note pan="0" key="60" vol="129" pos="864" len="48"/>
-          <note pan="0" key="59" vol="129" pos="912" len="48"/>
-          <note pan="0" key="59" vol="129" pos="960" len="48"/>
-          <note pan="0" key="54" vol="129" pos="1008" len="8"/>
-          <note pan="0" key="54" vol="129" pos="1024" len="8"/>
-          <note pan="0" key="54" vol="129" pos="1040" len="8"/>
-          <note pan="0" key="60" vol="129" pos="1056" len="48"/>
-          <note pan="0" key="59" vol="129" pos="1104" len="8"/>
-          <note pan="0" key="59" vol="129" pos="1120" len="8"/>
-          <note pan="0" key="59" vol="129" pos="1136" len="8"/>
-          <note pan="0" key="59" vol="161" pos="1152" len="12"/>
-          <note pan="0" key="59" vol="161" pos="1176" len="12"/>
-          <note pan="0" key="53" vol="161" pos="1200" len="48"/>
-          <note pan="0" key="60" vol="161" pos="1248" len="12"/>
-          <note pan="0" key="60" vol="161" pos="1272" len="12"/>
-          <note pan="0" key="59" vol="161" pos="1296" len="48"/>
-          <note pan="0" key="59" vol="161" pos="1344" len="12"/>
-          <note pan="0" key="59" vol="161" pos="1368" len="12"/>
-          <note pan="0" key="53" vol="161" pos="1392" len="12"/>
-          <note pan="0" key="53" vol="161" pos="1416" len="12"/>
-          <note pan="0" key="60" vol="161" pos="1440" len="12"/>
-          <note pan="0" key="60" vol="161" pos="1464" len="12"/>
-          <note pan="0" key="59" vol="161" pos="1488" len="48"/>
+        <pattern pos="7680" type="1" muted="0" name="Saw 2" steps="16">
+          <note vol="129" pos="0" pan="0" len="24" key="53"/>
+          <note vol="129" pos="24" pan="0" len="24" key="59"/>
+          <note vol="129" pos="48" pan="0" len="24" key="53"/>
+          <note vol="129" pos="72" pan="0" len="24" key="54"/>
+          <note vol="129" pos="96" pan="0" len="24" key="53"/>
+          <note vol="129" pos="120" pan="0" len="24" key="60"/>
+          <note vol="129" pos="144" pan="0" len="24" key="53"/>
+          <note vol="129" pos="168" pan="0" len="24" key="59"/>
+          <note vol="129" pos="192" pan="0" len="24" key="53"/>
+          <note vol="129" pos="216" pan="0" len="24" key="59"/>
+          <note vol="129" pos="240" pan="0" len="24" key="53"/>
+          <note vol="129" pos="264" pan="0" len="24" key="54"/>
+          <note vol="129" pos="288" pan="0" len="24" key="53"/>
+          <note vol="129" pos="312" pan="0" len="24" key="60"/>
+          <note vol="129" pos="336" pan="0" len="24" key="53"/>
+          <note vol="129" pos="360" pan="0" len="24" key="59"/>
+          <note vol="129" pos="384" pan="0" len="24" key="53"/>
+          <note vol="129" pos="408" pan="0" len="24" key="59"/>
+          <note vol="129" pos="432" pan="0" len="24" key="53"/>
+          <note vol="129" pos="456" pan="0" len="24" key="54"/>
+          <note vol="129" pos="480" pan="0" len="24" key="53"/>
+          <note vol="129" pos="504" pan="0" len="24" key="60"/>
+          <note vol="129" pos="528" pan="0" len="24" key="53"/>
+          <note vol="129" pos="552" pan="0" len="24" key="59"/>
+          <note vol="129" pos="576" pan="0" len="24" key="53"/>
+          <note vol="129" pos="600" pan="0" len="24" key="59"/>
+          <note vol="129" pos="624" pan="0" len="24" key="53"/>
+          <note vol="129" pos="648" pan="0" len="24" key="54"/>
+          <note vol="129" pos="672" pan="0" len="24" key="53"/>
+          <note vol="129" pos="696" pan="0" len="24" key="60"/>
+          <note vol="129" pos="720" pan="0" len="24" key="53"/>
+          <note vol="129" pos="744" pan="0" len="24" key="59"/>
+          <note vol="129" pos="768" pan="0" len="48" key="59"/>
+          <note vol="129" pos="816" pan="0" len="48" key="54"/>
+          <note vol="129" pos="864" pan="0" len="48" key="60"/>
+          <note vol="129" pos="912" pan="0" len="48" key="59"/>
+          <note vol="129" pos="960" pan="0" len="48" key="59"/>
+          <note vol="129" pos="1008" pan="0" len="8" key="54"/>
+          <note vol="129" pos="1024" pan="0" len="8" key="54"/>
+          <note vol="129" pos="1040" pan="0" len="8" key="54"/>
+          <note vol="129" pos="1056" pan="0" len="48" key="60"/>
+          <note vol="129" pos="1104" pan="0" len="8" key="59"/>
+          <note vol="129" pos="1120" pan="0" len="8" key="59"/>
+          <note vol="129" pos="1136" pan="0" len="8" key="59"/>
+          <note vol="161" pos="1152" pan="0" len="12" key="59"/>
+          <note vol="161" pos="1176" pan="0" len="12" key="59"/>
+          <note vol="161" pos="1200" pan="0" len="48" key="53"/>
+          <note vol="161" pos="1248" pan="0" len="12" key="60"/>
+          <note vol="161" pos="1272" pan="0" len="12" key="60"/>
+          <note vol="161" pos="1296" pan="0" len="48" key="59"/>
+          <note vol="161" pos="1344" pan="0" len="12" key="59"/>
+          <note vol="161" pos="1368" pan="0" len="12" key="59"/>
+          <note vol="161" pos="1392" pan="0" len="12" key="53"/>
+          <note vol="161" pos="1416" pan="0" len="12" key="53"/>
+          <note vol="161" pos="1440" pan="0" len="12" key="60"/>
+          <note vol="161" pos="1464" pan="0" len="12" key="60"/>
+          <note vol="161" pos="1488" pan="0" len="48" key="59"/>
         </pattern>
-        <pattern steps="16" muted="0" type="0" name="Saw 2" pos="13824"/>
-        <pattern steps="16" muted="0" type="1" name="Saw 2" pos="14592">
-          <note pan="0" key="53" vol="129" pos="0" len="24"/>
-          <note pan="0" key="59" vol="129" pos="24" len="24"/>
-          <note pan="0" key="53" vol="129" pos="48" len="24"/>
-          <note pan="0" key="54" vol="129" pos="72" len="24"/>
-          <note pan="0" key="53" vol="129" pos="96" len="24"/>
-          <note pan="0" key="60" vol="129" pos="120" len="24"/>
-          <note pan="0" key="53" vol="129" pos="144" len="24"/>
-          <note pan="0" key="59" vol="129" pos="168" len="24"/>
-          <note pan="0" key="53" vol="129" pos="192" len="24"/>
-          <note pan="0" key="59" vol="129" pos="216" len="24"/>
-          <note pan="0" key="53" vol="129" pos="240" len="24"/>
-          <note pan="0" key="54" vol="129" pos="264" len="24"/>
-          <note pan="0" key="53" vol="129" pos="288" len="24"/>
-          <note pan="0" key="60" vol="129" pos="312" len="24"/>
-          <note pan="0" key="53" vol="129" pos="336" len="24"/>
-          <note pan="0" key="59" vol="129" pos="360" len="24"/>
-          <note pan="0" key="53" vol="129" pos="384" len="24"/>
-          <note pan="0" key="59" vol="129" pos="408" len="24"/>
-          <note pan="0" key="53" vol="129" pos="432" len="24"/>
-          <note pan="0" key="54" vol="129" pos="456" len="24"/>
-          <note pan="0" key="53" vol="129" pos="480" len="24"/>
-          <note pan="0" key="60" vol="129" pos="504" len="24"/>
-          <note pan="0" key="53" vol="129" pos="528" len="24"/>
-          <note pan="0" key="59" vol="129" pos="552" len="24"/>
-          <note pan="0" key="53" vol="129" pos="576" len="24"/>
-          <note pan="0" key="59" vol="129" pos="600" len="24"/>
-          <note pan="0" key="53" vol="129" pos="624" len="24"/>
-          <note pan="0" key="54" vol="129" pos="648" len="24"/>
-          <note pan="0" key="53" vol="129" pos="672" len="24"/>
-          <note pan="0" key="60" vol="129" pos="696" len="24"/>
-          <note pan="0" key="53" vol="129" pos="720" len="24"/>
-          <note pan="0" key="59" vol="129" pos="744" len="24"/>
-          <note pan="0" key="59" vol="129" pos="768" len="48"/>
-          <note pan="0" key="54" vol="129" pos="816" len="48"/>
-          <note pan="0" key="60" vol="129" pos="864" len="48"/>
-          <note pan="0" key="59" vol="129" pos="912" len="48"/>
-          <note pan="0" key="59" vol="129" pos="960" len="48"/>
-          <note pan="0" key="54" vol="129" pos="1008" len="8"/>
-          <note pan="0" key="54" vol="129" pos="1024" len="8"/>
-          <note pan="0" key="54" vol="129" pos="1040" len="8"/>
-          <note pan="0" key="60" vol="129" pos="1056" len="48"/>
-          <note pan="0" key="59" vol="129" pos="1104" len="8"/>
-          <note pan="0" key="59" vol="129" pos="1120" len="8"/>
-          <note pan="0" key="59" vol="129" pos="1136" len="8"/>
-          <note pan="0" key="59" vol="161" pos="1152" len="12"/>
-          <note pan="0" key="59" vol="161" pos="1176" len="12"/>
-          <note pan="0" key="53" vol="161" pos="1200" len="48"/>
-          <note pan="0" key="60" vol="161" pos="1248" len="12"/>
-          <note pan="0" key="60" vol="161" pos="1272" len="12"/>
-          <note pan="0" key="59" vol="161" pos="1296" len="48"/>
-          <note pan="0" key="59" vol="161" pos="1344" len="12"/>
-          <note pan="0" key="59" vol="161" pos="1368" len="12"/>
-          <note pan="0" key="53" vol="161" pos="1392" len="12"/>
-          <note pan="0" key="53" vol="161" pos="1416" len="12"/>
-          <note pan="0" key="60" vol="161" pos="1440" len="12"/>
-          <note pan="0" key="60" vol="161" pos="1464" len="12"/>
-          <note pan="0" key="59" vol="161" pos="1488" len="240"/>
+        <pattern pos="13824" type="0" muted="0" name="Saw 2" steps="16"/>
+        <pattern pos="14592" type="1" muted="0" name="Saw 2" steps="16">
+          <note vol="129" pos="0" pan="0" len="24" key="53"/>
+          <note vol="129" pos="24" pan="0" len="24" key="59"/>
+          <note vol="129" pos="48" pan="0" len="24" key="53"/>
+          <note vol="129" pos="72" pan="0" len="24" key="54"/>
+          <note vol="129" pos="96" pan="0" len="24" key="53"/>
+          <note vol="129" pos="120" pan="0" len="24" key="60"/>
+          <note vol="129" pos="144" pan="0" len="24" key="53"/>
+          <note vol="129" pos="168" pan="0" len="24" key="59"/>
+          <note vol="129" pos="192" pan="0" len="24" key="53"/>
+          <note vol="129" pos="216" pan="0" len="24" key="59"/>
+          <note vol="129" pos="240" pan="0" len="24" key="53"/>
+          <note vol="129" pos="264" pan="0" len="24" key="54"/>
+          <note vol="129" pos="288" pan="0" len="24" key="53"/>
+          <note vol="129" pos="312" pan="0" len="24" key="60"/>
+          <note vol="129" pos="336" pan="0" len="24" key="53"/>
+          <note vol="129" pos="360" pan="0" len="24" key="59"/>
+          <note vol="129" pos="384" pan="0" len="24" key="53"/>
+          <note vol="129" pos="408" pan="0" len="24" key="59"/>
+          <note vol="129" pos="432" pan="0" len="24" key="53"/>
+          <note vol="129" pos="456" pan="0" len="24" key="54"/>
+          <note vol="129" pos="480" pan="0" len="24" key="53"/>
+          <note vol="129" pos="504" pan="0" len="24" key="60"/>
+          <note vol="129" pos="528" pan="0" len="24" key="53"/>
+          <note vol="129" pos="552" pan="0" len="24" key="59"/>
+          <note vol="129" pos="576" pan="0" len="24" key="53"/>
+          <note vol="129" pos="600" pan="0" len="24" key="59"/>
+          <note vol="129" pos="624" pan="0" len="24" key="53"/>
+          <note vol="129" pos="648" pan="0" len="24" key="54"/>
+          <note vol="129" pos="672" pan="0" len="24" key="53"/>
+          <note vol="129" pos="696" pan="0" len="24" key="60"/>
+          <note vol="129" pos="720" pan="0" len="24" key="53"/>
+          <note vol="129" pos="744" pan="0" len="24" key="59"/>
+          <note vol="129" pos="768" pan="0" len="48" key="59"/>
+          <note vol="129" pos="816" pan="0" len="48" key="54"/>
+          <note vol="129" pos="864" pan="0" len="48" key="60"/>
+          <note vol="129" pos="912" pan="0" len="48" key="59"/>
+          <note vol="129" pos="960" pan="0" len="48" key="59"/>
+          <note vol="129" pos="1008" pan="0" len="8" key="54"/>
+          <note vol="129" pos="1024" pan="0" len="8" key="54"/>
+          <note vol="129" pos="1040" pan="0" len="8" key="54"/>
+          <note vol="129" pos="1056" pan="0" len="48" key="60"/>
+          <note vol="129" pos="1104" pan="0" len="8" key="59"/>
+          <note vol="129" pos="1120" pan="0" len="8" key="59"/>
+          <note vol="129" pos="1136" pan="0" len="8" key="59"/>
+          <note vol="161" pos="1152" pan="0" len="12" key="59"/>
+          <note vol="161" pos="1176" pan="0" len="12" key="59"/>
+          <note vol="161" pos="1200" pan="0" len="48" key="53"/>
+          <note vol="161" pos="1248" pan="0" len="12" key="60"/>
+          <note vol="161" pos="1272" pan="0" len="12" key="60"/>
+          <note vol="161" pos="1296" pan="0" len="48" key="59"/>
+          <note vol="161" pos="1344" pan="0" len="12" key="59"/>
+          <note vol="161" pos="1368" pan="0" len="12" key="59"/>
+          <note vol="161" pos="1392" pan="0" len="12" key="53"/>
+          <note vol="161" pos="1416" pan="0" len="12" key="53"/>
+          <note vol="161" pos="1440" pan="0" len="12" key="60"/>
+          <note vol="161" pos="1464" pan="0" len="12" key="60"/>
+          <note vol="161" pos="1488" pan="0" len="240" key="59"/>
         </pattern>
-        <pattern steps="16" muted="0" type="0" name="Saw 2" pos="16704"/>
+        <pattern pos="16704" type="0" muted="0" name="Saw 2" steps="16"/>
       </track>
-      <track muted="0" type="0" name="Sad Pad (play with Filter-Reso!!)" solo="0">
-        <instrumenttrack pan="0" fxch="0" usemasterpitch="1" pitchrange="1" pitch="0" basenote="57" vol="47.7">
+      <track solo="0" type="0" muted="0" name="Sad Pad (play with Filter-Reso!!)">
+        <instrumenttrack vol="47.7" pitchrange="1" basenote="57" pan="0" pitch="0" usemasterpitch="1" fxch="0">
           <instrument name="vibedstrings">
-            <vibedstrings volume0="100" volume1="100" volume2="100" detune0="0" detune1="0" detune2="0" pick0="0" pick1="0" pick2="0" impulse0="0" impulse1="0" impulse2="0" graph0="Hy7JPF+Xgb3iRCy+6mpAvhAfkrz8dYA+/RjkPlWeuj4+hog9ryWgvoHjCb//SBa/V3DyvuZGmr6hNdO9KAblPXfOmz78kPM+6KkQPxQoGz9epRM/Y83xPhegcT73NgW++6/9vm6QO79Zu0W/Fr8vvyCR976EYEe+5WfePX0IgT7cCUk+DyarPYtPnj2CBB4+rDQpPmv7gT17R6+9QuRovv5L1r7Q/CW/s1FKv9mqLL+UDJi+750VPiNq2z50LtY+2GMmPnQPdb4uyiS/KcttvwAAgL/oWWq/1ARLv4v8Pr/uizS/x2Efv3O6+r6aMMi+S4SevqVzJ74r+qA9rS6xPhVBBj87gB0/C2srP56+Nj9Jjyc/DF/UPhTR3Txq3qO+NgHnvkiYm75p6Fq7AOF4Prlkmj5Zm1Q+4l4dPgndSj6Nr5A+AyFYPpDxmDxtIoS+qjz5vi6sM79uWkm/gTIvvxlfw754rLu9y64Svbpqbb6IZgW/XYYov8ueIr/weOm+6XKFvu/4JjwhR28+aAzWPhg2zT5f4ZE+CDWXPWavmL0bO3K+lhbHvh+5FL/cNy+/NFwwv/uzGL/4sAK/nGncvrn2uL4xbIy+CTk5vu7xyb3dJKe99zRfvuT37745qDq/jjpRvzHaOL9NFui+FPLXvdRQkD5ghwk/Q1X7PrHrnD0=" graph1="AACAvCW0375hkTq/E9pfv8uFa78neWu/AABovwAAZL8AAGC/AABcvwAAWL8AAFS/AABQvwAATL8AAEi/AABEvwAAQL8AADy/AAA4vwAANL8AADC/AAAsvwAAKL8AACS/AAAgvwAAHL8AABi/AAAUvwAAEL8AAAy/AAAIvwAABL8AAAC/AAD4vgAA8L4AAOi+AADgvgAA2L4AANC+rE/IvoQwwr4cxsC+DXLIvleG3L7kXPu+C8cOvyVDHL9IOSK/m6Efv3gsFr/mYwi/z77wvkyOzr59TKu+dGyHvt+iRb7UdPO9jYYlvQX3Lj2cawM+x6dYPiXfkj5tH7M+WUvMPv3V3j7FDew+DHf1Ps2H/D4PLgE/euADPxeaBj8Jjwk/3+YMP1y+ED+BFRU/VNoZP3T1Hj9/WCQ/re8pPw2OLz+06zQ/fcs5PwsfPj+AEUI/nNpFP7ejST9wSk0/QS9QP9O1UD8gpEw/lSxCP8fuMT/jQx8/wQEPPwqJBD/TfwA/5x8BPy8pBD8AAAg/AAAMPwAAED8AABQ/AAAYPwAAHD8AACA/AAAkPwAAKD8AACw/AAAwPwAAND8AADg/AAA8PwAAQD8AAEQ/AABIPwAATD8AAFA/AABUPwAAWD8AAFw/AABgPwAAZD9De2c/tJdnP6sqXD8chzc/VRXcPgAAfDw=" graph2="AACAvwAAfL8AAHi/AAB0vwAAcL8AAGy/AABovwAAZL8AAGC/AABcvwAAWL8AAFS/AABQvwAATL8AAEi/AABEvwAAQL8AADy/AAA4vwAANL8AADC/AAAsvwAAKL8AACS/AAAgvwAAHL8AABi/AAAUvwAAEL8AAAy/AAAIvwAABL8AAAC/AAD4vgAA8L4fheu+PQrXvlyPwr57FK6+uB6Fvq5HYb7sUTi+hetRv4XrUb+F61G/hetRvxSuR79cj0K/7FE4vwrXI79SuB6/cT0Kv7geBb+uR+G+7FG4vnsUrr64HoW+KVwPvo/Cdb2PwnU97FE4PpqZmT49Ctc+cT0KP1K4Hj8zMzM/hetRP2ZmZj9I4Xo/AACgPQAAwD0AAOA9AAAAPgAAED4AACA+AAAwPgAAQD5I4Xo/ZmZmP4XrUT+kcD0/UrgeP3E9Cj8fhes+exSuPrgehT7sUTg+zczMPQrXozwK16O8zczMvSlcD77sUTi+7FE4vgAA8D4AAPg+AAAAPwAABD8AAAg/AAAMPwAAED8AABQ/AAAYPwAAHD8AACA/AAAkPwAAKD8AACw/AAAwPwAAND8AADg/AAA8PwAAQD8AAEQ/AABIPwAATD8AAFA/AABUPwAAWD8AAFw/AABgPwAAZD8AAGg/AABsPwAAcD8AAHQ/AAB4PwAAfD8=" stiffness0="0" stiffness1="0" stiffness2="0" pan0="0" pan1="0" version="0.1" pan2="-1" slap0="0.75" slap1="0" octave0="2" active0="1" pickup0="0.05" slap2="0" octave1="1" octave2="1" active1="1" pickup1="0.05" active2="1" pickup2="0.05" active3="0" active4="0" active5="0" active6="0" active7="0" active8="0" length0="8" length1="3" length2="1"/>
+            <vibedstrings active0="1" active1="1" active2="1" active3="0" active4="0" active5="0" active6="0" active7="0" active8="0" volume0="100" length0="8" volume1="100" pick0="0" length1="3" volume2="100" pick1="0" length2="1" pick2="0" detune0="0" detune1="0" detune2="0" slap0="0.75" graph0="Hy7JPF+Xgb3iRCy+6mpAvhAfkrz8dYA+/RjkPlWeuj4+hog9ryWgvoHjCb//SBa/V3DyvuZGmr6hNdO9KAblPXfOmz78kPM+6KkQPxQoGz9epRM/Y83xPhegcT73NgW++6/9vm6QO79Zu0W/Fr8vvyCR976EYEe+5WfePX0IgT7cCUk+DyarPYtPnj2CBB4+rDQpPmv7gT17R6+9QuRovv5L1r7Q/CW/s1FKv9mqLL+UDJi+750VPiNq2z50LtY+2GMmPnQPdb4uyiS/KcttvwAAgL/oWWq/1ARLv4v8Pr/uizS/x2Efv3O6+r6aMMi+S4SevqVzJ74r+qA9rS6xPhVBBj87gB0/C2srP56+Nj9Jjyc/DF/UPhTR3Txq3qO+NgHnvkiYm75p6Fq7AOF4Prlkmj5Zm1Q+4l4dPgndSj6Nr5A+AyFYPpDxmDxtIoS+qjz5vi6sM79uWkm/gTIvvxlfw754rLu9y64Svbpqbb6IZgW/XYYov8ueIr/weOm+6XKFvu/4JjwhR28+aAzWPhg2zT5f4ZE+CDWXPWavmL0bO3K+lhbHvh+5FL/cNy+/NFwwv/uzGL/4sAK/nGncvrn2uL4xbIy+CTk5vu7xyb3dJKe99zRfvuT37745qDq/jjpRvzHaOL9NFui+FPLXvdRQkD5ghwk/Q1X7PrHrnD0=" slap1="0" graph1="AACAvCW0375hkTq/E9pfv8uFa78neWu/AABovwAAZL8AAGC/AABcvwAAWL8AAFS/AABQvwAATL8AAEi/AABEvwAAQL8AADy/AAA4vwAANL8AADC/AAAsvwAAKL8AACS/AAAgvwAAHL8AABi/AAAUvwAAEL8AAAy/AAAIvwAABL8AAAC/AAD4vgAA8L4AAOi+AADgvgAA2L4AANC+rE/IvoQwwr4cxsC+DXLIvleG3L7kXPu+C8cOvyVDHL9IOSK/m6Efv3gsFr/mYwi/z77wvkyOzr59TKu+dGyHvt+iRb7UdPO9jYYlvQX3Lj2cawM+x6dYPiXfkj5tH7M+WUvMPv3V3j7FDew+DHf1Ps2H/D4PLgE/euADPxeaBj8Jjwk/3+YMP1y+ED+BFRU/VNoZP3T1Hj9/WCQ/re8pPw2OLz+06zQ/fcs5PwsfPj+AEUI/nNpFP7ejST9wSk0/QS9QP9O1UD8gpEw/lSxCP8fuMT/jQx8/wQEPPwqJBD/TfwA/5x8BPy8pBD8AAAg/AAAMPwAAED8AABQ/AAAYPwAAHD8AACA/AAAkPwAAKD8AACw/AAAwPwAAND8AADg/AAA8PwAAQD8AAEQ/AABIPwAATD8AAFA/AABUPwAAWD8AAFw/AABgPwAAZD9De2c/tJdnP6sqXD8chzc/VRXcPgAAfDw=" slap2="0" graph2="AACAvwAAfL8AAHi/AAB0vwAAcL8AAGy/AABovwAAZL8AAGC/AABcvwAAWL8AAFS/AABQvwAATL8AAEi/AABEvwAAQL8AADy/AAA4vwAANL8AADC/AAAsvwAAKL8AACS/AAAgvwAAHL8AABi/AAAUvwAAEL8AAAy/AAAIvwAABL8AAAC/AAD4vgAA8L4fheu+PQrXvlyPwr57FK6+uB6Fvq5HYb7sUTi+hetRv4XrUb+F61G/hetRvxSuR79cj0K/7FE4vwrXI79SuB6/cT0Kv7geBb+uR+G+7FG4vnsUrr64HoW+KVwPvo/Cdb2PwnU97FE4PpqZmT49Ctc+cT0KP1K4Hj8zMzM/hetRP2ZmZj9I4Xo/AACgPQAAwD0AAOA9AAAAPgAAED4AACA+AAAwPgAAQD5I4Xo/ZmZmP4XrUT+kcD0/UrgeP3E9Cj8fhes+exSuPrgehT7sUTg+zczMPQrXozwK16O8zczMvSlcD77sUTi+7FE4vgAA8D4AAPg+AAAAPwAABD8AAAg/AAAMPwAAED8AABQ/AAAYPwAAHD8AACA/AAAkPwAAKD8AACw/AAAwPwAAND8AADg/AAA8PwAAQD8AAEQ/AABIPwAATD8AAFA/AABUPwAAWD8AAFw/AABgPwAAZD8AAGg/AABsPwAAcD8AAHQ/AAB4PwAAfD8=" pan0="0" pan1="0" pan2="-1" impulse0="0" impulse1="0" impulse2="0" octave0="2" octave1="1" octave2="1" version="0.1" pickup0="0.05" pickup1="0.05" stiffness0="0" pickup2="0.05" stiffness1="0" stiffness2="0"/>
           </instrument>
-          <eldata fres="1.62" ftype="0" fcut="4127" fwet="1">
-            <elvol lspd_denominator="4" sustain="1" pdel="0" userwavefile="" dec="0" lamt="0" latt="0" rel="0.414" amt="1" x100="0" att="0" lpdel="0" hold="0" lspd_syncmode="0" lshp="0" lspd="0.1" ctlenvamt="0" lspd_numerator="4"/>
-            <elcut lspd_denominator="4" sustain="0.000999987" pdel="0" userwavefile="" dec="0.999" lamt="1" latt="0.1" rel="0" amt="1" x100="0" att="0.532" lpdel="0" hold="0" lspd_syncmode="0" lshp="0" lspd="0.0208" ctlenvamt="1" lspd_numerator="4"/>
-            <elres lspd_denominator="4" sustain="0.501" pdel="0" userwavefile="" dec="0.499" lamt="0" latt="0" rel="0.1" amt="0" x100="0" att="0" lpdel="0" hold="0.499" lspd_syncmode="0" lshp="0" lspd="0.1" ctlenvamt="0" lspd_numerator="4"/>
+          <eldata fcut="4127" fwet="1" ftype="0" fres="1.62">
+            <elvol lshp="0" att="0" x100="0" amt="1" userwavefile="" lspd_denominator="4" lspd="0.1" pdel="0" hold="0" ctlenvamt="0" latt="0" sustain="1" rel="0.414" lamt="0" lpdel="0" lspd_syncmode="0" dec="0" lspd_numerator="4"/>
+            <elcut lshp="0" att="0.532" x100="0" amt="1" userwavefile="" lspd_denominator="4" lspd="0.0208" pdel="0" hold="0" ctlenvamt="1" latt="0.1" sustain="0.000999987" rel="0" lamt="1" lpdel="0" lspd_syncmode="0" dec="0.999" lspd_numerator="4"/>
+            <elres lshp="0" att="0" x100="0" amt="0" userwavefile="" lspd_denominator="4" lspd="0.1" pdel="0" hold="0.499" ctlenvamt="0" latt="0" sustain="0.501" rel="0.1" lamt="0" lpdel="0" lspd_syncmode="0" dec="0.499" lspd_numerator="4"/>
           </eldata>
-          <chordcreator chord="0" chordrange="2" chord-enabled="1"/>
-          <arpeggiator arptime="366" arprange="1" arpskip="0" arptime_denominator="4" arptime_syncmode="0" arpmode="1" arpcycle="0" arp-enabled="0" arp="0" arptime_numerator="4" arpdir="0" arpmiss="0" arpgate="100"/>
-          <midiport inputcontroller="0" fixedoutputvelocity="-1" inputchannel="0" outputcontroller="0" writable="0" outputchannel="1" fixedinputvelocity="-1" fixedoutputnote="-1" outputprogram="1" basevelocity="127" readable="0"/>
+          <chordcreator chord-enabled="1" chordrange="2" chord="0"/>
+          <arpeggiator arpmiss="0" arpmode="1" arpskip="0" arptime_denominator="4" arptime="366" arprange="1" arptime_numerator="4" arpdir="0" arpgate="100" arp-enabled="0" arp="0" arptime_syncmode="0" arpcycle="0"/>
+          <midiport outputcontroller="0" writable="0" basevelocity="127" fixedoutputvelocity="-1" fixedoutputnote="-1" outputchannel="1" fixedinputvelocity="-1" inputchannel="0" outputprogram="1" inputcontroller="0" readable="0"/>
           <fxchain numofeffects="2" enabled="1">
-            <effect autoquit_syncmode="0" autoquit_numerator="4" autoquit_denominator="4" autoquit="1" gate="0" name="amplifier" wet="1" on="1">
-              <AmplifierControls right="100" pan="0" left="100" volume="7.2"/>
+            <effect autoquit_syncmode="0" autoquit="1" on="1" autoquit_numerator="4" wet="1" gate="0" autoquit_denominator="4" name="amplifier">
+              <AmplifierControls right="100" left="100" pan="0" volume="7.2"/>
               <key/>
             </effect>
-            <effect autoquit_syncmode="0" autoquit_numerator="4" autoquit_denominator="4" autoquit="1" gate="0" name="ladspaeffect" wet="1" on="1">
+            <effect autoquit_syncmode="0" autoquit="1" on="1" autoquit_numerator="4" wet="1" gate="0" autoquit_denominator="4" name="ladspaeffect">
               <ladspacontrols link="1" ports="4">
                 <port00 link="1">
-                  <data scale_type="log" value="8209.59" id="5300480"/>
+                  <data scale_type="log" value="3003.25" id="5300480"/>
                 </port00>
-                <port01 link="1" data="1.41"/>
+                <port01 data="1.41" link="1"/>
                 <port10>
-                  <data scale_type="log" value="8209.59" id="5530348"/>
+                  <data scale_type="log" value="3003.25" id="5530348"/>
                 </port10>
                 <port11 data="1.41"/>
               </ladspacontrols>
@@ -1527,270 +1527,270 @@
             </effect>
           </fxchain>
         </instrumenttrack>
-        <pattern steps="16" muted="0" type="1" name="Sad Pad (play with Filter-Reso!!)" pos="0">
-          <note pan="0" key="47" vol="129" pos="768" len="96"/>
-          <note pan="0" key="48" vol="129" pos="864" len="96"/>
-          <note pan="0" key="47" vol="129" pos="960" len="96"/>
-          <note pan="0" key="53" vol="129" pos="1056" len="96"/>
-          <note pan="0" key="47" vol="129" pos="1153" len="96"/>
-          <note pan="0" key="48" vol="129" pos="1249" len="96"/>
-          <note pan="0" key="47" vol="129" pos="1345" len="96"/>
-          <note pan="0" key="53" vol="129" pos="1441" len="96"/>
-          <note pan="0" key="47" vol="129" pos="1535" len="96"/>
-          <note pan="0" key="48" vol="129" pos="1631" len="96"/>
-          <note pan="0" key="47" vol="129" pos="1727" len="96"/>
-          <note pan="0" key="53" vol="129" pos="1823" len="96"/>
-          <note pan="0" key="47" vol="129" pos="1921" len="96"/>
-          <note pan="0" key="48" vol="129" pos="2017" len="96"/>
-          <note pan="0" key="47" vol="129" pos="2113" len="96"/>
-          <note pan="0" key="53" vol="129" pos="2209" len="96"/>
-          <note pan="0" key="47" vol="129" pos="2303" len="96"/>
-          <note pan="0" key="48" vol="129" pos="2399" len="96"/>
-          <note pan="0" key="47" vol="129" pos="2495" len="96"/>
-          <note pan="0" key="53" vol="129" pos="2591" len="96"/>
-          <note pan="0" key="47" vol="129" pos="2688" len="96"/>
-          <note pan="0" key="48" vol="129" pos="2784" len="96"/>
-          <note pan="0" key="47" vol="129" pos="2880" len="96"/>
-          <note pan="0" key="53" vol="129" pos="2976" len="96"/>
+        <pattern pos="0" type="1" muted="0" name="Sad Pad (play with Filter-Reso!!)" steps="16">
+          <note vol="129" pos="768" pan="0" len="96" key="47"/>
+          <note vol="129" pos="864" pan="0" len="96" key="48"/>
+          <note vol="129" pos="960" pan="0" len="96" key="47"/>
+          <note vol="129" pos="1056" pan="0" len="96" key="53"/>
+          <note vol="129" pos="1153" pan="0" len="96" key="47"/>
+          <note vol="129" pos="1249" pan="0" len="96" key="48"/>
+          <note vol="129" pos="1345" pan="0" len="96" key="47"/>
+          <note vol="129" pos="1441" pan="0" len="96" key="53"/>
+          <note vol="129" pos="1535" pan="0" len="96" key="47"/>
+          <note vol="129" pos="1631" pan="0" len="96" key="48"/>
+          <note vol="129" pos="1727" pan="0" len="96" key="47"/>
+          <note vol="129" pos="1823" pan="0" len="96" key="53"/>
+          <note vol="129" pos="1921" pan="0" len="96" key="47"/>
+          <note vol="129" pos="2017" pan="0" len="96" key="48"/>
+          <note vol="129" pos="2113" pan="0" len="96" key="47"/>
+          <note vol="129" pos="2209" pan="0" len="96" key="53"/>
+          <note vol="129" pos="2303" pan="0" len="96" key="47"/>
+          <note vol="129" pos="2399" pan="0" len="96" key="48"/>
+          <note vol="129" pos="2495" pan="0" len="96" key="47"/>
+          <note vol="129" pos="2591" pan="0" len="96" key="53"/>
+          <note vol="129" pos="2688" pan="0" len="96" key="47"/>
+          <note vol="129" pos="2784" pan="0" len="96" key="48"/>
+          <note vol="129" pos="2880" pan="0" len="96" key="47"/>
+          <note vol="129" pos="2976" pan="0" len="96" key="53"/>
         </pattern>
-        <pattern steps="16" muted="0" type="1" name="Sad Pad (play with Filter-Reso!!)" pos="5376">
-          <note pan="0" key="47" vol="129" pos="0" len="96"/>
-          <note pan="0" key="48" vol="129" pos="96" len="96"/>
-          <note pan="0" key="47" vol="129" pos="192" len="96"/>
-          <note pan="0" key="53" vol="129" pos="288" len="96"/>
-          <note pan="0" key="47" vol="129" pos="386" len="96"/>
-          <note pan="0" key="48" vol="129" pos="482" len="96"/>
-          <note pan="0" key="47" vol="129" pos="578" len="96"/>
-          <note pan="0" key="53" vol="129" pos="674" len="96"/>
-          <note pan="0" key="47" vol="129" pos="768" len="96"/>
-          <note pan="0" key="48" vol="129" pos="864" len="96"/>
-          <note pan="0" key="47" vol="129" pos="960" len="96"/>
-          <note pan="0" key="53" vol="129" pos="1056" len="96"/>
-          <note pan="0" key="47" vol="129" pos="1153" len="96"/>
-          <note pan="0" key="48" vol="129" pos="1249" len="96"/>
-          <note pan="0" key="47" vol="129" pos="1345" len="96"/>
-          <note pan="0" key="53" vol="129" pos="1441" len="96"/>
-          <note pan="0" key="47" vol="129" pos="1535" len="96"/>
-          <note pan="0" key="48" vol="129" pos="1631" len="96"/>
-          <note pan="0" key="47" vol="129" pos="1727" len="96"/>
-          <note pan="0" key="53" vol="129" pos="1823" len="96"/>
-          <note pan="0" key="47" vol="129" pos="1921" len="96"/>
-          <note pan="0" key="48" vol="129" pos="2017" len="96"/>
-          <note pan="0" key="47" vol="129" pos="2113" len="96"/>
-          <note pan="0" key="53" vol="129" pos="2209" len="96"/>
-          <note pan="0" key="47" vol="129" pos="2303" len="96"/>
-          <note pan="0" key="48" vol="129" pos="2399" len="96"/>
-          <note pan="0" key="47" vol="129" pos="2495" len="96"/>
-          <note pan="0" key="53" vol="129" pos="2591" len="96"/>
-          <note pan="0" key="47" vol="129" pos="2688" len="96"/>
-          <note pan="0" key="48" vol="129" pos="2784" len="96"/>
-          <note pan="0" key="47" vol="129" pos="2880" len="96"/>
-          <note pan="0" key="53" vol="129" pos="2976" len="96"/>
+        <pattern pos="5376" type="1" muted="0" name="Sad Pad (play with Filter-Reso!!)" steps="16">
+          <note vol="129" pos="0" pan="0" len="96" key="47"/>
+          <note vol="129" pos="96" pan="0" len="96" key="48"/>
+          <note vol="129" pos="192" pan="0" len="96" key="47"/>
+          <note vol="129" pos="288" pan="0" len="96" key="53"/>
+          <note vol="129" pos="386" pan="0" len="96" key="47"/>
+          <note vol="129" pos="482" pan="0" len="96" key="48"/>
+          <note vol="129" pos="578" pan="0" len="96" key="47"/>
+          <note vol="129" pos="674" pan="0" len="96" key="53"/>
+          <note vol="129" pos="768" pan="0" len="96" key="47"/>
+          <note vol="129" pos="864" pan="0" len="96" key="48"/>
+          <note vol="129" pos="960" pan="0" len="96" key="47"/>
+          <note vol="129" pos="1056" pan="0" len="96" key="53"/>
+          <note vol="129" pos="1153" pan="0" len="96" key="47"/>
+          <note vol="129" pos="1249" pan="0" len="96" key="48"/>
+          <note vol="129" pos="1345" pan="0" len="96" key="47"/>
+          <note vol="129" pos="1441" pan="0" len="96" key="53"/>
+          <note vol="129" pos="1535" pan="0" len="96" key="47"/>
+          <note vol="129" pos="1631" pan="0" len="96" key="48"/>
+          <note vol="129" pos="1727" pan="0" len="96" key="47"/>
+          <note vol="129" pos="1823" pan="0" len="96" key="53"/>
+          <note vol="129" pos="1921" pan="0" len="96" key="47"/>
+          <note vol="129" pos="2017" pan="0" len="96" key="48"/>
+          <note vol="129" pos="2113" pan="0" len="96" key="47"/>
+          <note vol="129" pos="2209" pan="0" len="96" key="53"/>
+          <note vol="129" pos="2303" pan="0" len="96" key="47"/>
+          <note vol="129" pos="2399" pan="0" len="96" key="48"/>
+          <note vol="129" pos="2495" pan="0" len="96" key="47"/>
+          <note vol="129" pos="2591" pan="0" len="96" key="53"/>
+          <note vol="129" pos="2688" pan="0" len="96" key="47"/>
+          <note vol="129" pos="2784" pan="0" len="96" key="48"/>
+          <note vol="129" pos="2880" pan="0" len="96" key="47"/>
+          <note vol="129" pos="2976" pan="0" len="96" key="53"/>
         </pattern>
-        <pattern steps="16" muted="0" type="1" name="Sad Pad (play with Filter-Reso!!)" pos="8448">
-          <note pan="0" key="47" vol="129" pos="0" len="96"/>
-          <note pan="0" key="48" vol="129" pos="96" len="96"/>
-          <note pan="0" key="47" vol="129" pos="192" len="96"/>
-          <note pan="0" key="53" vol="129" pos="288" len="96"/>
-          <note pan="0" key="47" vol="129" pos="386" len="96"/>
-          <note pan="0" key="48" vol="129" pos="482" len="96"/>
-          <note pan="0" key="47" vol="129" pos="578" len="96"/>
-          <note pan="0" key="53" vol="129" pos="674" len="96"/>
-          <note pan="0" key="47" vol="129" pos="768" len="96"/>
-          <note pan="0" key="48" vol="129" pos="864" len="96"/>
-          <note pan="0" key="47" vol="129" pos="960" len="96"/>
-          <note pan="0" key="53" vol="129" pos="1056" len="96"/>
-          <note pan="0" key="47" vol="129" pos="1153" len="96"/>
-          <note pan="0" key="48" vol="129" pos="1249" len="96"/>
-          <note pan="0" key="47" vol="129" pos="1345" len="96"/>
-          <note pan="0" key="53" vol="129" pos="1441" len="96"/>
-          <note pan="0" key="47" vol="129" pos="1535" len="96"/>
-          <note pan="0" key="48" vol="129" pos="1631" len="96"/>
-          <note pan="0" key="47" vol="129" pos="1727" len="96"/>
-          <note pan="0" key="53" vol="129" pos="1823" len="96"/>
-          <note pan="0" key="47" vol="129" pos="1921" len="96"/>
-          <note pan="0" key="48" vol="129" pos="2017" len="96"/>
-          <note pan="0" key="47" vol="129" pos="2113" len="96"/>
-          <note pan="0" key="53" vol="129" pos="2209" len="96"/>
-          <note pan="0" key="47" vol="129" pos="2303" len="96"/>
-          <note pan="0" key="48" vol="129" pos="2399" len="96"/>
-          <note pan="0" key="47" vol="129" pos="2495" len="96"/>
-          <note pan="0" key="53" vol="129" pos="2591" len="96"/>
-          <note pan="0" key="47" vol="129" pos="2688" len="96"/>
-          <note pan="0" key="48" vol="129" pos="2784" len="96"/>
-          <note pan="0" key="47" vol="129" pos="2880" len="96"/>
-          <note pan="0" key="53" vol="129" pos="2976" len="96"/>
+        <pattern pos="8448" type="1" muted="0" name="Sad Pad (play with Filter-Reso!!)" steps="16">
+          <note vol="129" pos="0" pan="0" len="96" key="47"/>
+          <note vol="129" pos="96" pan="0" len="96" key="48"/>
+          <note vol="129" pos="192" pan="0" len="96" key="47"/>
+          <note vol="129" pos="288" pan="0" len="96" key="53"/>
+          <note vol="129" pos="386" pan="0" len="96" key="47"/>
+          <note vol="129" pos="482" pan="0" len="96" key="48"/>
+          <note vol="129" pos="578" pan="0" len="96" key="47"/>
+          <note vol="129" pos="674" pan="0" len="96" key="53"/>
+          <note vol="129" pos="768" pan="0" len="96" key="47"/>
+          <note vol="129" pos="864" pan="0" len="96" key="48"/>
+          <note vol="129" pos="960" pan="0" len="96" key="47"/>
+          <note vol="129" pos="1056" pan="0" len="96" key="53"/>
+          <note vol="129" pos="1153" pan="0" len="96" key="47"/>
+          <note vol="129" pos="1249" pan="0" len="96" key="48"/>
+          <note vol="129" pos="1345" pan="0" len="96" key="47"/>
+          <note vol="129" pos="1441" pan="0" len="96" key="53"/>
+          <note vol="129" pos="1535" pan="0" len="96" key="47"/>
+          <note vol="129" pos="1631" pan="0" len="96" key="48"/>
+          <note vol="129" pos="1727" pan="0" len="96" key="47"/>
+          <note vol="129" pos="1823" pan="0" len="96" key="53"/>
+          <note vol="129" pos="1921" pan="0" len="96" key="47"/>
+          <note vol="129" pos="2017" pan="0" len="96" key="48"/>
+          <note vol="129" pos="2113" pan="0" len="96" key="47"/>
+          <note vol="129" pos="2209" pan="0" len="96" key="53"/>
+          <note vol="129" pos="2303" pan="0" len="96" key="47"/>
+          <note vol="129" pos="2399" pan="0" len="96" key="48"/>
+          <note vol="129" pos="2495" pan="0" len="96" key="47"/>
+          <note vol="129" pos="2591" pan="0" len="96" key="53"/>
+          <note vol="129" pos="2688" pan="0" len="96" key="47"/>
+          <note vol="129" pos="2784" pan="0" len="96" key="48"/>
+          <note vol="129" pos="2880" pan="0" len="96" key="47"/>
+          <note vol="129" pos="2976" pan="0" len="96" key="53"/>
         </pattern>
-        <pattern steps="16" muted="0" type="0" name="Sad Pad (play with Filter-Reso!!)" pos="4800"/>
-        <pattern steps="16" muted="0" type="1" name="Sad Pad (play with Filter-Reso!!)" pos="4608">
-          <note pan="0" key="47" vol="129" pos="0" len="96"/>
-          <note pan="0" key="48" vol="129" pos="96" len="96"/>
-          <note pan="0" key="47" vol="129" pos="192" len="96"/>
-          <note pan="0" key="53" vol="129" pos="288" len="96"/>
-          <note pan="0" key="47" vol="129" pos="383" len="96"/>
-          <note pan="0" key="48" vol="129" pos="479" len="96"/>
-          <note pan="0" key="47" vol="129" pos="575" len="96"/>
-          <note pan="0" key="53" vol="129" pos="671" len="96"/>
+        <pattern pos="4800" type="0" muted="0" name="Sad Pad (play with Filter-Reso!!)" steps="16"/>
+        <pattern pos="4608" type="1" muted="0" name="Sad Pad (play with Filter-Reso!!)" steps="16">
+          <note vol="129" pos="0" pan="0" len="96" key="47"/>
+          <note vol="129" pos="96" pan="0" len="96" key="48"/>
+          <note vol="129" pos="192" pan="0" len="96" key="47"/>
+          <note vol="129" pos="288" pan="0" len="96" key="53"/>
+          <note vol="129" pos="383" pan="0" len="96" key="47"/>
+          <note vol="129" pos="479" pan="0" len="96" key="48"/>
+          <note vol="129" pos="575" pan="0" len="96" key="47"/>
+          <note vol="129" pos="671" pan="0" len="96" key="53"/>
         </pattern>
-        <pattern steps="16" muted="0" type="1" name="Sad Pad (play with Filter-Reso!!)" pos="12288">
-          <note pan="0" key="47" vol="129" pos="0" len="96"/>
-          <note pan="0" key="48" vol="129" pos="96" len="96"/>
-          <note pan="0" key="47" vol="129" pos="192" len="96"/>
-          <note pan="0" key="53" vol="129" pos="288" len="96"/>
-          <note pan="0" key="47" vol="129" pos="386" len="96"/>
-          <note pan="0" key="48" vol="129" pos="482" len="96"/>
-          <note pan="0" key="47" vol="129" pos="578" len="96"/>
-          <note pan="0" key="53" vol="129" pos="674" len="96"/>
-          <note pan="0" key="47" vol="129" pos="768" len="96"/>
-          <note pan="0" key="48" vol="129" pos="864" len="96"/>
-          <note pan="0" key="47" vol="129" pos="960" len="96"/>
-          <note pan="0" key="53" vol="129" pos="1056" len="96"/>
-          <note pan="0" key="47" vol="129" pos="1153" len="96"/>
-          <note pan="0" key="48" vol="129" pos="1249" len="96"/>
-          <note pan="0" key="47" vol="129" pos="1345" len="96"/>
-          <note pan="0" key="53" vol="129" pos="1441" len="96"/>
-          <note pan="0" key="47" vol="129" pos="1535" len="96"/>
-          <note pan="0" key="48" vol="129" pos="1631" len="96"/>
-          <note pan="0" key="47" vol="129" pos="1727" len="96"/>
-          <note pan="0" key="53" vol="129" pos="1823" len="96"/>
-          <note pan="0" key="47" vol="129" pos="1921" len="96"/>
-          <note pan="0" key="48" vol="129" pos="2017" len="96"/>
-          <note pan="0" key="47" vol="129" pos="2113" len="96"/>
-          <note pan="0" key="53" vol="129" pos="2209" len="96"/>
-          <note pan="0" key="47" vol="129" pos="2303" len="96"/>
-          <note pan="0" key="48" vol="129" pos="2399" len="96"/>
-          <note pan="0" key="47" vol="129" pos="2495" len="96"/>
-          <note pan="0" key="53" vol="129" pos="2591" len="96"/>
-          <note pan="0" key="47" vol="129" pos="2688" len="96"/>
-          <note pan="0" key="48" vol="129" pos="2784" len="96"/>
-          <note pan="0" key="47" vol="129" pos="2880" len="96"/>
-          <note pan="0" key="53" vol="129" pos="2976" len="96"/>
+        <pattern pos="12288" type="1" muted="0" name="Sad Pad (play with Filter-Reso!!)" steps="16">
+          <note vol="129" pos="0" pan="0" len="96" key="47"/>
+          <note vol="129" pos="96" pan="0" len="96" key="48"/>
+          <note vol="129" pos="192" pan="0" len="96" key="47"/>
+          <note vol="129" pos="288" pan="0" len="96" key="53"/>
+          <note vol="129" pos="386" pan="0" len="96" key="47"/>
+          <note vol="129" pos="482" pan="0" len="96" key="48"/>
+          <note vol="129" pos="578" pan="0" len="96" key="47"/>
+          <note vol="129" pos="674" pan="0" len="96" key="53"/>
+          <note vol="129" pos="768" pan="0" len="96" key="47"/>
+          <note vol="129" pos="864" pan="0" len="96" key="48"/>
+          <note vol="129" pos="960" pan="0" len="96" key="47"/>
+          <note vol="129" pos="1056" pan="0" len="96" key="53"/>
+          <note vol="129" pos="1153" pan="0" len="96" key="47"/>
+          <note vol="129" pos="1249" pan="0" len="96" key="48"/>
+          <note vol="129" pos="1345" pan="0" len="96" key="47"/>
+          <note vol="129" pos="1441" pan="0" len="96" key="53"/>
+          <note vol="129" pos="1535" pan="0" len="96" key="47"/>
+          <note vol="129" pos="1631" pan="0" len="96" key="48"/>
+          <note vol="129" pos="1727" pan="0" len="96" key="47"/>
+          <note vol="129" pos="1823" pan="0" len="96" key="53"/>
+          <note vol="129" pos="1921" pan="0" len="96" key="47"/>
+          <note vol="129" pos="2017" pan="0" len="96" key="48"/>
+          <note vol="129" pos="2113" pan="0" len="96" key="47"/>
+          <note vol="129" pos="2209" pan="0" len="96" key="53"/>
+          <note vol="129" pos="2303" pan="0" len="96" key="47"/>
+          <note vol="129" pos="2399" pan="0" len="96" key="48"/>
+          <note vol="129" pos="2495" pan="0" len="96" key="47"/>
+          <note vol="129" pos="2591" pan="0" len="96" key="53"/>
+          <note vol="129" pos="2688" pan="0" len="96" key="47"/>
+          <note vol="129" pos="2784" pan="0" len="96" key="48"/>
+          <note vol="129" pos="2880" pan="0" len="96" key="47"/>
+          <note vol="129" pos="2976" pan="0" len="96" key="53"/>
         </pattern>
       </track>
-      <track muted="1" type="1" name="intro hats" solo="0">
+      <track solo="0" type="1" muted="1" name="intro hats">
         <bbtrack/>
-        <bbtco muted="0" usestyle="1" name="" pos="384" color="4286611584" len="384"/>
+        <bbtco pos="384" usestyle="1" color="4286611584" len="384" muted="0" name=""/>
       </track>
-      <track muted="0" type="0" name="cadebrownonthebeat_0.wav" solo="0">
-        <instrumenttrack pan="-0.8" fxch="0" usemasterpitch="1" pitchrange="1" pitch="0" basenote="57" vol="47.2">
+      <track solo="0" type="0" muted="0" name="cadebrownonthebeat_0.wav">
+        <instrumenttrack vol="47.2" pitchrange="1" basenote="57" pan="-0.8" pitch="0" usemasterpitch="1" fxch="0">
           <instrument name="audiofileprocessor">
-            <audiofileprocessor reversed="0" looped="0" lframe="0" interp="1" eframe="1" stutter="0" sframe="0" src="cadebrownonthebeat_0.wav" amp="84"/>
+            <audiofileprocessor stutter="0" interp="1" src="cadebrownonthebeat_0.wav" looped="0" amp="84" sframe="0" lframe="0" eframe="1" reversed="0"/>
           </instrument>
-          <eldata fres="0.5" ftype="0" fcut="14000" fwet="0">
-            <elvol lspd_denominator="4" sustain="0.5" pdel="0" userwavefile="" dec="0.5" lamt="0" latt="0" rel="0.1" amt="0" x100="0" att="0" lpdel="0" hold="0.5" lspd_syncmode="0" lshp="0" lspd="0.1" ctlenvamt="0" lspd_numerator="4"/>
-            <elcut lspd_denominator="4" sustain="0.5" pdel="0" userwavefile="" dec="0.5" lamt="0" latt="0" rel="0.1" amt="0" x100="0" att="0" lpdel="0" hold="0.5" lspd_syncmode="0" lshp="0" lspd="0.1" ctlenvamt="0" lspd_numerator="4"/>
-            <elres lspd_denominator="4" sustain="0.5" pdel="0" userwavefile="" dec="0.5" lamt="0" latt="0" rel="0.1" amt="0" x100="0" att="0" lpdel="0" hold="0.5" lspd_syncmode="0" lshp="0" lspd="0.1" ctlenvamt="0" lspd_numerator="4"/>
+          <eldata fcut="14000" fwet="0" ftype="0" fres="0.5">
+            <elvol lshp="0" att="0" x100="0" amt="0" userwavefile="" lspd_denominator="4" lspd="0.1" pdel="0" hold="0.5" ctlenvamt="0" latt="0" sustain="0.5" rel="0.1" lamt="0" lpdel="0" lspd_syncmode="0" dec="0.5" lspd_numerator="4"/>
+            <elcut lshp="0" att="0" x100="0" amt="0" userwavefile="" lspd_denominator="4" lspd="0.1" pdel="0" hold="0.5" ctlenvamt="0" latt="0" sustain="0.5" rel="0.1" lamt="0" lpdel="0" lspd_syncmode="0" dec="0.5" lspd_numerator="4"/>
+            <elres lshp="0" att="0" x100="0" amt="0" userwavefile="" lspd_denominator="4" lspd="0.1" pdel="0" hold="0.5" ctlenvamt="0" latt="0" sustain="0.5" rel="0.1" lamt="0" lpdel="0" lspd_syncmode="0" dec="0.5" lspd_numerator="4"/>
           </eldata>
-          <chordcreator chord="0" chordrange="1" chord-enabled="0"/>
-          <arpeggiator arptime="200" arprange="1" arpskip="0" arptime_denominator="4" arptime_syncmode="0" arpmode="0" arpcycle="0" arp-enabled="0" arp="0" arptime_numerator="4" arpdir="0" arpmiss="0" arpgate="100"/>
-          <midiport inputcontroller="0" fixedoutputvelocity="-1" inputchannel="0" outputcontroller="0" writable="0" outputchannel="1" fixedinputvelocity="-1" fixedoutputnote="-1" outputprogram="1" basevelocity="63" readable="0"/>
+          <chordcreator chord-enabled="0" chordrange="1" chord="0"/>
+          <arpeggiator arpmiss="0" arpmode="0" arpskip="0" arptime_denominator="4" arptime="200" arprange="1" arptime_numerator="4" arpdir="0" arpgate="100" arp-enabled="0" arp="0" arptime_syncmode="0" arpcycle="0"/>
+          <midiport outputcontroller="0" writable="0" basevelocity="63" fixedoutputvelocity="-1" fixedoutputnote="-1" outputchannel="1" fixedinputvelocity="-1" inputchannel="0" outputprogram="1" inputcontroller="0" readable="0"/>
           <fxchain numofeffects="0" enabled="0"/>
         </instrumenttrack>
-        <pattern steps="16" muted="0" type="1" name="cadebrownonthebeat_0.wav" pos="192">
-          <note pan="0" key="57" vol="100" pos="24" len="192"/>
+        <pattern pos="192" type="1" muted="0" name="cadebrownonthebeat_0.wav" steps="16">
+          <note vol="100" pos="24" pan="0" len="192" key="57"/>
         </pattern>
       </track>
     </trackcontainer>
-    <track muted="0" type="6" name="Automation track" solo="0">
+    <track solo="0" type="6" muted="0" name="Automation track">
       <automationtrack/>
-      <automationpattern tens="1" mute="0" prog="0" name="Numerator" pos="0" len="192"/>
-      <automationpattern tens="1" mute="0" prog="0" name="Denominator" pos="0" len="192"/>
-      <automationpattern tens="1" mute="0" prog="0" name="Tempo" pos="0" len="192"/>
-      <automationpattern tens="1" mute="0" prog="0" name="Master volume" pos="0" len="192"/>
-      <automationpattern tens="1" mute="0" prog="0" name="Master pitch" pos="0" len="192"/>
-      <automationpattern tens="1" mute="0" prog="2" name="GLAME Butterworth Lowpass>>>Cutoff Frequency (Hz)" pos="0" len="16512">
-        <time value="4203.73" pos="0"/>
-        <time value="6884.68" pos="576"/>
-        <time value="17239" pos="768"/>
-        <time value="17239" pos="1536"/>
-        <time value="4999.83" pos="1656"/>
-        <time value="944.908" pos="1800"/>
-        <time value="1235.08" pos="1824"/>
-        <time value="4.41" pos="2472"/>
-        <time value="1235.08" pos="2976"/>
-        <time value="14994.5" pos="3240"/>
-        <time value="15356.6" pos="3984"/>
-        <time value="15210.3" pos="4608"/>
-        <time value="3479.54" pos="4752"/>
-        <time value="438.973" pos="4920"/>
-        <time value="4.41" pos="5520"/>
-        <time value="5508.24" pos="6120"/>
-        <time value="17164.6" pos="6336"/>
-        <time value="17164.6" pos="7200"/>
-        <time value="17239" pos="8064"/>
-        <time value="17164.6" pos="9024"/>
-        <time value="16948.8" pos="9984"/>
-        <time value="17020.7" pos="10944"/>
-        <time value="5870.33" pos="13704"/>
-        <time value="9344.92" pos="14232"/>
-        <time value="4712.14" pos="14592"/>
-        <time value="9416.84" pos="14976"/>
-        <time value="15428.5" pos="15120"/>
-        <time value="15428.5" pos="15504"/>
-        <time value="6810.28" pos="15840"/>
-        <time value="3407.62" pos="16152"/>
-        <time value="2249.43" pos="16416"/>
+      <automationpattern tens="1" pos="0" prog="0" len="192" mute="0" name="Numerator"/>
+      <automationpattern tens="1" pos="0" prog="0" len="192" mute="0" name="Denominator"/>
+      <automationpattern tens="1" pos="0" prog="0" len="192" mute="0" name="Tempo"/>
+      <automationpattern tens="1" pos="0" prog="0" len="192" mute="0" name="Master volume"/>
+      <automationpattern tens="1" pos="0" prog="0" len="192" mute="0" name="Master pitch"/>
+      <automationpattern tens="1" pos="0" prog="2" len="16512" mute="0" name="GLAME Butterworth Lowpass>>>Cutoff Frequency (Hz)">
+        <time pos="0" value="4203.73"/>
+        <time pos="576" value="6884.68"/>
+        <time pos="768" value="17239"/>
+        <time pos="1536" value="17239"/>
+        <time pos="1656" value="4999.83"/>
+        <time pos="1800" value="944.908"/>
+        <time pos="1824" value="1235.08"/>
+        <time pos="2472" value="4.41"/>
+        <time pos="2976" value="1235.08"/>
+        <time pos="3240" value="14994.5"/>
+        <time pos="3984" value="15356.6"/>
+        <time pos="4608" value="15210.3"/>
+        <time pos="4752" value="3479.54"/>
+        <time pos="4920" value="438.973"/>
+        <time pos="5520" value="4.41"/>
+        <time pos="6120" value="5508.24"/>
+        <time pos="6336" value="17164.6"/>
+        <time pos="7200" value="17164.6"/>
+        <time pos="8064" value="17239"/>
+        <time pos="9024" value="17164.6"/>
+        <time pos="9984" value="16948.8"/>
+        <time pos="10944" value="17020.7"/>
+        <time pos="13704" value="5870.33"/>
+        <time pos="14232" value="9344.92"/>
+        <time pos="14592" value="4712.14"/>
+        <time pos="14976" value="9416.84"/>
+        <time pos="15120" value="15428.5"/>
+        <time pos="15504" value="15428.5"/>
+        <time pos="15840" value="6810.28"/>
+        <time pos="16152" value="3407.62"/>
+        <time pos="16416" value="2249.43"/>
         <object id="2149582"/>
       </automationpattern>
-      <automationpattern tens="0.36" mute="0" prog="2" name="GLAME Butterworth Lowpass>>>Cutoff Frequency (Hz)" pos="0" len="1728">
-        <time value="10009.9" pos="0"/>
-        <time value="2611.52" pos="600"/>
-        <time value="1959.26" pos="768"/>
-        <time value="9925.25" pos="1368"/>
-        <time value="14342.3" pos="1608"/>
+      <automationpattern tens="0.36" pos="0" prog="2" len="1728" mute="0" name="GLAME Butterworth Lowpass>>>Cutoff Frequency (Hz)">
+        <time pos="0" value="10009.9"/>
+        <time pos="600" value="2611.52"/>
+        <time pos="768" value="1959.26"/>
+        <time pos="1368" value="9925.25"/>
+        <time pos="1608" value="14342.3"/>
         <object id="5300480"/>
       </automationpattern>
     </track>
-    <fxmixer width="543" x="246" y="385" maximized="0" height="335" visible="0" minimized="0">
-      <fxchannel num="0" muted="0" volume="0.21" name="Master" soloed="0">
+    <fxmixer maximized="0" height="333" minimized="0" x="246" visible="0" y="385" width="543">
+      <fxchannel volume="0.21" soloed="0" muted="0" num="0" name="Master">
         <fxchain numofeffects="3" enabled="1">
-          <effect autoquit_syncmode="0" autoquit_numerator="4" autoquit_denominator="4" autoquit="1" gate="0" name="ladspaeffect" wet="1" on="1">
+          <effect autoquit_syncmode="0" autoquit="1" on="1" autoquit_numerator="4" wet="1" gate="0" autoquit_denominator="4" name="ladspaeffect">
             <ladspacontrols link="1" ports="8">
               <port00 link="1">
                 <data scale_type="log" value="1" id="2159757"/>
               </port00>
-              <port01 link="1" data="0.5"/>
-              <port02 data_syncmode="0" data_numerator="4" data_denominator="4" link="1" data="100"/>
-              <port03 data_syncmode="0" data_numerator="4" data_denominator="4" link="1" data="100"/>
+              <port01 data="0.5" link="1"/>
+              <port02 data="100" data_denominator="4" link="1" data_numerator="4" data_syncmode="0"/>
+              <port03 data="100" data_denominator="4" link="1" data_numerator="4" data_syncmode="0"/>
               <port10>
                 <data scale_type="log" value="1" id="4610058"/>
               </port10>
               <port11 data="0.5"/>
-              <port12 data_syncmode="0" data_numerator="4" data_denominator="4" data="100"/>
-              <port13 data_syncmode="0" data_numerator="4" data_denominator="4" data="100"/>
+              <port12 data="100" data_denominator="4" data_numerator="4" data_syncmode="0"/>
+              <port13 data="100" data_denominator="4" data_numerator="4" data_syncmode="0"/>
             </ladspacontrols>
             <key>
               <attribute value="cmt" name="file"/>
               <attribute value="compress_peak" name="plugin"/>
             </key>
           </effect>
-          <effect autoquit_syncmode="0" autoquit_numerator="4" autoquit_denominator="4" autoquit="1" gate="0" name="vsteffect" wet="1" on="0">
+          <effect autoquit_syncmode="0" autoquit="1" on="0" autoquit_numerator="4" gate="0" wet="1" autoquit_denominator="4" name="vsteffect">
             <vsteffectcontrols plugin="BC FreqAnalyst 2 Stereo/BC FreqAnalyst 2 VST(Stereo).dll"/>
             <key>
               <attribute value="BC FreqAnalyst 2 Stereo/BC FreqAnalyst 2 VST(Stereo).dll" name="file"/>
             </key>
           </effect>
-          <effect autoquit_syncmode="0" autoquit_numerator="4" autoquit_denominator="4" autoquit="1" gate="0" name="spectrumanalyzer" wet="1" on="1">
+          <effect autoquit_syncmode="0" autoquit="1" on="1" autoquit_numerator="4" wet="1" gate="0" autoquit_denominator="4" name="spectrumanalyzer">
             <spectrumanaylzercontrols/>
             <key/>
           </effect>
         </fxchain>
         <connection>
           <muted>
-            <Midicontroller inputcontroller="37" inports="" fixedoutputvelocity="-1" inputchannel="1" outputcontroller="0" writable="0" outputchannel="1" fixedinputvelocity="-1" fixedoutputnote="-1" type="2" outputprogram="1" name="MIDI ch1 ctrl37" basevelocity="127" readable="1"/>
+            <Midicontroller outputcontroller="0" writable="0" basevelocity="127" fixedoutputvelocity="-1" fixedoutputnote="-1" outputchannel="1" fixedinputvelocity="-1" type="2" inputchannel="1" outputprogram="1" inports="" inputcontroller="37" name="MIDI ch1 ctrl37" readable="1"/>
           </muted>
         </connection>
       </fxchannel>
     </fxmixer>
-    <ControllerRackView width="350" x="668" y="303" maximized="0" height="200" visible="0" minimized="0"/>
-    <pianoroll width="860" x="495" y="306" maximized="0" height="619" visible="1" minimized="0"/>
-    <automationeditor width="860" x="8" y="183" maximized="0" height="400" visible="0" minimized="0"/>
-    <projectnotes width="803" x="688" y="3" maximized="0" height="400" visible="0" minimized="0"><![CDATA[<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd">
+    <ControllerRackView maximized="0" height="200" minimized="0" x="668" visible="0" y="303" width="350"/>
+    <pianoroll maximized="0" height="619" minimized="0" x="495" visible="1" y="306" width="860"/>
+    <automationeditor maximized="0" height="400" minimized="0" x="8" visible="0" y="183" width="860"/>
+    <projectnotes maximized="0" height="400" minimized="0" x="688" visible="0" y="3" width="803"><![CDATA[<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd">
 <html><head><meta name="qrichtext" content="1" /><style type="text/css">
 p, li { white-space: pre-wrap; }
-</style></head><body style=" font-family:'Ubuntu'; font-size:11pt; font-weight:400; font-style:normal;">
-<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p></body></html>]]></projectnotes>
-    <timeline lp1pos="192" lp0pos="0" lpstate="0"/>
+</style></head><body style=" font-family:'.SF NS Text'; font-size:13pt; font-weight:400; font-style:normal;">
+<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Ubuntu'; font-size:11pt;"><br /></p></body></html>]]></projectnotes>
+    <timeline lpstate="0" lp0pos="0" lp1pos="192"/>
     <controllers/>
   </song>
 </lmms-project>
