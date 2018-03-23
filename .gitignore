@@ -6,7 +6,10 @@
 
 # ignore all output, those will go in releases
 out/
+
 out/*
+
+.DS_Store
 
 # backups from lmms
 *.bak
