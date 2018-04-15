@@ -1,13 +1,13 @@
 <?xml version="1.0"?>
 <!DOCTYPE lmms-project>
-<lmms-project version="1.0" creator="LMMS" creatorversion="1.2.0-rc5.14" type="song">
+<lmms-project version="1.0" creator="LMMS" creatorversion="1.2.0-rc5.47" type="song">
   <head timesig_numerator="4" mastervol="100" timesig_denominator="4" bpm="140" masterpitch="0"/>
   <song>
     <trackcontainer width="1510" x="15" y="35" maximized="0" height="611" visible="1" type="song" minimized="0">
       <track muted="0" type="1" name="Main Beat" solo="0">
         <bbtrack>
           <trackcontainer width="700" x="610" y="2" maximized="0" height="400" visible="1" type="bbtrackcontainer" minimized="0">
-            <track width="262" x="1423" y="499" maximized="0" muted="0" height="466" visible="1" type="0" minimized="0" name="Tr77_kick.ds" tab="0" solo="0">
+            <track muted="0" type="0" name="Tr77_kick.ds" solo="0">
               <instrumenttrack pan="-17.1" fxch="0" usemasterpitch="1" pitchrange="1" pitch="0" basenote="57" vol="136.3">
                 <instrument name="audiofileprocessor">
                   <audiofileprocessor reversed="0" looped="0" lframe="0" interp="1" eframe="1" stutter="0" sframe="0" src="drumsynth/tr77/Tr77_kick.ds" amp="130"/>
@@ -264,14 +264,14 @@
         <bbtco muted="0" usestyle="1" name="" pos="7872" color="4286611584" len="192"/>
         <bbtco muted="0" usestyle="1" name="" pos="11328" color="4286611584" len="192"/>
       </track>
-      <track muted="0" type="0" name="Phase bass" solo="0">
-        <instrumenttrack pan="15.1" fxch="0" usemasterpitch="1" pitchrange="1" pitch="0" basenote="69" vol="6.2">
+      <track width="262" x="1322" y="501" maximized="0" muted="0" height="464" visible="1" type="0" minimized="0" name="Phase bass" tab="3" solo="0">
+        <instrumenttrack pan="15.1" fxch="0" usemasterpitch="1" pitchrange="1" pitch="0" basenote="69" vol="98.7">
           <instrument name="watsyn">
             <watsyn b2_pan="0" envAtt_denominator="4" b1_wave="WLMevoAP3r4gpie/09hNv65bY78W7Gy/b3Rvv2aGbr/cU2y/EA1qvzIPaL/5PWa/r3Vkv2WtYr8c5WC/0hxfv4hUXb8/jFu/9cNZv6v7V79iM1a/GGtUv86iUr+F2lC/OxJPv/JJTb+ogUu/XrlJvxXxR7/LKEa/gWBEvziYQr/uz0C/pAc/v1s/Pb8Rdzu/yK45v37mN780Hja/61U0v6GNMr9XxTC/Dv0uv8Q0Lb96bCu/MaQpv+fbJ7+dEya/VEskvwqDIr/BuiC/d/Iev4/YG7/tGhK/v3H4vicgvr77LI++NDNtvlZVVb5cj0K+Y8kvvmoDHb4iIgq+N9DtvRSux716FKa9aQONve7udr0NdFq9iyU/vQrXI72IiAi9DHTavAjXo7wKdFq8BnTauwAAgDEWdNo7EnRaPAzXozwQdNo8iogIPdijID2NJR89MpacPI/C9bzhesy9PQovvpqZbb53d4++YCyhvpDCrb7sUbi+banCvl10zb6G0Ni+mM/jvnIi7b5Kq/S+cFj7vlDuAL9oMAS/gHIHv5i0Cr8E+Q2/7DYRv9wcFL8k/hW/umgWvxWuFb/iehS/MzMTv4XrEb/XoxC/KVwPv3sUDr/NzAy/H4ULv3E9Cr/D9Qi/Fa4Hv2ZmBr+4HgW/hsoDv1swAr9Y8v++9ij6vui0875ERO2+Cfjmvgu24L4OdNq+EDLUvhLwzb4Vrse+F2zBvhkqu74b6LS+HqauviBkqL4REaG+pHCTvs3MbL6X/Aq+9llRvK/G9T1UZ4E+VhbAPioL8D5+lgU/3BMLP/VDDT8B5Q4/DYYQPxknEj8lyBM/MWkVPz0KFz9Jqxg/VUwaP2LtGz9ujh0/ei8fP4bQID+ScSI/nhIkP6qzJT+2VCc/wvUoP8+WKj/bNyw/59gtP/N5Lz//GjE/C7wyPxddND8j/jU/L583PzxAOT9I4To/VII8P2AjPj9sxD8/eGVBP4QGQz+Qp0Q/nEhGP6jpRz+1ikk/wStLP83MTD/ZbU4/5Q5QP/GvUT/9UFM/CfJUPxWTVj8iNFg/LtVZPzp2Wz9GF10/UrheP15ZYD9q+mE/dptjP4I8ZT+P3WY/m35oP6cfaj9Bs2s/MwRtP03YbT9vMW4/PMJtP02vaj/mB2E/C4VLP1hSJT/wZ9k+OGQVPg==" envDec_numerator="4" b2_mult="4" b1_vol="63.7" envAtt_numerator="4" a1_rtune="1" envDec_denominator="4" a2_wave="sTlbPzfpXj8yamI/6LtlP6XdaD/Dzms/pI5uP7cccT9xeHM/VaF1P/CWdz/YWHk/seZ6PyZAfD/wZH0/0lR+P5kPfz8elX8/RuV/PwAAgD9G5X8/HpV/P5kPfz/SVH4/8GR9PyZAfD+x5no/2Fh5P++Wdz9VoXU/cHhzP7YccT+kjm4/ws5rP6TdaD/nu2U/MmpiPzfpXj+xOVs/ZVxXPyFSUz+9G08/GbpKPyMuRj/MeEE/EJs8P/KVNz9/ajI/yxktP/OkJz8ZDSI/alMcPxd5Fj9ZfxA/b2cKP58yBD9qxPs+BO/uPrvn4T5HsdQ+ak7HPu/BuT6rDqw+czeePjo/kD7iKII+uu5nPkJbSz5VnS4+8roRPkN06T3jQa892NVpPS3u6Twuvbuzi+7pvAfWab37Qa+9WnTpvf66Eb5gnS6+TltLvsXuZ77oKIK+QD+Qvnk3nr6xDqy+9cG5vm9Ox75MsdS+wOfhvgrv7r5vxPu+ojIEv3JnCr9bfxC/GnkWv21THL8cDSK/9aQnv80ZLb+BajK/9JU3vxKbPL/OeEG/KC5Gvxu6Sr+/G0+/IFJTv2ZcV7+wOVu/OelevzJqYr/pu2W/pN1ov8POa7+kjm6/txxxv3B4c79VoXW/8ZZ3v9lYeb+y5nq/JkB8v/Fkfb/SVH6/mQ9/vx6Vf79G5X+/AACAv0blf78elX+/mA9/v9JUfr/wZH2/JkB8v7Dmer/ZWHm/75Z3v1Whdb9weHO/tBxxv6OObr/Azmu/pN1ov+W7Zb8yamK/NOlev7A5W79iXFe/IFJTv7obT78bukq/Ii5Gv854Qb8Pmzy/85U3v35qMr/NGS2/8qQnvxsNIr9pUxy/E3kWv1h/EL9qZwq/njIEv2HE+74C7+6+sefhvkSx1L5gTse+7MG5vqEOrL54N56+Nz+Qvucogr607me+TFtLvk+dLr78uhG+N3TpvfhBr73B1Wm9fu7pvAAAAABi7uk89tVpPfNBrz1VdOk9/LoRPl+dLj5NW0s+xe5nPugogj5BP5A+ejeePqoOrD7vwbk+ak7HPkex1D685+E+Be/uPmvE+z6gMgQ/cGcKP1p/ED8YeRY/a1McPxsNIj/1pCc/zRktP4BqMj/zlTc/EZs8P854QT8mLkY/G7pKP70bTz8gUlM/ZFxXPw==" a1_ltune="7" b2_vol="146.3" envAtt="2" envHold="0" a2_rtune="-11" envAtt_syncmode="0" b2_wave="XvhLv5WZRr97BkG/lTo7v5w0Nb/a9C6/U3wov07MIb8r5hq/WcsTv1V9DL+k/QS/tpv6viDf6r7VyNq+LFzKvpicub6Xjai+tjKXvpaPhb7ST2e+7f5Cvrw0Hr7B9/G9Ws6mvaB9Nr2ymf+7EL/mPIg/fz3dGb89GHf1PbOhED6onyE+zk8vPoYePD51gko+SDRcPp27cT68N4U+iGiSPpSHnz6qwas+pIW2Pi6Zvz5nFsc+iFbNPtDP0j7O79c+q/3cPiMO4j6wCuc+YsTrPpgI8D4gsvM+9rX2Pswq+T5/R/s+M1b9PhSg/z4iLgE/+NQCP0XKBD/9DAc/FJYJP9dXDD96Pg8/mTISP5MbFT8+4Bc/AWgaP0afHD/Ufh4/qhAgP5ZsIT92rCI/694jP4UBJT8+BiY/ReAmP5iPJz+tJCg/IrsoP2RvKT/PVCo/f3ArPyW6LD8WIS4/FZIvPyP7MD8MTTI/2nwzP7iGND86cTU/nU02P34yNz/CMjg/CVY5P66XOj9w7Ds/PEk9P12lPj+Q9z8/CDNBPxBKQj/ZNUM/q/1DP8i2RD9ne0U/X11GP05cRz8iZUg/MVtJP0AlSj8Ot0o/KhNLPwpGSz8lX0s/cmxLP7t5Sz/Zkks/t8VLP9EhTD+Ts0w/ZX1NP3NyTj/Zd08/6mxQP7k2UT96yFE/hCRSPwdXUj+EblI/qHVSPytvUj/cUVI//gJSP7pQUT8j8k8/vZNNP0/xST8F80Q/Vbs+P5iVNz+ewy8/UzgnP+pXHT8Z3BA/zPr/Pgrt0T7GmJU+GSIYPmyzQrz6lzO+/rSnvkVm6r4Y1A+/oyckv+KKM788nD+/ZbhJv0LAUr/NGlu/Cddiv1PVab9P6W+/5+90v+DaeL/ntHu/1p99v3PNfr/SdH+/xMd/vwnsf7/d+X+/Zf5/v6j/f7/v/3+//f9/vwAAgL8AAIC/AACAvwAAgL8AAIC/AACAvwAAgL8AAIC/AACAvwAAgL8AAIC/AACAvwAAgL8AAIC/AACAvwAAgL8AAIC/AACAvwAAgL8AAIC/AACAv/3/f7/4/3+/zv9/vyD/f7+j/H+/yfR/vzzff79Uq3+/pzx/v2Zqfr9ZBH2/h956v1/gd7+JEHS/7pVvvw2sar99j2W/BWxgv0dUW7+GRFa/QyxRvw==" a2_ltune="-1" a1_pan="0" a1_mult="8" xtalk="0" amod="0" envHold_numerator="4" envAmt="134" b1_rtune="-7" a2_pan="-11.1" envDec_syncmode="0" bmod="3" b1_mult="24" b1_ltune="2" a1_vol="103.4" b2_rtune="0" a1_wave="jfp2P4DMdz+N+nY/4Kp0P+c8cT+/Hm0/gKhoPwUPZD+Hal8/ccNaP+0bVj9ddFE/zcxMPz0lSD+sfUM/HNY+P4wuOj/7hjU/a98wP9s3LD9KkCc/uugiPypBHj+amRk/CfIUP3lKED/pogs/WPsGP8hTAj9wWPs+TwnyPi+66D4Oa98+3RvWPoDLzD6hcMM+QNu5PpZirz6WX6I+5NyPPszMTD7QzMw9ANcjvdDMTL6QwnW+kMJ1vrgehb64HoW+uB6Fvrgehb64HoW+uB6Fvrgehb64HoW+uB6FvpDCdb6QwnW+kMJ1vpDCdb6QwnW+kMJ1vrBHYb6wR2G+sEdhvrBHYb6wR2G+sEdhvrBHYb4Oa1++TwlyvshTgr7poou+CfKUvipBnr5KkKe+a9+wvowuur6sfcO+zczMvu0b1r4Oa9++L7rovk8J8r5wWPu+yFMCv1j7Br/pogu/eUoQvwnyFL+amRm/KkEev7roIr9KkCe/2zcsv2vfML/7hjW/jC46vxzWPr+sfUO/PSVIv83MTL9ddFG/7RtWv3HDWr+Hal+/BQ9kv4CoaL+/Hm2/5zxxv+CqdL+N+na/gMx3v436dr/gqnS/5zxxv78ebb+AqGi/BQ9kv4dqX79xw1q/7RtWv110Ub/NzEy/PSVIv6x9Q78c1j6/jC46v/uGNb9r3zC/2zcsv0qQJ7+66CK/KkEev5qZGb8J8hS/eUoQv+miC79Y+wa/yFMCv3BY+75PCfK+L7rovg5r377tG9a+zczMvqx9w76MLrq+a9+wvkqQp74qQZ6+CfKUvumii77IU4K+Twlyvg5rX77NzEy+jC46vuxROD7MzEw+zMxMPszMTD7MzEw+zMxMPszMTD7MzEw+zMxMPszMTD7MzEw+zMxMPszMTD7MzEw+zMxMPszMTD7MzEw+zMxMPszMTD7MzEw+zMxMPszMTD6wR2E+kMJ1PrgehT6amZk+CtejPuxRuD5cj8I+zMzMPj4K1z6uR+E+HoXrPpDC9T6QwvU+AAAAPwAAAD+4HgU/cD0KPylcDz95ShA/CfIUP5qZGT8qQR4/uugiP0qQJz/bNyw/a98wP/uGNT+MLjo/HNY+P6x9Qz89JUg/zcxMP110UT/tG1Y/ccNaP4dqXz8FD2Q/gKhoP78ebT/nPHE/4Kp0Pw==" envHold_syncmode="0" a2_vol="134.6" b1_pan="21.9" a2_mult="4" envDec="145" b2_ltune="-12" envHold_denominator="4" abmix="-84.3"/>
           </instrument>
           <eldata fres="0.5" ftype="0" fcut="14000" fwet="0">
             <elvol userwavefile="" sustain="0.904" lpdel="0" lspd_denominator="4" ctlenvamt="0" rel="0.121" amt="1" lspd_numerator="4" lspd_syncmode="0" latt="0" pdel="0" lspd="0.1" dec="0.5" lamt="0" x100="0" lshp="0" hold="0.242">
-              <att scale_type="linear" value="0.926624" id="6180817"/>
+              <att scale_type="linear" value="0.058" id="6180817"/>
             </elvol>
             <elcut lspd_denominator="4" sustain="0.5" pdel="0" userwavefile="" dec="0.5" lamt="0" latt="0" rel="0.1" amt="0" x100="0" att="0" lpdel="0" hold="0.5" lspd_syncmode="0" lshp="0" lspd="0.1" ctlenvamt="0" lspd_numerator="4"/>
             <elres lspd_denominator="4" sustain="0.692" pdel="0" userwavefile="" dec="0.5" lamt="0" latt="0" rel="0.263" amt="0" x100="0" att="0" lpdel="0" hold="0.116" lspd_syncmode="0" lshp="0" lspd="0.1" ctlenvamt="0" lspd_numerator="4"/>
@@ -279,7 +279,7 @@
           <chordcreator chord="0" chordrange="1" chord-enabled="0"/>
           <arpeggiator arptime="100" arprange="1" arpskip="0" arptime_denominator="4" arptime_syncmode="0" arpmode="0" arpcycle="0" arp-enabled="0" arp="0" arptime_numerator="4" arpdir="0" arpmiss="0" arpgate="100"/>
           <midiport inputcontroller="0" inports="" fixedoutputvelocity="-1" inputchannel="0" outputcontroller="0" writable="0" outputchannel="1" fixedinputvelocity="-1" fixedoutputnote="-1" outputprogram="1" basevelocity="63" readable="1"/>
-          <fxchain numofeffects="3" enabled="1">
+          <fxchain numofeffects="5" enabled="1">
             <effect autoquit_syncmode="0" autoquit_numerator="4" autoquit_denominator="4" autoquit="1" gate="0" name="ladspaeffect" wet="1" on="1">
               <ladspacontrols link="1" ports="12">
                 <port01 data_syncmode="0" data_numerator="4" data_denominator="4" link="1">
@@ -338,6 +338,31 @@
                 <attribute value="calf" name="file"/>
                 <attribute value="Reverb" name="plugin"/>
               </key>
+            </effect>
+            <effect autoquit_syncmode="0" autoquit_numerator="4" autoquit_denominator="4" autoquit="1" gate="0" name="ladspaeffect" wet="1" on="1">
+              <ladspacontrols link="1" ports="2">
+                <port00 link="1" data="-18.725"/>
+                <port10 data="-18.725"/>
+              </ladspacontrols>
+              <key>
+                <attribute value="amp_1181" name="file"/>
+                <attribute value="amp" name="plugin"/>
+              </key>
+            </effect>
+            <effect autoquit_syncmode="0" autoquit_numerator="4" autoquit_denominator="4" autoquit="1" gate="0" name="eq" wet="1" on="1">
+              <Eq HPactive="1" LP="0" Peak4active="0" HP48="1" HP24="0" Peak4gain="0" HighShelfres="1.4" AnalyseOut="1" LPres="0.707" Peak1active="0" HPres="0.707" Highshelfactive="1" HP="2" HighShelfgain="1.44" LPactive="0" AnalyseIn="1" LP12="1" Peak2active="0" LowShelfres="1.4" Peak4bw="0.3" HP12="0" Peak2gain="0" Lowshelfgain="0" Peak3bw="0.3" Outputgain="0" Peak3active="0" Peak2bw="0.3" Lowshelfactive="0" Peak1bw="0.3" LP48="0" Peak3gain="0" LP24="0">
+                <Inputgain scale_type="log" value="0" id="500082"/>
+                <Peak1gain scale_type="log" value="0" id="1124797"/>
+                <HPfreq scale_type="log" value="31.9665" id="2700334"/>
+                <LowShelffreq scale_type="log" value="80" id="7191476"/>
+                <Peak1freq scale_type="log" value="120" id="7374158"/>
+                <Peak2freq scale_type="log" value="250" id="6423559"/>
+                <Peak3freq scale_type="log" value="2000" id="3927294"/>
+                <Peak4freq scale_type="log" value="4000" id="3101725"/>
+                <Highshelffreq scale_type="log" value="1606.38" id="7943240"/>
+                <LPfreq scale_type="log" value="18000" id="6548650"/>
+              </Eq>
+              <key/>
             </effect>
           </fxchain>
         </instrumenttrack>
@@ -685,7 +710,7 @@
           <chordcreator chord="0" chordrange="1" chord-enabled="0"/>
           <arpeggiator arptime="100" arprange="1" arpskip="0" arptime_denominator="4" arptime_syncmode="0" arpmode="0" arpcycle="0" arp-enabled="0" arp="0" arptime_numerator="4" arpdir="0" arpmiss="0" arpgate="100"/>
           <midiport inputcontroller="0" inports="" fixedoutputvelocity="-1" inputchannel="0" outputcontroller="0" writable="0" outputchannel="1" fixedinputvelocity="-1" fixedoutputnote="-1" outputprogram="1" basevelocity="63" readable="1"/>
-          <fxchain numofeffects="4" enabled="1">
+          <fxchain numofeffects="5" enabled="1">
             <effect autoquit_syncmode="0" autoquit_numerator="4" autoquit_denominator="4" autoquit="1" gate="0" name="dualfilter" wet="1" on="1">
               <DualFilterControls gain2="100" cut1="4262" cut2="1713" mix="0.17" res1="1.33" res2="5.92" filter1="0" filter2="13" enabled1="1" enabled2="1" gain1="100"/>
               <key/>
@@ -736,6 +761,21 @@
                 <attribute value="calf" name="file"/>
                 <attribute value="Reverb" name="plugin"/>
               </key>
+            </effect>
+            <effect autoquit_syncmode="0" autoquit_numerator="4" autoquit_denominator="4" autoquit="1" gate="0" name="eq" wet="1" on="1">
+              <Eq HPactive="0" LP="0" Peak4active="0" HP48="0" HP24="0" Peak4gain="0" HighShelfres="1.4" AnalyseOut="1" LPres="0.707" Peak1active="0" HPres="0.707" Highshelfactive="1" HP="0" HighShelfgain="1.62" LPactive="0" AnalyseIn="1" LP12="1" Peak2active="0" LowShelfres="1.4" Peak4bw="0.3" HP12="1" Peak2gain="0" Lowshelfgain="-18" Peak3bw="0.3" Outputgain="0" Peak3active="0" Peak2bw="0.3" Lowshelfactive="1" Peak1bw="0.3" LP48="0" Peak3gain="0" LP24="0">
+                <Inputgain scale_type="log" value="0" id="5135732"/>
+                <Peak1gain scale_type="log" value="0" id="2824916"/>
+                <HPfreq scale_type="log" value="324.61" id="5118052"/>
+                <LowShelffreq scale_type="log" value="223.747" id="597604"/>
+                <Peak1freq scale_type="log" value="120" id="1410647"/>
+                <Peak2freq scale_type="log" value="250" id="422200"/>
+                <Peak3freq scale_type="log" value="2000" id="256793"/>
+                <Peak4freq scale_type="log" value="4000" id="3903131"/>
+                <Highshelffreq scale_type="log" value="4926.23" id="4776976"/>
+                <LPfreq scale_type="log" value="18000" id="7567737"/>
+              </Eq>
+              <key/>
             </effect>
           </fxchain>
         </instrumenttrack>
@@ -1027,7 +1067,7 @@
     <ControllerRackView width="350" x="680" y="310" maximized="0" height="200" visible="1" minimized="0"/>
     <pianoroll width="860" x="206" y="406" maximized="0" height="480" visible="1" minimized="0"/>
     <automationeditor width="860" x="405" y="354" maximized="0" height="400" visible="1" minimized="0"/>
-    <projectnotes width="799" x="700" y="10" maximized="0" height="400" visible="0" minimized="0"><![CDATA[<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd">
+    <projectnotes width="803" x="700" y="10" maximized="0" height="400" visible="0" minimized="0"><![CDATA[<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd">
 <html><head><meta name="qrichtext" content="1" /><style type="text/css">
 p, li { white-space: pre-wrap; }
 </style></head><body style=" font-family:'Ubuntu'; font-size:11pt; font-weight:400; font-style:normal;">

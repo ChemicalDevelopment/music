@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <!DOCTYPE lmms-project>
-<lmms-project version="1.0" creator="LMMS" creatorversion="1.2.0-rc5.17" type="song">
+<lmms-project version="1.0" creator="LMMS" creatorversion="1.2.0-rc5.47" type="song">
   <head timesig_numerator="4" mastervol="100" timesig_denominator="4" bpm="192" masterpitch="0"/>
   <song>
     <trackcontainer width="1210" x="586" y="30" maximized="0" height="436" visible="1" type="song" minimized="0">
@@ -10,7 +10,7 @@
             <track muted="0" type="0" name="kick" solo="0">
               <instrumenttrack pan="0" fxch="0" usemasterpitch="1" pitchrange="12" pitch="-300" basenote="57" vol="128.6">
                 <instrument name="audiofileprocessor">
-                  <audiofileprocessor reversed="0" looped="0" lframe="0.0436671" interp="1" eframe="1" stutter="0" sframe="0" src="TriSamples_v1/Kicks/Kick 027 - 80s Gem - TRI.wav" amp="100"/>
+                  <audiofileprocessor reversed="0" looped="0" lframe="0.0436671" interp="1" eframe="1" stutter="0" sframe="0" src="TriSamples_v1/Kicks/Kick 027 - 80s Gem - TRI.wav" amp="115"/>
                 </instrument>
                 <eldata fres="0.5" ftype="0" fcut="14000" fwet="0">
                   <elvol lspd_denominator="4" sustain="0.5" pdel="0" userwavefile="" dec="0.5" lamt="0" latt="0" rel="0.1" amt="0" x100="0" att="0" lpdel="0" hold="0.5" lspd_syncmode="0" lshp="0" lspd="0.1" ctlenvamt="0" lspd_numerator="4"/>
@@ -20,7 +20,7 @@
                 <chordcreator chord="0" chordrange="1" chord-enabled="0"/>
                 <arpeggiator arptime="200" arprange="1" arpskip="0" arptime_denominator="4" arptime_syncmode="0" arpmode="0" arpcycle="0" arp-enabled="0" arp="0" arptime_numerator="4" arpdir="0" arpmiss="0" arpgate="100"/>
                 <midiport inputcontroller="0" fixedoutputvelocity="-1" inputchannel="0" outputcontroller="0" writable="0" outputchannel="1" fixedinputvelocity="-1" fixedoutputnote="-1" outputprogram="1" basevelocity="63" readable="0"/>
-                <fxchain numofeffects="1" enabled="1">
+                <fxchain numofeffects="2" enabled="1">
                   <effect autoquit_syncmode="0" autoquit_numerator="4" autoquit_denominator="4" autoquit="1" gate="0" name="ladspaeffect" wet="1" on="1">
                     <ladspacontrols ports="9">
                       <port07>
@@ -46,6 +46,21 @@
                       <attribute value="Reverb" name="plugin"/>
                     </key>
                   </effect>
+                  <effect autoquit_syncmode="0" autoquit_numerator="4" autoquit_denominator="4" autoquit="1" gate="0" name="eq" wet="1" on="1">
+                    <Eq HPactive="0" LP="0" Peak4active="0" HP48="0" HP24="0" Peak4gain="0" HighShelfres="1.4" AnalyseOut="1" LPres="0.707" Peak1active="0" HPres="0.707" Highshelfactive="1" HP="0" HighShelfgain="2.34" LPactive="0" AnalyseIn="1" LP12="1" Peak2active="0" LowShelfres="1.4" Peak4bw="0.3" HP12="1" Peak2gain="0" Lowshelfgain="0" Peak3bw="0.3" Outputgain="0" Peak3active="0" Peak2bw="0.3" Lowshelfactive="0" Peak1bw="0.3" LP48="0" Peak3gain="0" LP24="0">
+                      <Inputgain scale_type="log" value="0" id="5426497"/>
+                      <Peak1gain scale_type="log" value="0" id="6950894"/>
+                      <HPfreq scale_type="log" value="31" id="7211630"/>
+                      <LowShelffreq scale_type="log" value="80" id="5262814"/>
+                      <Peak1freq scale_type="log" value="120" id="6593886"/>
+                      <Peak2freq scale_type="log" value="250" id="5401394"/>
+                      <Peak3freq scale_type="log" value="2000" id="6505831"/>
+                      <Peak4freq scale_type="log" value="4000" id="4138653"/>
+                      <Highshelffreq scale_type="log" value="1315.77" id="3495471"/>
+                      <LPfreq scale_type="log" value="1520.33" id="7274839"/>
+                    </Eq>
+                    <key/>
+                  </effect>
                 </fxchain>
               </instrumenttrack>
               <pattern steps="16" muted="0" type="0" name="kick" pos="0">
@@ -57,7 +72,7 @@
             <track muted="0" type="0" name="snare" solo="0">
               <instrumenttrack pan="28.7" fxch="0" usemasterpitch="1" pitchrange="1" pitch="0" basenote="57" vol="124.9">
                 <instrument name="audiofileprocessor">
-                  <audiofileprocessor reversed="0" looped="0" lframe="0" interp="1" eframe="1" stutter="0" sframe="0" src="TriSamples_v1/Snares/Snare 009 - Retro 80s Snare - TRI.wav" amp="157"/>
+                  <audiofileprocessor reversed="0" looped="0" lframe="0" interp="1" eframe="1" stutter="0" sframe="0" src="TriSamples_v1/Snares/Snare 009 - Retro 80s Snare - TRI.wav" amp="178"/>
                 </instrument>
                 <eldata fres="0.5" ftype="0" fcut="14000" fwet="0">
                   <elvol lspd_denominator="4" sustain="0.5" pdel="0" userwavefile="" dec="0.5" lamt="0" latt="0" rel="0.1" amt="0" x100="0" att="0" lpdel="0" hold="0.5" lspd_syncmode="0" lshp="0" lspd="0.1" ctlenvamt="0" lspd_numerator="4"/>
@@ -67,7 +82,7 @@
                 <chordcreator chord="0" chordrange="1" chord-enabled="0"/>
                 <arpeggiator arptime="200" arprange="1" arpskip="0" arptime_denominator="4" arptime_syncmode="0" arpmode="0" arpcycle="0" arp-enabled="0" arp="0" arptime_numerator="4" arpdir="0" arpmiss="0" arpgate="100"/>
                 <midiport inputcontroller="0" fixedoutputvelocity="-1" inputchannel="0" outputcontroller="0" writable="0" outputchannel="1" fixedinputvelocity="-1" fixedoutputnote="-1" outputprogram="1" basevelocity="63" readable="0"/>
-                <fxchain numofeffects="2" enabled="1">
+                <fxchain numofeffects="3" enabled="1">
                   <effect autoquit_syncmode="0" autoquit_numerator="4" autoquit_denominator="4" autoquit="1" gate="0" name="ladspaeffect" wet="1" on="0">
                     <ladspacontrols link="1" ports="4">
                       <port00 data_syncmode="0" data_numerator="4" data_denominator="4" link="1" data="481.25"/>
@@ -83,7 +98,7 @@
                   <effect autoquit_syncmode="0" autoquit_numerator="4" autoquit_denominator="4" autoquit="1" gate="0" name="ladspaeffect" wet="1" on="1">
                     <ladspacontrols ports="9">
                       <port07>
-                        <data scale_type="log" value="1.21363" id="3161422"/>
+                        <data scale_type="log" value="1.87063" id="3161422"/>
                       </port07>
                       <port08>
                         <data scale_type="log" value="6075" id="7057310"/>
@@ -104,6 +119,21 @@
                       <attribute value="calf" name="file"/>
                       <attribute value="Reverb" name="plugin"/>
                     </key>
+                  </effect>
+                  <effect autoquit_syncmode="0" autoquit_numerator="4" autoquit_denominator="4" autoquit="1" gate="0" name="eq" wet="1" on="0">
+                    <Eq HPactive="1" LP="0" Peak4active="0" HP48="0" HP24="0" Peak4gain="0" HighShelfres="1.4" AnalyseOut="1" LPres="0.707" Peak1active="1" HPres="0.707" Highshelfactive="0" HP="0" HighShelfgain="0" LPactive="0" AnalyseIn="1" LP12="1" Peak2active="0" LowShelfres="1.4" Peak4bw="0.3" HP12="1" Peak2gain="0" Lowshelfgain="-0.54" Peak3bw="0.3" Outputgain="0" Peak3active="0" Peak2bw="0.3" Lowshelfactive="0" Peak1bw="1.148" LP48="0" Peak3gain="0" LP24="0">
+                      <Inputgain scale_type="log" value="0" id="1201452"/>
+                      <Peak1gain scale_type="log" value="-17.46" id="7959054"/>
+                      <HPfreq scale_type="log" value="41.1494" id="3419619"/>
+                      <LowShelffreq scale_type="log" value="59.7618" id="5226861"/>
+                      <Peak1freq scale_type="log" value="59.2263" id="8169662"/>
+                      <Peak2freq scale_type="log" value="250" id="4241408"/>
+                      <Peak3freq scale_type="log" value="2000" id="3320386"/>
+                      <Peak4freq scale_type="log" value="4000" id="3905050"/>
+                      <Highshelffreq scale_type="log" value="12000" id="538739"/>
+                      <LPfreq scale_type="log" value="18000" id="5859288"/>
+                    </Eq>
+                    <key/>
                   </effect>
                 </fxchain>
               </instrumenttrack>
@@ -852,6 +882,53 @@ licensed under LGPL v2 or later license</string>
               </pattern>
               <pattern steps="16" muted="0" type="0" name="FX gunshot" pos="384"/>
             </track>
+            <track muted="1" type="0" name="EkaliBlessingsSnare.wav" solo="0">
+              <instrumenttrack pan="0" fxch="0" usemasterpitch="1" pitchrange="1" pitch="0" basenote="57" vol="100">
+                <instrument name="audiofileprocessor">
+                  <audiofileprocessor reversed="0" looped="0" lframe="0" interp="1" eframe="1" stutter="0" sframe="0" src="Ekali/EkaliBlessingsSnare.wav" amp="100"/>
+                </instrument>
+                <eldata fres="0.5" ftype="0" fcut="14000" fwet="0">
+                  <elvol lspd_denominator="4" sustain="0.5" pdel="0" userwavefile="" dec="0.5" lamt="0" latt="0" rel="0.1" amt="0" x100="0" att="0" lpdel="0" hold="0.5" lspd_syncmode="0" lshp="0" lspd="0.1" ctlenvamt="0" lspd_numerator="4"/>
+                  <elcut lspd_denominator="4" sustain="0.5" pdel="0" userwavefile="" dec="0.5" lamt="0" latt="0" rel="0.1" amt="0" x100="0" att="0" lpdel="0" hold="0.5" lspd_syncmode="0" lshp="0" lspd="0.1" ctlenvamt="0" lspd_numerator="4"/>
+                  <elres lspd_denominator="4" sustain="0.5" pdel="0" userwavefile="" dec="0.5" lamt="0" latt="0" rel="0.1" amt="0" x100="0" att="0" lpdel="0" hold="0.5" lspd_syncmode="0" lshp="0" lspd="0.1" ctlenvamt="0" lspd_numerator="4"/>
+                </eldata>
+                <chordcreator chord="0" chordrange="1" chord-enabled="0"/>
+                <arpeggiator arptime="200" arprange="1" arpskip="0" arptime_denominator="4" arptime_syncmode="0" arpmode="0" arpcycle="0" arp-enabled="0" arp="0" arptime_numerator="4" arpdir="0" arpmiss="0" arpgate="100"/>
+                <midiport inputcontroller="0" fixedoutputvelocity="-1" inputchannel="0" outputcontroller="0" writable="0" outputchannel="1" fixedinputvelocity="-1" fixedoutputnote="-1" outputprogram="1" basevelocity="63" readable="0"/>
+                <fxchain numofeffects="1" enabled="1">
+                  <effect autoquit_syncmode="0" autoquit_numerator="4" autoquit_denominator="4" autoquit="1" gate="0" name="ladspaeffect" wet="1" on="1">
+                    <ladspacontrols ports="9">
+                      <port07>
+                        <data scale_type="log" value="0.50005" id="2668086"/>
+                      </port07>
+                      <port08>
+                        <data scale_type="log" value="4272.75" id="3725972"/>
+                      </port08>
+                      <port09 data="2"/>
+                      <port010 data="0.6975"/>
+                      <port011 data="0.5"/>
+                      <port012 data="1"/>
+                      <port013 data="0"/>
+                      <port014>
+                        <data scale_type="log" value="1011.49" id="7073777"/>
+                      </port014>
+                      <port015>
+                        <data scale_type="log" value="2984.51" id="2076289"/>
+                      </port015>
+                    </ladspacontrols>
+                    <key>
+                      <attribute value="calf" name="file"/>
+                      <attribute value="Reverb" name="plugin"/>
+                    </key>
+                  </effect>
+                </fxchain>
+              </instrumenttrack>
+              <pattern steps="16" muted="0" type="0" name="EkaliBlessingsSnare.wav" pos="0">
+                <note pan="0" key="57" vol="100" pos="96" len="-192"/>
+              </pattern>
+              <pattern steps="16" muted="0" type="0" name="EkaliBlessingsSnare.wav" pos="192"/>
+              <pattern steps="16" muted="0" type="0" name="EkaliBlessingsSnare.wav" pos="384"/>
+            </track>
           </trackcontainer>
         </bbtrack>
         <bbtco muted="0" usestyle="1" name="" pos="192" color="4286611584" len="192"/>
@@ -1127,8 +1204,8 @@ licensed under LGPL v2 or later license</string>
         <bbtco muted="0" usestyle="1" name="" pos="25536" color="4286611584" len="192"/>
         <bbtco muted="0" usestyle="1" name="" pos="25344" color="4286611584" len="192"/>
       </track>
-      <track muted="0" type="0" name="percussive bass" solo="0">
-        <instrumenttrack pan="-37.9" fxch="0" usemasterpitch="1" pitchrange="12" pitch="0" basenote="69" vol="116.9">
+      <track width="262" x="388" y="365" maximized="0" muted="0" height="464" visible="1" type="0" minimized="0" name="percussive bass" tab="3" solo="0">
+        <instrumenttrack pan="-37.9" fxch="0" usemasterpitch="1" pitchrange="12" pitch="0" basenote="69" vol="84.8">
           <instrument name="tripleoscillator">
             <tripleoscillator phoffset2="0" userwavefile0="" finer0="0" userwavefile1="" finer1="0" userwavefile2="" finer2="0" coarse0="-24" coarse1="24" coarse2="-12" finel0="0" finel1="0" modalgo1="2" modalgo2="4" finel2="0" pan0="0" modalgo3="2" pan1="0" stphdetun0="0" pan2="0" stphdetun1="0" wavetype0="3" stphdetun2="0" wavetype1="2" wavetype2="1" vol0="33" vol1="33" phoffset0="0" phoffset1="0" vol2="4"/>
           </instrument>
@@ -1140,7 +1217,7 @@ licensed under LGPL v2 or later license</string>
           <chordcreator chord="0" chordrange="1" chord-enabled="0"/>
           <arpeggiator arptime="78.125" arprange="3" arpskip="0" arptime_denominator="4" arptime_syncmode="6" arpmode="1" arpcycle="0" arp-enabled="0" arp="0" arptime_numerator="4" arpdir="0" arpmiss="0" arpgate="86"/>
           <midiport inputcontroller="0" fixedoutputvelocity="-1" inputchannel="0" outputcontroller="0" writable="0" outputchannel="1" fixedinputvelocity="-1" fixedoutputnote="-1" outputprogram="1" basevelocity="63" readable="0"/>
-          <fxchain numofeffects="6" enabled="1">
+          <fxchain numofeffects="7" enabled="1">
             <effect autoquit_syncmode="0" autoquit_numerator="4" autoquit_denominator="4" autoquit="1" gate="0" name="ladspaeffect" wet="1" on="1">
               <ladspacontrols link="1" ports="14">
                 <port01 link="1" data="2.0275"/>
@@ -1244,6 +1321,21 @@ licensed under LGPL v2 or later license</string>
                 <attribute value="calf" name="file"/>
                 <attribute value="Reverb" name="plugin"/>
               </key>
+            </effect>
+            <effect autoquit_syncmode="0" autoquit_numerator="4" autoquit_denominator="4" autoquit="1" gate="0" name="eq" wet="1" on="1">
+              <Eq HPactive="0" LP="0" Peak4active="0" HP48="0" HP24="0" Peak4gain="0" HighShelfres="1.4" AnalyseOut="1" LPres="0.707" Peak1active="0" HPres="0.707" Highshelfactive="1" HP="0" HighShelfgain="3.24" LPactive="0" AnalyseIn="1" LP12="1" Peak2active="0" LowShelfres="1.4" Peak4bw="0.3" HP12="1" Peak2gain="0" Lowshelfgain="0" Peak3bw="0.3" Outputgain="0" Peak3active="0" Peak2bw="0.3" Lowshelfactive="0" Peak1bw="0.3" LP48="0" Peak3gain="0" LP24="0">
+                <Inputgain scale_type="log" value="0" id="5576431"/>
+                <Peak1gain scale_type="log" value="0" id="2311858"/>
+                <HPfreq scale_type="log" value="31" id="6926455"/>
+                <LowShelffreq scale_type="log" value="80" id="2072823"/>
+                <Peak1freq scale_type="log" value="120" id="7232124"/>
+                <Peak2freq scale_type="log" value="250" id="6808534"/>
+                <Peak3freq scale_type="log" value="2000" id="3608146"/>
+                <Peak4freq scale_type="log" value="4000" id="925545"/>
+                <Highshelffreq scale_type="log" value="953.194" id="7565236"/>
+                <LPfreq scale_type="log" value="12645.6" id="6342966"/>
+              </Eq>
+              <key/>
             </effect>
           </fxchain>
         </instrumenttrack>
@@ -2418,7 +2510,7 @@ licensed under LGPL v2 or later license</string>
         </pattern>
       </track>
       <track muted="0" type="0" name="main melody" solo="0">
-        <instrumenttrack pan="22.7" fxch="1" usemasterpitch="1" pitchrange="12" pitch="0" basenote="57" vol="112.3">
+        <instrumenttrack pan="22.7" fxch="1" usemasterpitch="1" pitchrange="12" pitch="0" basenote="57" vol="115.5">
           <instrument name="zynaddsubfx">
             <zynaddsubfx resbandwidth="64" fmgain="127" portamento="0" modifiedcontrollers="" filterfreq="64" bandwidth="64" forwardmidicc="1" filterq="64" rescenterfreq="64">
               <ZynAddSubFX-data version-revision="1" version-minor="4" version-major="2" ZynAddSubFX-author="Nasca Octavian Paul">
@@ -2541,7 +2633,7 @@ Effects->FX No.2->Delay</string>
                                 <par value="64" name="R_val"/>
                               </FREQUENCY_ENVELOPE>
                               <FREQUENCY_LFO>
-                                <par_real value="0.551181" name="freq"/>
+                                <par_real value="0" name="freq"/>
                                 <par value="0" name="intensity"/>
                                 <par value="64" name="start_phase"/>
                                 <par value="0" name="lfo_type"/>
@@ -2580,7 +2672,7 @@ Effects->FX No.2->Delay</string>
                                 <par value="64" name="R_val"/>
                               </FILTER_ENVELOPE>
                               <FILTER_LFO>
-                                <par_real value="0.629921" name="freq"/>
+                                <par_real value="0" name="freq"/>
                                 <par value="0" name="intensity"/>
                                 <par value="64" name="start_phase"/>
                                 <par value="0" name="lfo_type"/>
@@ -3386,7 +3478,7 @@ Effects->FX No.2->Delay</string>
           <chordcreator chord="0" chordrange="1" chord-enabled="0"/>
           <arpeggiator arptime="200" arprange="1" arpskip="0" arptime_denominator="4" arptime_syncmode="0" arpmode="0" arpcycle="0" arp-enabled="0" arp="0" arptime_numerator="4" arpdir="0" arpmiss="0" arpgate="100"/>
           <midiport inputcontroller="0" inports="" fixedoutputvelocity="-1" inputchannel="0" outputcontroller="0" writable="0" outputchannel="1" fixedinputvelocity="-1" fixedoutputnote="-1" outputprogram="1" basevelocity="63" readable="1"/>
-          <fxchain numofeffects="1" enabled="1">
+          <fxchain numofeffects="2" enabled="1">
             <effect autoquit_syncmode="0" autoquit_numerator="4" autoquit_denominator="4" autoquit="1" gate="0" name="ladspaeffect" wet="1" on="1">
               <ladspacontrols link="1" ports="2">
                 <port00 link="1" data="21.175"/>
@@ -3396,6 +3488,21 @@ Effects->FX No.2->Delay</string>
                 <attribute value="amp_1181" name="file"/>
                 <attribute value="amp" name="plugin"/>
               </key>
+            </effect>
+            <effect autoquit_syncmode="0" autoquit_numerator="4" autoquit_denominator="4" autoquit="1" gate="0" name="eq" wet="1" on="0">
+              <Eq HPactive="1" LP="0" Peak4active="0" HP48="1" HP24="0" Peak4gain="0" HighShelfres="1.4" AnalyseOut="1" LPres="0.707" Peak1active="0" HPres="0.707" Highshelfactive="1" HP="2" HighShelfgain="-2.7" LPactive="0" AnalyseIn="1" LP12="1" Peak2active="0" LowShelfres="1.4" Peak4bw="0.3" HP12="0" Peak2gain="0" Lowshelfgain="0" Peak3bw="0.3" Outputgain="0" Peak3active="0" Peak2bw="0.3" Lowshelfactive="0" Peak1bw="0.3" LP48="0" Peak3gain="0" LP24="0">
+                <Inputgain scale_type="log" value="0" id="5395996"/>
+                <Peak1gain scale_type="log" value="0" id="2073572"/>
+                <HPfreq scale_type="log" value="35.0506" id="1498494"/>
+                <LowShelffreq scale_type="log" value="80" id="5448733"/>
+                <Peak1freq scale_type="log" value="120" id="6487951"/>
+                <Peak2freq scale_type="log" value="250" id="2581133"/>
+                <Peak3freq scale_type="log" value="2000" id="4248808"/>
+                <Peak4freq scale_type="log" value="4000" id="3154503"/>
+                <Highshelffreq scale_type="log" value="1336.13" id="445832"/>
+                <LPfreq scale_type="log" value="18000" id="2762045"/>
+              </Eq>
+              <key/>
             </effect>
           </fxchain>
         </instrumenttrack>
@@ -3507,8 +3614,8 @@ Effects->FX No.2->Delay</string>
         </pattern>
         <pattern steps="16" muted="0" type="0" name="main melody" pos="16896"/>
       </track>
-      <track muted="0" type="0" name="high square swoosh" solo="0">
-        <instrumenttrack pan="-28.9" fxch="1" usemasterpitch="1" pitchrange="12" pitch="0.0732422" basenote="57" vol="132.5">
+      <track width="262" x="1099" y="466" maximized="0" muted="0" height="464" visible="1" type="0" minimized="0" name="high square swoosh" tab="3" solo="0">
+        <instrumenttrack pan="-28.9" fxch="1" usemasterpitch="1" pitchrange="12" pitch="0.0732422" basenote="57" vol="120.1">
           <instrument name="zynaddsubfx">
             <zynaddsubfx resbandwidth="64" fmgain="127" portamento="0" modifiedcontrollers="" filterfreq="64" bandwidth="64" forwardmidicc="1" filterq="64" rescenterfreq="64">
               <ZynAddSubFX-data version-revision="1" version-minor="4" version-major="2" ZynAddSubFX-author="Nasca Octavian Paul">
@@ -3595,7 +3702,7 @@ GPL V 2 or later</string>
                                 <par value="64" name="R_val"/>
                               </AMPLITUDE_ENVELOPE>
                               <AMPLITUDE_LFO>
-                                <par_real value="0.63" name="freq"/>
+                                <par_real value="0" name="freq"/>
                                 <par value="20" name="intensity"/>
                                 <par value="64" name="start_phase"/>
                                 <par value="0" name="lfo_type"/>
@@ -3627,7 +3734,7 @@ GPL V 2 or later</string>
                                 <par value="64" name="R_val"/>
                               </FREQUENCY_ENVELOPE>
                               <FREQUENCY_LFO>
-                                <par_real value="0.601" name="freq"/>
+                                <par_real value="1" name="freq"/>
                                 <par value="46" name="intensity"/>
                                 <par value="64" name="start_phase"/>
                                 <par value="0" name="lfo_type"/>
@@ -3666,7 +3773,7 @@ GPL V 2 or later</string>
                                 <par value="64" name="R_val"/>
                               </FILTER_ENVELOPE>
                               <FILTER_LFO>
-                                <par_real value="0.63" name="freq"/>
+                                <par_real value="0" name="freq"/>
                                 <par value="0" name="intensity"/>
                                 <par value="64" name="start_phase"/>
                                 <par value="0" name="lfo_type"/>
@@ -4532,7 +4639,7 @@ GPL V 2 or later</string>
           <chordcreator chord="0" chordrange="1" chord-enabled="0"/>
           <arpeggiator arptime="200" arprange="1" arpskip="0" arptime_denominator="4" arptime_syncmode="0" arpmode="0" arpcycle="0" arp-enabled="0" arp="0" arptime_numerator="4" arpdir="0" arpmiss="0" arpgate="100"/>
           <midiport inputcontroller="0" inports="" fixedoutputvelocity="-1" inputchannel="0" outputcontroller="0" writable="0" outputchannel="1" fixedinputvelocity="-1" fixedoutputnote="-1" outputprogram="1" basevelocity="63" readable="1"/>
-          <fxchain numofeffects="1" enabled="1">
+          <fxchain numofeffects="2" enabled="1">
             <effect autoquit_syncmode="0" autoquit_numerator="4" autoquit_denominator="4" autoquit="1" gate="0" name="ladspaeffect" wet="1" on="1">
               <ladspacontrols link="1" ports="2">
                 <port00 link="1" data="14.875"/>
@@ -4542,6 +4649,21 @@ GPL V 2 or later</string>
                 <attribute value="amp_1181" name="file"/>
                 <attribute value="amp" name="plugin"/>
               </key>
+            </effect>
+            <effect autoquit_syncmode="0" autoquit_numerator="4" autoquit_denominator="4" autoquit="1" gate="0" name="eq" wet="1" on="1">
+              <Eq HPactive="1" LP="0" Peak4active="0" HP48="1" HP24="0" Peak4gain="0" HighShelfres="1.4" AnalyseOut="1" LPres="0.707" Peak1active="0" HPres="0.707" Highshelfactive="1" HP="2" HighShelfgain="1.26" LPactive="0" AnalyseIn="1" LP12="1" Peak2active="0" LowShelfres="1.4" Peak4bw="0.3" HP12="0" Peak2gain="0" Lowshelfgain="0" Peak3bw="0.3" Outputgain="0" Peak3active="0" Peak2bw="0.3" Lowshelfactive="0" Peak1bw="0.3" LP48="0" Peak3gain="0" LP24="0">
+                <Inputgain scale_type="log" value="0" id="6938496"/>
+                <Peak1gain scale_type="log" value="0" id="4189320"/>
+                <HPfreq scale_type="log" value="61.8531" id="6359499"/>
+                <LowShelffreq scale_type="log" value="80" id="4535950"/>
+                <Peak1freq scale_type="log" value="120" id="973336"/>
+                <Peak2freq scale_type="log" value="250" id="3486261"/>
+                <Peak3freq scale_type="log" value="2000" id="6114962"/>
+                <Peak4freq scale_type="log" value="4000" id="4763270"/>
+                <Highshelffreq scale_type="log" value="3356.2" id="2525513"/>
+                <LPfreq scale_type="log" value="18000" id="1746087"/>
+              </Eq>
+              <key/>
             </effect>
           </fxchain>
         </instrumenttrack>
@@ -4647,8 +4769,8 @@ GPL V 2 or later</string>
           <note pan="0" key="72" vol="100" pos="96" len="96"/>
         </pattern>
       </track>
-      <track muted="0" type="0" name="chords" solo="0">
-        <instrumenttrack pan="38.7" fxch="1" usemasterpitch="1" pitchrange="1" pitch="0.00610352" basenote="57" vol="136.3">
+      <track width="262" x="827" y="466" maximized="0" muted="0" height="464" visible="1" type="0" minimized="0" name="chords" tab="3" solo="0">
+        <instrumenttrack pan="38.7" fxch="1" usemasterpitch="1" pitchrange="1" pitch="0.00610352" basenote="57" vol="120.7">
           <instrument name="zynaddsubfx">
             <zynaddsubfx resbandwidth="64" fmgain="127" portamento="0" modifiedcontrollers="" filterfreq="64" bandwidth="64" forwardmidicc="1" filterq="64" rescenterfreq="64">
               <ZynAddSubFX-data version-revision="1" version-minor="4" version-major="2" ZynAddSubFX-author="Nasca Octavian Paul">
@@ -4816,7 +4938,7 @@ GPL V 2 or later</string>
                                 <par value="64" name="R_val"/>
                               </AMPLITUDE_ENVELOPE>
                               <AMPLITUDE_LFO>
-                                <par_real value="0.629921" name="freq"/>
+                                <par_real value="0" name="freq"/>
                                 <par value="0" name="intensity"/>
                                 <par value="64" name="start_phase"/>
                                 <par value="0" name="lfo_type"/>
@@ -4849,7 +4971,7 @@ GPL V 2 or later</string>
                                 <par value="64" name="R_val"/>
                               </FREQUENCY_ENVELOPE>
                               <FREQUENCY_LFO>
-                                <par_real value="0.581181" name="freq"/>
+                                <par_real value="0" name="freq"/>
                                 <par value="0" name="intensity"/>
                                 <par value="64" name="start_phase"/>
                                 <par value="0" name="lfo_type"/>
@@ -4888,7 +5010,7 @@ GPL V 2 or later</string>
                                 <par value="43" name="R_val"/>
                               </FILTER_ENVELOPE>
                               <FILTER_LFO>
-                                <par_real value="0.629921" name="freq"/>
+                                <par_real value="0" name="freq"/>
                                 <par value="0" name="intensity"/>
                                 <par value="64" name="start_phase"/>
                                 <par value="0" name="lfo_type"/>
@@ -5335,7 +5457,7 @@ GPL V 2 or later</string>
           <chordcreator chord="0" chordrange="1" chord-enabled="0"/>
           <arpeggiator arptime="200" arprange="1" arpskip="0" arptime_denominator="4" arptime_syncmode="0" arpmode="0" arpcycle="0" arp-enabled="0" arp="0" arptime_numerator="4" arpdir="0" arpmiss="0" arpgate="100"/>
           <midiport inputcontroller="0" inports="" fixedoutputvelocity="-1" inputchannel="0" outputcontroller="0" writable="0" outputchannel="1" fixedinputvelocity="-1" fixedoutputnote="-1" outputprogram="1" basevelocity="63" readable="1"/>
-          <fxchain numofeffects="2" enabled="1">
+          <fxchain numofeffects="3" enabled="1">
             <effect autoquit_syncmode="0" autoquit_numerator="4" autoquit_denominator="4" autoquit="1" gate="0" name="ladspaeffect" wet="1" on="1">
               <ladspacontrols link="1" ports="2">
                 <port00 link="1" data="0.7"/>
@@ -5370,6 +5492,21 @@ GPL V 2 or later</string>
                 <attribute value="calf" name="file"/>
                 <attribute value="Reverb" name="plugin"/>
               </key>
+            </effect>
+            <effect autoquit_syncmode="0" autoquit_numerator="4" autoquit_denominator="4" autoquit="1" gate="0" name="eq" wet="1" on="1">
+              <Eq HPactive="1" LP="0" Peak4active="0" HP48="1" HP24="0" Peak4gain="0" HighShelfres="1.4" AnalyseOut="1" LPres="0.707" Peak1active="0" HPres="0.707" Highshelfactive="1" HP="2" HighShelfgain="4.14" LPactive="0" AnalyseIn="1" LP12="1" Peak2active="0" LowShelfres="1.4" Peak4bw="0.3" HP12="0" Peak2gain="0" Lowshelfgain="0" Peak3bw="0.3" Outputgain="0" Peak3active="0" Peak2bw="0.3" Lowshelfactive="0" Peak1bw="0.3" LP48="0" Peak3gain="0" LP24="0">
+                <Inputgain scale_type="log" value="0" id="3843882"/>
+                <Peak1gain scale_type="log" value="0" id="4083837"/>
+                <HPfreq scale_type="log" value="68.8698" id="4496961"/>
+                <LowShelffreq scale_type="log" value="80" id="6585543"/>
+                <Peak1freq scale_type="log" value="120" id="751227"/>
+                <Peak2freq scale_type="log" value="250" id="3168492"/>
+                <Peak3freq scale_type="log" value="2000" id="2207298"/>
+                <Peak4freq scale_type="log" value="4000" id="3820225"/>
+                <Highshelffreq scale_type="log" value="610.728" id="5700207"/>
+                <LPfreq scale_type="log" value="18000" id="4399860"/>
+              </Eq>
+              <key/>
             </effect>
           </fxchain>
         </instrumenttrack>
@@ -5837,8 +5974,8 @@ GPL V 2 or later</string>
       <automationpattern tens="1" mute="0" prog="0" name="Master volume" pos="0" len="192"/>
       <automationpattern tens="1" mute="0" prog="0" name="Master pitch" pos="0" len="192"/>
     </track>
-    <fxmixer width="543" x="11" y="49" maximized="0" height="335" visible="1" minimized="0">
-      <fxchannel num="0" muted="0" volume="0.86" name="Master" soloed="0">
+    <fxmixer width="543" x="11" y="49" maximized="0" height="335" visible="0" minimized="0">
+      <fxchannel num="0" muted="0" volume="0.441" name="Master" soloed="0">
         <fxchain numofeffects="2" enabled="1">
           <effect autoquit_syncmode="0" autoquit_numerator="4" autoquit_denominator="4" autoquit="1" gate="0" name="ladspaeffect" wet="1" on="1">
             <ladspacontrols link="1" ports="2">
@@ -5873,6 +6010,11 @@ GPL V 2 or later</string>
             </key>
           </effect>
         </fxchain>
+        <connection>
+          <muted>
+            <Midicontroller inputcontroller="37" inports="" fixedoutputvelocity="-1" inputchannel="1" outputcontroller="0" writable="0" outputchannel="1" fixedinputvelocity="-1" fixedoutputnote="-1" type="2" outputprogram="1" name="MIDI ch1 ctrl37" basevelocity="127" readable="1"/>
+          </muted>
+        </connection>
       </fxchannel>
       <fxchannel num="1" muted="0" volume="0.698" name="Instruments" soloed="0">
         <fxchain numofeffects="2" enabled="1">
@@ -5946,7 +6088,7 @@ GPL V 2 or later</string>
 p, li { white-space: pre-wrap; }
 </style></head><body style=" font-family:'Ubuntu'; font-size:11pt; font-weight:400; font-style:normal;">
 <p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p></body></html>]]></projectnotes>
-    <timeline lp1pos="18432" lp0pos="17664" lpstate="0"/>
+    <timeline lp1pos="2304" lp0pos="1536" lpstate="0"/>
     <controllers/>
   </song>
 </lmms-project>
