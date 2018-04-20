@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<!DOCTYPE multimedia-project>
+<multimedia-project version="1.0" creator="Linux MultiMedia Studio (LMMS)" creatorversion="0.4.15" type="instrumenttracksettings">
+  <head/>
+  <instrumenttracksettings muted="0" type="0" name="Radio Guitar">
+    <instrumenttrack pan="0" fxch="7" pitch="0" basenote="69" vol="70">
+      <instrument name="papu">
+        <papu ch4vsd="0" ch1so1="0" ch2ssl="0" so2vol="7" ch1so2="0" ch2vol="15" srs="4" Treble="-20" ch4so1="0" ch4so2="0" srw="1" ch2wpd="2" so1vol="7" ch1ssl="0" Bass="167" ch1vol="15" sd="0" ch3so1="1" ch4ssl="0" ch3so2="0" ch4vol="15" ch1wpd="2" ch2vsd="0" ch2so1="0" ch2so2="1" ch3vol="3" st="4" sampleShape="AACAQAAAQEEAAEBBAACAQAAAAAAAAAAAAAAwQQAAYEEAAIBAAAAAAAAAAAAAAAAAAAAAAAAAoEAAAGBBAACAQAAAgEAAAEBAAABAQAAAMEEAAIA/AAAAAAAAAAAAAAAAAAAAAAAAYEEAADBBAAAwQQAAQEEAAAAAAAAAAAAAwEA=" ch1vsd="0"/>
+      </instrument>
+      <eldata fres="6.7" ftype="0" fcut="420" fwet="1">
+        <elvol lspd_denominator="4" pdel="0" userwavefile="" dec="0.54" lamt="0" syncmode="0" latt="0" rel="0.26" sus="0.5" amt="0.985" x100="0" att="0" lpdel="0" hold="0" lshp="0" lspd="0.1" ctlenvamt="0" lspd_numerator="4"/>
+        <elcut lspd_denominator="4" pdel="0" userwavefile="" dec="0.5" lamt="0" syncmode="0" latt="0" rel="0.1" sus="0.5" amt="0" x100="0" att="0.31" lpdel="0" hold="0.5" lshp="0" lspd="0.1" ctlenvamt="0" lspd_numerator="4"/>
+        <elres lspd_denominator="4" pdel="0" userwavefile="" dec="0.5" lamt="0" syncmode="0" latt="0" rel="0.1" sus="0.5" amt="0" x100="0" att="0" lpdel="0" hold="0.5" lshp="0" lspd="0.1" ctlenvamt="0" lspd_numerator="4"/>
+      </eldata>
+      <chordcreator chord="0" chordrange="3" chord-enabled="1"/>
+      <arpeggiator arptime="100" arprange="3" arptime_denominator="4" syncmode="0" arpmode="0" arp-enabled="0" arp="0" arptime_numerator="4" arpdir="0" arpgate="1"/>
+      <midiport inputcontroller="0" fixedoutputvelocity="-1" inputchannel="0" outputcontroller="0" writable="0" outputchannel="1" fixedinputvelocity="-1" fixedoutputnote="-1" outputprogram="1" readable="0"/>
+      <fxchain numofeffects="3" enabled="1">
+        <effect autoquit_numerator="4" autoquit_denominator="4" syncmode="0" autoquit="1" gate="0" name="ladspaeffect" wet="1" on="1">
+          <ladspacontrols port11="6.5" port01="6.5" port12="0.184075" port02="0.184075" port13="0.139986" port03="0.139986" port02link="1" port03link="1" link="1" ports="6" port01link="1"/>
+          <key>
+            <attribute value="caps" name="file"/>
+            <attribute value="AmpIII" name="plugin"/>
+          </key>
+        </effect>
+        <effect autoquit_numerator="4" autoquit_denominator="4" syncmode="0" autoquit="1" gate="0" name="ladspaeffect" wet="1" on="1">
+          <ladspacontrols port11="0" port12="-48" port13="0" port02link="1" port14="-48" port06link="1" port15="-13.5" port16="12.96" ports="20" port17="-14.94" port18="-33.12" port19="-48" port110="-48" port03link="1" port010="-48" port07link="1" port01="0" port02="-48" port04link="1" port08link="1" port03="0" port04="-48" port05="-13.5" port06="12.96" port07="-14.94" link="1" port08="-33.12" port09="-48" port01link="1" port05link="1" port010link="1" port09link="1"/>
+          <key>
+            <attribute value="caps" name="file"/>
+            <attribute value="Eq" name="plugin"/>
+          </key>
+        </effect>
+        <effect autoquit_numerator="4" autoquit_denominator="4" syncmode="0" autoquit="1" gate="0" name="ladspaeffect" wet="1" on="1">
+          <ladspacontrols port00="0.55" port01="91.8" port02="75.75" port03="0" port04="1498.5" port05="-49.225" port06="0" ports="7"/>
+          <key>
+            <attribute value="tap_chorusflanger" name="file"/>
+            <attribute value="tap_chorusflanger" name="plugin"/>
+          </key>
+        </effect>
+      </fxchain>
+    </instrumenttrack>
+  </instrumenttracksettings>
+</multimedia-project>

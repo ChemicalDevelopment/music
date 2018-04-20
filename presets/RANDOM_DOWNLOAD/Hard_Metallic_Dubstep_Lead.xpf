@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<!DOCTYPE lmms-project>
+<lmms-project version="1.0" creator="LMMS" creatorversion="1.1.3" type="instrumenttracksettings">
+  <head/>
+  <instrumenttracksettings muted="0" type="0" name="TripleOscillator" solo="0">
+    <instrumenttrack pan="0" fxch="0" pitchrange="1" pitch="0" basenote="57" vol="100">
+      <instrument name="tripleoscillator">
+        <tripleoscillator phoffset2="0" userwavefile0="" finer0="0" userwavefile1="" finer1="0" userwavefile2="" finer2="0" coarse0="0" coarse1="-12" coarse2="-24" finel0="0" finel1="0" modalgo1="2" modalgo2="2" finel2="0" pan0="0" modalgo3="2" pan1="0" stphdetun0="0" pan2="0" stphdetun1="0" wavetype0="1" stphdetun2="0" wavetype1="4" wavetype2="3" vol0="33" vol1="33" phoffset0="0" phoffset1="0" vol2="33"/>
+      </instrument>
+      <eldata fres="0.5" ftype="0" fcut="14000" fwet="0">
+        <elvol lspd_denominator="4" sustain="0.5" pdel="0" userwavefile="" dec="0.5" lamt="0" syncmode="0" latt="0" rel="0.1" amt="0" x100="0" att="0" lpdel="0" hold="0.5" lshp="0" lspd="0.1" ctlenvamt="0" lspd_numerator="4"/>
+        <elcut lspd_denominator="4" sustain="0.5" pdel="0" userwavefile="" dec="0.5" lamt="0" syncmode="0" latt="0" rel="0.1" amt="0" x100="0" att="0" lpdel="0" hold="0.5" lshp="0" lspd="0.1" ctlenvamt="0" lspd_numerator="4"/>
+        <elres lspd_denominator="4" sustain="0.5" pdel="0" userwavefile="" dec="0.5" lamt="0" syncmode="0" latt="0" rel="0.1" amt="0" x100="0" att="0" lpdel="0" hold="0.5" lshp="0" lspd="0.1" ctlenvamt="0" lspd_numerator="4"/>
+      </eldata>
+      <chordcreator chord="0" chordrange="1" chord-enabled="0"/>
+      <arpeggiator arptime="100" arprange="1" arptime_denominator="4" syncmode="0" arpmode="0" arp-enabled="0" arp="0" arptime_numerator="4" arpdir="0" arpgate="100"/>
+      <midiport inputcontroller="0" fixedoutputvelocity="-1" inputchannel="0" outputcontroller="0" writable="0" outputchannel="1" fixedinputvelocity="-1" fixedoutputnote="-1" outputprogram="1" basevelocity="63" readable="0"/>
+      <fxchain numofeffects="4" enabled="1">
+        <effect autoquit_numerator="4" autoquit_denominator="4" syncmode="0" autoquit="1" gate="0" name="bassbooster" wet="1" on="1">
+          <bassboostercontrols ratio="2" freq="100" gain="1"/>
+          <key/>
+        </effect>
+        <effect autoquit_numerator="4" autoquit_denominator="4" syncmode="0" autoquit="1" gate="0.04" name="ladspaeffect" wet="1" on="1">
+          <ladspacontrols ports="4">
+            <port02 data="0.0931875"/>
+            <port03 data="0.136693"/>
+            <port04 data="0.249875"/>
+            <port05 data="0.2525"/>
+          </ladspacontrols>
+          <key>
+            <attribute value="caps" name="file"/>
+            <attribute value="Plate2x2" name="plugin"/>
+          </key>
+        </effect>
+        <effect autoquit_numerator="4" autoquit_denominator="4" syncmode="0" autoquit="600" gate="0" name="waveshaper" wet="1" on="1">
+          <waveshapercontrols clipInput="0" outputGain="1" waveShape="txlxPH0VgzwVGZc8XsmyPIMO1DyI9/g8EgAQPbURJD2TZDg9BNJMPfJIYT3SwnU9vh6FPSpcjz2amZk9CtejPXsUrj3sUbg9XI/CPc7MzD0+Ctc9rkfhPR+F6z2PwvU9AAAAPrgeBT5xPQo+KlwPPuJ6FD6amRk+UrgePgrXIz7D9Sg+exQuPjMzMz7sUTg+pHA9PlyPQj4Urkc+zsxMPobrUT4+Clc+9ihcPq5HYT5mZmY+H4VrPtejcD6PwnU+SOF6PgAAgD5cj4I+uB6FPhSuhz5xPYo+zsyMPipcjz6G65E+4nqUPj4Klz6amZk+9iicPlK4nj6uR6E+CtejPmZmpj7D9ag+H4WrPnsUrj7Xo7A+MzOzPo/CtT7sUbg+SOG6PqRwvT4AAMA+XI/CPrgexT4Ursc+cj3KPs7MzD4qXM8+hevRPtR61D77Cdc+hZjZPiEl3D5grN4+gSbhPi+E4z7PquU+GnLnPvyi6D4l6+g+Q67nPoXS4z6ODdw+EPLPPu/LwD5+E7E+awCjPq7alz6MB5A+o5CKPlyXhD5mxnQ+zGxTPijkJj71GPA9AAAAAAAAAAAAAAAAwMzMPLgehT0zf+Q+AMwCP/aqCj+alQ0/e74OP66bDz/NiBA/7IsRPwAAAAAAAAAAAAAAAAAAAAAAAAAA9owZP0jHGj8K4xs/2NkcPwCwHT8KeR4/PlAfPzNNID/2fiE/Uu4iP+ydJD/shSY/M5coPx/JKj8AIC0/9qAvP8JBMj/15jQ/9m43P9e9OT/Dwzs/AX49P3H1Pj9IPUA/IG9BP/agQj9S3EM/rh9FP3tmRj8Urkc/wvVIP3E9Sj8fhUs/zcxMP3sUTj8pXE8/16NQP4XrUT8zM1M/4XpUP4/CVT89Clc/7FFYP5qZWT9I4Vo/9ihcP6RwXT9SuF4/AABgP65HYT9cj2I/CtdjP7geZT9mZmY/FK5nP8L1aD9xPWo/H4VrP83MbD97FG4/KVxvP9ejcD+B63E/HjNzP456dD9kwXU/kgZ3P61HeD/xf3k/OKd6P2Kxez/mjnw/Ai99P0iDfT8=" inputGain="1"/>
+          <key/>
+        </effect>
+        <effect autoquit_numerator="4" autoquit_denominator="4" syncmode="0" autoquit="1" gate="0" name="amplifier" wet="1" on="1">
+          <AmplifierControls right="100" pan="0" left="100" volume="35.8"/>
+          <key/>
+        </effect>
+      </fxchain>
+    </instrumenttrack>
+  </instrumenttracksettings>
+</lmms-project>
